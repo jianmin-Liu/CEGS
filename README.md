@@ -124,12 +124,6 @@ The file `ExampleLibrary.json` is a configuration example library containing num
 ### Input Data
 The dataset folder contains example target scenario datas. Each data includes intents and target topology.
 
-## Supported Protocols and Intent Types
-
-- **Static Routing**: Static route intents
-- **OSPF**: ECMP and Any-path intents
-- **BGP**: Simple, Ordered, and No-transit intents
-
 
 ## System Components
 
