@@ -117,7 +117,7 @@ CEGS relies on pre-trained word embedding models for its semantic understanding 
 Before running the system, you must download the following file and place it in the root directory of the project:
 
 - **File**: `wiki-news-300d-1M-subword.vec`
-- **Download URL**: [**Please add the official download link here**](https://fasttext.cc/docs/en/english-vectors.html)
+- **Download URL**: [**Official download link here**](https://fasttext.cc/docs/en/english-vectors.html)
 - **Target Location**: `CEGS/wiki-news-300d-1M-subword.vec/wiki-news-300d-1M-subword.vec`
 
 After downloading, your directory structure should look like this:
