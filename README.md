@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Paper](https://img.shields.io/badge/paper-NSDI%202025-green.svg)](#citation)
 
-This repository contains the official implementation of **CEGS: Configuration Example Generalizing Synthesizer**.
+This repository contains the implementation of **CEGS: Configuration Example Generalizing Synthesizer**.
 
 CEGS is an advanced network configuration synthesis system that leverages Graph Neural Networks (GNNs) and Large Language Models (LLMs) to automate network configuration synthesis. It can understand high-level user intents, identify and generalize from configuration examples, and generate correct, verifiable network configurations for arbitrary topologies.
 
