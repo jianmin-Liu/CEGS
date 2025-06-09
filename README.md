@@ -134,24 +134,24 @@ The dataset folder contains example target scenario datas. Each data includes in
 ## System Components
 
 ### Querier
-- Uses two-stage recommendation strategy to identify relevant configuration examples
-- Combines semantic similarity and topological similarity for precise matching
-- Implemented with FastText and GraphSAGE
+- Use two-stage recommendation strategy to identify relevant configuration examples
+- Combine semantic similarity and topological similarity
+- Implemented with SBERT, FastText and GraphSAGE
 
 ### Classifier
-- Establishes device associations between target and example topologies
-- First performs exact matching based on role descriptions
-- Then uses GNN for refinement based on neighborhood similarity
+- Establish device association relations between target and example topologies
+- First associate devices based on node's role descriptions
+- Then associate devices based on neighborhood similarity using a GNN model
 
 ### Verification System
-- **Syntax Verifier**: Checks configuration syntax correctness
-- **Local Attribute Verifier (LAV)**: Verifies individual device configurations
-- **Global Formal Verifier (GFV)**: Uses SMT solver to verify network-wide policies
+- **Syntax Verifier**: Check configuration syntax correctness
+- **Local Attribute Verifier (LAV)**: Verify individual device configurations
+- **Global Formal Verifier (GFV)**: Use SMT solver to verify network-wide policies
 
 ### Formal Synthesizer
 - Based on NetComplete implementation
-- Uses SMT constraint solving to fill template parameters
-- Guarantees correctness of final configurations
+- Use SMT constraint solving to fill template parameters
+- Guarantee correctness of final configurations
 
 
 ## Project Structure
