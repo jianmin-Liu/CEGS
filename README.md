@@ -6,22 +6,6 @@
 
 CEGS is an advanced network configuration synthesis system that leverages Graph Neural Networks (GNNs) and Large Language Models (LLMs) to automate network configuration synthesis. It can understand high-level user intents, identify and generalize from configuration examples, and generate correct, verifiable network configurations for arbitrary topologies.
 
-## System Workflow
-
-CEGS operates in three main phases to translate high-level user intents into device-specific configurations:
-
-### 1. Retrieval Phase
-The GNN-based **Querier** identifies the most relevant configuration example from a knowledge base (i.e., device documentation). It does this by analyzing both the semantic similarity of the user's intent and the topological similarity of the associated network graph.
-
-### 2. Association Phase
-The GNN-based **Classifier** establishes a precise mapping between the devices in the target topology and the nodes in the retrieved example's topology. This is crucial for correctly applying configuration snippets from the example to the new scenario.
-
-### 3. Generation Phase
-An iterative, LLM-driven synthesis method generates the final configuration:
-- **Template Generation**: The LLM generates configuration *templates* for devices, leaving policy-specific parameters (like IP addresses or BGP community values) as symbolic placeholders.
-- **Verification (LAV & GFV)**: The templates are rigorously checked for correctness. The **Local Attribute Verifier (LAV)** checks device-specific settings, while the **Global Formal Verifier (GFV)** uses an SMT solver to ensure the network-wide logic fulfills the user's intent.
-- **Iterative Correction**: If any errors are found, the verifiers provide structured feedback to the LLM, which then corrects the templates in the next iteration.
-- **Formal Synthesis**: Once the templates are verified, a **Formal Synthesizer** (based on NetComplete) calculates the concrete values for all symbolic parameters, producing the final, correct, network-wide configuration.
 
 ## Getting Started
 
