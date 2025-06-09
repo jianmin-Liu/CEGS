@@ -33,7 +33,7 @@ CEGS is an advanced network configuration synthesis system that leverages Graph 
    docker run -d --name batfish -p 9997:9997 -p 9996:9996 batfish/batfish:latest
    ```
 
-4. **Configure environment variables**:
+4. **Configure environment variables**: 
    Set your LLM API key in `setting.json`.
 
 ### Configuration
