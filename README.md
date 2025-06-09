@@ -243,15 +243,20 @@ Under the following terms:
 If you use CEGS in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{liu2024cegs,
-  title={{CEGS}: {Configuration} {Example} {Generalizing} {Synthesizer}},
-  author={Liu, Jianmin and Chen, Li and Li, Dan and Miao, Yukai},
-  booktitle={21st USENIX Symposium on Networked Systems Design and Implementation (NSDI 24)},
-  pages={XXX--XXX},
-  year={2024},
-  organization={USENIX Association}
+@inproceedings {306009,
+author = {Jianmin Liu and Li Chen and Dan Li and Yukai Miao},
+title = {{CEGS}: Configuration Example Generalizing Synthesizer},
+booktitle = {22nd USENIX Symposium on Networked Systems Design and Implementation (NSDI 25)},
+year = {2025},
+isbn = {978-1-939133-46-5},
+address = {Philadelphia, PA},
+pages = {1327--1347},
+url = {https://www.usenix.org/conference/nsdi25/presentation/liu-jianmin},
+publisher = {USENIX Association},
+month = apr
 }
 ```
+
 
 ## Limitations
 
