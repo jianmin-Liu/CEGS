@@ -1,2 +1,8 @@
 # Large data files
-wiki-news-300d-1M-subword.vec/ 
+wiki-news-300d-1M-subword.vec/
+
+# Python cache
+__pycache__/
+
+# IDE configuration
+.idea/ 
