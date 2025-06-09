@@ -58,12 +58,12 @@ An iterative, LLM-driven synthesis method generates the final configuration:
 
 The tool uses a setting file `setting.json` to specify all necessary parameters. You can adjust these parameters according to your needs. Before running, modify the `setting.json` file to set up system parameters, especially the LLM provider and API key.
 
-#### Key Configuration Categories:
+#### Key Setting Categories:
 
-- **LLM Configuration**: Choose from OPENAI, GEMINI, or DEEPSEEK providers and set corresponding API keys and models
-- **AI Models**: Configure paths for GCN model and sentence transformer for semantic understanding  
+- **LLM**: Choose from OPENAI, GEMINI, or DEEPSEEK providers and set corresponding API keys and models
+- **AI Models**: Set paths for GNN model and sentence transformer  
 - **Data Paths**: Set paths for example library, intent types, and input files
-- **Output Paths**: Configure directories for responses, output configurations, and generated configs
+- **Output Paths**: Set directories for generated device configurations
 - **Prompt Templates**: Set paths for various LLM prompt template files used in different generation phases
 - **Generation Parameters**: Set batch size and other synthesis parameters
 
@@ -144,22 +144,10 @@ The dataset folder contains example target scenario datas. Each data includes in
 
 ## Supported Protocols and Intent Types
 
-### Routing Protocols
 - **Static Routing**: Static route intents
 - **OSPF**: ECMP and Any-path intents
 - **BGP**: Simple, Ordered, and No-transit intents
 
-### Intent Examples
-```
-# BGP path preference intent
-"For traffic from Miami to other networks, prefer path (Miami, FortLa, Hollyw, Miami) over path (Miami, FortLa, NodeID85, Orland, Tampa, Miami)"
-
-# OSPF ECMP intent
-"Traffic from source to destination is load-balanced between path1 and path2"
-
-# BGP No-transit intent
-"Prohibit AS1 and AS2 from forwarding transit traffic through the current network"
-```
 
 ## System Components
 
@@ -183,19 +171,6 @@ The dataset folder contains example target scenario datas. Each data includes in
 - Uses SMT constraint solving to fill template parameters
 - Guarantees correctness of final configurations
 
-## Performance Evaluation
-
-### Comparison with Existing Systems
-| System | Auto Loops | Synthesis Time | Human Intervention |
-|--------|------------|----------------|-------------------|
-| CEGS | 2-10 | 24s-24m | Not required |
-| COSYNTH | 300 (Failed) | >1 hour | Required |
-| NETBUDDY | 300 (Failed) | >3 hours | Required |
-
-### Scalability Performance
-- **Small Networks** (20-50 devices): 42s-3m25s
-- **Medium Networks** (150-200 devices): 1m30s-6m55s
-- **Large Networks** (1094 devices): 5m35s-24m50s
 
 ## Project Structure
 
@@ -251,20 +226,6 @@ month = apr
 }
 ```
 
-
-## Limitations
-
-As discussed in the paper, CEGS has the following limitations:
-
-- **Documentation Coverage**: The system's performance is constrained by the quality and coverage of the provided device documentation. If a relevant example for a user's intent does not exist, CEGS cannot produce a satisfactory result.
-- **Formal Synthesizer Scope**: The range of intents CEGS can correctly synthesize is dependent on the capabilities of the underlying Formal Synthesizer (NetComplete).
-- **Intent Formalization**: The final configuration is correct only when the LLM correctly translates the natural language intent into a formal specification. While our evaluation showed high accuracy, this is dataset-specific.
-
-## Contact
-
-- **Primary Author**: Jianmin Liu
-- **Corresponding Authors**: Dan Li, Yukai Miao
-- **Institutions**: Tsinghua University, Zhongguancun Laboratory
 
 For questions or suggestions, please contact us through GitHub Issues.
 
