@@ -1,0 +1,326 @@
+{
+    "routers": [
+        "Budape",
+        "Munich",
+        "Prague",
+        "Vienna",
+        "Dussel",
+        "Frankf",
+        "Zurich",
+        "Paris",
+        "Milan",
+        "Barcel",
+        "Goonhi",
+        "NewYor",
+        "Washin",
+        "Madrid",
+        "Helsin",
+        "Copenh",
+        "London",
+        "LondonID17",
+        "Madley",
+        "Dublin",
+        "Brusse",
+        "Amster",
+        "Gothen",
+        "Stockh"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Budape"
+            },
+            "node2": {
+                "name": "LondonID17"
+            }
+        },
+        {
+            "node1": {
+                "name": "Budape"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Munich"
+            },
+            "node2": {
+                "name": "Dussel"
+            }
+        },
+        {
+            "node1": {
+                "name": "Munich"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Prague"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Prague"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "Amster"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dussel"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dussel"
+            },
+            "node2": {
+                "name": "Amster"
+            }
+        },
+        {
+            "node1": {
+                "name": "Frankf"
+            },
+            "node2": {
+                "name": "Zurich"
+            }
+        },
+        {
+            "node1": {
+                "name": "Frankf"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Frankf"
+            },
+            "node2": {
+                "name": "LondonID17"
+            }
+        },
+        {
+            "node1": {
+                "name": "Frankf"
+            },
+            "node2": {
+                "name": "Amster"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zurich"
+            },
+            "node2": {
+                "name": "LondonID17"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paris"
+            },
+            "node2": {
+                "name": "LondonID17"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paris"
+            },
+            "node2": {
+                "name": "Amster"
+            }
+        },
+        {
+            "node1": {
+                "name": "Milan"
+            },
+            "node2": {
+                "name": "LondonID17"
+            }
+        },
+        {
+            "node1": {
+                "name": "Barcel"
+            },
+            "node2": {
+                "name": "Madrid"
+            }
+        },
+        {
+            "node1": {
+                "name": "Barcel"
+            },
+            "node2": {
+                "name": "Amster"
+            }
+        },
+        {
+            "node1": {
+                "name": "Goonhi"
+            },
+            "node2": {
+                "name": "LondonID17"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "LondonID17"
+            }
+        },
+        {
+            "node1": {
+                "name": "Washin"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Madrid"
+            },
+            "node2": {
+                "name": "LondonID17"
+            }
+        },
+        {
+            "node1": {
+                "name": "Helsin"
+            },
+            "node2": {
+                "name": "Stockh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Copenh"
+            },
+            "node2": {
+                "name": "Stockh"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "LondonID17"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "Amster"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "Stockh"
+            }
+        },
+        {
+            "node1": {
+                "name": "LondonID17"
+            },
+            "node2": {
+                "name": "Madley"
+            }
+        },
+        {
+            "node1": {
+                "name": "LondonID17"
+            },
+            "node2": {
+                "name": "Dublin"
+            }
+        },
+        {
+            "node1": {
+                "name": "LondonID17"
+            },
+            "node2": {
+                "name": "Brusse"
+            }
+        },
+        {
+            "node1": {
+                "name": "LondonID17"
+            },
+            "node2": {
+                "name": "Amster"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dublin"
+            },
+            "node2": {
+                "name": "Amster"
+            }
+        },
+        {
+            "node1": {
+                "name": "Amster"
+            },
+            "node2": {
+                "name": "Gothen"
+            }
+        },
+        {
+            "node1": {
+                "name": "Amster"
+            },
+            "node2": {
+                "name": "Stockh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gothen"
+            },
+            "node2": {
+                "name": "Stockh"
+            }
+        }
+    ]
+}

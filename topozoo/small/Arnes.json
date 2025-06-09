@@ -1,0 +1,416 @@
+{
+    "routers": [
+        "Trbovlje",
+        "Krsko",
+        "Celje",
+        "Lasko",
+        "Kranj",
+        "Bled",
+        "NovoMesto",
+        "Ljubljana",
+        "Tolmin",
+        "NovaGorica",
+        "Portoroz",
+        "GornjaRadg",
+        "Radenci",
+        "RogasjaSla",
+        "Senozece",
+        "Jesenice",
+        "Sezana",
+        "Divaca",
+        "Postojna",
+        "Ajdovscina",
+        "Kovevje",
+        "Kamnik",
+        "Izola",
+        "Koper",
+        "SlovenjGra",
+        "Velenje",
+        "MurskaSobo",
+        "Ljutomer",
+        "Ormoz",
+        "Ptuj",
+        "Maribor",
+        "SlovenskaB",
+        "Dravograd",
+        "RavnenaKor"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Trbovlje"
+            },
+            "node2": {
+                "name": "Lasko"
+            }
+        },
+        {
+            "node1": {
+                "name": "Trbovlje"
+            },
+            "node2": {
+                "name": "Ljubljana"
+            }
+        },
+        {
+            "node1": {
+                "name": "Krsko"
+            },
+            "node2": {
+                "name": "RogasjaSla"
+            }
+        },
+        {
+            "node1": {
+                "name": "Krsko"
+            },
+            "node2": {
+                "name": "NovoMesto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Celje"
+            },
+            "node2": {
+                "name": "Velenje"
+            }
+        },
+        {
+            "node1": {
+                "name": "Celje"
+            },
+            "node2": {
+                "name": "Lasko"
+            }
+        },
+        {
+            "node1": {
+                "name": "Celje"
+            },
+            "node2": {
+                "name": "Kamnik"
+            }
+        },
+        {
+            "node1": {
+                "name": "Celje"
+            },
+            "node2": {
+                "name": "SlovenskaB"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lasko"
+            },
+            "node2": {
+                "name": "Maribor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lasko"
+            },
+            "node2": {
+                "name": "Ljubljana"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kranj"
+            },
+            "node2": {
+                "name": "Jesenice"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kranj"
+            },
+            "node2": {
+                "name": "Koper"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kranj"
+            },
+            "node2": {
+                "name": "Bled"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kranj"
+            },
+            "node2": {
+                "name": "Ljubljana"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kranj"
+            },
+            "node2": {
+                "name": "Ljubljana"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bled"
+            },
+            "node2": {
+                "name": "Tolmin"
+            }
+        },
+        {
+            "node1": {
+                "name": "NovoMesto"
+            },
+            "node2": {
+                "name": "Kovevje"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljubljana"
+            },
+            "node2": {
+                "name": "NovaGorica"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljubljana"
+            },
+            "node2": {
+                "name": "Postojna"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljubljana"
+            },
+            "node2": {
+                "name": "Kovevje"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljubljana"
+            },
+            "node2": {
+                "name": "Kamnik"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljubljana"
+            },
+            "node2": {
+                "name": "Koper"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljubljana"
+            },
+            "node2": {
+                "name": "Maribor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tolmin"
+            },
+            "node2": {
+                "name": "NovaGorica"
+            }
+        },
+        {
+            "node1": {
+                "name": "NovaGorica"
+            },
+            "node2": {
+                "name": "Ajdovscina"
+            }
+        },
+        {
+            "node1": {
+                "name": "Portoroz"
+            },
+            "node2": {
+                "name": "Divaca"
+            }
+        },
+        {
+            "node1": {
+                "name": "Portoroz"
+            },
+            "node2": {
+                "name": "Izola"
+            }
+        },
+        {
+            "node1": {
+                "name": "GornjaRadg"
+            },
+            "node2": {
+                "name": "Radenci"
+            }
+        },
+        {
+            "node1": {
+                "name": "GornjaRadg"
+            },
+            "node2": {
+                "name": "Maribor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Radenci"
+            },
+            "node2": {
+                "name": "MurskaSobo"
+            }
+        },
+        {
+            "node1": {
+                "name": "RogasjaSla"
+            },
+            "node2": {
+                "name": "Ptuj"
+            }
+        },
+        {
+            "node1": {
+                "name": "Senozece"
+            },
+            "node2": {
+                "name": "Sezana"
+            }
+        },
+        {
+            "node1": {
+                "name": "Senozece"
+            },
+            "node2": {
+                "name": "Divaca"
+            }
+        },
+        {
+            "node1": {
+                "name": "Senozece"
+            },
+            "node2": {
+                "name": "Postojna"
+            }
+        },
+        {
+            "node1": {
+                "name": "Divaca"
+            },
+            "node2": {
+                "name": "Ajdovscina"
+            }
+        },
+        {
+            "node1": {
+                "name": "Divaca"
+            },
+            "node2": {
+                "name": "Koper"
+            }
+        },
+        {
+            "node1": {
+                "name": "Izola"
+            },
+            "node2": {
+                "name": "Koper"
+            }
+        },
+        {
+            "node1": {
+                "name": "SlovenjGra"
+            },
+            "node2": {
+                "name": "Dravograd"
+            }
+        },
+        {
+            "node1": {
+                "name": "SlovenjGra"
+            },
+            "node2": {
+                "name": "Velenje"
+            }
+        },
+        {
+            "node1": {
+                "name": "Velenje"
+            },
+            "node2": {
+                "name": "Dravograd"
+            }
+        },
+        {
+            "node1": {
+                "name": "MurskaSobo"
+            },
+            "node2": {
+                "name": "Ljutomer"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljutomer"
+            },
+            "node2": {
+                "name": "Ormoz"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ormoz"
+            },
+            "node2": {
+                "name": "Ptuj"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ptuj"
+            },
+            "node2": {
+                "name": "Maribor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Maribor"
+            },
+            "node2": {
+                "name": "Dravograd"
+            }
+        },
+        {
+            "node1": {
+                "name": "Maribor"
+            },
+            "node2": {
+                "name": "SlovenskaB"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dravograd"
+            },
+            "node2": {
+                "name": "RavnenaKor"
+            }
+        }
+    ]
+}

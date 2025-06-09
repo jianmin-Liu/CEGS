@@ -1,0 +1,147 @@
+{
+    "routers": [
+        "Parnu",
+        "Haapsa",
+        "Kuress",
+        "Rakver",
+        "Narva",
+        "Tallin",
+        "GEANT2",
+        "Paide",
+        "Turi",
+        "Viljan",
+        "Jogeva",
+        "Tartu",
+        "Voru"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Parnu"
+            },
+            "node2": {
+                "name": "Tallin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Haapsa"
+            },
+            "node2": {
+                "name": "Tallin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kuress"
+            },
+            "node2": {
+                "name": "Tallin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rakver"
+            },
+            "node2": {
+                "name": "Tallin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Narva"
+            },
+            "node2": {
+                "name": "Tallin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tallin"
+            },
+            "node2": {
+                "name": "GEANT2"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tallin"
+            },
+            "node2": {
+                "name": "Paide"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tallin"
+            },
+            "node2": {
+                "name": "Paide"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tallin"
+            },
+            "node2": {
+                "name": "Viljan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paide"
+            },
+            "node2": {
+                "name": "Turi"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paide"
+            },
+            "node2": {
+                "name": "Viljan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paide"
+            },
+            "node2": {
+                "name": "Jogeva"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paide"
+            },
+            "node2": {
+                "name": "Jogeva"
+            }
+        },
+        {
+            "node1": {
+                "name": "Jogeva"
+            },
+            "node2": {
+                "name": "Tartu"
+            }
+        },
+        {
+            "node1": {
+                "name": "Jogeva"
+            },
+            "node2": {
+                "name": "Tartu"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tartu"
+            },
+            "node2": {
+                "name": "Voru"
+            }
+        }
+    ]
+}

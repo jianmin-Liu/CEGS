@@ -1,0 +1,52 @@
+{
+    "routers": [
+        "Bijelo",
+        "Niksic",
+        "Podgor",
+        "Njegus",
+        "Kotor",
+        "Herceg"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Bijelo"
+            },
+            "node2": {
+                "name": "Podgor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Niksic"
+            },
+            "node2": {
+                "name": "Podgor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Podgor"
+            },
+            "node2": {
+                "name": "Njegus"
+            }
+        },
+        {
+            "node1": {
+                "name": "Podgor"
+            },
+            "node2": {
+                "name": "Kotor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Podgor"
+            },
+            "node2": {
+                "name": "Herceg"
+            }
+        }
+    ]
+}

@@ -1,0 +1,303 @@
+{
+    "routers": [
+        "Minnea",
+        "Seattl",
+        "SanJos",
+        "Phoeni",
+        "Dallas",
+        "Atlant",
+        "Vienna",
+        "Whippa",
+        "Chicag"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Minnea"
+            },
+            "node2": {
+                "name": "Seattl"
+            }
+        },
+        {
+            "node1": {
+                "name": "Minnea"
+            },
+            "node2": {
+                "name": "SanJos"
+            }
+        },
+        {
+            "node1": {
+                "name": "Minnea"
+            },
+            "node2": {
+                "name": "Phoeni"
+            }
+        },
+        {
+            "node1": {
+                "name": "Minnea"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Minnea"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "Minnea"
+            },
+            "node2": {
+                "name": "Vienna"
+            }
+        },
+        {
+            "node1": {
+                "name": "Minnea"
+            },
+            "node2": {
+                "name": "Whippa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Minnea"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "SanJos"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Phoeni"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Vienna"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Whippa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "Phoeni"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "Vienna"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "Whippa"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Phoeni"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Phoeni"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "Phoeni"
+            },
+            "node2": {
+                "name": "Vienna"
+            }
+        },
+        {
+            "node1": {
+                "name": "Phoeni"
+            },
+            "node2": {
+                "name": "Whippa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Phoeni"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Vienna"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Whippa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant"
+            },
+            "node2": {
+                "name": "Vienna"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant"
+            },
+            "node2": {
+                "name": "Whippa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "Whippa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Whippa"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        }
+    ]
+}

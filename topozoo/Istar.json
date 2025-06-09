@@ -1,0 +1,213 @@
+{
+    "routers": [
+        "Montreal",
+        "Quebec",
+        "London",
+        "internetMC",
+        "Moncton",
+        "Halifax",
+        "Sherbrooke",
+        "SaintJohn",
+        "Sydney",
+        "Yarmouth",
+        "ANSCO+RET1",
+        "internetMCID11",
+        "Victoria",
+        "Toronto",
+        "Hamilton",
+        "Vancouver",
+        "ANSCO+RET1ID16",
+        "Calgary",
+        "Edmonton",
+        "Lethbridge",
+        "Winnipeg",
+        "Ottawa",
+        "Kitchener"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Montreal"
+            },
+            "node2": {
+                "name": "Quebec"
+            }
+        },
+        {
+            "node1": {
+                "name": "Montreal"
+            },
+            "node2": {
+                "name": "Moncton"
+            }
+        },
+        {
+            "node1": {
+                "name": "Montreal"
+            },
+            "node2": {
+                "name": "Toronto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Montreal"
+            },
+            "node2": {
+                "name": "Sherbrooke"
+            }
+        },
+        {
+            "node1": {
+                "name": "Montreal"
+            },
+            "node2": {
+                "name": "Ottawa"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "Toronto"
+            }
+        },
+        {
+            "node1": {
+                "name": "internetMC"
+            },
+            "node2": {
+                "name": "Toronto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Moncton"
+            },
+            "node2": {
+                "name": "Halifax"
+            }
+        },
+        {
+            "node1": {
+                "name": "Moncton"
+            },
+            "node2": {
+                "name": "SaintJohn"
+            }
+        },
+        {
+            "node1": {
+                "name": "Halifax"
+            },
+            "node2": {
+                "name": "Sydney"
+            }
+        },
+        {
+            "node1": {
+                "name": "Halifax"
+            },
+            "node2": {
+                "name": "Yarmouth"
+            }
+        },
+        {
+            "node1": {
+                "name": "ANSCO+RET1"
+            },
+            "node2": {
+                "name": "Toronto"
+            }
+        },
+        {
+            "node1": {
+                "name": "internetMCID11"
+            },
+            "node2": {
+                "name": "Vancouver"
+            }
+        },
+        {
+            "node1": {
+                "name": "Victoria"
+            },
+            "node2": {
+                "name": "Vancouver"
+            }
+        },
+        {
+            "node1": {
+                "name": "Toronto"
+            },
+            "node2": {
+                "name": "Hamilton"
+            }
+        },
+        {
+            "node1": {
+                "name": "Toronto"
+            },
+            "node2": {
+                "name": "Ottawa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Toronto"
+            },
+            "node2": {
+                "name": "Kitchener"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vancouver"
+            },
+            "node2": {
+                "name": "ANSCO+RET1ID16"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vancouver"
+            },
+            "node2": {
+                "name": "Calgary"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vancouver"
+            },
+            "node2": {
+                "name": "Ottawa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Calgary"
+            },
+            "node2": {
+                "name": "Edmonton"
+            }
+        },
+        {
+            "node1": {
+                "name": "Calgary"
+            },
+            "node2": {
+                "name": "Lethbridge"
+            }
+        },
+        {
+            "node1": {
+                "name": "Winnipeg"
+            },
+            "node2": {
+                "name": "Ottawa"
+            }
+        }
+    ]
+}

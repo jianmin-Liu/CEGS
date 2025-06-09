@@ -1,0 +1,706 @@
+{
+    "nodes": [
+        {
+            "name": "Trbovl",
+                "AS": 10
+        },
+        {
+            "name": "Krsko",
+            "AS": 20
+        },
+        {
+            "name": "Celje",
+            "AS": 30
+        },
+        {
+            "name": "Lasko",
+            "AS": 40
+
+        },
+        {
+            "name": "Kranj",
+            "AS": 50
+        },
+        {
+            "name": "Bled",
+            "AS": 60
+        },
+        {
+            "name": "NovoMe",
+            "AS": 70
+
+        },
+        {
+            "name": "Ljublj",
+            "AS": 80
+        },
+        {
+            "name": "Tolmin",
+                "AS": 90
+        },
+        {
+            "name": "NovaGo",
+            "AS": 100
+        },
+        {
+            "name": "Portor",
+                "AS": 110
+        },
+        {
+            "name": "Gornja",
+                "AS": 120
+        },
+        {
+            "name": "Radenc",
+                "AS": 130
+        },
+        {
+            "name": "Rogasj",
+                "AS": 140
+        },
+        {
+            "name": "Senoze",
+                "AS": 150
+        },
+        {
+            "name": "Jeseni",
+                "AS": 160
+        },
+        {
+            "name": "Sezana",
+                "AS": 170
+        },
+        {
+            "name": "Divaca",
+                "AS": 180
+        },
+        {
+            "name": "Postoj",
+                "AS": 190
+        },
+        {
+            "name": "Ajdovs",
+                "AS": 200
+        },
+        {
+            "name": "Kovevj",
+                "AS": 210
+        },
+        {
+            "name": "Kamnik",
+                "AS": 220
+        },
+        {
+            "name": "Izola",
+                "AS": 230
+        },
+        {
+            "name": "Koper",
+                "AS": 240
+        },
+        {
+            "name": "Sloven",
+                "AS": 250
+        },
+        {
+            "name": "Velenj",
+                "AS": 260
+        },
+        {
+            "name": "Murska",
+                "AS": 270
+        },
+        {
+            "name": "Ljutom",
+                "AS": 280
+        },
+        {
+            "name": "Ormoz",
+                "AS": 290
+        },
+        {
+            "name": "Ptuj",
+                "AS": 300
+        },
+        {
+            "name": "Maribo",
+                "AS": 310
+        },
+        {
+            "name": "SlovenID31",
+                "AS": 320
+        },
+        {
+            "name": "Dravog",
+                "AS": 330
+        },
+        {
+            "name": "Ravnen",
+                "AS": 340
+        },
+        {
+            "name": "PeerPostoj",
+                "AS": 10010,
+                "lo0": "129.1.1.1/24"
+        },
+        {
+            "name": "PeerKamnik",
+                "AS": 10020,
+                "lo0": "129.1.2.1/24"
+        }
+    ],
+    "edges": [
+        {
+            "node1": {
+                "name": "Trbovl",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.90.17.1/24"
+            },
+            "node2": {
+                "name": "Lasko",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.90.17.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Trbovl",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.40.35.1/24"
+            },
+            "node2": {
+                "name": "Ljublj",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.40.35.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Krsko",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.40.13.1/24"
+            },
+            "node2": {
+                "name": "Rogasj",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.40.13.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Krsko",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.97.70.1/24"
+            },
+            "node2": {
+                "name": "NovoMe",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.97.70.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Celje",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.70.20.1/24"
+            },
+            "node2": {
+                "name": "Velenj",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.70.20.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Celje",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.57.32.1/24"
+            },
+            "node2": {
+                "name": "Lasko",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.57.32.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Celje",
+                "interface": "GigabitEthernet4/0/0",
+                "ip address": "10.56.6.1/24"
+            },
+            "node2": {
+                "name": "SlovenID31",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.56.6.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lasko",
+                "interface": "GigabitEthernet3/0/0",
+                "ip address": "10.93.94.1/24"
+            },
+            "node2": {
+                "name": "Maribo",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.93.94.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lasko",
+                "interface": "GigabitEthernet4/0/0",
+                "ip address": "10.100.84.1/24"
+            },
+            "node2": {
+                "name": "Ljublj",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.100.84.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kranj",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.24.28.1/24"
+            },
+            "node2": {
+                "name": "Jeseni",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.24.28.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kranj",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.37.52.1/24"
+            },
+            "node2": {
+                "name": "Koper",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.37.52.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kranj",
+                "interface": "GigabitEthernet3/0/0",
+                "ip address": "10.50.74.1/24"
+            },
+            "node2": {
+                "name": "Bled",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.50.74.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kranj",
+                "interface": "GigabitEthernet4/0/0",
+                "ip address": "10.19.69.1/24"
+            },
+            "node2": {
+                "name": "Ljublj",
+                "interface": "GigabitEthernet3/0/0",
+                "ip address": "10.19.69.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bled",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.13.38.1/24"
+            },
+            "node2": {
+                "name": "Tolmin",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.13.38.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "NovoMe",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.95.96.1/24"
+            },
+            "node2": {
+                "name": "Kovevj",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.95.96.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljublj",
+                "interface": "GigabitEthernet4/0/0",
+                "ip address": "10.90.60.1/24"
+            },
+            "node2": {
+                "name": "NovaGo",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.90.60.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljublj",
+                "interface": "GigabitEthernet6/0/0",
+                "ip address": "10.36.14.1/24"
+            },
+            "node2": {
+                "name": "Kovevj",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.36.14.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljublj",
+                "interface": "GigabitEthernet7/0/0",
+                "ip address": "10.11.18.1/24"
+            },
+            "node2": {
+                "name": "Kamnik",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.11.18.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljublj",
+                "interface": "GigabitEthernet8/0/0",
+                "ip address": "10.10.50.1/24"
+            },
+            "node2": {
+                "name": "Koper",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.10.50.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljublj",
+                "interface": "GigabitEthernet9/0/0",
+                "ip address": "10.78.9.1/24"
+            },
+            "node2": {
+                "name": "Maribo",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.78.9.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tolmin",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.39.83.1/24"
+            },
+            "node2": {
+                "name": "NovaGo",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.39.83.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "NovaGo",
+                "interface": "GigabitEthernet3/0/0",
+                "ip address": "10.42.60.1/24"
+            },
+            "node2": {
+                "name": "Ajdovs",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.42.60.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Portor",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.94.19.1/24"
+            },
+            "node2": {
+                "name": "Divaca",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.94.19.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Portor",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.88.76.1/24"
+            },
+            "node2": {
+                "name": "Izola",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.88.76.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gornja",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.33.75.1/24"
+            },
+            "node2": {
+                "name": "Radenc",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.33.75.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gornja",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.5.68.1/24"
+            },
+            "node2": {
+                "name": "Maribo",
+                "interface": "GigabitEthernet3/0/0",
+                "ip address": "10.5.68.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Radenc",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.61.53.1/24"
+            },
+            "node2": {
+                "name": "Murska",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.61.53.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rogasj",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.97.13.1/24"
+            },
+            "node2": {
+                "name": "Ptuj",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.97.13.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Senoze",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.64.41.1/24"
+            },
+            "node2": {
+                "name": "Sezana",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.64.41.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Senoze",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.12.73.1/24"
+            },
+            "node2": {
+                "name": "Divaca",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.12.73.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Senoze",
+                "interface": "GigabitEthernet3/0/0",
+                "ip address": "10.22.44.1/24"
+            },
+            "node2": {
+                "name": "Postoj",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.22.44.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Divaca",
+                "interface": "GigabitEthernet3/0/0",
+                "ip address": "10.34.56.1/24"
+            },
+            "node2": {
+                "name": "Ajdovs",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.34.56.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Divaca",
+                "interface": "GigabitEthernet4/0/0",
+                "ip address": "10.43.29.1/24"
+            },
+            "node2": {
+                "name": "Koper",
+                "interface": "GigabitEthernet3/0/0",
+                "ip address": "10.43.29.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Izola",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.13.12.1/24"
+            },
+            "node2": {
+                "name": "Koper",
+                "interface": "GigabitEthernet4/0/0",
+                "ip address": "10.13.12.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sloven",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.53.57.1/24"
+            },
+            "node2": {
+                "name": "Dravog",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.53.57.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sloven",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.28.33.1/24"
+            },
+            "node2": {
+                "name": "Velenj",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.28.33.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Velenj",
+                "interface": "GigabitEthernet3/0/0",
+                "ip address": "10.72.81.1/24"
+            },
+            "node2": {
+                "name": "Dravog",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.72.81.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Murska",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.67.78.1/24"
+            },
+            "node2": {
+                "name": "Ljutom",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.67.78.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljutom",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.91.92.1/24"
+            },
+            "node2": {
+                "name": "Ormoz",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.91.92.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ormoz",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.80.33.1/24"
+            },
+            "node2": {
+                "name": "Ptuj",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.80.33.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ptuj",
+                "interface": "GigabitEthernet3/0/0",
+                "ip address": "10.98.39.1/24"
+            },
+            "node2": {
+                "name": "Maribo",
+                "interface": "GigabitEthernet4/0/0",
+                "ip address": "10.98.39.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Maribo",
+                "interface": "GigabitEthernet5/0/0",
+                "ip address": "10.75.21.1/24"
+            },
+            "node2": {
+                "name": "Dravog",
+                "interface": "GigabitEthernet3/0/0",
+                "ip address": "10.75.21.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Maribo",
+                "interface": "GigabitEthernet6/0/0",
+                "ip address": "10.50.43.1/24"
+            },
+            "node2": {
+                "name": "SlovenID31",
+                "interface": "GigabitEthernet2/0/0",
+                "ip address": "10.50.43.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dravog",
+                "interface": "GigabitEthernet4/0/0",
+                "ip address": "10.74.68.1/24"
+            },
+            "node2": {
+                "name": "Ravnen",
+                "interface": "GigabitEthernet1/0/0",
+                "ip address": "10.74.68.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Postoj",
+                "interface": "Ethernet0/0/0",
+                "ip address": "192.10.1.1/24"
+            },
+            "node2": {
+                "name": "PeerPostoj",
+                "interface": "Ethernet0/0/0",
+                "ip address": "192.10.1.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kamnik",
+                "interface": "Ethernet0/0/0",
+                "ip address": "192.10.10.1/24"
+            },
+            "node2": {
+                "name": "PeerKamnik",
+                "interface": "Ethernet0/0/0",
+                "ip address": "192.10.10.2/24"
+            }
+        }
+    ]
+}

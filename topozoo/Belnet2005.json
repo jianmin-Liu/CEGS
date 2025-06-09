@@ -1,0 +1,381 @@
+{
+    "routers": [
+        "Geel",
+        "Antwer",
+        "Leuven",
+        "Hassel",
+        "Brusse",
+        "SFINX",
+        "BrusseID6",
+        "BrusseID7",
+        "AMSIX",
+        "LINX",
+        "TheWor",
+        "BNIX",
+        "Geant2",
+        "Liege",
+        "BrusseID14",
+        "Brugge",
+        "Gent",
+        "Korthi",
+        "Mons",
+        "Charle",
+        "Louvai",
+        "Namur",
+        "Arlon"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Geel"
+            },
+            "node2": {
+                "name": "Brusse"
+            }
+        },
+        {
+            "node1": {
+                "name": "Geel"
+            },
+            "node2": {
+                "name": "BrusseID6"
+            }
+        },
+        {
+            "node1": {
+                "name": "Antwer"
+            },
+            "node2": {
+                "name": "Brusse"
+            }
+        },
+        {
+            "node1": {
+                "name": "Antwer"
+            },
+            "node2": {
+                "name": "BrusseID6"
+            }
+        },
+        {
+            "node1": {
+                "name": "Leuven"
+            },
+            "node2": {
+                "name": "Brusse"
+            }
+        },
+        {
+            "node1": {
+                "name": "Leuven"
+            },
+            "node2": {
+                "name": "BrusseID6"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hassel"
+            },
+            "node2": {
+                "name": "Brusse"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hassel"
+            },
+            "node2": {
+                "name": "BrusseID6"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "BrusseID6"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "BrusseID7"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "Liege"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "BrusseID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "Brugge"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "Gent"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "Korthi"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "Mons"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "Charle"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "Louvai"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "Namur"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "Arlon"
+            }
+        },
+        {
+            "node1": {
+                "name": "SFINX"
+            },
+            "node2": {
+                "name": "BrusseID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "BrusseID6"
+            },
+            "node2": {
+                "name": "BrusseID7"
+            }
+        },
+        {
+            "node1": {
+                "name": "BrusseID6"
+            },
+            "node2": {
+                "name": "Liege"
+            }
+        },
+        {
+            "node1": {
+                "name": "BrusseID6"
+            },
+            "node2": {
+                "name": "BrusseID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "BrusseID6"
+            },
+            "node2": {
+                "name": "Brugge"
+            }
+        },
+        {
+            "node1": {
+                "name": "BrusseID6"
+            },
+            "node2": {
+                "name": "Gent"
+            }
+        },
+        {
+            "node1": {
+                "name": "BrusseID6"
+            },
+            "node2": {
+                "name": "Korthi"
+            }
+        },
+        {
+            "node1": {
+                "name": "BrusseID6"
+            },
+            "node2": {
+                "name": "Mons"
+            }
+        },
+        {
+            "node1": {
+                "name": "BrusseID6"
+            },
+            "node2": {
+                "name": "Charle"
+            }
+        },
+        {
+            "node1": {
+                "name": "BrusseID6"
+            },
+            "node2": {
+                "name": "Louvai"
+            }
+        },
+        {
+            "node1": {
+                "name": "BrusseID6"
+            },
+            "node2": {
+                "name": "Namur"
+            }
+        },
+        {
+            "node1": {
+                "name": "BrusseID6"
+            },
+            "node2": {
+                "name": "Arlon"
+            }
+        },
+        {
+            "node1": {
+                "name": "BrusseID7"
+            },
+            "node2": {
+                "name": "TheWor"
+            }
+        },
+        {
+            "node1": {
+                "name": "BrusseID7"
+            },
+            "node2": {
+                "name": "TheWor"
+            }
+        },
+        {
+            "node1": {
+                "name": "BrusseID7"
+            },
+            "node2": {
+                "name": "BNIX"
+            }
+        },
+        {
+            "node1": {
+                "name": "BrusseID7"
+            },
+            "node2": {
+                "name": "Geant2"
+            }
+        },
+        {
+            "node1": {
+                "name": "BrusseID7"
+            },
+            "node2": {
+                "name": "BrusseID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "AMSIX"
+            },
+            "node2": {
+                "name": "BrusseID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "LINX"
+            },
+            "node2": {
+                "name": "BrusseID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "TheWor"
+            },
+            "node2": {
+                "name": "BrusseID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "TheWor"
+            },
+            "node2": {
+                "name": "BrusseID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "TheWor"
+            },
+            "node2": {
+                "name": "BrusseID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "BNIX"
+            },
+            "node2": {
+                "name": "BrusseID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "Geant2"
+            },
+            "node2": {
+                "name": "BrusseID14"
+            }
+        }
+    ]
+}

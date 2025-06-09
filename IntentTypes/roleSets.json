@@ -1,0 +1,6 @@
+{
+  "Simple": ["source", "relay", "route blocking","destination", "destination peer","non-involvement"],
+  "Order": ["route preference", "relay", "destination", "non-involvement"],
+  "Any-path": ["source", "relay", "destination", "non-involvement"],
+  "ECMP": ["load balance", "relay", "destination", "non-involvement"]
+}

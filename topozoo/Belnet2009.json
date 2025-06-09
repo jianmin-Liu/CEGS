@@ -1,0 +1,275 @@
+{
+    "routers": [
+        "Louvai",
+        "Charle",
+        "Arlon",
+        "Namur",
+        "Antwer",
+        "AntwerID5",
+        "Mons",
+        "Korthi",
+        "Gent2",
+        "Gent1",
+        "Liege1",
+        "Liege2",
+        "Brugge",
+        "Geel",
+        "Hassel",
+        "Leuven",
+        "LeuvenID16",
+        "Vilvoo",
+        "Evere",
+        "Brusse",
+        "BrusseID20"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Louvai"
+            },
+            "node2": {
+                "name": "Charle"
+            }
+        },
+        {
+            "node1": {
+                "name": "Louvai"
+            },
+            "node2": {
+                "name": "Namur"
+            }
+        },
+        {
+            "node1": {
+                "name": "Charle"
+            },
+            "node2": {
+                "name": "Mons"
+            }
+        },
+        {
+            "node1": {
+                "name": "Arlon"
+            },
+            "node2": {
+                "name": "Liege2"
+            }
+        },
+        {
+            "node1": {
+                "name": "Arlon"
+            },
+            "node2": {
+                "name": "Namur"
+            }
+        },
+        {
+            "node1": {
+                "name": "Antwer"
+            },
+            "node2": {
+                "name": "Evere"
+            }
+        },
+        {
+            "node1": {
+                "name": "Antwer"
+            },
+            "node2": {
+                "name": "AntwerID5"
+            }
+        },
+        {
+            "node1": {
+                "name": "Antwer"
+            },
+            "node2": {
+                "name": "AntwerID5"
+            }
+        },
+        {
+            "node1": {
+                "name": "AntwerID5"
+            },
+            "node2": {
+                "name": "Gent2"
+            }
+        },
+        {
+            "node1": {
+                "name": "Mons"
+            },
+            "node2": {
+                "name": "Vilvoo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Korthi"
+            },
+            "node2": {
+                "name": "Vilvoo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Korthi"
+            },
+            "node2": {
+                "name": "Brugge"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gent2"
+            },
+            "node2": {
+                "name": "Gent1"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gent2"
+            },
+            "node2": {
+                "name": "Gent1"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gent1"
+            },
+            "node2": {
+                "name": "Brugge"
+            }
+        },
+        {
+            "node1": {
+                "name": "Liege1"
+            },
+            "node2": {
+                "name": "Evere"
+            }
+        },
+        {
+            "node1": {
+                "name": "Liege1"
+            },
+            "node2": {
+                "name": "Liege2"
+            }
+        },
+        {
+            "node1": {
+                "name": "Liege1"
+            },
+            "node2": {
+                "name": "Liege2"
+            }
+        },
+        {
+            "node1": {
+                "name": "Geel"
+            },
+            "node2": {
+                "name": "Vilvoo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Geel"
+            },
+            "node2": {
+                "name": "Hassel"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hassel"
+            },
+            "node2": {
+                "name": "Leuven"
+            }
+        },
+        {
+            "node1": {
+                "name": "Leuven"
+            },
+            "node2": {
+                "name": "LeuvenID16"
+            }
+        },
+        {
+            "node1": {
+                "name": "Leuven"
+            },
+            "node2": {
+                "name": "LeuvenID16"
+            }
+        },
+        {
+            "node1": {
+                "name": "LeuvenID16"
+            },
+            "node2": {
+                "name": "Evere"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vilvoo"
+            },
+            "node2": {
+                "name": "Evere"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vilvoo"
+            },
+            "node2": {
+                "name": "Evere"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vilvoo"
+            },
+            "node2": {
+                "name": "Evere"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vilvoo"
+            },
+            "node2": {
+                "name": "Evere"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vilvoo"
+            },
+            "node2": {
+                "name": "BrusseID20"
+            }
+        },
+        {
+            "node1": {
+                "name": "Evere"
+            },
+            "node2": {
+                "name": "Brusse"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "BrusseID20"
+            }
+        }
+    ]
+}

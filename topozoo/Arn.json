@@ -1,0 +1,268 @@
+{
+    "routers": [
+        "Djelfa",
+        "Medea",
+        "Intern",
+        "Blida",
+        "ElOued",
+        "Msila",
+        "Laghou",
+        "Ouargl",
+        "Consta",
+        "Biskra",
+        "Batna",
+        "TiziOu",
+        "Annaba",
+        "Guelma",
+        "Tebess",
+        "OumelB",
+        "Bejaia",
+        "Setif",
+        "Skikda",
+        "Jijel",
+        "Tiaret",
+        "GEANT",
+        "Alger",
+        "Chlef",
+        "Oran",
+        "Mostag",
+        "Tlemce",
+        "SidiBe",
+        "Saida",
+        "Mascar"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Djelfa"
+            },
+            "node2": {
+                "name": "Alger"
+            }
+        },
+        {
+            "node1": {
+                "name": "Medea"
+            },
+            "node2": {
+                "name": "Alger"
+            }
+        },
+        {
+            "node1": {
+                "name": "Intern"
+            },
+            "node2": {
+                "name": "Alger"
+            }
+        },
+        {
+            "node1": {
+                "name": "Blida"
+            },
+            "node2": {
+                "name": "Alger"
+            }
+        },
+        {
+            "node1": {
+                "name": "ElOued"
+            },
+            "node2": {
+                "name": "Ouargl"
+            }
+        },
+        {
+            "node1": {
+                "name": "Msila"
+            },
+            "node2": {
+                "name": "Consta"
+            }
+        },
+        {
+            "node1": {
+                "name": "Laghou"
+            },
+            "node2": {
+                "name": "Ouargl"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ouargl"
+            },
+            "node2": {
+                "name": "Alger"
+            }
+        },
+        {
+            "node1": {
+                "name": "Consta"
+            },
+            "node2": {
+                "name": "Biskra"
+            }
+        },
+        {
+            "node1": {
+                "name": "Consta"
+            },
+            "node2": {
+                "name": "Batna"
+            }
+        },
+        {
+            "node1": {
+                "name": "Consta"
+            },
+            "node2": {
+                "name": "Annaba"
+            }
+        },
+        {
+            "node1": {
+                "name": "Consta"
+            },
+            "node2": {
+                "name": "Guelma"
+            }
+        },
+        {
+            "node1": {
+                "name": "Consta"
+            },
+            "node2": {
+                "name": "Tebess"
+            }
+        },
+        {
+            "node1": {
+                "name": "Consta"
+            },
+            "node2": {
+                "name": "OumelB"
+            }
+        },
+        {
+            "node1": {
+                "name": "Consta"
+            },
+            "node2": {
+                "name": "Skikda"
+            }
+        },
+        {
+            "node1": {
+                "name": "Consta"
+            },
+            "node2": {
+                "name": "Jijel"
+            }
+        },
+        {
+            "node1": {
+                "name": "Consta"
+            },
+            "node2": {
+                "name": "Alger"
+            }
+        },
+        {
+            "node1": {
+                "name": "TiziOu"
+            },
+            "node2": {
+                "name": "Alger"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bejaia"
+            },
+            "node2": {
+                "name": "Alger"
+            }
+        },
+        {
+            "node1": {
+                "name": "Setif"
+            },
+            "node2": {
+                "name": "Alger"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tiaret"
+            },
+            "node2": {
+                "name": "Oran"
+            }
+        },
+        {
+            "node1": {
+                "name": "GEANT"
+            },
+            "node2": {
+                "name": "Alger"
+            }
+        },
+        {
+            "node1": {
+                "name": "Alger"
+            },
+            "node2": {
+                "name": "Chlef"
+            }
+        },
+        {
+            "node1": {
+                "name": "Alger"
+            },
+            "node2": {
+                "name": "Oran"
+            }
+        },
+        {
+            "node1": {
+                "name": "Oran"
+            },
+            "node2": {
+                "name": "Mostag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Oran"
+            },
+            "node2": {
+                "name": "Tlemce"
+            }
+        },
+        {
+            "node1": {
+                "name": "Oran"
+            },
+            "node2": {
+                "name": "SidiBe"
+            }
+        },
+        {
+            "node1": {
+                "name": "Oran"
+            },
+            "node2": {
+                "name": "Saida"
+            }
+        },
+        {
+            "node1": {
+                "name": "Oran"
+            },
+            "node2": {
+                "name": "Mascar"
+            }
+        }
+    ]
+}

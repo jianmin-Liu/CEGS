@@ -1,0 +1,45 @@
+{
+    "_comment_LLM_PROVIDER": "LLM provider. Supported values: 'GEMINI', 'OPENAI', 'DEEPSEEK'",
+    "LLM_PROVIDER": "OPENAI",
+    "GEMINI_API_KEY": "sk-your-gemini-api-key-here",
+    "GEMINI_MODEL": "gemini-2.5-flash-preview-05-20",
+    "OPENAI_API_KEY": "sk-your-openai-api-key-here", 
+    "OPENAI_MODEL": "gpt-4o",
+    
+    "_comment_DEEPSEEK": "DeepSeekAPI configuration - compatible with OpenAI SDK",
+    "DEEPSEEK_API_KEY": "sk-your-deepseek-api-key-here",
+    "DEEPSEEK_MODEL": "deepseek-chat",
+    
+    "_comment_MODEL_PATHS": "AI model file paths",
+    "GCN_MODEL_PATH": "best_model.pth",
+    "_comment_SENTENCE_TRANSFORMER": "Used for sentence-level semantic understanding",
+    "SENTENCE_TRANSFORMER_MODEL": "all-MiniLM-L6-v2",
+    
+    "_comment_DATA_PATHS": "Training data and example library paths",
+    "EXAMPLE_LIBRARY_PATH": "ExampleLibrary.json",
+    "INTENT_TYPES_PATH": "IntentTypes/Types.json",
+    
+    "_comment_INPUT_PATHS": "Input file paths",
+    "INPUT_INTENT_FILE": "input/intent.txt",
+    "INPUT_TOPOLOGY_FILE": "input/topology.json",
+    
+    "_comment_OUTPUT_PATHS": "Generated network device configuration output paths",
+    "RESPONSES_DIR": "responses",
+    "OUTPUT_DIR": "output",
+    "CONFIGS_DIR": "output/configs/",
+    
+    "_comment_PROMPTS_PATHS": "LLM prompt template file paths",
+    "INTENT_PROCESS_FILE": "prompts/intentprocess.txt",
+    "INTENT_SPECIFICATION_FILE": "prompts/intentSpecification.txt",
+    "REFLECTION_PREFIX_FILE": "prompts/reflection/prefix.txt",
+    "INTERFACE_SUFFIX_FILE": "prompts/reflection/interface_suffix.txt",
+    "OSPF_SUFFIX_FILE": "prompts/reflection/ospf_suffix.txt",
+    "BGP_SUFFIX_FILE": "prompts/reflection/bgp_suffix.txt",
+    "BGP_ROUTING_POLICY_FILE": "prompts/reflection/bgp_routing_policy.txt",
+    "ROUTEMAP_FORMAT_FILE": "prompts/reflection/routeMap_format.txt",
+    "INTENT_TYPES_ROLE_PROMPT_DIR": "IntentTypes/rolePrompt",
+
+    
+    "_comment_GENERATION_CONFIG": "Network device configuration generation parameters",
+    "BATCH_SIZE": 40
+} 

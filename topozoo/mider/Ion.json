@@ -1,0 +1,1331 @@
+{
+    "routers": [
+        "SchroonLak",
+        "Remsen",
+        "Benningtow",
+        "Brattlebor",
+        "Putney",
+        "BellowsFal",
+        "Keene",
+        "Boston",
+        "SaratogaSp",
+        "Queensbury",
+        "Margaretsv",
+        "Delhi",
+        "Norwich",
+        "Deposit",
+        "Herkimmer",
+        "Newport",
+        "Vernon",
+        "Utica",
+        "Hancock",
+        "Binghampto",
+        "Coxsackie",
+        "NodeID21",
+        "NodeID22",
+        "Champlain",
+        "NodeID24",
+        "Chesterfie",
+        "Westport",
+        "Chazy",
+        "Plattsburg",
+        "Burlington",
+        "NodeID30",
+        "NodeID31",
+        "Winooski",
+        "EssexJunct",
+        "Mountpelie",
+        "Poughkeeps",
+        "Germantown",
+        "Rowland",
+        "PortJervis",
+        "ForestCity",
+        "SouthCanaa",
+        "NewYorkCit",
+        "PutnamVall",
+        "Monroe",
+        "Harriman",
+        "Addison",
+        "Corning",
+        "Elmira",
+        "Odessa",
+        "Burdett",
+        "Waterloo",
+        "Geneva",
+        "Ovid",
+        "Millerton",
+        "Whitesvill",
+        "Hamilton",
+        "Cooperstow",
+        "Oneonta",
+        "Middleburg",
+        "Dryden",
+        "Ithaca",
+        "Cortland",
+        "Morrisvill",
+        "PaulSmiths",
+        "Albany",
+        "Gloversvil",
+        "SaranacLak",
+        "Buffalo",
+        "Barre",
+        "Lowville",
+        "Boonville",
+        "Altmar",
+        "Pulaski",
+        "Auburn",
+        "Syracuse",
+        "Rochester",
+        "Phelps",
+        "Almond",
+        "Ingleside",
+        "Wellsville",
+        "Alfred",
+        "Salamanca",
+        "Olean",
+        "Cassadaga",
+        "Jamestown",
+        "EmpireTele",
+        "Fredonia",
+        "LakePlacid",
+        "Malone",
+        "NodeID89",
+        "NodeID90",
+        "NodeID91",
+        "NodeID92",
+        "NodeID93",
+        "NodeID94",
+        "NodeID95",
+        "NodeID96",
+        "Cobleskill",
+        "Cazenovia",
+        "Manchester",
+        "Whitehall",
+        "Bristol",
+        "Lebanon",
+        "WhiteRiver",
+        "BarreID104",
+        "Rutland",
+        "Middlebury",
+        "CrownPoint",
+        "AddisonID1",
+        "NodeID109",
+        "NodeID110",
+        "NodeID111",
+        "NodeID112",
+        "NodeID113",
+        "NodeID114",
+        "Gouveneur",
+        "Saugerties",
+        "Watertown",
+        "Alexandria",
+        "Ogdensburg",
+        "Massena",
+        "Potsdam",
+        "Canton",
+        "NodeID123",
+        "NodeID124"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "SchroonLak"
+            },
+            "node2": {
+                "name": "Chesterfie"
+            }
+        },
+        {
+            "node1": {
+                "name": "SchroonLak"
+            },
+            "node2": {
+                "name": "Queensbury"
+            }
+        },
+        {
+            "node1": {
+                "name": "Remsen"
+            },
+            "node2": {
+                "name": "NodeID114"
+            }
+        },
+        {
+            "node1": {
+                "name": "Remsen"
+            },
+            "node2": {
+                "name": "Boonville"
+            }
+        },
+        {
+            "node1": {
+                "name": "Benningtow"
+            },
+            "node2": {
+                "name": "Brattlebor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Benningtow"
+            },
+            "node2": {
+                "name": "Manchester"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brattlebor"
+            },
+            "node2": {
+                "name": "Putney"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brattlebor"
+            },
+            "node2": {
+                "name": "BellowsFal"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brattlebor"
+            },
+            "node2": {
+                "name": "Keene"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brattlebor"
+            },
+            "node2": {
+                "name": "Keene"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brattlebor"
+            },
+            "node2": {
+                "name": "Boston"
+            }
+        },
+        {
+            "node1": {
+                "name": "BellowsFal"
+            },
+            "node2": {
+                "name": "WhiteRiver"
+            }
+        },
+        {
+            "node1": {
+                "name": "SaratogaSp"
+            },
+            "node2": {
+                "name": "NodeID92"
+            }
+        },
+        {
+            "node1": {
+                "name": "SaratogaSp"
+            },
+            "node2": {
+                "name": "Whitehall"
+            }
+        },
+        {
+            "node1": {
+                "name": "Queensbury"
+            },
+            "node2": {
+                "name": "Albany"
+            }
+        },
+        {
+            "node1": {
+                "name": "Margaretsv"
+            },
+            "node2": {
+                "name": "Middleburg"
+            }
+        },
+        {
+            "node1": {
+                "name": "Margaretsv"
+            },
+            "node2": {
+                "name": "Delhi"
+            }
+        },
+        {
+            "node1": {
+                "name": "Delhi"
+            },
+            "node2": {
+                "name": "Hancock"
+            }
+        },
+        {
+            "node1": {
+                "name": "Norwich"
+            },
+            "node2": {
+                "name": "Binghampto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Deposit"
+            },
+            "node2": {
+                "name": "Hancock"
+            }
+        },
+        {
+            "node1": {
+                "name": "Deposit"
+            },
+            "node2": {
+                "name": "Binghampto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Herkimmer"
+            },
+            "node2": {
+                "name": "Utica"
+            }
+        },
+        {
+            "node1": {
+                "name": "Herkimmer"
+            },
+            "node2": {
+                "name": "NodeID111"
+            }
+        },
+        {
+            "node1": {
+                "name": "Newport"
+            },
+            "node2": {
+                "name": "NodeID114"
+            }
+        },
+        {
+            "node1": {
+                "name": "Newport"
+            },
+            "node2": {
+                "name": "NodeID111"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vernon"
+            },
+            "node2": {
+                "name": "NodeID112"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vernon"
+            },
+            "node2": {
+                "name": "Utica"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hancock"
+            },
+            "node2": {
+                "name": "ForestCity"
+            }
+        },
+        {
+            "node1": {
+                "name": "Binghampto"
+            },
+            "node2": {
+                "name": "Dryden"
+            }
+        },
+        {
+            "node1": {
+                "name": "Coxsackie"
+            },
+            "node2": {
+                "name": "Albany"
+            }
+        },
+        {
+            "node1": {
+                "name": "Coxsackie"
+            },
+            "node2": {
+                "name": "Germantown"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID21"
+            },
+            "node2": {
+                "name": "Alfred"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID21"
+            },
+            "node2": {
+                "name": "Whitesvill"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID21"
+            },
+            "node2": {
+                "name": "Wellsville"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID22"
+            },
+            "node2": {
+                "name": "Alfred"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID22"
+            },
+            "node2": {
+                "name": "Whitesvill"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID22"
+            },
+            "node2": {
+                "name": "Wellsville"
+            }
+        },
+        {
+            "node1": {
+                "name": "Champlain"
+            },
+            "node2": {
+                "name": "Westport"
+            }
+        },
+        {
+            "node1": {
+                "name": "Champlain"
+            },
+            "node2": {
+                "name": "Chazy"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID24"
+            },
+            "node2": {
+                "name": "Poughkeeps"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID24"
+            },
+            "node2": {
+                "name": "Poughkeeps"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID24"
+            },
+            "node2": {
+                "name": "Germantown"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chesterfie"
+            },
+            "node2": {
+                "name": "Plattsburg"
+            }
+        },
+        {
+            "node1": {
+                "name": "Westport"
+            },
+            "node2": {
+                "name": "CrownPoint"
+            }
+        },
+        {
+            "node1": {
+                "name": "Westport"
+            },
+            "node2": {
+                "name": "LakePlacid"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chazy"
+            },
+            "node2": {
+                "name": "Plattsburg"
+            }
+        },
+        {
+            "node1": {
+                "name": "Plattsburg"
+            },
+            "node2": {
+                "name": "Malone"
+            }
+        },
+        {
+            "node1": {
+                "name": "Burlington"
+            },
+            "node2": {
+                "name": "Winooski"
+            }
+        },
+        {
+            "node1": {
+                "name": "Burlington"
+            },
+            "node2": {
+                "name": "EssexJunct"
+            }
+        },
+        {
+            "node1": {
+                "name": "Burlington"
+            },
+            "node2": {
+                "name": "Bristol"
+            }
+        },
+        {
+            "node1": {
+                "name": "Burlington"
+            },
+            "node2": {
+                "name": "Rutland"
+            }
+        },
+        {
+            "node1": {
+                "name": "Burlington"
+            },
+            "node2": {
+                "name": "Middlebury"
+            }
+        },
+        {
+            "node1": {
+                "name": "Burlington"
+            },
+            "node2": {
+                "name": "NodeID30"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID30"
+            },
+            "node2": {
+                "name": "NodeID31"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID31"
+            },
+            "node2": {
+                "name": "Winooski"
+            }
+        },
+        {
+            "node1": {
+                "name": "EssexJunct"
+            },
+            "node2": {
+                "name": "Mountpelie"
+            }
+        },
+        {
+            "node1": {
+                "name": "Mountpelie"
+            },
+            "node2": {
+                "name": "BarreID104"
+            }
+        },
+        {
+            "node1": {
+                "name": "Mountpelie"
+            },
+            "node2": {
+                "name": "WhiteRiver"
+            }
+        },
+        {
+            "node1": {
+                "name": "Poughkeeps"
+            },
+            "node2": {
+                "name": "PutnamVall"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rowland"
+            },
+            "node2": {
+                "name": "SouthCanaa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rowland"
+            },
+            "node2": {
+                "name": "PortJervis"
+            }
+        },
+        {
+            "node1": {
+                "name": "PortJervis"
+            },
+            "node2": {
+                "name": "Monroe"
+            }
+        },
+        {
+            "node1": {
+                "name": "ForestCity"
+            },
+            "node2": {
+                "name": "SouthCanaa"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYorkCit"
+            },
+            "node2": {
+                "name": "PutnamVall"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYorkCit"
+            },
+            "node2": {
+                "name": "Harriman"
+            }
+        },
+        {
+            "node1": {
+                "name": "Monroe"
+            },
+            "node2": {
+                "name": "Harriman"
+            }
+        },
+        {
+            "node1": {
+                "name": "Harriman"
+            },
+            "node2": {
+                "name": "Saugerties"
+            }
+        },
+        {
+            "node1": {
+                "name": "Addison"
+            },
+            "node2": {
+                "name": "NodeID93"
+            }
+        },
+        {
+            "node1": {
+                "name": "Addison"
+            },
+            "node2": {
+                "name": "Whitesvill"
+            }
+        },
+        {
+            "node1": {
+                "name": "Corning"
+            },
+            "node2": {
+                "name": "NodeID93"
+            }
+        },
+        {
+            "node1": {
+                "name": "Corning"
+            },
+            "node2": {
+                "name": "Elmira"
+            }
+        },
+        {
+            "node1": {
+                "name": "Elmira"
+            },
+            "node2": {
+                "name": "Odessa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Odessa"
+            },
+            "node2": {
+                "name": "Burdett"
+            }
+        },
+        {
+            "node1": {
+                "name": "Odessa"
+            },
+            "node2": {
+                "name": "NodeID123"
+            }
+        },
+        {
+            "node1": {
+                "name": "Odessa"
+            },
+            "node2": {
+                "name": "Ingleside"
+            }
+        },
+        {
+            "node1": {
+                "name": "Burdett"
+            },
+            "node2": {
+                "name": "NodeID109"
+            }
+        },
+        {
+            "node1": {
+                "name": "Waterloo"
+            },
+            "node2": {
+                "name": "Phelps"
+            }
+        },
+        {
+            "node1": {
+                "name": "Geneva"
+            },
+            "node2": {
+                "name": "Ovid"
+            }
+        },
+        {
+            "node1": {
+                "name": "Geneva"
+            },
+            "node2": {
+                "name": "Phelps"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ovid"
+            },
+            "node2": {
+                "name": "NodeID109"
+            }
+        },
+        {
+            "node1": {
+                "name": "Millerton"
+            },
+            "node2": {
+                "name": "NodeID123"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hamilton"
+            },
+            "node2": {
+                "name": "Cooperstow"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hamilton"
+            },
+            "node2": {
+                "name": "Morrisvill"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cooperstow"
+            },
+            "node2": {
+                "name": "Oneonta"
+            }
+        },
+        {
+            "node1": {
+                "name": "Oneonta"
+            },
+            "node2": {
+                "name": "Cobleskill"
+            }
+        },
+        {
+            "node1": {
+                "name": "Middleburg"
+            },
+            "node2": {
+                "name": "Cobleskill"
+            }
+        },
+        {
+            "node1": {
+                "name": "Middleburg"
+            },
+            "node2": {
+                "name": "NodeID92"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dryden"
+            },
+            "node2": {
+                "name": "NodeID124"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dryden"
+            },
+            "node2": {
+                "name": "Cortland"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ithaca"
+            },
+            "node2": {
+                "name": "NodeID124"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ithaca"
+            },
+            "node2": {
+                "name": "NodeID124"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ithaca"
+            },
+            "node2": {
+                "name": "NodeID109"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cortland"
+            },
+            "node2": {
+                "name": "Cazenovia"
+            }
+        },
+        {
+            "node1": {
+                "name": "Morrisvill"
+            },
+            "node2": {
+                "name": "Cazenovia"
+            }
+        },
+        {
+            "node1": {
+                "name": "PaulSmiths"
+            },
+            "node2": {
+                "name": "NodeID96"
+            }
+        },
+        {
+            "node1": {
+                "name": "PaulSmiths"
+            },
+            "node2": {
+                "name": "SaranacLak"
+            }
+        },
+        {
+            "node1": {
+                "name": "Albany"
+            },
+            "node2": {
+                "name": "Saugerties"
+            }
+        },
+        {
+            "node1": {
+                "name": "Albany"
+            },
+            "node2": {
+                "name": "Gloversvil"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gloversvil"
+            },
+            "node2": {
+                "name": "NodeID111"
+            }
+        },
+        {
+            "node1": {
+                "name": "SaranacLak"
+            },
+            "node2": {
+                "name": "LakePlacid"
+            }
+        },
+        {
+            "node1": {
+                "name": "Buffalo"
+            },
+            "node2": {
+                "name": "Syracuse"
+            }
+        },
+        {
+            "node1": {
+                "name": "Buffalo"
+            },
+            "node2": {
+                "name": "Barre"
+            }
+        },
+        {
+            "node1": {
+                "name": "Buffalo"
+            },
+            "node2": {
+                "name": "Fredonia"
+            }
+        },
+        {
+            "node1": {
+                "name": "Barre"
+            },
+            "node2": {
+                "name": "NodeID95"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lowville"
+            },
+            "node2": {
+                "name": "Watertown"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lowville"
+            },
+            "node2": {
+                "name": "Boonville"
+            }
+        },
+        {
+            "node1": {
+                "name": "Altmar"
+            },
+            "node2": {
+                "name": "Syracuse"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pulaski"
+            },
+            "node2": {
+                "name": "Syracuse"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pulaski"
+            },
+            "node2": {
+                "name": "Watertown"
+            }
+        },
+        {
+            "node1": {
+                "name": "Auburn"
+            },
+            "node2": {
+                "name": "NodeID124"
+            }
+        },
+        {
+            "node1": {
+                "name": "Auburn"
+            },
+            "node2": {
+                "name": "NodeID110"
+            }
+        },
+        {
+            "node1": {
+                "name": "Syracuse"
+            },
+            "node2": {
+                "name": "NodeID112"
+            }
+        },
+        {
+            "node1": {
+                "name": "Syracuse"
+            },
+            "node2": {
+                "name": "NodeID110"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rochester"
+            },
+            "node2": {
+                "name": "Phelps"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rochester"
+            },
+            "node2": {
+                "name": "NodeID95"
+            }
+        },
+        {
+            "node1": {
+                "name": "Phelps"
+            },
+            "node2": {
+                "name": "NodeID110"
+            }
+        },
+        {
+            "node1": {
+                "name": "Almond"
+            },
+            "node2": {
+                "name": "Alfred"
+            }
+        },
+        {
+            "node1": {
+                "name": "Almond"
+            },
+            "node2": {
+                "name": "Ingleside"
+            }
+        },
+        {
+            "node1": {
+                "name": "Wellsville"
+            },
+            "node2": {
+                "name": "Olean"
+            }
+        },
+        {
+            "node1": {
+                "name": "Salamanca"
+            },
+            "node2": {
+                "name": "Olean"
+            }
+        },
+        {
+            "node1": {
+                "name": "Salamanca"
+            },
+            "node2": {
+                "name": "NodeID94"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cassadaga"
+            },
+            "node2": {
+                "name": "NodeID94"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cassadaga"
+            },
+            "node2": {
+                "name": "Fredonia"
+            }
+        },
+        {
+            "node1": {
+                "name": "Jamestown"
+            },
+            "node2": {
+                "name": "NodeID94"
+            }
+        },
+        {
+            "node1": {
+                "name": "EmpireTele"
+            },
+            "node2": {
+                "name": "NodeID95"
+            }
+        },
+        {
+            "node1": {
+                "name": "Malone"
+            },
+            "node2": {
+                "name": "NodeID91"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID89"
+            },
+            "node2": {
+                "name": "NodeID90"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID89"
+            },
+            "node2": {
+                "name": "Gouveneur"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID89"
+            },
+            "node2": {
+                "name": "Canton"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID90"
+            },
+            "node2": {
+                "name": "NodeID96"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID91"
+            },
+            "node2": {
+                "name": "Massena"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID93"
+            },
+            "node2": {
+                "name": "NodeID123"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID96"
+            },
+            "node2": {
+                "name": "Potsdam"
+            }
+        },
+        {
+            "node1": {
+                "name": "Manchester"
+            },
+            "node2": {
+                "name": "Rutland"
+            }
+        },
+        {
+            "node1": {
+                "name": "Whitehall"
+            },
+            "node2": {
+                "name": "Rutland"
+            }
+        },
+        {
+            "node1": {
+                "name": "Whitehall"
+            },
+            "node2": {
+                "name": "CrownPoint"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bristol"
+            },
+            "node2": {
+                "name": "Middlebury"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lebanon"
+            },
+            "node2": {
+                "name": "WhiteRiver"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lebanon"
+            },
+            "node2": {
+                "name": "WhiteRiver"
+            }
+        },
+        {
+            "node1": {
+                "name": "Middlebury"
+            },
+            "node2": {
+                "name": "AddisonID1"
+            }
+        },
+        {
+            "node1": {
+                "name": "CrownPoint"
+            },
+            "node2": {
+                "name": "AddisonID1"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID111"
+            },
+            "node2": {
+                "name": "NodeID113"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID112"
+            },
+            "node2": {
+                "name": "NodeID113"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID113"
+            },
+            "node2": {
+                "name": "NodeID114"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gouveneur"
+            },
+            "node2": {
+                "name": "Watertown"
+            }
+        },
+        {
+            "node1": {
+                "name": "Watertown"
+            },
+            "node2": {
+                "name": "Alexandria"
+            }
+        },
+        {
+            "node1": {
+                "name": "Alexandria"
+            },
+            "node2": {
+                "name": "Ogdensburg"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ogdensburg"
+            },
+            "node2": {
+                "name": "Massena"
+            }
+        },
+        {
+            "node1": {
+                "name": "Massena"
+            },
+            "node2": {
+                "name": "Potsdam"
+            }
+        },
+        {
+            "node1": {
+                "name": "Potsdam"
+            },
+            "node2": {
+                "name": "Canton"
+            }
+        }
+    ]
+}

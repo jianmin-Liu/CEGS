@@ -1,0 +1,4 @@
+Please directly generate the configurations for each node in {nodes} of target topology T1 one by one based on the configuration of its matching node in example topology T2, so that the user intent of target topology T1 is satisfied, strictly following the following instruction:
+{instruction}
+In your response, you are required to only provide configurations without any comments or explanations. Do not include comments in the generated configurations either. Note: The exclamation mark (!) should be used to separate different configurations.'
+

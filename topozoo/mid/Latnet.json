@@ -1,0 +1,667 @@
+{
+    "routers": [
+        "Iecava",
+        "Vircava",
+        "Kraslava",
+        "Baldone",
+        "Auce",
+        "Broceni",
+        "Platone",
+        "Dobele",
+        "Krimulda",
+        "Vijkene",
+        "Saldus",
+        "Kapsede",
+        "Viesite",
+        "Aizkroukle",
+        "Vilani",
+        "Gulbene",
+        "Rujiena",
+        "Salagriva",
+        "Aloja",
+        "Mazsalaca",
+        "Strenci",
+        "Pociems",
+        "Limbazi",
+        "Liepupe",
+        "Skriveri",
+        "Valmiera",
+        "Rezekne",
+        "Carnikava",
+        "Jumprava",
+        "Kegums",
+        "Riga",
+        "Daugapils",
+        "Ventspits",
+        "Grobina",
+        "Liepaja",
+        "Ulbroka",
+        "Olaine",
+        "Lielvarde",
+        "Ikskile",
+        "Salaspils",
+        "Bauska",
+        "Jekabpils",
+        "Jelgava",
+        "Kalnciems",
+        "Kekava",
+        "GEANT2",
+        "Livberze",
+        "Ledurga",
+        "Sigulda",
+        "Jurmala",
+        "Tukums",
+        "Talsi",
+        "Aizpute",
+        "Ragona",
+        "Vangazi",
+        "Adazi",
+        "Ozolnieki",
+        "Eleja",
+        "Ogre",
+        "Preili",
+        "Livani",
+        "Balvi",
+        "Karsava",
+        "Malnava",
+        "Pusmucova",
+        "Zvigzdene",
+        "Ludza",
+        "Cibla",
+        "Zilupe"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Iecava"
+            },
+            "node2": {
+                "name": "Riga"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vircava"
+            },
+            "node2": {
+                "name": "Platone"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kraslava"
+            },
+            "node2": {
+                "name": "Riga"
+            }
+        },
+        {
+            "node1": {
+                "name": "Baldone"
+            },
+            "node2": {
+                "name": "Riga"
+            }
+        },
+        {
+            "node1": {
+                "name": "Auce"
+            },
+            "node2": {
+                "name": "Dobele"
+            }
+        },
+        {
+            "node1": {
+                "name": "Broceni"
+            },
+            "node2": {
+                "name": "Saldus"
+            }
+        },
+        {
+            "node1": {
+                "name": "Platone"
+            },
+            "node2": {
+                "name": "Jelgava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Platone"
+            },
+            "node2": {
+                "name": "Eleja"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dobele"
+            },
+            "node2": {
+                "name": "Jelgava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Krimulda"
+            },
+            "node2": {
+                "name": "Sigulda"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vijkene"
+            },
+            "node2": {
+                "name": "Limbazi"
+            }
+        },
+        {
+            "node1": {
+                "name": "Saldus"
+            },
+            "node2": {
+                "name": "Riga"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kapsede"
+            },
+            "node2": {
+                "name": "Liepaja"
+            }
+        },
+        {
+            "node1": {
+                "name": "Viesite"
+            },
+            "node2": {
+                "name": "Jekabpils"
+            }
+        },
+        {
+            "node1": {
+                "name": "Viesite"
+            },
+            "node2": {
+                "name": "Aizkroukle"
+            }
+        },
+        {
+            "node1": {
+                "name": "Aizkroukle"
+            },
+            "node2": {
+                "name": "Jumprava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vilani"
+            },
+            "node2": {
+                "name": "Riga"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gulbene"
+            },
+            "node2": {
+                "name": "Riga"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rujiena"
+            },
+            "node2": {
+                "name": "Mazsalaca"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rujiena"
+            },
+            "node2": {
+                "name": "Riga"
+            }
+        },
+        {
+            "node1": {
+                "name": "Salagriva"
+            },
+            "node2": {
+                "name": "Liepupe"
+            }
+        },
+        {
+            "node1": {
+                "name": "Aloja"
+            },
+            "node2": {
+                "name": "Mazsalaca"
+            }
+        },
+        {
+            "node1": {
+                "name": "Aloja"
+            },
+            "node2": {
+                "name": "Pociems"
+            }
+        },
+        {
+            "node1": {
+                "name": "Aloja"
+            },
+            "node2": {
+                "name": "Limbazi"
+            }
+        },
+        {
+            "node1": {
+                "name": "Strenci"
+            },
+            "node2": {
+                "name": "Valmiera"
+            }
+        },
+        {
+            "node1": {
+                "name": "Limbazi"
+            },
+            "node2": {
+                "name": "Riga"
+            }
+        },
+        {
+            "node1": {
+                "name": "Limbazi"
+            },
+            "node2": {
+                "name": "Liepupe"
+            }
+        },
+        {
+            "node1": {
+                "name": "Liepupe"
+            },
+            "node2": {
+                "name": "Sigulda"
+            }
+        },
+        {
+            "node1": {
+                "name": "Skriveri"
+            },
+            "node2": {
+                "name": "Riga"
+            }
+        },
+        {
+            "node1": {
+                "name": "Valmiera"
+            },
+            "node2": {
+                "name": "Riga"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rezekne"
+            },
+            "node2": {
+                "name": "Ludza"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rezekne"
+            },
+            "node2": {
+                "name": "Riga"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rezekne"
+            },
+            "node2": {
+                "name": "Daugapils"
+            }
+        },
+        {
+            "node1": {
+                "name": "Carnikava"
+            },
+            "node2": {
+                "name": "Riga"
+            }
+        },
+        {
+            "node1": {
+                "name": "Carnikava"
+            },
+            "node2": {
+                "name": "Adazi"
+            }
+        },
+        {
+            "node1": {
+                "name": "Jumprava"
+            },
+            "node2": {
+                "name": "Lielvarde"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kegums"
+            },
+            "node2": {
+                "name": "Lielvarde"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kegums"
+            },
+            "node2": {
+                "name": "Ikskile"
+            }
+        },
+        {
+            "node1": {
+                "name": "Riga"
+            },
+            "node2": {
+                "name": "Daugapils"
+            }
+        },
+        {
+            "node1": {
+                "name": "Riga"
+            },
+            "node2": {
+                "name": "Liepaja"
+            }
+        },
+        {
+            "node1": {
+                "name": "Riga"
+            },
+            "node2": {
+                "name": "Ulbroka"
+            }
+        },
+        {
+            "node1": {
+                "name": "Riga"
+            },
+            "node2": {
+                "name": "Olaine"
+            }
+        },
+        {
+            "node1": {
+                "name": "Riga"
+            },
+            "node2": {
+                "name": "Salaspils"
+            }
+        },
+        {
+            "node1": {
+                "name": "Riga"
+            },
+            "node2": {
+                "name": "Bauska"
+            }
+        },
+        {
+            "node1": {
+                "name": "Riga"
+            },
+            "node2": {
+                "name": "Jelgava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Riga"
+            },
+            "node2": {
+                "name": "Kekava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Riga"
+            },
+            "node2": {
+                "name": "GEANT2"
+            }
+        },
+        {
+            "node1": {
+                "name": "Riga"
+            },
+            "node2": {
+                "name": "Sigulda"
+            }
+        },
+        {
+            "node1": {
+                "name": "Riga"
+            },
+            "node2": {
+                "name": "Jurmala"
+            }
+        },
+        {
+            "node1": {
+                "name": "Riga"
+            },
+            "node2": {
+                "name": "Tukums"
+            }
+        },
+        {
+            "node1": {
+                "name": "Riga"
+            },
+            "node2": {
+                "name": "Talsi"
+            }
+        },
+        {
+            "node1": {
+                "name": "Riga"
+            },
+            "node2": {
+                "name": "Aizpute"
+            }
+        },
+        {
+            "node1": {
+                "name": "Riga"
+            },
+            "node2": {
+                "name": "Adazi"
+            }
+        },
+        {
+            "node1": {
+                "name": "Riga"
+            },
+            "node2": {
+                "name": "Preili"
+            }
+        },
+        {
+            "node1": {
+                "name": "Riga"
+            },
+            "node2": {
+                "name": "Balvi"
+            }
+        },
+        {
+            "node1": {
+                "name": "Riga"
+            },
+            "node2": {
+                "name": "Karsava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Daugapils"
+            },
+            "node2": {
+                "name": "Preili"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ventspits"
+            },
+            "node2": {
+                "name": "Tukums"
+            }
+        },
+        {
+            "node1": {
+                "name": "Grobina"
+            },
+            "node2": {
+                "name": "Liepaja"
+            }
+        },
+        {
+            "node1": {
+                "name": "Olaine"
+            },
+            "node2": {
+                "name": "Ozolnieki"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ikskile"
+            },
+            "node2": {
+                "name": "Ogre"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ikskile"
+            },
+            "node2": {
+                "name": "Salaspils"
+            }
+        },
+        {
+            "node1": {
+                "name": "Jekabpils"
+            },
+            "node2": {
+                "name": "Livani"
+            }
+        },
+        {
+            "node1": {
+                "name": "Jelgava"
+            },
+            "node2": {
+                "name": "Kalnciems"
+            }
+        },
+        {
+            "node1": {
+                "name": "Jelgava"
+            },
+            "node2": {
+                "name": "Livberze"
+            }
+        },
+        {
+            "node1": {
+                "name": "Jelgava"
+            },
+            "node2": {
+                "name": "Ozolnieki"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ledurga"
+            },
+            "node2": {
+                "name": "Sigulda"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sigulda"
+            },
+            "node2": {
+                "name": "Ragona"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sigulda"
+            },
+            "node2": {
+                "name": "Vangazi"
+            }
+        },
+        {
+            "node1": {
+                "name": "Karsava"
+            },
+            "node2": {
+                "name": "Malnava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Malnava"
+            },
+            "node2": {
+                "name": "Pusmucova"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zvigzdene"
+            },
+            "node2": {
+                "name": "Ludza"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ludza"
+            },
+            "node2": {
+                "name": "Cibla"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ludza"
+            },
+            "node2": {
+                "name": "Zilupe"
+            }
+        }
+    ]
+}

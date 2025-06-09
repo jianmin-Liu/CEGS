@@ -1,0 +1,346 @@
+{
+    "routers": [
+        "Southa",
+        "SouthaID1",
+        "Winche",
+        "Portsm",
+        "Bourne",
+        "BereRe",
+        "Solent",
+        "BourneID7",
+        "Isleof",
+        "Hampto",
+        "Wymeri",
+        "Chiche",
+        "JanetS",
+        "SouthaID13",
+        "Alders",
+        "Bright",
+        "BrightID16",
+        "Sussex",
+        "Surrey",
+        "AldersID19"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Southa"
+            },
+            "node2": {
+                "name": "SouthaID13"
+            }
+        },
+        {
+            "node1": {
+                "name": "Southa"
+            },
+            "node2": {
+                "name": "SouthaID13"
+            }
+        },
+        {
+            "node1": {
+                "name": "Southa"
+            },
+            "node2": {
+                "name": "Alders"
+            }
+        },
+        {
+            "node1": {
+                "name": "SouthaID1"
+            },
+            "node2": {
+                "name": "SouthaID13"
+            }
+        },
+        {
+            "node1": {
+                "name": "SouthaID1"
+            },
+            "node2": {
+                "name": "SouthaID13"
+            }
+        },
+        {
+            "node1": {
+                "name": "SouthaID1"
+            },
+            "node2": {
+                "name": "Alders"
+            }
+        },
+        {
+            "node1": {
+                "name": "Winche"
+            },
+            "node2": {
+                "name": "SouthaID13"
+            }
+        },
+        {
+            "node1": {
+                "name": "Winche"
+            },
+            "node2": {
+                "name": "Alders"
+            }
+        },
+        {
+            "node1": {
+                "name": "Portsm"
+            },
+            "node2": {
+                "name": "SouthaID13"
+            }
+        },
+        {
+            "node1": {
+                "name": "Portsm"
+            },
+            "node2": {
+                "name": "Alders"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bourne"
+            },
+            "node2": {
+                "name": "SouthaID13"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bourne"
+            },
+            "node2": {
+                "name": "Alders"
+            }
+        },
+        {
+            "node1": {
+                "name": "BereRe"
+            },
+            "node2": {
+                "name": "BourneID7"
+            }
+        },
+        {
+            "node1": {
+                "name": "Solent"
+            },
+            "node2": {
+                "name": "SouthaID13"
+            }
+        },
+        {
+            "node1": {
+                "name": "Solent"
+            },
+            "node2": {
+                "name": "Alders"
+            }
+        },
+        {
+            "node1": {
+                "name": "BourneID7"
+            },
+            "node2": {
+                "name": "Alders"
+            }
+        },
+        {
+            "node1": {
+                "name": "BourneID7"
+            },
+            "node2": {
+                "name": "SouthaID13"
+            }
+        },
+        {
+            "node1": {
+                "name": "Isleof"
+            },
+            "node2": {
+                "name": "Wymeri"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hampto"
+            },
+            "node2": {
+                "name": "Bright"
+            }
+        },
+        {
+            "node1": {
+                "name": "Wymeri"
+            },
+            "node2": {
+                "name": "SouthaID13"
+            }
+        },
+        {
+            "node1": {
+                "name": "Wymeri"
+            },
+            "node2": {
+                "name": "Alders"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chiche"
+            },
+            "node2": {
+                "name": "SouthaID13"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chiche"
+            },
+            "node2": {
+                "name": "Alders"
+            }
+        },
+        {
+            "node1": {
+                "name": "JanetS"
+            },
+            "node2": {
+                "name": "SouthaID13"
+            }
+        },
+        {
+            "node1": {
+                "name": "JanetS"
+            },
+            "node2": {
+                "name": "Alders"
+            }
+        },
+        {
+            "node1": {
+                "name": "SouthaID13"
+            },
+            "node2": {
+                "name": "Alders"
+            }
+        },
+        {
+            "node1": {
+                "name": "SouthaID13"
+            },
+            "node2": {
+                "name": "Bright"
+            }
+        },
+        {
+            "node1": {
+                "name": "SouthaID13"
+            },
+            "node2": {
+                "name": "BrightID16"
+            }
+        },
+        {
+            "node1": {
+                "name": "SouthaID13"
+            },
+            "node2": {
+                "name": "Sussex"
+            }
+        },
+        {
+            "node1": {
+                "name": "SouthaID13"
+            },
+            "node2": {
+                "name": "Surrey"
+            }
+        },
+        {
+            "node1": {
+                "name": "SouthaID13"
+            },
+            "node2": {
+                "name": "AldersID19"
+            }
+        },
+        {
+            "node1": {
+                "name": "Alders"
+            },
+            "node2": {
+                "name": "Bright"
+            }
+        },
+        {
+            "node1": {
+                "name": "Alders"
+            },
+            "node2": {
+                "name": "Bright"
+            }
+        },
+        {
+            "node1": {
+                "name": "Alders"
+            },
+            "node2": {
+                "name": "BrightID16"
+            }
+        },
+        {
+            "node1": {
+                "name": "Alders"
+            },
+            "node2": {
+                "name": "BrightID16"
+            }
+        },
+        {
+            "node1": {
+                "name": "Alders"
+            },
+            "node2": {
+                "name": "Sussex"
+            }
+        },
+        {
+            "node1": {
+                "name": "Alders"
+            },
+            "node2": {
+                "name": "Surrey"
+            }
+        },
+        {
+            "node1": {
+                "name": "Alders"
+            },
+            "node2": {
+                "name": "Surrey"
+            }
+        },
+        {
+            "node1": {
+                "name": "Alders"
+            },
+            "node2": {
+                "name": "AldersID19"
+            }
+        },
+        {
+            "node1": {
+                "name": "Alders"
+            },
+            "node2": {
+                "name": "AldersID19"
+            }
+        }
+    ]
+}

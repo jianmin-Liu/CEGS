@@ -1,0 +1,88 @@
+{
+    "routers": [
+        "UNIBRA",
+        "NAIST",
+        "KEIO",
+        "IOIT",
+        "ASTI",
+        "TU",
+        "AIT",
+        "ITB",
+        "TP",
+        "USM"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "UNIBRA"
+            },
+            "node2": {
+                "name": "ITB"
+            }
+        },
+        {
+            "node1": {
+                "name": "NAIST"
+            },
+            "node2": {
+                "name": "KEIO"
+            }
+        },
+        {
+            "node1": {
+                "name": "KEIO"
+            },
+            "node2": {
+                "name": "IOIT"
+            }
+        },
+        {
+            "node1": {
+                "name": "KEIO"
+            },
+            "node2": {
+                "name": "ASTI"
+            }
+        },
+        {
+            "node1": {
+                "name": "KEIO"
+            },
+            "node2": {
+                "name": "AIT"
+            }
+        },
+        {
+            "node1": {
+                "name": "KEIO"
+            },
+            "node2": {
+                "name": "ITB"
+            }
+        },
+        {
+            "node1": {
+                "name": "KEIO"
+            },
+            "node2": {
+                "name": "TP"
+            }
+        },
+        {
+            "node1": {
+                "name": "KEIO"
+            },
+            "node2": {
+                "name": "USM"
+            }
+        },
+        {
+            "node1": {
+                "name": "TU"
+            },
+            "node2": {
+                "name": "AIT"
+            }
+        }
+    ]
+}

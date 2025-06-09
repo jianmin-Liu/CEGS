@@ -1,0 +1,255 @@
+{
+    "routers": [
+        "ILLINO",
+        "MITRE",
+        "CARNEG",
+        "CASE",
+        "ETAC",
+        "AFGWC",
+        "BBN",
+        "NBS",
+        "Tinker",
+        "AMES",
+        "RADC",
+        "McClel",
+        "RAND",
+        "AMESID13",
+        "SDC",
+        "BBNID15",
+        "HARVAR",
+        "SRI",
+        "UCSB",
+        "UCLA",
+        "Stanfo",
+        "USC",
+        "UTAH",
+        "Lincol",
+        "MIT"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "ILLINO"
+            },
+            "node2": {
+                "name": "MIT"
+            }
+        },
+        {
+            "node1": {
+                "name": "ILLINO"
+            },
+            "node2": {
+                "name": "UTAH"
+            }
+        },
+        {
+            "node1": {
+                "name": "MITRE"
+            },
+            "node2": {
+                "name": "CARNEG"
+            }
+        },
+        {
+            "node1": {
+                "name": "MITRE"
+            },
+            "node2": {
+                "name": "ETAC"
+            }
+        },
+        {
+            "node1": {
+                "name": "CARNEG"
+            },
+            "node2": {
+                "name": "CASE"
+            }
+        },
+        {
+            "node1": {
+                "name": "CASE"
+            },
+            "node2": {
+                "name": "RADC"
+            }
+        },
+        {
+            "node1": {
+                "name": "CASE"
+            },
+            "node2": {
+                "name": "AFGWC"
+            }
+        },
+        {
+            "node1": {
+                "name": "ETAC"
+            },
+            "node2": {
+                "name": "NBS"
+            }
+        },
+        {
+            "node1": {
+                "name": "BBN"
+            },
+            "node2": {
+                "name": "MIT"
+            }
+        },
+        {
+            "node1": {
+                "name": "BBN"
+            },
+            "node2": {
+                "name": "BBNID15"
+            }
+        },
+        {
+            "node1": {
+                "name": "NBS"
+            },
+            "node2": {
+                "name": "HARVAR"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tinker"
+            },
+            "node2": {
+                "name": "USC"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tinker"
+            },
+            "node2": {
+                "name": "BBNID15"
+            }
+        },
+        {
+            "node1": {
+                "name": "AMES"
+            },
+            "node2": {
+                "name": "SRI"
+            }
+        },
+        {
+            "node1": {
+                "name": "AMES"
+            },
+            "node2": {
+                "name": "AMESID13"
+            }
+        },
+        {
+            "node1": {
+                "name": "RADC"
+            },
+            "node2": {
+                "name": "Lincol"
+            }
+        },
+        {
+            "node1": {
+                "name": "McClel"
+            },
+            "node2": {
+                "name": "SRI"
+            }
+        },
+        {
+            "node1": {
+                "name": "McClel"
+            },
+            "node2": {
+                "name": "UTAH"
+            }
+        },
+        {
+            "node1": {
+                "name": "RAND"
+            },
+            "node2": {
+                "name": "UCLA"
+            }
+        },
+        {
+            "node1": {
+                "name": "RAND"
+            },
+            "node2": {
+                "name": "Stanfo"
+            }
+        },
+        {
+            "node1": {
+                "name": "RAND"
+            },
+            "node2": {
+                "name": "SDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "AMESID13"
+            },
+            "node2": {
+                "name": "Stanfo"
+            }
+        },
+        {
+            "node1": {
+                "name": "SDC"
+            },
+            "node2": {
+                "name": "USC"
+            }
+        },
+        {
+            "node1": {
+                "name": "BBNID15"
+            },
+            "node2": {
+                "name": "HARVAR"
+            }
+        },
+        {
+            "node1": {
+                "name": "SRI"
+            },
+            "node2": {
+                "name": "UCSB"
+            }
+        },
+        {
+            "node1": {
+                "name": "UCSB"
+            },
+            "node2": {
+                "name": "UCLA"
+            }
+        },
+        {
+            "node1": {
+                "name": "USC"
+            },
+            "node2": {
+                "name": "UTAH"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lincol"
+            },
+            "node2": {
+                "name": "MIT"
+            }
+        }
+    ]
+}

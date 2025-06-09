@@ -1,0 +1,78 @@
+{
+    "routers": [
+        "Dublin",
+        "Galway",
+        "Limerick",
+        "Cork",
+        "Waterford",
+        "Portlaiois",
+        "NodeID6",
+        "NodeID7"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Dublin"
+            },
+            "node2": {
+                "name": "Waterford"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dublin"
+            },
+            "node2": {
+                "name": "Portlaiois"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dublin"
+            },
+            "node2": {
+                "name": "NodeID6"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dublin"
+            },
+            "node2": {
+                "name": "NodeID7"
+            }
+        },
+        {
+            "node1": {
+                "name": "Galway"
+            },
+            "node2": {
+                "name": "Limerick"
+            }
+        },
+        {
+            "node1": {
+                "name": "Limerick"
+            },
+            "node2": {
+                "name": "Cork"
+            }
+        },
+        {
+            "node1": {
+                "name": "Limerick"
+            },
+            "node2": {
+                "name": "Portlaiois"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cork"
+            },
+            "node2": {
+                "name": "Waterford"
+            }
+        }
+    ]
+}

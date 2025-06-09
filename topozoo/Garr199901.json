@@ -1,0 +1,166 @@
+{
+    "routers": [
+        "FI",
+        "BO",
+        "TO",
+        "GE",
+        "NA",
+        "Pv",
+        "PD",
+        "MI",
+        "PI",
+        "CA",
+        "RM",
+        "AQ",
+        "BA",
+        "CT",
+        "PA",
+        "TS"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "FI"
+            },
+            "node2": {
+                "name": "BO"
+            }
+        },
+        {
+            "node1": {
+                "name": "BO"
+            },
+            "node2": {
+                "name": "NA"
+            }
+        },
+        {
+            "node1": {
+                "name": "BO"
+            },
+            "node2": {
+                "name": "PD"
+            }
+        },
+        {
+            "node1": {
+                "name": "BO"
+            },
+            "node2": {
+                "name": "MI"
+            }
+        },
+        {
+            "node1": {
+                "name": "BO"
+            },
+            "node2": {
+                "name": "PI"
+            }
+        },
+        {
+            "node1": {
+                "name": "BO"
+            },
+            "node2": {
+                "name": "RM"
+            }
+        },
+        {
+            "node1": {
+                "name": "TO"
+            },
+            "node2": {
+                "name": "MI"
+            }
+        },
+        {
+            "node1": {
+                "name": "GE"
+            },
+            "node2": {
+                "name": "MI"
+            }
+        },
+        {
+            "node1": {
+                "name": "NA"
+            },
+            "node2": {
+                "name": "MI"
+            }
+        },
+        {
+            "node1": {
+                "name": "NA"
+            },
+            "node2": {
+                "name": "RM"
+            }
+        },
+        {
+            "node1": {
+                "name": "NA"
+            },
+            "node2": {
+                "name": "BA"
+            }
+        },
+        {
+            "node1": {
+                "name": "NA"
+            },
+            "node2": {
+                "name": "CT"
+            }
+        },
+        {
+            "node1": {
+                "name": "NA"
+            },
+            "node2": {
+                "name": "PA"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pv"
+            },
+            "node2": {
+                "name": "MI"
+            }
+        },
+        {
+            "node1": {
+                "name": "MI"
+            },
+            "node2": {
+                "name": "RM"
+            }
+        },
+        {
+            "node1": {
+                "name": "MI"
+            },
+            "node2": {
+                "name": "TS"
+            }
+        },
+        {
+            "node1": {
+                "name": "CA"
+            },
+            "node2": {
+                "name": "RM"
+            }
+        },
+        {
+            "node1": {
+                "name": "RM"
+            },
+            "node2": {
+                "name": "AQ"
+            }
+        }
+    ]
+}

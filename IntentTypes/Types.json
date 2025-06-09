@@ -1,0 +1,6 @@
+{
+  "Simple": "Traffic from source to destination must follow the path.",
+  "Order": "Traffic from source to destination prefers path1 over path2.",
+  "Any-path": "Traffic from source to destination is forwarded along any path in a path set.",
+  "ECMP": "Traffic from source to destination is load-balance between path1 and path2."
+}

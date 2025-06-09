@@ -1,0 +1,115 @@
+{
+    "routers": [
+        "TEN155",
+        "Zlin",
+        "Ostrav",
+        "Olomou",
+        "Brno",
+        "Plzen",
+        "Ustina",
+        "Praha",
+        "Libere",
+        "CeskeB",
+        "NIX",
+        "Pardub",
+        "Hradec"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "TEN155"
+            },
+            "node2": {
+                "name": "Praha"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zlin"
+            },
+            "node2": {
+                "name": "Brno"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ostrav"
+            },
+            "node2": {
+                "name": "Brno"
+            }
+        },
+        {
+            "node1": {
+                "name": "Olomou"
+            },
+            "node2": {
+                "name": "Brno"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brno"
+            },
+            "node2": {
+                "name": "Praha"
+            }
+        },
+        {
+            "node1": {
+                "name": "Plzen"
+            },
+            "node2": {
+                "name": "Praha"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ustina"
+            },
+            "node2": {
+                "name": "Praha"
+            }
+        },
+        {
+            "node1": {
+                "name": "Praha"
+            },
+            "node2": {
+                "name": "Libere"
+            }
+        },
+        {
+            "node1": {
+                "name": "Praha"
+            },
+            "node2": {
+                "name": "CeskeB"
+            }
+        },
+        {
+            "node1": {
+                "name": "Praha"
+            },
+            "node2": {
+                "name": "NIX"
+            }
+        },
+        {
+            "node1": {
+                "name": "Praha"
+            },
+            "node2": {
+                "name": "Pardub"
+            }
+        },
+        {
+            "node1": {
+                "name": "Praha"
+            },
+            "node2": {
+                "name": "Hradec"
+            }
+        }
+    ]
+}

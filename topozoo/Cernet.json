@@ -1,0 +1,519 @@
+{
+    "routers": [
+        "Gullin",
+        "Kunmin",
+        "Chongq",
+        "Guiyan",
+        "Haikou",
+        "Xiangg",
+        "Nannin",
+        "Guangz",
+        "Shenzh",
+        "Xiemen",
+        "Japan",
+        "Europe",
+        "Shijia",
+        "Tianji",
+        "Dalian",
+        "Shenya",
+        "Harbin",
+        "Chanch",
+        "NA",
+        "Korea",
+        "Hefei",
+        "Beijin",
+        "ShijiaID22",
+        "Nancha",
+        "Wuhan",
+        "Changs",
+        "Fuzhou",
+        "Qingda",
+        "Nanjin",
+        "Shangh",
+        "Hangzh",
+        "Zhengz",
+        "Chengd",
+        "Urumch",
+        "Lasa",
+        "Xining",
+        "Lanzho",
+        "Xian",
+        "Yinchu",
+        "Hohhot",
+        "Taiyua"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Gullin"
+            },
+            "node2": {
+                "name": "Nannin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gullin"
+            },
+            "node2": {
+                "name": "Guangz"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kunmin"
+            },
+            "node2": {
+                "name": "Chengd"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kunmin"
+            },
+            "node2": {
+                "name": "Guiyan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chongq"
+            },
+            "node2": {
+                "name": "Wuhan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chongq"
+            },
+            "node2": {
+                "name": "Chengd"
+            }
+        },
+        {
+            "node1": {
+                "name": "Guiyan"
+            },
+            "node2": {
+                "name": "Chengd"
+            }
+        },
+        {
+            "node1": {
+                "name": "Haikou"
+            },
+            "node2": {
+                "name": "Shenzh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Haikou"
+            },
+            "node2": {
+                "name": "Guangz"
+            }
+        },
+        {
+            "node1": {
+                "name": "Xiangg"
+            },
+            "node2": {
+                "name": "Beijin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Nannin"
+            },
+            "node2": {
+                "name": "Guangz"
+            }
+        },
+        {
+            "node1": {
+                "name": "Guangz"
+            },
+            "node2": {
+                "name": "Shenzh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Guangz"
+            },
+            "node2": {
+                "name": "Xiemen"
+            }
+        },
+        {
+            "node1": {
+                "name": "Guangz"
+            },
+            "node2": {
+                "name": "Wuhan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Guangz"
+            },
+            "node2": {
+                "name": "Changs"
+            }
+        },
+        {
+            "node1": {
+                "name": "Guangz"
+            },
+            "node2": {
+                "name": "Shangh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Xiemen"
+            },
+            "node2": {
+                "name": "Fuzhou"
+            }
+        },
+        {
+            "node1": {
+                "name": "Japan"
+            },
+            "node2": {
+                "name": "Beijin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Europe"
+            },
+            "node2": {
+                "name": "Beijin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Shijia"
+            },
+            "node2": {
+                "name": "Qingda"
+            }
+        },
+        {
+            "node1": {
+                "name": "Shijia"
+            },
+            "node2": {
+                "name": "Nanjin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Shijia"
+            },
+            "node2": {
+                "name": "Tianji"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tianji"
+            },
+            "node2": {
+                "name": "Beijin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dalian"
+            },
+            "node2": {
+                "name": "Shenya"
+            }
+        },
+        {
+            "node1": {
+                "name": "Shenya"
+            },
+            "node2": {
+                "name": "Harbin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Shenya"
+            },
+            "node2": {
+                "name": "Chanch"
+            }
+        },
+        {
+            "node1": {
+                "name": "Shenya"
+            },
+            "node2": {
+                "name": "Beijin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Shenya"
+            },
+            "node2": {
+                "name": "Shangh"
+            }
+        },
+        {
+            "node1": {
+                "name": "NA"
+            },
+            "node2": {
+                "name": "Beijin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Korea"
+            },
+            "node2": {
+                "name": "Beijin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hefei"
+            },
+            "node2": {
+                "name": "Wuhan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hefei"
+            },
+            "node2": {
+                "name": "Nanjin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beijin"
+            },
+            "node2": {
+                "name": "Lasa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beijin"
+            },
+            "node2": {
+                "name": "Hohhot"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beijin"
+            },
+            "node2": {
+                "name": "Taiyua"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beijin"
+            },
+            "node2": {
+                "name": "ShijiaID22"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beijin"
+            },
+            "node2": {
+                "name": "Nancha"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beijin"
+            },
+            "node2": {
+                "name": "Wuhan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beijin"
+            },
+            "node2": {
+                "name": "Zhengz"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beijin"
+            },
+            "node2": {
+                "name": "Nanjin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beijin"
+            },
+            "node2": {
+                "name": "Xian"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beijin"
+            },
+            "node2": {
+                "name": "Xian"
+            }
+        },
+        {
+            "node1": {
+                "name": "Nancha"
+            },
+            "node2": {
+                "name": "Shangh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Wuhan"
+            },
+            "node2": {
+                "name": "Chengd"
+            }
+        },
+        {
+            "node1": {
+                "name": "Wuhan"
+            },
+            "node2": {
+                "name": "Changs"
+            }
+        },
+        {
+            "node1": {
+                "name": "Wuhan"
+            },
+            "node2": {
+                "name": "Nanjin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Wuhan"
+            },
+            "node2": {
+                "name": "Zhengz"
+            }
+        },
+        {
+            "node1": {
+                "name": "Fuzhou"
+            },
+            "node2": {
+                "name": "Shangh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Qingda"
+            },
+            "node2": {
+                "name": "Nanjin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Nanjin"
+            },
+            "node2": {
+                "name": "Shangh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Shangh"
+            },
+            "node2": {
+                "name": "Hangzh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chengd"
+            },
+            "node2": {
+                "name": "Xian"
+            }
+        },
+        {
+            "node1": {
+                "name": "Urumch"
+            },
+            "node2": {
+                "name": "Xian"
+            }
+        },
+        {
+            "node1": {
+                "name": "Urumch"
+            },
+            "node2": {
+                "name": "Yinchu"
+            }
+        },
+        {
+            "node1": {
+                "name": "Xining"
+            },
+            "node2": {
+                "name": "Lanzho"
+            }
+        },
+        {
+            "node1": {
+                "name": "Xining"
+            },
+            "node2": {
+                "name": "Xian"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lanzho"
+            },
+            "node2": {
+                "name": "Xian"
+            }
+        },
+        {
+            "node1": {
+                "name": "Xian"
+            },
+            "node2": {
+                "name": "Yinchu"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hohhot"
+            },
+            "node2": {
+                "name": "Taiyua"
+            }
+        }
+    ]
+}

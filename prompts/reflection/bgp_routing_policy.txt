@@ -1,0 +1,46 @@
+You failed to complete the device configuration generation in the previous task, where you are required to generate network configuration for nodes in a target topology so that the user intent is achieved based on the given configuration example.
+The configurations of some devices that you generated previously were found to be incorrect. Please review and correct the configurations based on the provided error feedback and configuration example.
+
+
+Configuration example:
+=====================================================
+{examples}
+=====================================================
+
+
+Target scenario:
+=====================================================
+Part of Target topology T1:
+{target_topology}
+
+User intent: {user_intent}
+
+Incorrect configurations:
+{incorrect_configurations}
+=====================================================
+
+
+Feedback:
+=====================================================
+{feedback}
+=====================================================
+
+
+
+Matching relations:
+=====================================================
+The matching relationship between nodes in the target topology T1 and nodes in example topology T2: {associations}
+=====================================================
+
+
+
+Configuration format:
+=====================================================
+{configuration_format}
+=====================================================
+
+
+Instructions:
+For the nodes with incorrect route-map configuration in the feedbacks, only modify the corresponding incorrect configurations regarding the specified neighbors and must keep the configurations regarding other neighbors in the original configurations unchanged.
+Please directly re-provide the complete route-map configurations for the nodes in {incorrect_nodes} regarding to their all neighbors, using the provided configuration example as reference. Present the configurations without additional commentary or explanations.
+

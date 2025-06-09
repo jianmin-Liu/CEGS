@@ -1,0 +1,2095 @@
+{
+    "rmaps": {
+        "RMap_Trbovl_from_Lasko": [
+            {
+                "name": "RMap_Trbovl_from_Lasko",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Trbovl_from_Ljublj": [
+            {
+                "name": "RMap_Trbovl_from_Ljublj",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Trbovl_to_Lasko": [
+            {
+                "name": "RMap_Trbovl_to_Lasko",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Trbovl_to_Ljublj": [
+            {
+                "name": "RMap_Trbovl_to_Ljublj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Krsko_from_NovoMe": [
+            {
+                "name": "RMap_Krsko_from_NovoMe",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Krsko_from_Rogasj": [
+            {
+                "name": "RMap_Krsko_from_Rogasj",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Krsko_to_NovoMe": [
+            {
+                "name": "RMap_Krsko_to_NovoMe",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Krsko_to_Rogasj": [
+            {
+                "name": "RMap_Krsko_to_Rogasj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Celje_from_Kamnik": [
+            {
+                "name": "RMap_Celje_from_Kamnik",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Celje_from_Lasko": [
+            {
+                "name": "RMap_Celje_from_Lasko",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Celje_from_SlovenID31": [
+            {
+                "name": "RMap_Celje_from_SlovenID31",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Celje_from_Velenj": [
+            {
+                "name": "RMap_Celje_from_Velenj",
+                "access": "permit",
+                "lineno": 10,
+                "matches": [
+                    {
+                        "match_type": "MatchCommunitiesList",
+                        "communities_list": {
+                            "list_id": 1,
+                            "access": "permit",
+                            "communities": [
+                                "EMPTY?Value"
+                            ]
+                        }
+                    }
+                ],
+                "actions": [
+                    {
+                        "action": "ActionSetLocalPref",
+                        "value": [
+                            "EMPTY?Value"
+                        ]
+                    },
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": true
+                    }
+                ]
+            },
+            {
+                "name": "RMap_Celje_from_Velenj",
+                "access": "deny",
+                "lineno": 20,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Celje_to_Kamnik": [
+            {
+                "name": "RMap_Celje_to_Kamnik",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Celje_to_Lasko": [
+            {
+                "name": "RMap_Celje_to_Lasko",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Celje_to_SlovenID31": [
+            {
+                "name": "RMap_Celje_to_SlovenID31",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Celje_to_Velenj": [
+            {
+                "name": "RMap_Celje_to_Velenj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": [
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": false
+                    }
+                ]
+            }
+        ],
+        "RMap_Lasko_from_Celje": [
+            {
+                "name": "RMap_Lasko_from_Celje",
+                "access": "permit",
+                "lineno": 10,
+                "matches": [
+                    {
+                        "match_type": "MatchCommunitiesList",
+                        "communities_list": {
+                            "list_id": 1,
+                            "access": "permit",
+                            "communities": [
+                                "EMPTY?Value"
+                            ]
+                        }
+                    }
+                ],
+                "actions": [
+                    {
+                        "action": "ActionSetLocalPref",
+                        "value": [
+                            "EMPTY?Value"
+                        ]
+                    },
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": true
+                    }
+                ]
+            },
+            {
+                "name": "RMap_Lasko_from_Celje",
+                "access": "deny",
+                "lineno": 20,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Lasko_from_Ljublj": [
+            {
+                "name": "RMap_Lasko_from_Ljublj",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Lasko_from_Maribo": [
+            {
+                "name": "RMap_Lasko_from_Maribo",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Lasko_from_Trbovl": [
+            {
+                "name": "RMap_Lasko_from_Trbovl",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Lasko_to_Celje": [
+            {
+                "name": "RMap_Lasko_to_Celje",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Lasko_to_Ljublj": [
+            {
+                "name": "RMap_Lasko_to_Ljublj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Lasko_to_Maribo": [
+            {
+                "name": "RMap_Lasko_to_Maribo",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Lasko_to_Trbovl": [
+            {
+                "name": "RMap_Lasko_to_Trbovl",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "Export_PeerKranj": [
+            {
+                "name": "Export_PeerKranj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Kranj_from_Bled": [
+            {
+                "name": "RMap_Kranj_from_Bled",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Kranj_from_Jeseni": [
+            {
+                "name": "RMap_Kranj_from_Jeseni",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Kranj_from_Koper": [
+            {
+                "name": "RMap_Kranj_from_Koper",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": [
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": true
+                    },
+                    {
+                        "action": "ActionSetLocalPref",
+                        "value": [
+                            "EMPTY?Value"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "RMap_Kranj_to_Bled": [
+            {
+                "name": "RMap_Kranj_to_Bled",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": [
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": false
+                    }
+                ]
+            }
+        ],
+        "RMap_Kranj_to_Jeseni": [
+            {
+                "name": "RMap_Kranj_to_Jeseni",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": [
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": false
+                    }
+                ]
+            }
+        ],
+        "RMap_Kranj_to_Koper": [
+            {
+                "name": "RMap_Kranj_to_Koper",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": [
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": false
+                    }
+                ]
+            }
+        ],
+        "RMap_Kranj_to_PeerKranj": [
+            {
+                "name": "RMap_Kranj_to_PeerKranj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": [
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": false
+                    }
+                ]
+            }
+        ],
+        "RMap_Bled_from_Kranj": [
+            {
+                "name": "RMap_Bled_from_Kranj",
+                "access": "permit",
+                "lineno": 10,
+                "matches": [
+                    {
+                        "match_type": "MatchCommunitiesList",
+                        "communities_list": {
+                            "list_id": 2,
+                            "access": "permit",
+                            "communities": [
+                                "EMPTY?Value"
+                            ]
+                        }
+                    }
+                ],
+                "actions": [
+                    {
+                        "action": "ActionSetLocalPref",
+                        "value": [
+                            "EMPTY?Value"
+                        ]
+                    },
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": true
+                    }
+                ]
+            },
+            {
+                "name": "RMap_Bled_from_Kranj",
+                "access": "deny",
+                "lineno": 20,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Bled_from_Tolmin": [
+            {
+                "name": "RMap_Bled_from_Tolmin",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Bled_to_Kranj": [
+            {
+                "name": "RMap_Bled_to_Kranj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Bled_to_Tolmin": [
+            {
+                "name": "RMap_Bled_to_Tolmin",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_NovoMe_from_Kovevj": [
+            {
+                "name": "RMap_NovoMe_from_Kovevj",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_NovoMe_from_Krsko": [
+            {
+                "name": "RMap_NovoMe_from_Krsko",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_NovoMe_to_Kovevj": [
+            {
+                "name": "RMap_NovoMe_to_Kovevj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_NovoMe_to_Krsko": [
+            {
+                "name": "RMap_NovoMe_to_Krsko",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ljublj_from_Kamnik": [
+            {
+                "name": "RMap_Ljublj_from_Kamnik",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ljublj_from_Koper": [
+            {
+                "name": "RMap_Ljublj_from_Koper",
+                "access": "permit",
+                "lineno": 10,
+                "matches": [
+                    {
+                        "match_type": "MatchCommunitiesList",
+                        "communities_list": {
+                            "list_id": 2,
+                            "access": "permit",
+                            "communities": [
+                                "EMPTY?Value"
+                            ]
+                        }
+                    }
+                ],
+                "actions": [
+                    {
+                        "action": "ActionSetLocalPref",
+                        "value": [
+                            "EMPTY?Value"
+                        ]
+                    },
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": true
+                    }
+                ]
+            },
+            {
+                "name": "RMap_Ljublj_from_Koper",
+                "access": "deny",
+                "lineno": 20,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ljublj_from_Kovevj": [
+            {
+                "name": "RMap_Ljublj_from_Kovevj",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ljublj_from_Lasko": [
+            {
+                "name": "RMap_Ljublj_from_Lasko",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ljublj_from_Maribo": [
+            {
+                "name": "RMap_Ljublj_from_Maribo",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ljublj_from_NovaGo": [
+            {
+                "name": "RMap_Ljublj_from_NovaGo",
+                "access": "permit",
+                "lineno": 10,
+                "matches": [
+                    {
+                        "match_type": "MatchCommunitiesList",
+                        "communities_list": {
+                            "list_id": 2,
+                            "access": "permit",
+                            "communities": [
+                                "EMPTY?Value"
+                            ]
+                        }
+                    }
+                ],
+                "actions": [
+                    {
+                        "action": "ActionSetLocalPref",
+                        "value": [
+                            "EMPTY?Value"
+                        ]
+                    },
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": true
+                    }
+                ]
+            },
+            {
+                "name": "RMap_Ljublj_from_NovaGo",
+                "access": "deny",
+                "lineno": 20,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ljublj_from_Trbovl": [
+            {
+                "name": "RMap_Ljublj_from_Trbovl",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ljublj_to_Kamnik": [
+            {
+                "name": "RMap_Ljublj_to_Kamnik",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ljublj_to_Koper": [
+            {
+                "name": "RMap_Ljublj_to_Koper",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ljublj_to_Kovevj": [
+            {
+                "name": "RMap_Ljublj_to_Kovevj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ljublj_to_Lasko": [
+            {
+                "name": "RMap_Ljublj_to_Lasko",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ljublj_to_Maribo": [
+            {
+                "name": "RMap_Ljublj_to_Maribo",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ljublj_to_NovaGo": [
+            {
+                "name": "RMap_Ljublj_to_NovaGo",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ljublj_to_Trbovl": [
+            {
+                "name": "RMap_Ljublj_to_Trbovl",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Tolmin_from_Bled": [
+            {
+                "name": "RMap_Tolmin_from_Bled",
+                "access": "permit",
+                "lineno": 10,
+                "matches": [
+                    {
+                        "match_type": "MatchCommunitiesList",
+                        "communities_list": {
+                            "list_id": 2,
+                            "access": "permit",
+                            "communities": [
+                                "EMPTY?Value"
+                            ]
+                        }
+                    }
+                ],
+                "actions": [
+                    {
+                        "action": "ActionSetLocalPref",
+                        "value": [
+                            "EMPTY?Value"
+                        ]
+                    },
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": true
+                    }
+                ]
+            },
+            {
+                "name": "RMap_Tolmin_from_Bled",
+                "access": "deny",
+                "lineno": 20,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Tolmin_from_NovaGo": [
+            {
+                "name": "RMap_Tolmin_from_NovaGo",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Tolmin_to_Bled": [
+            {
+                "name": "RMap_Tolmin_to_Bled",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Tolmin_to_NovaGo": [
+            {
+                "name": "RMap_Tolmin_to_NovaGo",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_NovaGo_from_Ajdovs": [
+            {
+                "name": "RMap_NovaGo_from_Ajdovs",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_NovaGo_from_Ljublj": [
+            {
+                "name": "RMap_NovaGo_from_Ljublj",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_NovaGo_from_Tolmin": [
+            {
+                "name": "RMap_NovaGo_from_Tolmin",
+                "access": "permit",
+                "lineno": 10,
+                "matches": [
+                    {
+                        "match_type": "MatchCommunitiesList",
+                        "communities_list": {
+                            "list_id": 2,
+                            "access": "permit",
+                            "communities": [
+                                "EMPTY?Value"
+                            ]
+                        }
+                    }
+                ],
+                "actions": [
+                    {
+                        "action": "ActionSetLocalPref",
+                        "value": [
+                            "EMPTY?Value"
+                        ]
+                    },
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": true
+                    }
+                ]
+            },
+            {
+                "name": "RMap_NovaGo_from_Tolmin",
+                "access": "deny",
+                "lineno": 20,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_NovaGo_to_Ajdovs": [
+            {
+                "name": "RMap_NovaGo_to_Ajdovs",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_NovaGo_to_Ljublj": [
+            {
+                "name": "RMap_NovaGo_to_Ljublj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_NovaGo_to_Tolmin": [
+            {
+                "name": "RMap_NovaGo_to_Tolmin",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Portor_from_Divaca": [
+            {
+                "name": "RMap_Portor_from_Divaca",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Portor_from_Izola": [
+            {
+                "name": "RMap_Portor_from_Izola",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Portor_to_Divaca": [
+            {
+                "name": "RMap_Portor_to_Divaca",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Portor_to_Izola": [
+            {
+                "name": "RMap_Portor_to_Izola",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Gornja_from_Maribo": [
+            {
+                "name": "RMap_Gornja_from_Maribo",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Gornja_from_Radenc": [
+            {
+                "name": "RMap_Gornja_from_Radenc",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Gornja_to_Maribo": [
+            {
+                "name": "RMap_Gornja_to_Maribo",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Gornja_to_Radenc": [
+            {
+                "name": "RMap_Gornja_to_Radenc",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Radenc_from_Gornja": [
+            {
+                "name": "RMap_Radenc_from_Gornja",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Radenc_from_Murska": [
+            {
+                "name": "RMap_Radenc_from_Murska",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Radenc_to_Gornja": [
+            {
+                "name": "RMap_Radenc_to_Gornja",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Radenc_to_Murska": [
+            {
+                "name": "RMap_Radenc_to_Murska",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Rogasj_from_Krsko": [
+            {
+                "name": "RMap_Rogasj_from_Krsko",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Rogasj_from_Ptuj": [
+            {
+                "name": "RMap_Rogasj_from_Ptuj",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Rogasj_to_Krsko": [
+            {
+                "name": "RMap_Rogasj_to_Krsko",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Rogasj_to_Ptuj": [
+            {
+                "name": "RMap_Rogasj_to_Ptuj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Senoze_from_Divaca": [
+            {
+                "name": "RMap_Senoze_from_Divaca",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Senoze_from_Postoj": [
+            {
+                "name": "RMap_Senoze_from_Postoj",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Senoze_from_Sezana": [
+            {
+                "name": "RMap_Senoze_from_Sezana",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Senoze_to_Divaca": [
+            {
+                "name": "RMap_Senoze_to_Divaca",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Senoze_to_Postoj": [
+            {
+                "name": "RMap_Senoze_to_Postoj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Senoze_to_Sezana": [
+            {
+                "name": "RMap_Senoze_to_Sezana",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Jeseni_from_Kranj": [
+            {
+                "name": "RMap_Jeseni_from_Kranj",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Jeseni_to_Kranj": [
+            {
+                "name": "RMap_Jeseni_to_Kranj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Sezana_from_Senoze": [
+            {
+                "name": "RMap_Sezana_from_Senoze",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Sezana_to_Senoze": [
+            {
+                "name": "RMap_Sezana_to_Senoze",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Divaca_from_Ajdovs": [
+            {
+                "name": "RMap_Divaca_from_Ajdovs",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Divaca_from_Portor": [
+            {
+                "name": "RMap_Divaca_from_Portor",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Divaca_from_Senoze": [
+            {
+                "name": "RMap_Divaca_from_Senoze",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Divaca_to_Ajdovs": [
+            {
+                "name": "RMap_Divaca_to_Ajdovs",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Divaca_to_Portor": [
+            {
+                "name": "RMap_Divaca_to_Portor",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Divaca_to_Senoze": [
+            {
+                "name": "RMap_Divaca_to_Senoze",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Postoj_from_Senoze": [
+            {
+                "name": "RMap_Postoj_from_Senoze",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Postoj_to_Senoze": [
+            {
+                "name": "RMap_Postoj_to_Senoze",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ajdovs_from_Divaca": [
+            {
+                "name": "RMap_Ajdovs_from_Divaca",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ajdovs_from_NovaGo": [
+            {
+                "name": "RMap_Ajdovs_from_NovaGo",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ajdovs_to_Divaca": [
+            {
+                "name": "RMap_Ajdovs_to_Divaca",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ajdovs_to_NovaGo": [
+            {
+                "name": "RMap_Ajdovs_to_NovaGo",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Kovevj_from_Ljublj": [
+            {
+                "name": "RMap_Kovevj_from_Ljublj",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Kovevj_from_NovoMe": [
+            {
+                "name": "RMap_Kovevj_from_NovoMe",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Kovevj_to_Ljublj": [
+            {
+                "name": "RMap_Kovevj_to_Ljublj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Kovevj_to_NovoMe": [
+            {
+                "name": "RMap_Kovevj_to_NovoMe",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Kamnik_from_Celje": [
+            {
+                "name": "RMap_Kamnik_from_Celje",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Kamnik_from_Ljublj": [
+            {
+                "name": "RMap_Kamnik_from_Ljublj",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Kamnik_to_Celje": [
+            {
+                "name": "RMap_Kamnik_to_Celje",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Kamnik_to_Ljublj": [
+            {
+                "name": "RMap_Kamnik_to_Ljublj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Izola_from_Koper": [
+            {
+                "name": "RMap_Izola_from_Koper",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Izola_from_Portor": [
+            {
+                "name": "RMap_Izola_from_Portor",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Izola_to_Koper": [
+            {
+                "name": "RMap_Izola_to_Koper",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Izola_to_Portor": [
+            {
+                "name": "RMap_Izola_to_Portor",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Koper_from_Izola": [
+            {
+                "name": "RMap_Koper_from_Izola",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Koper_from_Kranj": [
+            {
+                "name": "RMap_Koper_from_Kranj",
+                "access": "permit",
+                "lineno": 10,
+                "matches": [
+                    {
+                        "match_type": "MatchCommunitiesList",
+                        "communities_list": {
+                            "list_id": 2,
+                            "access": "permit",
+                            "communities": [
+                                "EMPTY?Value"
+                            ]
+                        }
+                    }
+                ],
+                "actions": [
+                    {
+                        "action": "ActionSetLocalPref",
+                        "value": [
+                            "EMPTY?Value"
+                        ]
+                    },
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": true
+                    }
+                ]
+            },
+            {
+                "name": "RMap_Koper_from_Kranj",
+                "access": "deny",
+                "lineno": 20,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Koper_from_Ljublj": [
+            {
+                "name": "RMap_Koper_from_Ljublj",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Koper_to_Izola": [
+            {
+                "name": "RMap_Koper_to_Izola",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Koper_to_Kranj": [
+            {
+                "name": "RMap_Koper_to_Kranj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Koper_to_Ljublj": [
+            {
+                "name": "RMap_Koper_to_Ljublj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Sloven_from_Dravog": [
+            {
+                "name": "RMap_Sloven_from_Dravog",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Sloven_from_Velenj": [
+            {
+                "name": "RMap_Sloven_from_Velenj",
+                "access": "permit",
+                "lineno": 10,
+                "matches": [
+                    {
+                        "match_type": "MatchCommunitiesList",
+                        "communities_list": {
+                            "list_id": 1,
+                            "access": "permit",
+                            "communities": [
+                                "EMPTY?Value"
+                            ]
+                        }
+                    }
+                ],
+                "actions": [
+                    {
+                        "action": "ActionSetLocalPref",
+                        "value": [
+                            "EMPTY?Value"
+                        ]
+                    },
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": true
+                    }
+                ]
+            },
+            {
+                "name": "RMap_Sloven_from_Velenj",
+                "access": "deny",
+                "lineno": 20,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Sloven_to_Dravog": [
+            {
+                "name": "RMap_Sloven_to_Dravog",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Sloven_to_Velenj": [
+            {
+                "name": "RMap_Sloven_to_Velenj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": [
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": false
+                    }
+                ]
+            }
+        ],
+        "Export_PeerVelenj": [
+            {
+                "name": "Export_PeerVelenj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_PeerVelenj_from_Velenj": [
+            {
+                "name": "RMap_PeerVelenj_from_Velenj",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_PeerVelenj_to_Velenj": [
+            {
+                "name": "RMap_PeerVelenj_to_Velenj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Velenj_from_Celje": [
+            {
+                "name": "RMap_Velenj_from_Celje",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Velenj_from_PeerVelenj": [
+            {
+                "name": "RMap_Velenj_from_PeerVelenj",
+                "access": "permit",
+                "lineno": 10,
+                "matches": [],
+                "actions": [
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": true
+                    },
+                    {
+                        "action": "ActionSetLocalPref",
+                        "value": [
+                            "EMPTY?Value"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "RMap_Velenj_from_Sloven": [
+            {
+                "name": "RMap_Velenj_from_Sloven",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Velenj_to_Celje": [
+            {
+                "name": "RMap_Velenj_to_Celje",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": [
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": false
+                    }
+                ]
+            }
+        ],
+        "RMap_Velenj_to_PeerVelenj": [
+            {
+                "name": "RMap_Velenj_to_PeerVelenj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": [
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": false
+                    }
+                ]
+            }
+        ],
+        "RMap_Velenj_to_Sloven": [
+            {
+                "name": "RMap_Velenj_to_Sloven",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": [
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": false
+                    }
+                ]
+            }
+        ],
+        "RMap_Murska_from_Ljutom": [
+            {
+                "name": "RMap_Murska_from_Ljutom",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Murska_from_Radenc": [
+            {
+                "name": "RMap_Murska_from_Radenc",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Murska_to_Ljutom": [
+            {
+                "name": "RMap_Murska_to_Ljutom",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Murska_to_Radenc": [
+            {
+                "name": "RMap_Murska_to_Radenc",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ljutom_from_Murska": [
+            {
+                "name": "RMap_Ljutom_from_Murska",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ljutom_from_Ormoz": [
+            {
+                "name": "RMap_Ljutom_from_Ormoz",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ljutom_to_Murska": [
+            {
+                "name": "RMap_Ljutom_to_Murska",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ljutom_to_Ormoz": [
+            {
+                "name": "RMap_Ljutom_to_Ormoz",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ormoz_from_Ljutom": [
+            {
+                "name": "RMap_Ormoz_from_Ljutom",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ormoz_from_Ptuj": [
+            {
+                "name": "RMap_Ormoz_from_Ptuj",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ormoz_to_Ljutom": [
+            {
+                "name": "RMap_Ormoz_to_Ljutom",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ormoz_to_Ptuj": [
+            {
+                "name": "RMap_Ormoz_to_Ptuj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ptuj_from_Maribo": [
+            {
+                "name": "RMap_Ptuj_from_Maribo",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ptuj_from_Ormoz": [
+            {
+                "name": "RMap_Ptuj_from_Ormoz",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ptuj_from_Rogasj": [
+            {
+                "name": "RMap_Ptuj_from_Rogasj",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ptuj_to_Maribo": [
+            {
+                "name": "RMap_Ptuj_to_Maribo",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ptuj_to_Ormoz": [
+            {
+                "name": "RMap_Ptuj_to_Ormoz",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ptuj_to_Rogasj": [
+            {
+                "name": "RMap_Ptuj_to_Rogasj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Maribo_from_Dravog": [
+            {
+                "name": "RMap_Maribo_from_Dravog",
+                "access": "permit",
+                "lineno": 10,
+                "matches": [
+                    {
+                        "match_type": "MatchCommunitiesList",
+                        "communities_list": {
+                            "list_id": 1,
+                            "access": "permit",
+                            "communities": [
+                                "EMPTY?Value"
+                            ]
+                        }
+                    }
+                ],
+                "actions": [
+                    {
+                        "action": "ActionSetLocalPref",
+                        "value": [
+                            "EMPTY?Value"
+                        ]
+                    },
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": true
+                    }
+                ]
+            },
+            {
+                "name": "RMap_Maribo_from_Dravog",
+                "access": "deny",
+                "lineno": 20,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Maribo_from_Gornja": [
+            {
+                "name": "RMap_Maribo_from_Gornja",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Maribo_from_Lasko": [
+            {
+                "name": "RMap_Maribo_from_Lasko",
+                "access": "permit",
+                "lineno": 10,
+                "matches": [
+                    {
+                        "match_type": "MatchCommunitiesList",
+                        "communities_list": {
+                            "list_id": 1,
+                            "access": "permit",
+                            "communities": [
+                                "EMPTY?Value"
+                            ]
+                        }
+                    }
+                ],
+                "actions": [
+                    {
+                        "action": "ActionSetLocalPref",
+                        "value": [
+                            "EMPTY?Value"
+                        ]
+                    },
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": true
+                    }
+                ]
+            },
+            {
+                "name": "RMap_Maribo_from_Lasko",
+                "access": "deny",
+                "lineno": 20,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Maribo_from_Ljublj": [
+            {
+                "name": "RMap_Maribo_from_Ljublj",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Maribo_from_Ptuj": [
+            {
+                "name": "RMap_Maribo_from_Ptuj",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Maribo_from_SlovenID31": [
+            {
+                "name": "RMap_Maribo_from_SlovenID31",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Maribo_to_Dravog": [
+            {
+                "name": "RMap_Maribo_to_Dravog",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Maribo_to_Gornja": [
+            {
+                "name": "RMap_Maribo_to_Gornja",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Maribo_to_Lasko": [
+            {
+                "name": "RMap_Maribo_to_Lasko",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Maribo_to_Ljublj": [
+            {
+                "name": "RMap_Maribo_to_Ljublj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Maribo_to_Ptuj": [
+            {
+                "name": "RMap_Maribo_to_Ptuj",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Maribo_to_SlovenID31": [
+            {
+                "name": "RMap_Maribo_to_SlovenID31",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_SlovenID31_from_Celje": [
+            {
+                "name": "RMap_SlovenID31_from_Celje",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_SlovenID31_from_Maribo": [
+            {
+                "name": "RMap_SlovenID31_from_Maribo",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_SlovenID31_to_Celje": [
+            {
+                "name": "RMap_SlovenID31_to_Celje",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_SlovenID31_to_Maribo": [
+            {
+                "name": "RMap_SlovenID31_to_Maribo",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Dravog_from_Maribo": [
+            {
+                "name": "RMap_Dravog_from_Maribo",
+                "access": "permit",
+                "lineno": 10,
+                "matches": [
+                    {
+                        "match_type": "MatchCommunitiesList",
+                        "communities_list": {
+                            "list_id": 1,
+                            "access": "permit",
+                            "communities": [
+                                "EMPTY?Value"
+                            ]
+                        }
+                    }
+                ],
+                "actions": [
+                    {
+                        "action": "ActionSetLocalPref",
+                        "value": [
+                            "EMPTY?Value"
+                        ]
+                    },
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": true
+                    }
+                ]
+            },
+            {
+                "name": "RMap_Dravog_from_Maribo",
+                "access": "deny",
+                "lineno": 20,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Dravog_from_Ravnen": [
+            {
+                "name": "RMap_Dravog_from_Ravnen",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Dravog_from_Sloven": [
+            {
+                "name": "RMap_Dravog_from_Sloven",
+                "access": "permit",
+                "lineno": 10,
+                "matches": [
+                    {
+                        "match_type": "MatchCommunitiesList",
+                        "communities_list": {
+                            "list_id": 1,
+                            "access": "permit",
+                            "communities": [
+                                "EMPTY?Value"
+                            ]
+                        }
+                    }
+                ],
+                "actions": [
+                    {
+                        "action": "ActionSetLocalPref",
+                        "value": [
+                            "EMPTY?Value"
+                        ]
+                    },
+                    {
+                        "action": "ActionSetCommunity",
+                        "communities": [
+                            "EMPTY?Value"
+                        ],
+                        "additive": true
+                    }
+                ]
+            },
+            {
+                "name": "RMap_Dravog_from_Sloven",
+                "access": "deny",
+                "lineno": 20,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Dravog_to_Maribo": [
+            {
+                "name": "RMap_Dravog_to_Maribo",
+                "access": "deny",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Dravog_to_Ravnen": [
+            {
+                "name": "RMap_Dravog_to_Ravnen",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Dravog_to_Sloven": [
+            {
+                "name": "RMap_Dravog_to_Sloven",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ravnen_from_Dravog": [
+            {
+                "name": "RMap_Ravnen_from_Dravog",
+                "access": "deny",
+                "lineno": 10,
+                "matches": [],
+                "actions": []
+            }
+        ],
+        "RMap_Ravnen_to_Dravog": [
+            {
+                "name": "RMap_Ravnen_to_Dravog",
+                "access": "permit",
+                "lineno": 100,
+                "matches": [],
+                "actions": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "routers": [
+        "Limeri",
+        "Cork",
+        "Tralee",
+        "Galway",
+        "Sligo",
+        "Letter",
+        "Athlon",
+        "Dundal",
+        "Blanch",
+        "Carlow",
+        "Waterf"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Limeri"
+            },
+            "node2": {
+                "name": "Blanch"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cork"
+            },
+            "node2": {
+                "name": "Blanch"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tralee"
+            },
+            "node2": {
+                "name": "Blanch"
+            }
+        },
+        {
+            "node1": {
+                "name": "Galway"
+            },
+            "node2": {
+                "name": "Blanch"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sligo"
+            },
+            "node2": {
+                "name": "Blanch"
+            }
+        },
+        {
+            "node1": {
+                "name": "Letter"
+            },
+            "node2": {
+                "name": "Blanch"
+            }
+        },
+        {
+            "node1": {
+                "name": "Athlon"
+            },
+            "node2": {
+                "name": "Blanch"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dundal"
+            },
+            "node2": {
+                "name": "Blanch"
+            }
+        },
+        {
+            "node1": {
+                "name": "Blanch"
+            },
+            "node2": {
+                "name": "Carlow"
+            }
+        },
+        {
+            "node1": {
+                "name": "Blanch"
+            },
+            "node2": {
+                "name": "Waterf"
+            }
+        }
+    ]
+}

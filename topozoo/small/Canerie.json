@@ -1,0 +1,366 @@
+{
+    "routers": [
+        "ThunderBay",
+        "Chicago",
+        "Regina",
+        "Winnipeg",
+        "Ottawa",
+        "Montreal",
+        "WindsorDet",
+        "Toronto",
+        "Fredericto",
+        "Charlottet",
+        "AsiePacifi",
+        "Boston",
+        "AsiaPacifi",
+        "Ameriquedu",
+        "Europe",
+        "NewYork",
+        "StJohns",
+        "Halifax",
+        "NorthandSo",
+        "Europeando",
+        "Europeetau",
+        "Europeando",
+        "Calgary",
+        "Saskatoon",
+        "Whitehorse",
+        "Yellowknif",
+        "Edmonton",
+        "Kamloops",
+        "Kelowna",
+        "Vancouver",
+        "Victoria",
+        "Seattle"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "ThunderBay"
+            },
+            "node2": {
+                "name": "Winnipeg"
+            }
+        },
+        {
+            "node1": {
+                "name": "ThunderBay"
+            },
+            "node2": {
+                "name": "Toronto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicago"
+            },
+            "node2": {
+                "name": "Winnipeg"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicago"
+            },
+            "node2": {
+                "name": "WindsorDet"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicago"
+            },
+            "node2": {
+                "name": "Ameriquedu"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicago"
+            },
+            "node2": {
+                "name": "NorthandSo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicago"
+            },
+            "node2": {
+                "name": "Europeando"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicago"
+            },
+            "node2": {
+                "name": "Calgary"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicago"
+            },
+            "node2": {
+                "name": "Seattle"
+            }
+        },
+        {
+            "node1": {
+                "name": "Regina"
+            },
+            "node2": {
+                "name": "Winnipeg"
+            }
+        },
+        {
+            "node1": {
+                "name": "Regina"
+            },
+            "node2": {
+                "name": "Calgary"
+            }
+        },
+        {
+            "node1": {
+                "name": "Winnipeg"
+            },
+            "node2": {
+                "name": "Toronto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Winnipeg"
+            },
+            "node2": {
+                "name": "Calgary"
+            }
+        },
+        {
+            "node1": {
+                "name": "Winnipeg"
+            },
+            "node2": {
+                "name": "Saskatoon"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ottawa"
+            },
+            "node2": {
+                "name": "Montreal"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ottawa"
+            },
+            "node2": {
+                "name": "Toronto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Montreal"
+            },
+            "node2": {
+                "name": "Fredericto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Montreal"
+            },
+            "node2": {
+                "name": "Halifax"
+            }
+        },
+        {
+            "node1": {
+                "name": "Montreal"
+            },
+            "node2": {
+                "name": "Boston"
+            }
+        },
+        {
+            "node1": {
+                "name": "WindsorDet"
+            },
+            "node2": {
+                "name": "Toronto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Toronto"
+            },
+            "node2": {
+                "name": "NewYork"
+            }
+        },
+        {
+            "node1": {
+                "name": "Fredericto"
+            },
+            "node2": {
+                "name": "Charlottet"
+            }
+        },
+        {
+            "node1": {
+                "name": "Charlottet"
+            },
+            "node2": {
+                "name": "Halifax"
+            }
+        },
+        {
+            "node1": {
+                "name": "AsiePacifi"
+            },
+            "node2": {
+                "name": "Seattle"
+            }
+        },
+        {
+            "node1": {
+                "name": "Boston"
+            },
+            "node2": {
+                "name": "NewYork"
+            }
+        },
+        {
+            "node1": {
+                "name": "AsiaPacifi"
+            },
+            "node2": {
+                "name": "Seattle"
+            }
+        },
+        {
+            "node1": {
+                "name": "Europe"
+            },
+            "node2": {
+                "name": "StJohns"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYork"
+            },
+            "node2": {
+                "name": "Halifax"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYork"
+            },
+            "node2": {
+                "name": "Europeetau"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYork"
+            },
+            "node2": {
+                "name": "Europeando"
+            }
+        },
+        {
+            "node1": {
+                "name": "StJohns"
+            },
+            "node2": {
+                "name": "Halifax"
+            }
+        },
+        {
+            "node1": {
+                "name": "Calgary"
+            },
+            "node2": {
+                "name": "Kamloops"
+            }
+        },
+        {
+            "node1": {
+                "name": "Calgary"
+            },
+            "node2": {
+                "name": "Edmonton"
+            }
+        },
+        {
+            "node1": {
+                "name": "Saskatoon"
+            },
+            "node2": {
+                "name": "Edmonton"
+            }
+        },
+        {
+            "node1": {
+                "name": "Whitehorse"
+            },
+            "node2": {
+                "name": "Edmonton"
+            }
+        },
+        {
+            "node1": {
+                "name": "Yellowknif"
+            },
+            "node2": {
+                "name": "Edmonton"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kamloops"
+            },
+            "node2": {
+                "name": "Kelowna"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kamloops"
+            },
+            "node2": {
+                "name": "Vancouver"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vancouver"
+            },
+            "node2": {
+                "name": "Victoria"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vancouver"
+            },
+            "node2": {
+                "name": "Seattle"
+            }
+        },
+        {
+            "node1": {
+                "name": "Victoria"
+            },
+            "node2": {
+                "name": "Seattle"
+            }
+        }
+    ]
+}

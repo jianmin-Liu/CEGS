@@ -1,0 +1,1699 @@
+{
+    "routers": [
+        "Gorzow",
+        "ZeilonaGor",
+        "Kobenhavn",
+        "Hamburg",
+        "Gdansk",
+        "Gdynia",
+        "Slupsk",
+        "Koszalin",
+        "Kolobrzeg",
+        "Szczecin",
+        "Braniewo",
+        "NodeID11",
+        "PotiGeorgi",
+        "GeorgiaArm",
+        "NodeID14",
+        "AmsterdamL",
+        "NodeID16",
+        "NodeID17",
+        "Lowicz",
+        "Ulmi",
+        "Beograd",
+        "Balvanesti",
+        "Alexandria",
+        "Craiova",
+        "Arad",
+        "Oradea",
+        "Caransebes",
+        "Timisoara",
+        "Ploiesti",
+        "Giurgiu",
+        "Kazakhstan",
+        "Szombathel",
+        "Szekesfehe",
+        "Tatabanya",
+        "Keszthely",
+        "Veszprem",
+        "Rozvadov",
+        "KarlovyVar",
+        "Liberec",
+        "Plzen",
+        "Kyiv",
+        "Warszawa",
+        "Tirane",
+        "Athina",
+        "Vilnius",
+        "Tallinn",
+        "Kaliningra",
+        "Minsk",
+        "Riga",
+        "Helsinki",
+        "Poieni",
+        "Sliven",
+        "Iasi",
+        "Galati",
+        "Brasov",
+        "Bacau",
+        "Medias",
+        "Cluj",
+        "Constanta",
+        "Dumbravita",
+        "Komarno",
+        "Gyor",
+        "Sopron",
+        "Odesa",
+        "Kharkiv",
+        "Dnipropetr",
+        "Lviv",
+        "Tarnow",
+        "BanskaByst",
+        "NoveZamky",
+        "Praha",
+        "Szolnok",
+        "Zalaegersz",
+        "Tapolca",
+        "Tekirdag",
+        "Cheb",
+        "UstinadLab",
+        "HradecKral",
+        "Dunaujvaro",
+        "Kiskunhala",
+        "Tompa",
+        "Szeged",
+        "Szentes",
+        "Zilina",
+        "Kosice",
+        "Kecskemet",
+        "Paks",
+        "Burgas",
+        "Debrecen",
+        "Bors",
+        "Haskovo",
+        "Wroclaw",
+        "Leszno",
+        "Inowroclaw",
+        "Poznan",
+        "Tczew",
+        "Bydgoszcz",
+        "Wloclawek",
+        "Olsztyn",
+        "Konin",
+        "Torun",
+        "Lublin",
+        "Rzeszow",
+        "Kutno",
+        "Bialystok",
+        "Radom",
+        "Lodz",
+        "Krakow",
+        "Kielce",
+        "Opole",
+        "Katowice",
+        "Svilengrad",
+        "Edirne",
+        "Olomouc",
+        "Hodonin",
+        "Zlin",
+        "Ostrava",
+        "Varna",
+        "CeskeBudej",
+        "Jihlava",
+        "Brno",
+        "Bielsko",
+        "Most",
+        "Ljubljana",
+        "Zagreb",
+        "Frankfurta",
+        "Moskva",
+        "SanktPeter",
+        "Stockholm",
+        "Budapest",
+        "Bratislava",
+        "Wien",
+        "Berlin",
+        "Pristina",
+        "Podgorica",
+        "Balikesir",
+        "Izmir",
+        "Thessaloni",
+        "Petrich",
+        "Pleven",
+        "Plovdiv",
+        "Sarajevo",
+        "Bucuresti",
+        "Chisinau",
+        "Sofia",
+        "Istanbul",
+        "IstanbulID",
+        "Ankara",
+        "Skopje"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Gorzow"
+            },
+            "node2": {
+                "name": "NodeID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "ZeilonaGor"
+            },
+            "node2": {
+                "name": "NodeID17"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kobenhavn"
+            },
+            "node2": {
+                "name": "Stockholm"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kobenhavn"
+            },
+            "node2": {
+                "name": "Hamburg"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hamburg"
+            },
+            "node2": {
+                "name": "Frankfurta"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gdansk"
+            },
+            "node2": {
+                "name": "NodeID16"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gdansk"
+            },
+            "node2": {
+                "name": "Gdynia"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gdynia"
+            },
+            "node2": {
+                "name": "Slupsk"
+            }
+        },
+        {
+            "node1": {
+                "name": "Slupsk"
+            },
+            "node2": {
+                "name": "Koszalin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Koszalin"
+            },
+            "node2": {
+                "name": "Kolobrzeg"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kolobrzeg"
+            },
+            "node2": {
+                "name": "Szczecin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Szczecin"
+            },
+            "node2": {
+                "name": "NodeID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "Braniewo"
+            },
+            "node2": {
+                "name": "NodeID16"
+            }
+        },
+        {
+            "node1": {
+                "name": "Braniewo"
+            },
+            "node2": {
+                "name": "Kaliningra"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID11"
+            },
+            "node2": {
+                "name": "Olsztyn"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID11"
+            },
+            "node2": {
+                "name": "Torun"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID11"
+            },
+            "node2": {
+                "name": "Tczew"
+            }
+        },
+        {
+            "node1": {
+                "name": "PotiGeorgi"
+            },
+            "node2": {
+                "name": "Varna"
+            }
+        },
+        {
+            "node1": {
+                "name": "GeorgiaArm"
+            },
+            "node2": {
+                "name": "Ankara"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID14"
+            },
+            "node2": {
+                "name": "Poznan"
+            }
+        },
+        {
+            "node1": {
+                "name": "AmsterdamL"
+            },
+            "node2": {
+                "name": "Wien"
+            }
+        },
+        {
+            "node1": {
+                "name": "AmsterdamL"
+            },
+            "node2": {
+                "name": "Frankfurta"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID16"
+            },
+            "node2": {
+                "name": "Tczew"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID17"
+            },
+            "node2": {
+                "name": "Berlin"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID17"
+            },
+            "node2": {
+                "name": "Poznan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lowicz"
+            },
+            "node2": {
+                "name": "Warszawa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lowicz"
+            },
+            "node2": {
+                "name": "Kutno"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ulmi"
+            },
+            "node2": {
+                "name": "Dumbravita"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ulmi"
+            },
+            "node2": {
+                "name": "Bucuresti"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beograd"
+            },
+            "node2": {
+                "name": "Sofia"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beograd"
+            },
+            "node2": {
+                "name": "Pristina"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beograd"
+            },
+            "node2": {
+                "name": "Podgorica"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beograd"
+            },
+            "node2": {
+                "name": "Sarajevo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beograd"
+            },
+            "node2": {
+                "name": "Tompa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beograd"
+            },
+            "node2": {
+                "name": "Szeged"
+            }
+        },
+        {
+            "node1": {
+                "name": "Balvanesti"
+            },
+            "node2": {
+                "name": "Caransebes"
+            }
+        },
+        {
+            "node1": {
+                "name": "Balvanesti"
+            },
+            "node2": {
+                "name": "Craiova"
+            }
+        },
+        {
+            "node1": {
+                "name": "Alexandria"
+            },
+            "node2": {
+                "name": "Bucuresti"
+            }
+        },
+        {
+            "node1": {
+                "name": "Alexandria"
+            },
+            "node2": {
+                "name": "Craiova"
+            }
+        },
+        {
+            "node1": {
+                "name": "Arad"
+            },
+            "node2": {
+                "name": "Szeged"
+            }
+        },
+        {
+            "node1": {
+                "name": "Arad"
+            },
+            "node2": {
+                "name": "Timisoara"
+            }
+        },
+        {
+            "node1": {
+                "name": "Arad"
+            },
+            "node2": {
+                "name": "Oradea"
+            }
+        },
+        {
+            "node1": {
+                "name": "Oradea"
+            },
+            "node2": {
+                "name": "Bors"
+            }
+        },
+        {
+            "node1": {
+                "name": "Oradea"
+            },
+            "node2": {
+                "name": "Poieni"
+            }
+        },
+        {
+            "node1": {
+                "name": "Caransebes"
+            },
+            "node2": {
+                "name": "Timisoara"
+            }
+        },
+        {
+            "node1": {
+                "name": "Timisoara"
+            },
+            "node2": {
+                "name": "Sofia"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ploiesti"
+            },
+            "node2": {
+                "name": "Brasov"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ploiesti"
+            },
+            "node2": {
+                "name": "Bucuresti"
+            }
+        },
+        {
+            "node1": {
+                "name": "Giurgiu"
+            },
+            "node2": {
+                "name": "Sliven"
+            }
+        },
+        {
+            "node1": {
+                "name": "Giurgiu"
+            },
+            "node2": {
+                "name": "Pleven"
+            }
+        },
+        {
+            "node1": {
+                "name": "Giurgiu"
+            },
+            "node2": {
+                "name": "Bucuresti"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kazakhstan"
+            },
+            "node2": {
+                "name": "Moskva"
+            }
+        },
+        {
+            "node1": {
+                "name": "Szombathel"
+            },
+            "node2": {
+                "name": "Zalaegersz"
+            }
+        },
+        {
+            "node1": {
+                "name": "Szombathel"
+            },
+            "node2": {
+                "name": "Sopron"
+            }
+        },
+        {
+            "node1": {
+                "name": "Szekesfehe"
+            },
+            "node2": {
+                "name": "Budapest"
+            }
+        },
+        {
+            "node1": {
+                "name": "Szekesfehe"
+            },
+            "node2": {
+                "name": "Veszprem"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tatabanya"
+            },
+            "node2": {
+                "name": "Budapest"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tatabanya"
+            },
+            "node2": {
+                "name": "Gyor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Keszthely"
+            },
+            "node2": {
+                "name": "Zalaegersz"
+            }
+        },
+        {
+            "node1": {
+                "name": "Keszthely"
+            },
+            "node2": {
+                "name": "Tapolca"
+            }
+        },
+        {
+            "node1": {
+                "name": "Veszprem"
+            },
+            "node2": {
+                "name": "Tapolca"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rozvadov"
+            },
+            "node2": {
+                "name": "Cheb"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rozvadov"
+            },
+            "node2": {
+                "name": "Plzen"
+            }
+        },
+        {
+            "node1": {
+                "name": "KarlovyVar"
+            },
+            "node2": {
+                "name": "Most"
+            }
+        },
+        {
+            "node1": {
+                "name": "KarlovyVar"
+            },
+            "node2": {
+                "name": "Cheb"
+            }
+        },
+        {
+            "node1": {
+                "name": "Liberec"
+            },
+            "node2": {
+                "name": "UstinadLab"
+            }
+        },
+        {
+            "node1": {
+                "name": "Liberec"
+            },
+            "node2": {
+                "name": "HradecKral"
+            }
+        },
+        {
+            "node1": {
+                "name": "Plzen"
+            },
+            "node2": {
+                "name": "Praha"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kyiv"
+            },
+            "node2": {
+                "name": "Kharkiv"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kyiv"
+            },
+            "node2": {
+                "name": "Dnipropetr"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kyiv"
+            },
+            "node2": {
+                "name": "Lviv"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kyiv"
+            },
+            "node2": {
+                "name": "Odesa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Warszawa"
+            },
+            "node2": {
+                "name": "Olsztyn"
+            }
+        },
+        {
+            "node1": {
+                "name": "Warszawa"
+            },
+            "node2": {
+                "name": "Lublin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Warszawa"
+            },
+            "node2": {
+                "name": "Bialystok"
+            }
+        },
+        {
+            "node1": {
+                "name": "Warszawa"
+            },
+            "node2": {
+                "name": "Radom"
+            }
+        },
+        {
+            "node1": {
+                "name": "Warszawa"
+            },
+            "node2": {
+                "name": "Lodz"
+            }
+        },
+        {
+            "node1": {
+                "name": "Warszawa"
+            },
+            "node2": {
+                "name": "Vilnius"
+            }
+        },
+        {
+            "node1": {
+                "name": "Warszawa"
+            },
+            "node2": {
+                "name": "Minsk"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tirane"
+            },
+            "node2": {
+                "name": "Athina"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tirane"
+            },
+            "node2": {
+                "name": "Skopje"
+            }
+        },
+        {
+            "node1": {
+                "name": "Athina"
+            },
+            "node2": {
+                "name": "Thessaloni"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vilnius"
+            },
+            "node2": {
+                "name": "Riga"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vilnius"
+            },
+            "node2": {
+                "name": "Tallinn"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tallinn"
+            },
+            "node2": {
+                "name": "Riga"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tallinn"
+            },
+            "node2": {
+                "name": "Stockholm"
+            }
+        },
+        {
+            "node1": {
+                "name": "Helsinki"
+            },
+            "node2": {
+                "name": "Stockholm"
+            }
+        },
+        {
+            "node1": {
+                "name": "Helsinki"
+            },
+            "node2": {
+                "name": "SanktPeter"
+            }
+        },
+        {
+            "node1": {
+                "name": "Poieni"
+            },
+            "node2": {
+                "name": "Cluj"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sliven"
+            },
+            "node2": {
+                "name": "Burgas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sliven"
+            },
+            "node2": {
+                "name": "Plovdiv"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sliven"
+            },
+            "node2": {
+                "name": "Varna"
+            }
+        },
+        {
+            "node1": {
+                "name": "Iasi"
+            },
+            "node2": {
+                "name": "Bacau"
+            }
+        },
+        {
+            "node1": {
+                "name": "Iasi"
+            },
+            "node2": {
+                "name": "Galati"
+            }
+        },
+        {
+            "node1": {
+                "name": "Iasi"
+            },
+            "node2": {
+                "name": "Chisinau"
+            }
+        },
+        {
+            "node1": {
+                "name": "Galati"
+            },
+            "node2": {
+                "name": "Constanta"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brasov"
+            },
+            "node2": {
+                "name": "Bacau"
+            }
+        },
+        {
+            "node1": {
+                "name": "Medias"
+            },
+            "node2": {
+                "name": "Cluj"
+            }
+        },
+        {
+            "node1": {
+                "name": "Medias"
+            },
+            "node2": {
+                "name": "Dumbravita"
+            }
+        },
+        {
+            "node1": {
+                "name": "Constanta"
+            },
+            "node2": {
+                "name": "Bucuresti"
+            }
+        },
+        {
+            "node1": {
+                "name": "Constanta"
+            },
+            "node2": {
+                "name": "Varna"
+            }
+        },
+        {
+            "node1": {
+                "name": "Komarno"
+            },
+            "node2": {
+                "name": "Bratislava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gyor"
+            },
+            "node2": {
+                "name": "Bratislava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gyor"
+            },
+            "node2": {
+                "name": "Sopron"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sopron"
+            },
+            "node2": {
+                "name": "Wien"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kharkiv"
+            },
+            "node2": {
+                "name": "Dnipropetr"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kharkiv"
+            },
+            "node2": {
+                "name": "Moskva"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lviv"
+            },
+            "node2": {
+                "name": "Rzeszow"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tarnow"
+            },
+            "node2": {
+                "name": "Krakow"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tarnow"
+            },
+            "node2": {
+                "name": "Rzeszow"
+            }
+        },
+        {
+            "node1": {
+                "name": "BanskaByst"
+            },
+            "node2": {
+                "name": "Bratislava"
+            }
+        },
+        {
+            "node1": {
+                "name": "BanskaByst"
+            },
+            "node2": {
+                "name": "Zilina"
+            }
+        },
+        {
+            "node1": {
+                "name": "NoveZamky"
+            },
+            "node2": {
+                "name": "Bratislava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Praha"
+            },
+            "node2": {
+                "name": "Brno"
+            }
+        },
+        {
+            "node1": {
+                "name": "Praha"
+            },
+            "node2": {
+                "name": "Frankfurta"
+            }
+        },
+        {
+            "node1": {
+                "name": "Praha"
+            },
+            "node2": {
+                "name": "HradecKral"
+            }
+        },
+        {
+            "node1": {
+                "name": "Praha"
+            },
+            "node2": {
+                "name": "CeskeBudej"
+            }
+        },
+        {
+            "node1": {
+                "name": "Szolnok"
+            },
+            "node2": {
+                "name": "Debrecen"
+            }
+        },
+        {
+            "node1": {
+                "name": "Szolnok"
+            },
+            "node2": {
+                "name": "Budapest"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zalaegersz"
+            },
+            "node2": {
+                "name": "Ljubljana"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tekirdag"
+            },
+            "node2": {
+                "name": "Edirne"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tekirdag"
+            },
+            "node2": {
+                "name": "Istanbul"
+            }
+        },
+        {
+            "node1": {
+                "name": "UstinadLab"
+            },
+            "node2": {
+                "name": "Most"
+            }
+        },
+        {
+            "node1": {
+                "name": "HradecKral"
+            },
+            "node2": {
+                "name": "Ostrava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dunaujvaro"
+            },
+            "node2": {
+                "name": "Budapest"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dunaujvaro"
+            },
+            "node2": {
+                "name": "Kecskemet"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kiskunhala"
+            },
+            "node2": {
+                "name": "Tompa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kiskunhala"
+            },
+            "node2": {
+                "name": "Szeged"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kiskunhala"
+            },
+            "node2": {
+                "name": "Paks"
+            }
+        },
+        {
+            "node1": {
+                "name": "Szeged"
+            },
+            "node2": {
+                "name": "Szentes"
+            }
+        },
+        {
+            "node1": {
+                "name": "Szentes"
+            },
+            "node2": {
+                "name": "Kecskemet"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zilina"
+            },
+            "node2": {
+                "name": "Kosice"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zilina"
+            },
+            "node2": {
+                "name": "Bratislava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kosice"
+            },
+            "node2": {
+                "name": "Bratislava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paks"
+            },
+            "node2": {
+                "name": "Budapest"
+            }
+        },
+        {
+            "node1": {
+                "name": "Burgas"
+            },
+            "node2": {
+                "name": "Edirne"
+            }
+        },
+        {
+            "node1": {
+                "name": "Burgas"
+            },
+            "node2": {
+                "name": "Istanbul"
+            }
+        },
+        {
+            "node1": {
+                "name": "Burgas"
+            },
+            "node2": {
+                "name": "Varna"
+            }
+        },
+        {
+            "node1": {
+                "name": "Debrecen"
+            },
+            "node2": {
+                "name": "Bors"
+            }
+        },
+        {
+            "node1": {
+                "name": "Haskovo"
+            },
+            "node2": {
+                "name": "Plovdiv"
+            }
+        },
+        {
+            "node1": {
+                "name": "Haskovo"
+            },
+            "node2": {
+                "name": "Svilengrad"
+            }
+        },
+        {
+            "node1": {
+                "name": "Wroclaw"
+            },
+            "node2": {
+                "name": "Leszno"
+            }
+        },
+        {
+            "node1": {
+                "name": "Wroclaw"
+            },
+            "node2": {
+                "name": "Opole"
+            }
+        },
+        {
+            "node1": {
+                "name": "Leszno"
+            },
+            "node2": {
+                "name": "Poznan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Inowroclaw"
+            },
+            "node2": {
+                "name": "Bydgoszcz"
+            }
+        },
+        {
+            "node1": {
+                "name": "Inowroclaw"
+            },
+            "node2": {
+                "name": "Torun"
+            }
+        },
+        {
+            "node1": {
+                "name": "Inowroclaw"
+            },
+            "node2": {
+                "name": "Poznan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Poznan"
+            },
+            "node2": {
+                "name": "Konin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tczew"
+            },
+            "node2": {
+                "name": "Bydgoszcz"
+            }
+        },
+        {
+            "node1": {
+                "name": "Wloclawek"
+            },
+            "node2": {
+                "name": "Torun"
+            }
+        },
+        {
+            "node1": {
+                "name": "Wloclawek"
+            },
+            "node2": {
+                "name": "Kutno"
+            }
+        },
+        {
+            "node1": {
+                "name": "Konin"
+            },
+            "node2": {
+                "name": "Kutno"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lublin"
+            },
+            "node2": {
+                "name": "Rzeszow"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kutno"
+            },
+            "node2": {
+                "name": "Lodz"
+            }
+        },
+        {
+            "node1": {
+                "name": "Radom"
+            },
+            "node2": {
+                "name": "Kielce"
+            }
+        },
+        {
+            "node1": {
+                "name": "Krakow"
+            },
+            "node2": {
+                "name": "Kielce"
+            }
+        },
+        {
+            "node1": {
+                "name": "Krakow"
+            },
+            "node2": {
+                "name": "Katowice"
+            }
+        },
+        {
+            "node1": {
+                "name": "Opole"
+            },
+            "node2": {
+                "name": "Katowice"
+            }
+        },
+        {
+            "node1": {
+                "name": "Katowice"
+            },
+            "node2": {
+                "name": "Bielsko"
+            }
+        },
+        {
+            "node1": {
+                "name": "Svilengrad"
+            },
+            "node2": {
+                "name": "Edirne"
+            }
+        },
+        {
+            "node1": {
+                "name": "Edirne"
+            },
+            "node2": {
+                "name": "Istanbul"
+            }
+        },
+        {
+            "node1": {
+                "name": "Edirne"
+            },
+            "node2": {
+                "name": "Balikesir"
+            }
+        },
+        {
+            "node1": {
+                "name": "Olomouc"
+            },
+            "node2": {
+                "name": "Brno"
+            }
+        },
+        {
+            "node1": {
+                "name": "Olomouc"
+            },
+            "node2": {
+                "name": "Ostrava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hodonin"
+            },
+            "node2": {
+                "name": "Brno"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hodonin"
+            },
+            "node2": {
+                "name": "Bratislava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hodonin"
+            },
+            "node2": {
+                "name": "Zlin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zlin"
+            },
+            "node2": {
+                "name": "Ostrava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ostrava"
+            },
+            "node2": {
+                "name": "Bielsko"
+            }
+        },
+        {
+            "node1": {
+                "name": "CeskeBudej"
+            },
+            "node2": {
+                "name": "Jihlava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Jihlava"
+            },
+            "node2": {
+                "name": "Brno"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brno"
+            },
+            "node2": {
+                "name": "Bratislava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljubljana"
+            },
+            "node2": {
+                "name": "Wien"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljubljana"
+            },
+            "node2": {
+                "name": "Zagreb"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zagreb"
+            },
+            "node2": {
+                "name": "Wien"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zagreb"
+            },
+            "node2": {
+                "name": "Sarajevo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Frankfurta"
+            },
+            "node2": {
+                "name": "Berlin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Frankfurta"
+            },
+            "node2": {
+                "name": "Wien"
+            }
+        },
+        {
+            "node1": {
+                "name": "Moskva"
+            },
+            "node2": {
+                "name": "SanktPeter"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bratislava"
+            },
+            "node2": {
+                "name": "Wien"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pristina"
+            },
+            "node2": {
+                "name": "Skopje"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pristina"
+            },
+            "node2": {
+                "name": "Sarajevo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Podgorica"
+            },
+            "node2": {
+                "name": "Sarajevo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Balikesir"
+            },
+            "node2": {
+                "name": "Izmir"
+            }
+        },
+        {
+            "node1": {
+                "name": "Balikesir"
+            },
+            "node2": {
+                "name": "IstanbulID"
+            }
+        },
+        {
+            "node1": {
+                "name": "Izmir"
+            },
+            "node2": {
+                "name": "Ankara"
+            }
+        },
+        {
+            "node1": {
+                "name": "Thessaloni"
+            },
+            "node2": {
+                "name": "Petrich"
+            }
+        },
+        {
+            "node1": {
+                "name": "Petrich"
+            },
+            "node2": {
+                "name": "Plovdiv"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pleven"
+            },
+            "node2": {
+                "name": "Sofia"
+            }
+        },
+        {
+            "node1": {
+                "name": "Plovdiv"
+            },
+            "node2": {
+                "name": "Sofia"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sofia"
+            },
+            "node2": {
+                "name": "Skopje"
+            }
+        },
+        {
+            "node1": {
+                "name": "Istanbul"
+            },
+            "node2": {
+                "name": "IstanbulID"
+            }
+        },
+        {
+            "node1": {
+                "name": "IstanbulID"
+            },
+            "node2": {
+                "name": "Ankara"
+            }
+        }
+    ]
+}

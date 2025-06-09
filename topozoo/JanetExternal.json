@@ -1,0 +1,98 @@
+{
+    "routers": [
+        "HEAnet",
+        "Europe",
+        "People",
+        "JapanN",
+        "Belfas",
+        "JANET",
+        "USRese",
+        "USReseID7",
+        "LINX",
+        "UKISPs",
+        "Privat",
+        "Global"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "HEAnet"
+            },
+            "node2": {
+                "name": "Belfas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Europe"
+            },
+            "node2": {
+                "name": "People"
+            }
+        },
+        {
+            "node1": {
+                "name": "Europe"
+            },
+            "node2": {
+                "name": "JapanN"
+            }
+        },
+        {
+            "node1": {
+                "name": "Europe"
+            },
+            "node2": {
+                "name": "JANET"
+            }
+        },
+        {
+            "node1": {
+                "name": "Europe"
+            },
+            "node2": {
+                "name": "USRese"
+            }
+        },
+        {
+            "node1": {
+                "name": "Europe"
+            },
+            "node2": {
+                "name": "USReseID7"
+            }
+        },
+        {
+            "node1": {
+                "name": "JANET"
+            },
+            "node2": {
+                "name": "LINX"
+            }
+        },
+        {
+            "node1": {
+                "name": "JANET"
+            },
+            "node2": {
+                "name": "Privat"
+            }
+        },
+        {
+            "node1": {
+                "name": "JANET"
+            },
+            "node2": {
+                "name": "Global"
+            }
+        },
+        {
+            "node1": {
+                "name": "LINX"
+            },
+            "node2": {
+                "name": "UKISPs"
+            }
+        }
+    ]
+}

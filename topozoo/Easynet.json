@@ -1,0 +1,257 @@
+{
+    "routers": [
+        "1",
+        "1ID1",
+        "1ID2",
+        "1ID3",
+        "Mumbai",
+        "HongKo",
+        "1ID6",
+        "1ID7",
+        "Shangh",
+        "Paris",
+        "London",
+        "LosAng",
+        "SanJos",
+        "PaloAl",
+        "NewYor",
+        "Washin",
+        "Madrid",
+        "1ID17",
+        "Milan"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "1"
+            },
+            "node2": {
+                "name": "1ID1"
+            }
+        },
+        {
+            "node1": {
+                "name": "1"
+            },
+            "node2": {
+                "name": "1ID1"
+            }
+        },
+        {
+            "node1": {
+                "name": "1"
+            },
+            "node2": {
+                "name": "1ID3"
+            }
+        },
+        {
+            "node1": {
+                "name": "1"
+            },
+            "node2": {
+                "name": "1ID7"
+            }
+        },
+        {
+            "node1": {
+                "name": "1ID1"
+            },
+            "node2": {
+                "name": "1ID6"
+            }
+        },
+        {
+            "node1": {
+                "name": "1ID1"
+            },
+            "node2": {
+                "name": "1ID7"
+            }
+        },
+        {
+            "node1": {
+                "name": "1ID1"
+            },
+            "node2": {
+                "name": "1ID7"
+            }
+        },
+        {
+            "node1": {
+                "name": "1ID2"
+            },
+            "node2": {
+                "name": "1ID3"
+            }
+        },
+        {
+            "node1": {
+                "name": "1ID3"
+            },
+            "node2": {
+                "name": "1ID7"
+            }
+        },
+        {
+            "node1": {
+                "name": "Mumbai"
+            },
+            "node2": {
+                "name": "HongKo"
+            }
+        },
+        {
+            "node1": {
+                "name": "HongKo"
+            },
+            "node2": {
+                "name": "Shangh"
+            }
+        },
+        {
+            "node1": {
+                "name": "HongKo"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "HongKo"
+            },
+            "node2": {
+                "name": "PaloAl"
+            }
+        },
+        {
+            "node1": {
+                "name": "1ID7"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "1ID7"
+            },
+            "node2": {
+                "name": "1ID17"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paris"
+            },
+            "node2": {
+                "name": "1ID17"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paris"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paris"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "LosAng"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "PaloAl"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "SanJos"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "PaloAl"
+            }
+        },
+        {
+            "node1": {
+                "name": "PaloAl"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Madrid"
+            },
+            "node2": {
+                "name": "1ID17"
+            }
+        },
+        {
+            "node1": {
+                "name": "1ID17"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        }
+    ]
+}

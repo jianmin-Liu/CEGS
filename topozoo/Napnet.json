@@ -1,0 +1,68 @@
+{
+    "routers": [
+        "Seattl",
+        "SanJos",
+        "Minnea",
+        "Chicag",
+        "Vienna",
+        "Dallas"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "SanJos"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "Vienna"
+            }
+        },
+        {
+            "node1": {
+                "name": "Minnea"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Vienna"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        }
+    ]
+}

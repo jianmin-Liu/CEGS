@@ -1,0 +1,141 @@
+{
+    "routers": [
+        "London",
+        "Southp",
+        "NodeID2",
+        "NodeID3",
+        "Manche",
+        "Peterb",
+        "Cambri",
+        "Sheffi",
+        "Leices",
+        "Bracew",
+        "Leeds",
+        "Birmin",
+        "Liverp",
+        "Readin",
+        "Bristo"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "NodeID3"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "Readin"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "Cambri"
+            }
+        },
+        {
+            "node1": {
+                "name": "Southp"
+            },
+            "node2": {
+                "name": "Bracew"
+            }
+        },
+        {
+            "node1": {
+                "name": "Southp"
+            },
+            "node2": {
+                "name": "Liverp"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID2"
+            },
+            "node2": {
+                "name": "Readin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Manche"
+            },
+            "node2": {
+                "name": "Birmin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Manche"
+            },
+            "node2": {
+                "name": "Liverp"
+            }
+        },
+        {
+            "node1": {
+                "name": "Peterb"
+            },
+            "node2": {
+                "name": "Leices"
+            }
+        },
+        {
+            "node1": {
+                "name": "Peterb"
+            },
+            "node2": {
+                "name": "Cambri"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sheffi"
+            },
+            "node2": {
+                "name": "Leices"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sheffi"
+            },
+            "node2": {
+                "name": "Leeds"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bracew"
+            },
+            "node2": {
+                "name": "Leeds"
+            }
+        },
+        {
+            "node1": {
+                "name": "Birmin"
+            },
+            "node2": {
+                "name": "Bristo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Readin"
+            },
+            "node2": {
+                "name": "Bristo"
+            }
+        }
+    ]
+}

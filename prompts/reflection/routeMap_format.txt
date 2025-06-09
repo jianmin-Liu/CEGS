@@ -1,0 +1,26 @@
+The configuration for each node should start with Configuration of {node_name}:
+
+Format requirements for the route-map policy configuration of a node is:
+Naming Convention:
+Import Route-Map: RMap_{node}_from_{neighbor}
+Export Route-Map: RMap_{node}_to_{neighbor}
+Replace {node} and {neighbor} with actual node name and its neighbor name (no placeholders like ANY).
+
+Configuration Structure:
+!
+route-map {rmap_name} {permit|deny} {sequence_number}
+match {match_type} {predefined_match_id}
+set {set_type} {set_value}
+!
+
+OR (empty clause):
+!
+route-map {rmap_name} {permit|deny} {sequence_number}
+!
+
+Rules:
+1. If a route-map contains a match statement, you must first define the match conditions. Supported match types include:
+1) community (community-list);
+All match statements must reference the predefined conditions.
+2. {match_id} must be an integer only (e.g., 1, 10; not 100:0).
+3. Separate route-maps for different neighbors with !.

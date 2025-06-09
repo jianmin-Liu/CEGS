@@ -1,0 +1,756 @@
+{
+    "routers": [
+        "NodeID0",
+        "NodeID1",
+        "CostaRica",
+        "Panama",
+        "Venezuela",
+        "Curacao",
+        "Columbia",
+        "NodeID7",
+        "NodeID8",
+        "NodeID9",
+        "Bonaire",
+        "StVincent",
+        "Mexico",
+        "NodeID13",
+        "NodeID14",
+        "NodeID15",
+        "TurksandCa",
+        "NodeID17",
+        "Antigua",
+        "Guadeloupe",
+        "Dominica",
+        "Martinique",
+        "NodeID22",
+        "Barbados",
+        "NodeID24",
+        "Grenada",
+        "NodeID26",
+        "NodeID27",
+        "NodeID28",
+        "NodeID29",
+        "Bahamas",
+        "NodeID31",
+        "NodeID32",
+        "NodeID33",
+        "NodeID34",
+        "NodeID35",
+        "Ecuador",
+        "NodeID37",
+        "NodeID38",
+        "NodeID39",
+        "Jamaica",
+        "NodeID41",
+        "USA",
+        "CaymanIsla",
+        "NodeID44",
+        "NodeID45",
+        "NodeID46",
+        "StKitts&Ne",
+        "StMartin",
+        "NodeID49",
+        "NodeID50",
+        "Suriname",
+        "Guyana",
+        "Trinidadan",
+        "StCroix",
+        "DominicanR",
+        "NodeID56",
+        "PuertoRico",
+        "NodeID58",
+        "NodeID59",
+        "NodeID60",
+        "Nicaragua",
+        "NodeID62",
+        "NodeID63",
+        "ElSalvador",
+        "Guatemala",
+        "Belize",
+        "NodeID67",
+        "Honduras",
+        "NodeID69"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "NodeID0"
+            },
+            "node2": {
+                "name": "NodeID1"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID0"
+            },
+            "node2": {
+                "name": "NodeID27"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID1"
+            },
+            "node2": {
+                "name": "NodeID34"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID1"
+            },
+            "node2": {
+                "name": "NodeID37"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID1"
+            },
+            "node2": {
+                "name": "Columbia"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID1"
+            },
+            "node2": {
+                "name": "NodeID7"
+            }
+        },
+        {
+            "node1": {
+                "name": "CostaRica"
+            },
+            "node2": {
+                "name": "NodeID9"
+            }
+        },
+        {
+            "node1": {
+                "name": "CostaRica"
+            },
+            "node2": {
+                "name": "Panama"
+            }
+        },
+        {
+            "node1": {
+                "name": "CostaRica"
+            },
+            "node2": {
+                "name": "Nicaragua"
+            }
+        },
+        {
+            "node1": {
+                "name": "Panama"
+            },
+            "node2": {
+                "name": "NodeID27"
+            }
+        },
+        {
+            "node1": {
+                "name": "Panama"
+            },
+            "node2": {
+                "name": "NodeID34"
+            }
+        },
+        {
+            "node1": {
+                "name": "Venezuela"
+            },
+            "node2": {
+                "name": "Curacao"
+            }
+        },
+        {
+            "node1": {
+                "name": "Venezuela"
+            },
+            "node2": {
+                "name": "NodeID7"
+            }
+        },
+        {
+            "node1": {
+                "name": "Curacao"
+            },
+            "node2": {
+                "name": "PuertoRico"
+            }
+        },
+        {
+            "node1": {
+                "name": "Curacao"
+            },
+            "node2": {
+                "name": "Bonaire"
+            }
+        },
+        {
+            "node1": {
+                "name": "Curacao"
+            },
+            "node2": {
+                "name": "StVincent"
+            }
+        },
+        {
+            "node1": {
+                "name": "Columbia"
+            },
+            "node2": {
+                "name": "NodeID38"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID8"
+            },
+            "node2": {
+                "name": "StMartin"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID8"
+            },
+            "node2": {
+                "name": "NodeID50"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID8"
+            },
+            "node2": {
+                "name": "StCroix"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID9"
+            },
+            "node2": {
+                "name": "NodeID27"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID9"
+            },
+            "node2": {
+                "name": "NodeID46"
+            }
+        },
+        {
+            "node1": {
+                "name": "StVincent"
+            },
+            "node2": {
+                "name": "Trinidadan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Mexico"
+            },
+            "node2": {
+                "name": "Belize"
+            }
+        },
+        {
+            "node1": {
+                "name": "Mexico"
+            },
+            "node2": {
+                "name": "NodeID15"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID13"
+            },
+            "node2": {
+                "name": "NodeID29"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID13"
+            },
+            "node2": {
+                "name": "NodeID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID13"
+            },
+            "node2": {
+                "name": "NodeID31"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID15"
+            },
+            "node2": {
+                "name": "NodeID26"
+            }
+        },
+        {
+            "node1": {
+                "name": "TurksandCa"
+            },
+            "node2": {
+                "name": "NodeID17"
+            }
+        },
+        {
+            "node1": {
+                "name": "TurksandCa"
+            },
+            "node2": {
+                "name": "DominicanR"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID17"
+            },
+            "node2": {
+                "name": "NodeID58"
+            }
+        },
+        {
+            "node1": {
+                "name": "Antigua"
+            },
+            "node2": {
+                "name": "Guadeloupe"
+            }
+        },
+        {
+            "node1": {
+                "name": "Antigua"
+            },
+            "node2": {
+                "name": "StKitts&Ne"
+            }
+        },
+        {
+            "node1": {
+                "name": "Guadeloupe"
+            },
+            "node2": {
+                "name": "Dominica"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dominica"
+            },
+            "node2": {
+                "name": "Martinique"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dominica"
+            },
+            "node2": {
+                "name": "StKitts&Ne"
+            }
+        },
+        {
+            "node1": {
+                "name": "Martinique"
+            },
+            "node2": {
+                "name": "NodeID22"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID22"
+            },
+            "node2": {
+                "name": "NodeID24"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID22"
+            },
+            "node2": {
+                "name": "StCroix"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID22"
+            },
+            "node2": {
+                "name": "Barbados"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID24"
+            },
+            "node2": {
+                "name": "Grenada"
+            }
+        },
+        {
+            "node1": {
+                "name": "Grenada"
+            },
+            "node2": {
+                "name": "Trinidadan"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID26"
+            },
+            "node2": {
+                "name": "NodeID31"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID28"
+            },
+            "node2": {
+                "name": "Guatemala"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID28"
+            },
+            "node2": {
+                "name": "Belize"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID28"
+            },
+            "node2": {
+                "name": "NodeID67"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID29"
+            },
+            "node2": {
+                "name": "NodeID67"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID29"
+            },
+            "node2": {
+                "name": "NodeID46"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bahamas"
+            },
+            "node2": {
+                "name": "NodeID59"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bahamas"
+            },
+            "node2": {
+                "name": "NodeID45"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID31"
+            },
+            "node2": {
+                "name": "NodeID49"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID31"
+            },
+            "node2": {
+                "name": "NodeID44"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID32"
+            },
+            "node2": {
+                "name": "NodeID59"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID32"
+            },
+            "node2": {
+                "name": "NodeID44"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID33"
+            },
+            "node2": {
+                "name": "NodeID49"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID33"
+            },
+            "node2": {
+                "name": "USA"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID33"
+            },
+            "node2": {
+                "name": "NodeID45"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID35"
+            },
+            "node2": {
+                "name": "Suriname"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID35"
+            },
+            "node2": {
+                "name": "Guyana"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID35"
+            },
+            "node2": {
+                "name": "Trinidadan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ecuador"
+            },
+            "node2": {
+                "name": "NodeID37"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID38"
+            },
+            "node2": {
+                "name": "NodeID41"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID38"
+            },
+            "node2": {
+                "name": "USA"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID39"
+            },
+            "node2": {
+                "name": "Jamaica"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID39"
+            },
+            "node2": {
+                "name": "DominicanR"
+            }
+        },
+        {
+            "node1": {
+                "name": "Jamaica"
+            },
+            "node2": {
+                "name": "NodeID41"
+            }
+        },
+        {
+            "node1": {
+                "name": "CaymanIsla"
+            },
+            "node2": {
+                "name": "NodeID46"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID44"
+            },
+            "node2": {
+                "name": "NodeID59"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID44"
+            },
+            "node2": {
+                "name": "NodeID45"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID45"
+            },
+            "node2": {
+                "name": "NodeID49"
+            }
+        },
+        {
+            "node1": {
+                "name": "StKitts&Ne"
+            },
+            "node2": {
+                "name": "StMartin"
+            }
+        },
+        {
+            "node1": {
+                "name": "StMartin"
+            },
+            "node2": {
+                "name": "PuertoRico"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID50"
+            },
+            "node2": {
+                "name": "PuertoRico"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID50"
+            },
+            "node2": {
+                "name": "StCroix"
+            }
+        },
+        {
+            "node1": {
+                "name": "DominicanR"
+            },
+            "node2": {
+                "name": "NodeID56"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID56"
+            },
+            "node2": {
+                "name": "PuertoRico"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID58"
+            },
+            "node2": {
+                "name": "NodeID59"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID60"
+            },
+            "node2": {
+                "name": "Honduras"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID60"
+            },
+            "node2": {
+                "name": "NodeID69"
+            }
+        },
+        {
+            "node1": {
+                "name": "Nicaragua"
+            },
+            "node2": {
+                "name": "NodeID69"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID62"
+            },
+            "node2": {
+                "name": "NodeID63"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID63"
+            },
+            "node2": {
+                "name": "ElSalvador"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID63"
+            },
+            "node2": {
+                "name": "Guatemala"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID67"
+            },
+            "node2": {
+                "name": "Honduras"
+            }
+        }
+    ]
+}

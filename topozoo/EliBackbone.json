@@ -1,0 +1,266 @@
+{
+    "routers": [
+        "LasVeg",
+        "LosAng",
+        "Dallas",
+        "Phoeni",
+        "SantaC",
+        "Portla",
+        "Sacram",
+        "PaloAl",
+        "Tacoma",
+        "Seattl",
+        "Atlant",
+        "Housto",
+        "Spokan",
+        "Boise",
+        "SaltLa",
+        "Minnea",
+        "Chicag",
+        "Roches",
+        "Newark",
+        "Washin"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "LasVeg"
+            },
+            "node2": {
+                "name": "LosAng"
+            }
+        },
+        {
+            "node1": {
+                "name": "LasVeg"
+            },
+            "node2": {
+                "name": "Phoeni"
+            }
+        },
+        {
+            "node1": {
+                "name": "LasVeg"
+            },
+            "node2": {
+                "name": "SaltLa"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Phoeni"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "SantaC"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Phoeni"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Housto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "SantaC"
+            },
+            "node2": {
+                "name": "PaloAl"
+            }
+        },
+        {
+            "node1": {
+                "name": "Portla"
+            },
+            "node2": {
+                "name": "Tacoma"
+            }
+        },
+        {
+            "node1": {
+                "name": "Portla"
+            },
+            "node2": {
+                "name": "Sacram"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sacram"
+            },
+            "node2": {
+                "name": "Tacoma"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sacram"
+            },
+            "node2": {
+                "name": "SaltLa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sacram"
+            },
+            "node2": {
+                "name": "PaloAl"
+            }
+        },
+        {
+            "node1": {
+                "name": "PaloAl"
+            },
+            "node2": {
+                "name": "Seattl"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tacoma"
+            },
+            "node2": {
+                "name": "Seattl"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Spokan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Boise"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "SaltLa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Minnea"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant"
+            },
+            "node2": {
+                "name": "Housto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Spokan"
+            },
+            "node2": {
+                "name": "Boise"
+            }
+        },
+        {
+            "node1": {
+                "name": "Boise"
+            },
+            "node2": {
+                "name": "SaltLa"
+            }
+        },
+        {
+            "node1": {
+                "name": "SaltLa"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Minnea"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Roches"
+            }
+        },
+        {
+            "node1": {
+                "name": "Roches"
+            },
+            "node2": {
+                "name": "Newark"
+            }
+        },
+        {
+            "node1": {
+                "name": "Newark"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        }
+    ]
+}

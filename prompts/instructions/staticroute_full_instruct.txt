@@ -1,0 +1,5 @@
+------Instruction:-------------
+For static route configuration:
+1. For a router A in topology T1, first identify its next hop towards a specific network segment;
+2. Generate static route configuration based on the information of the network segment and the next hop.
+--------------------------------

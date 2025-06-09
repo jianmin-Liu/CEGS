@@ -1,0 +1,70 @@
+{
+    "routers": [
+        "NewYor",
+        "London",
+        "Stockh",
+        "StPete",
+        "Moscow",
+        "Amster",
+        "Frankf",
+        "Paris"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Amster"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "Amster"
+            }
+        },
+        {
+            "node1": {
+                "name": "Stockh"
+            },
+            "node2": {
+                "name": "StPete"
+            }
+        },
+        {
+            "node1": {
+                "name": "Stockh"
+            },
+            "node2": {
+                "name": "Amster"
+            }
+        },
+        {
+            "node1": {
+                "name": "StPete"
+            },
+            "node2": {
+                "name": "Moscow"
+            }
+        },
+        {
+            "node1": {
+                "name": "Amster"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Amster"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        }
+    ]
+}

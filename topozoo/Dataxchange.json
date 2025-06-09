@@ -1,0 +1,100 @@
+{
+    "routers": [
+        "SanFra",
+        "LosAng",
+        "Chicag",
+        "McLean",
+        "Washin",
+        "Atlant"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "SanFra"
+            },
+            "node2": {
+                "name": "LosAng"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanFra"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanFra"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanFra"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "McLean"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Washin"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        }
+    ]
+}

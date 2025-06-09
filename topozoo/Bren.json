@@ -1,0 +1,347 @@
+{
+    "routers": [
+        "Techni",
+        "NodeID1",
+        "TodosK",
+        "IPPBAS",
+        "Teleco",
+        "SouthW",
+        "CivilE",
+        "Higher",
+        "Academ",
+        "NMU",
+        "VasilL",
+        "UniofE",
+        "VarnaT",
+        "NavalA",
+        "NodeID14",
+        "NodeID15",
+        "Shumen",
+        "RuseUn",
+        "AcademID18",
+        "TechniID19",
+        "Agricu",
+        "Plovdi",
+        "Pleven",
+        "NodeID23",
+        "Veliko",
+        "Milita",
+        "Gabrov",
+        "SofiaU",
+        "Econom",
+        "GEANT",
+        "BGInte",
+        "Medica",
+        "MedicaID32",
+        "MinEdu",
+        "SofiaUID34",
+        "MedicaID35",
+        "MedicaID36"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Techni"
+            },
+            "node2": {
+                "name": "IPPBAS"
+            }
+        },
+        {
+            "node1": {
+                "name": "Techni"
+            },
+            "node2": {
+                "name": "Econom"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID1"
+            },
+            "node2": {
+                "name": "IPPBAS"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID1"
+            },
+            "node2": {
+                "name": "Teleco"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID1"
+            },
+            "node2": {
+                "name": "CivilE"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID1"
+            },
+            "node2": {
+                "name": "Higher"
+            }
+        },
+        {
+            "node1": {
+                "name": "TodosK"
+            },
+            "node2": {
+                "name": "SofiaUID34"
+            }
+        },
+        {
+            "node1": {
+                "name": "TodosK"
+            },
+            "node2": {
+                "name": "IPPBAS"
+            }
+        },
+        {
+            "node1": {
+                "name": "IPPBAS"
+            },
+            "node2": {
+                "name": "Academ"
+            }
+        },
+        {
+            "node1": {
+                "name": "IPPBAS"
+            },
+            "node2": {
+                "name": "NodeID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "IPPBAS"
+            },
+            "node2": {
+                "name": "Plovdi"
+            }
+        },
+        {
+            "node1": {
+                "name": "IPPBAS"
+            },
+            "node2": {
+                "name": "Pleven"
+            }
+        },
+        {
+            "node1": {
+                "name": "IPPBAS"
+            },
+            "node2": {
+                "name": "GEANT"
+            }
+        },
+        {
+            "node1": {
+                "name": "IPPBAS"
+            },
+            "node2": {
+                "name": "BGInte"
+            }
+        },
+        {
+            "node1": {
+                "name": "SouthW"
+            },
+            "node2": {
+                "name": "NodeID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "NMU"
+            },
+            "node2": {
+                "name": "NodeID15"
+            }
+        },
+        {
+            "node1": {
+                "name": "VasilL"
+            },
+            "node2": {
+                "name": "Shumen"
+            }
+        },
+        {
+            "node1": {
+                "name": "VasilL"
+            },
+            "node2": {
+                "name": "RuseUn"
+            }
+        },
+        {
+            "node1": {
+                "name": "VasilL"
+            },
+            "node2": {
+                "name": "UniofE"
+            }
+        },
+        {
+            "node1": {
+                "name": "UniofE"
+            },
+            "node2": {
+                "name": "VarnaT"
+            }
+        },
+        {
+            "node1": {
+                "name": "UniofE"
+            },
+            "node2": {
+                "name": "NavalA"
+            }
+        },
+        {
+            "node1": {
+                "name": "UniofE"
+            },
+            "node2": {
+                "name": "Plovdi"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID15"
+            },
+            "node2": {
+                "name": "Pleven"
+            }
+        },
+        {
+            "node1": {
+                "name": "RuseUn"
+            },
+            "node2": {
+                "name": "Milita"
+            }
+        },
+        {
+            "node1": {
+                "name": "AcademID18"
+            },
+            "node2": {
+                "name": "NodeID23"
+            }
+        },
+        {
+            "node1": {
+                "name": "TechniID19"
+            },
+            "node2": {
+                "name": "Plovdi"
+            }
+        },
+        {
+            "node1": {
+                "name": "Agricu"
+            },
+            "node2": {
+                "name": "Plovdi"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pleven"
+            },
+            "node2": {
+                "name": "Milita"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID23"
+            },
+            "node2": {
+                "name": "Milita"
+            }
+        },
+        {
+            "node1": {
+                "name": "Veliko"
+            },
+            "node2": {
+                "name": "Milita"
+            }
+        },
+        {
+            "node1": {
+                "name": "Milita"
+            },
+            "node2": {
+                "name": "Gabrov"
+            }
+        },
+        {
+            "node1": {
+                "name": "SofiaU"
+            },
+            "node2": {
+                "name": "MedicaID35"
+            }
+        },
+        {
+            "node1": {
+                "name": "SofiaU"
+            },
+            "node2": {
+                "name": "Econom"
+            }
+        },
+        {
+            "node1": {
+                "name": "Medica"
+            },
+            "node2": {
+                "name": "SofiaUID34"
+            }
+        },
+        {
+            "node1": {
+                "name": "MedicaID32"
+            },
+            "node2": {
+                "name": "SofiaUID34"
+            }
+        },
+        {
+            "node1": {
+                "name": "MinEdu"
+            },
+            "node2": {
+                "name": "SofiaUID34"
+            }
+        },
+        {
+            "node1": {
+                "name": "SofiaUID34"
+            },
+            "node2": {
+                "name": "MedicaID35"
+            }
+        },
+        {
+            "node1": {
+                "name": "MedicaID35"
+            },
+            "node2": {
+                "name": "MedicaID36"
+            }
+        }
+    ]
+}

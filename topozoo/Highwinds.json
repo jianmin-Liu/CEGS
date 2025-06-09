@@ -1,0 +1,448 @@
+{
+    "routers": [
+        "RioDeJ",
+        "Paris",
+        "Miami",
+        "SaoPau",
+        "Amster",
+        "Frankf",
+        "London",
+        "Brusse",
+        "NewYor",
+        "Atlant",
+        "Seattl",
+        "SanJos",
+        "LosAng",
+        "Phoeni",
+        "Dallas",
+        "Chicag",
+        "Toront",
+        "Ashbur"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "RioDeJ"
+            },
+            "node2": {
+                "name": "Miami"
+            }
+        },
+        {
+            "node1": {
+                "name": "RioDeJ"
+            },
+            "node2": {
+                "name": "Miami"
+            }
+        },
+        {
+            "node1": {
+                "name": "RioDeJ"
+            },
+            "node2": {
+                "name": "SaoPau"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paris"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paris"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paris"
+            },
+            "node2": {
+                "name": "Brusse"
+            }
+        },
+        {
+            "node1": {
+                "name": "Miami"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "Miami"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "Miami"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Amster"
+            },
+            "node2": {
+                "name": "Ashbur"
+            }
+        },
+        {
+            "node1": {
+                "name": "Amster"
+            },
+            "node2": {
+                "name": "Ashbur"
+            }
+        },
+        {
+            "node1": {
+                "name": "Amster"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Amster"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Amster"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Amster"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Amster"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Amster"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Amster"
+            },
+            "node2": {
+                "name": "Brusse"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Toront"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Ashbur"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Ashbur"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Ashbur"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Ashbur"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant"
+            },
+            "node2": {
+                "name": "Ashbur"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant"
+            },
+            "node2": {
+                "name": "Ashbur"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant"
+            },
+            "node2": {
+                "name": "Ashbur"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant"
+            },
+            "node2": {
+                "name": "Phoeni"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "SanJos"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "Ashbur"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "LosAng"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "LosAng"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "LosAng"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Phoeni"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Phoeni"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Phoeni"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Phoeni"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Phoeni"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Ashbur"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Ashbur"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Toront"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Ashbur"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Ashbur"
+            }
+        }
+    ]
+}

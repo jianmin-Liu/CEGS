@@ -1,0 +1,68 @@
+{
+    "routers": [
+        "Seattl",
+        "SanFra",
+        "LosAng",
+        "Chicag",
+        "NewYor",
+        "Washin"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "SanFra"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanFra"
+            },
+            "node2": {
+                "name": "LosAng"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanFra"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanFra"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        }
+    ]
+}

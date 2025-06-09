@@ -1,0 +1,574 @@
+{
+    "routers": [
+        "ColdLa",
+        "Grande",
+        "Edmont",
+        "FortMc",
+        "Kamloo",
+        "Vernon",
+        "Dawson",
+        "Prince",
+        "Kelown",
+        "Pentic",
+        "SeptIl",
+        "Charlo",
+        "NewYor",
+        "Ottawa",
+        "Montre",
+        "Sherbr",
+        "Quebec",
+        "Chicou",
+        "Rimous",
+        "BaieCo",
+        "SaintJ",
+        "Moncto",
+        "Halifa",
+        "Freder",
+        "StJohn",
+        "Onslow",
+        "Lethbr",
+        "Calgar",
+        "Buffal",
+        "Toront",
+        "Victor",
+        "Seattl",
+        "Courte",
+        "Vancou",
+        "Chicag",
+        "LosAng",
+        "PaloAl",
+        "SanFra",
+        "Medici",
+        "RedDee",
+        "Washin",
+        "Atlant",
+        "Dallas",
+        "Sudbur",
+        "Thunde",
+        "Winnip",
+        "Saskat",
+        "Regina"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "ColdLa"
+            },
+            "node2": {
+                "name": "Edmont"
+            }
+        },
+        {
+            "node1": {
+                "name": "Grande"
+            },
+            "node2": {
+                "name": "Edmont"
+            }
+        },
+        {
+            "node1": {
+                "name": "Grande"
+            },
+            "node2": {
+                "name": "Dawson"
+            }
+        },
+        {
+            "node1": {
+                "name": "Edmont"
+            },
+            "node2": {
+                "name": "FortMc"
+            }
+        },
+        {
+            "node1": {
+                "name": "Edmont"
+            },
+            "node2": {
+                "name": "Kamloo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Edmont"
+            },
+            "node2": {
+                "name": "RedDee"
+            }
+        },
+        {
+            "node1": {
+                "name": "Edmont"
+            },
+            "node2": {
+                "name": "Saskat"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kamloo"
+            },
+            "node2": {
+                "name": "Vancou"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kamloo"
+            },
+            "node2": {
+                "name": "Vernon"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kamloo"
+            },
+            "node2": {
+                "name": "Prince"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vernon"
+            },
+            "node2": {
+                "name": "Kelown"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dawson"
+            },
+            "node2": {
+                "name": "Prince"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kelown"
+            },
+            "node2": {
+                "name": "Pentic"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kelown"
+            },
+            "node2": {
+                "name": "Calgar"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kelown"
+            },
+            "node2": {
+                "name": "Vancou"
+            }
+        },
+        {
+            "node1": {
+                "name": "SeptIl"
+            },
+            "node2": {
+                "name": "BaieCo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Charlo"
+            },
+            "node2": {
+                "name": "Onslow"
+            }
+        },
+        {
+            "node1": {
+                "name": "Charlo"
+            },
+            "node2": {
+                "name": "Moncto"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Buffal"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Montre"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ottawa"
+            },
+            "node2": {
+                "name": "Toront"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ottawa"
+            },
+            "node2": {
+                "name": "Montre"
+            }
+        },
+        {
+            "node1": {
+                "name": "Montre"
+            },
+            "node2": {
+                "name": "Quebec"
+            }
+        },
+        {
+            "node1": {
+                "name": "Montre"
+            },
+            "node2": {
+                "name": "Sherbr"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sherbr"
+            },
+            "node2": {
+                "name": "Quebec"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sherbr"
+            },
+            "node2": {
+                "name": "Quebec"
+            }
+        },
+        {
+            "node1": {
+                "name": "Quebec"
+            },
+            "node2": {
+                "name": "Chicou"
+            }
+        },
+        {
+            "node1": {
+                "name": "Quebec"
+            },
+            "node2": {
+                "name": "Freder"
+            }
+        },
+        {
+            "node1": {
+                "name": "Quebec"
+            },
+            "node2": {
+                "name": "Moncto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicou"
+            },
+            "node2": {
+                "name": "Rimous"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rimous"
+            },
+            "node2": {
+                "name": "BaieCo"
+            }
+        },
+        {
+            "node1": {
+                "name": "SaintJ"
+            },
+            "node2": {
+                "name": "Moncto"
+            }
+        },
+        {
+            "node1": {
+                "name": "SaintJ"
+            },
+            "node2": {
+                "name": "Halifa"
+            }
+        },
+        {
+            "node1": {
+                "name": "SaintJ"
+            },
+            "node2": {
+                "name": "Freder"
+            }
+        },
+        {
+            "node1": {
+                "name": "Moncto"
+            },
+            "node2": {
+                "name": "Onslow"
+            }
+        },
+        {
+            "node1": {
+                "name": "Halifa"
+            },
+            "node2": {
+                "name": "StJohn"
+            }
+        },
+        {
+            "node1": {
+                "name": "Halifa"
+            },
+            "node2": {
+                "name": "Onslow"
+            }
+        },
+        {
+            "node1": {
+                "name": "StJohn"
+            },
+            "node2": {
+                "name": "Onslow"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lethbr"
+            },
+            "node2": {
+                "name": "Calgar"
+            }
+        },
+        {
+            "node1": {
+                "name": "Calgar"
+            },
+            "node2": {
+                "name": "Vancou"
+            }
+        },
+        {
+            "node1": {
+                "name": "Calgar"
+            },
+            "node2": {
+                "name": "Medici"
+            }
+        },
+        {
+            "node1": {
+                "name": "Calgar"
+            },
+            "node2": {
+                "name": "RedDee"
+            }
+        },
+        {
+            "node1": {
+                "name": "Buffal"
+            },
+            "node2": {
+                "name": "Toront"
+            }
+        },
+        {
+            "node1": {
+                "name": "Toront"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Toront"
+            },
+            "node2": {
+                "name": "Sudbur"
+            }
+        },
+        {
+            "node1": {
+                "name": "Victor"
+            },
+            "node2": {
+                "name": "Courte"
+            }
+        },
+        {
+            "node1": {
+                "name": "Victor"
+            },
+            "node2": {
+                "name": "Vancou"
+            }
+        },
+        {
+            "node1": {
+                "name": "Victor"
+            },
+            "node2": {
+                "name": "Seattl"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Vancou"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "LosAng"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "PaloAl"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "SanFra"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Winnip"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "PaloAl"
+            }
+        },
+        {
+            "node1": {
+                "name": "PaloAl"
+            },
+            "node2": {
+                "name": "SanFra"
+            }
+        },
+        {
+            "node1": {
+                "name": "Medici"
+            },
+            "node2": {
+                "name": "Regina"
+            }
+        },
+        {
+            "node1": {
+                "name": "Washin"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sudbur"
+            },
+            "node2": {
+                "name": "Thunde"
+            }
+        },
+        {
+            "node1": {
+                "name": "Thunde"
+            },
+            "node2": {
+                "name": "Winnip"
+            }
+        },
+        {
+            "node1": {
+                "name": "Winnip"
+            },
+            "node2": {
+                "name": "Saskat"
+            }
+        },
+        {
+            "node1": {
+                "name": "Winnip"
+            },
+            "node2": {
+                "name": "Regina"
+            }
+        }
+    ]
+}

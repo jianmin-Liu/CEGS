@@ -1,0 +1,859 @@
+{
+    "routers": [
+        "UiO",
+        "UiOID1",
+        "HiGGjovik",
+        "UiOStOlavs",
+        "HiBUKongsb",
+        "HiBUDramme",
+        "UNIKKjelle",
+        "HiBuHonefo",
+        "NBMoiRana",
+        "HiNeNesna",
+        "HVEBorre",
+        "HVELarvik",
+        "HiNNarvik",
+        "HiHHarstad",
+        "UiToKarasj",
+        "UiTo",
+        "HiAAlesund",
+        "HVOVolda",
+        "UiSStavang",
+        "VetHSSandn",
+        "HSHHaugesu",
+        "HSHStord",
+        "UiBHoytekl",
+        "UiBBT",
+        "HSFSongdal",
+        "HSFForde",
+        "HiNeSandne",
+        "HiNTSteink",
+        "NORDUnetSt",
+        "HBOBodo",
+        "SASHKautok",
+        "HiFKirkene",
+        "Stockholm",
+        "NyAlesund",
+        "HingStjord",
+        "HiNTLevang",
+        "HiNTNamsos",
+        "HiNeMoiRan",
+        "HSFSandane",
+        "HSMMolde",
+        "UNISSvalba",
+        "HSMKristia",
+        "HiFHammerf",
+        "UiToID43",
+        "HiFVadso",
+        "NORDUnetKo",
+        "UiAKristia",
+        "UiAGrimsta",
+        "HiOHalden",
+        "UMBAs",
+        "HiOFredrik",
+        "HiAKKjelle",
+        "HitRauland",
+        "HiTPorsgru",
+        "HiTBo",
+        "HiTNotodde",
+        "HiFAlta",
+        "HHEvenstad",
+        "NORDUnetSt",
+        "HHHamar",
+        "HiLLilleha",
+        "NTNUHovedb",
+        "NTNURealfa",
+        "UNINETTTek",
+        "HHTynset",
+        "HBOMoiRana",
+        "HHRena",
+        "HHElverum",
+        "HHKongsvin"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "UiO"
+            },
+            "node2": {
+                "name": "UiOID1"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiO"
+            },
+            "node2": {
+                "name": "UiOStOlavs"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiO"
+            },
+            "node2": {
+                "name": "HHKongsvin"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiO"
+            },
+            "node2": {
+                "name": "UMBAs"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiO"
+            },
+            "node2": {
+                "name": "HiTBo"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiO"
+            },
+            "node2": {
+                "name": "UiBBT"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiOID1"
+            },
+            "node2": {
+                "name": "Stockholm"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiOID1"
+            },
+            "node2": {
+                "name": "UiOStOlavs"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiOID1"
+            },
+            "node2": {
+                "name": "UNIKKjelle"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiOID1"
+            },
+            "node2": {
+                "name": "HiOHalden"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiOID1"
+            },
+            "node2": {
+                "name": "NORDUnetSt"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiOID1"
+            },
+            "node2": {
+                "name": "NTNURealfa"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiGGjovik"
+            },
+            "node2": {
+                "name": "UiOStOlavs"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiGGjovik"
+            },
+            "node2": {
+                "name": "HiLLilleha"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiOStOlavs"
+            },
+            "node2": {
+                "name": "HiBUDramme"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiOStOlavs"
+            },
+            "node2": {
+                "name": "NORDUnetKo"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiOStOlavs"
+            },
+            "node2": {
+                "name": "UiAKristia"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiOStOlavs"
+            },
+            "node2": {
+                "name": "UiBHoytekl"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiOStOlavs"
+            },
+            "node2": {
+                "name": "NTNUHovedb"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiBUKongsb"
+            },
+            "node2": {
+                "name": "HiBUDramme"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiBUKongsb"
+            },
+            "node2": {
+                "name": "HiBuHonefo"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiBUDramme"
+            },
+            "node2": {
+                "name": "HVEBorre"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiBUDramme"
+            },
+            "node2": {
+                "name": "HiTBo"
+            }
+        },
+        {
+            "node1": {
+                "name": "UNIKKjelle"
+            },
+            "node2": {
+                "name": "HiAKKjelle"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiBuHonefo"
+            },
+            "node2": {
+                "name": "HiAKKjelle"
+            }
+        },
+        {
+            "node1": {
+                "name": "NBMoiRana"
+            },
+            "node2": {
+                "name": "HBOMoiRana"
+            }
+        },
+        {
+            "node1": {
+                "name": "NBMoiRana"
+            },
+            "node2": {
+                "name": "HiNTNamsos"
+            }
+        },
+        {
+            "node1": {
+                "name": "NBMoiRana"
+            },
+            "node2": {
+                "name": "HiNeMoiRan"
+            }
+        },
+        {
+            "node1": {
+                "name": "NBMoiRana"
+            },
+            "node2": {
+                "name": "HiNeNesna"
+            }
+        },
+        {
+            "node1": {
+                "name": "NBMoiRana"
+            },
+            "node2": {
+                "name": "HBOBodo"
+            }
+        },
+        {
+            "node1": {
+                "name": "NBMoiRana"
+            },
+            "node2": {
+                "name": "NTNURealfa"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiNeNesna"
+            },
+            "node2": {
+                "name": "HiNeSandne"
+            }
+        },
+        {
+            "node1": {
+                "name": "HVEBorre"
+            },
+            "node2": {
+                "name": "HiOFredrik"
+            }
+        },
+        {
+            "node1": {
+                "name": "HVEBorre"
+            },
+            "node2": {
+                "name": "HVELarvik"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiNNarvik"
+            },
+            "node2": {
+                "name": "Stockholm"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiNNarvik"
+            },
+            "node2": {
+                "name": "NTNUHovedb"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiNNarvik"
+            },
+            "node2": {
+                "name": "HiHHarstad"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiNNarvik"
+            },
+            "node2": {
+                "name": "HBOBodo"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiNNarvik"
+            },
+            "node2": {
+                "name": "UiTo"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiHHarstad"
+            },
+            "node2": {
+                "name": "UNISSvalba"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiHHarstad"
+            },
+            "node2": {
+                "name": "UiToID43"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiHHarstad"
+            },
+            "node2": {
+                "name": "UiToID43"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiHHarstad"
+            },
+            "node2": {
+                "name": "HBOBodo"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiToKarasj"
+            },
+            "node2": {
+                "name": "SASHKautok"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiToKarasj"
+            },
+            "node2": {
+                "name": "HiFKirkene"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiTo"
+            },
+            "node2": {
+                "name": "HiFHammerf"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiTo"
+            },
+            "node2": {
+                "name": "UiToID43"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiAAlesund"
+            },
+            "node2": {
+                "name": "HVOVolda"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiAAlesund"
+            },
+            "node2": {
+                "name": "NTNUHovedb"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiAAlesund"
+            },
+            "node2": {
+                "name": "UiBHoytekl"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiAAlesund"
+            },
+            "node2": {
+                "name": "HSMMolde"
+            }
+        },
+        {
+            "node1": {
+                "name": "HVOVolda"
+            },
+            "node2": {
+                "name": "HSFForde"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiSStavang"
+            },
+            "node2": {
+                "name": "VetHSSandn"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiSStavang"
+            },
+            "node2": {
+                "name": "HSHHaugesu"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiSStavang"
+            },
+            "node2": {
+                "name": "UiAKristia"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiSStavang"
+            },
+            "node2": {
+                "name": "UiBBT"
+            }
+        },
+        {
+            "node1": {
+                "name": "HSHHaugesu"
+            },
+            "node2": {
+                "name": "HSHStord"
+            }
+        },
+        {
+            "node1": {
+                "name": "HSHStord"
+            },
+            "node2": {
+                "name": "UiBHoytekl"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiBHoytekl"
+            },
+            "node2": {
+                "name": "UiBBT"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiBHoytekl"
+            },
+            "node2": {
+                "name": "HSFSongdal"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiBHoytekl"
+            },
+            "node2": {
+                "name": "NTNUHovedb"
+            }
+        },
+        {
+            "node1": {
+                "name": "HSFSongdal"
+            },
+            "node2": {
+                "name": "HSFForde"
+            }
+        },
+        {
+            "node1": {
+                "name": "HSFForde"
+            },
+            "node2": {
+                "name": "HSFSandane"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiNeSandne"
+            },
+            "node2": {
+                "name": "NTNUHovedb"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiNeSandne"
+            },
+            "node2": {
+                "name": "HBOBodo"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiNTSteink"
+            },
+            "node2": {
+                "name": "HiNTLevang"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiNTSteink"
+            },
+            "node2": {
+                "name": "HiNTNamsos"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiNTSteink"
+            },
+            "node2": {
+                "name": "NTNUHovedb"
+            }
+        },
+        {
+            "node1": {
+                "name": "NORDUnetSt"
+            },
+            "node2": {
+                "name": "Stockholm"
+            }
+        },
+        {
+            "node1": {
+                "name": "SASHKautok"
+            },
+            "node2": {
+                "name": "HiFAlta"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiFKirkene"
+            },
+            "node2": {
+                "name": "HiFVadso"
+            }
+        },
+        {
+            "node1": {
+                "name": "NyAlesund"
+            },
+            "node2": {
+                "name": "UNISSvalba"
+            }
+        },
+        {
+            "node1": {
+                "name": "HingStjord"
+            },
+            "node2": {
+                "name": "HiNTLevang"
+            }
+        },
+        {
+            "node1": {
+                "name": "HingStjord"
+            },
+            "node2": {
+                "name": "NTNURealfa"
+            }
+        },
+        {
+            "node1": {
+                "name": "HSMMolde"
+            },
+            "node2": {
+                "name": "HSMKristia"
+            }
+        },
+        {
+            "node1": {
+                "name": "HSMKristia"
+            },
+            "node2": {
+                "name": "UNINETTTek"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiFHammerf"
+            },
+            "node2": {
+                "name": "HiFAlta"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiFHammerf"
+            },
+            "node2": {
+                "name": "HiFVadso"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiToID43"
+            },
+            "node2": {
+                "name": "HiFAlta"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiToID43"
+            },
+            "node2": {
+                "name": "NTNURealfa"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiAKristia"
+            },
+            "node2": {
+                "name": "UiAGrimsta"
+            }
+        },
+        {
+            "node1": {
+                "name": "UiAGrimsta"
+            },
+            "node2": {
+                "name": "HiTPorsgru"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiOHalden"
+            },
+            "node2": {
+                "name": "HiOFredrik"
+            }
+        },
+        {
+            "node1": {
+                "name": "UMBAs"
+            },
+            "node2": {
+                "name": "HiOFredrik"
+            }
+        },
+        {
+            "node1": {
+                "name": "HitRauland"
+            },
+            "node2": {
+                "name": "HiTBo"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiTPorsgru"
+            },
+            "node2": {
+                "name": "HiTBo"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiTBo"
+            },
+            "node2": {
+                "name": "HiTNotodde"
+            }
+        },
+        {
+            "node1": {
+                "name": "HHEvenstad"
+            },
+            "node2": {
+                "name": "HHTynset"
+            }
+        },
+        {
+            "node1": {
+                "name": "HHEvenstad"
+            },
+            "node2": {
+                "name": "HHRena"
+            }
+        },
+        {
+            "node1": {
+                "name": "HHHamar"
+            },
+            "node2": {
+                "name": "HHElverum"
+            }
+        },
+        {
+            "node1": {
+                "name": "HHHamar"
+            },
+            "node2": {
+                "name": "HiLLilleha"
+            }
+        },
+        {
+            "node1": {
+                "name": "NTNUHovedb"
+            },
+            "node2": {
+                "name": "NTNURealfa"
+            }
+        },
+        {
+            "node1": {
+                "name": "NTNUHovedb"
+            },
+            "node2": {
+                "name": "UNINETTTek"
+            }
+        },
+        {
+            "node1": {
+                "name": "NTNURealfa"
+            },
+            "node2": {
+                "name": "UNINETTTek"
+            }
+        },
+        {
+            "node1": {
+                "name": "NTNURealfa"
+            },
+            "node2": {
+                "name": "UNINETTTek"
+            }
+        },
+        {
+            "node1": {
+                "name": "UNINETTTek"
+            },
+            "node2": {
+                "name": "HHTynset"
+            }
+        },
+        {
+            "node1": {
+                "name": "HHRena"
+            },
+            "node2": {
+                "name": "HHElverum"
+            }
+        },
+        {
+            "node1": {
+                "name": "HHElverum"
+            },
+            "node2": {
+                "name": "HHKongsvin"
+            }
+        }
+    ]
+}

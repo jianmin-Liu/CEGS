@@ -1,0 +1,271 @@
+{
+    "routers": [
+        "Miami",
+        "Housto",
+        "Washin",
+        "Atlant",
+        "Mexico",
+        "Phoeni",
+        "Dallas",
+        "StLoui",
+        "SanDie",
+        "LosAng",
+        "SantaC",
+        "Stockt",
+        "Sacram",
+        "Fresno",
+        "SanFra",
+        "NewYor",
+        "Boston",
+        "Seattl",
+        "SaltLa",
+        "Chicag",
+        "Minnea",
+        "Detroi",
+        "Pittsb",
+        "Philad",
+        "Pennsa"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Miami"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "Housto"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Washin"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "Washin"
+            },
+            "node2": {
+                "name": "Philad"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Mexico"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Phoeni"
+            },
+            "node2": {
+                "name": "LosAng"
+            }
+        },
+        {
+            "node1": {
+                "name": "Phoeni"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "StLoui"
+            }
+        },
+        {
+            "node1": {
+                "name": "StLoui"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanDie"
+            },
+            "node2": {
+                "name": "LosAng"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "SantaC"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Sacram"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Pennsa"
+            }
+        },
+        {
+            "node1": {
+                "name": "SantaC"
+            },
+            "node2": {
+                "name": "Stockt"
+            }
+        },
+        {
+            "node1": {
+                "name": "SantaC"
+            },
+            "node2": {
+                "name": "Sacram"
+            }
+        },
+        {
+            "node1": {
+                "name": "SantaC"
+            },
+            "node2": {
+                "name": "Fresno"
+            }
+        },
+        {
+            "node1": {
+                "name": "SantaC"
+            },
+            "node2": {
+                "name": "SanFra"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanFra"
+            },
+            "node2": {
+                "name": "Seattl"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Boston"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Philad"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "SaltLa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Detroi"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Minnea"
+            }
+        },
+        {
+            "node1": {
+                "name": "Detroi"
+            },
+            "node2": {
+                "name": "Pittsb"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pittsb"
+            },
+            "node2": {
+                "name": "Philad"
+            }
+        },
+        {
+            "node1": {
+                "name": "Philad"
+            },
+            "node2": {
+                "name": "Pennsa"
+            }
+        }
+    ]
+}

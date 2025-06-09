@@ -1,0 +1,117 @@
+{
+    "routers": [
+        "Galway",
+        "Limeri",
+        "Cork",
+        "CityWe",
+        "DCUDub",
+        "TDCTri",
+        "Kilcar"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Galway"
+            },
+            "node2": {
+                "name": "CityWe"
+            }
+        },
+        {
+            "node1": {
+                "name": "Galway"
+            },
+            "node2": {
+                "name": "Kilcar"
+            }
+        },
+        {
+            "node1": {
+                "name": "Limeri"
+            },
+            "node2": {
+                "name": "Cork"
+            }
+        },
+        {
+            "node1": {
+                "name": "Limeri"
+            },
+            "node2": {
+                "name": "CityWe"
+            }
+        },
+        {
+            "node1": {
+                "name": "Limeri"
+            },
+            "node2": {
+                "name": "Kilcar"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cork"
+            },
+            "node2": {
+                "name": "CityWe"
+            }
+        },
+        {
+            "node1": {
+                "name": "CityWe"
+            },
+            "node2": {
+                "name": "DCUDub"
+            }
+        },
+        {
+            "node1": {
+                "name": "CityWe"
+            },
+            "node2": {
+                "name": "TDCTri"
+            }
+        },
+        {
+            "node1": {
+                "name": "CityWe"
+            },
+            "node2": {
+                "name": "TDCTri"
+            }
+        },
+        {
+            "node1": {
+                "name": "CityWe"
+            },
+            "node2": {
+                "name": "Kilcar"
+            }
+        },
+        {
+            "node1": {
+                "name": "CityWe"
+            },
+            "node2": {
+                "name": "Kilcar"
+            }
+        },
+        {
+            "node1": {
+                "name": "DCUDub"
+            },
+            "node2": {
+                "name": "Kilcar"
+            }
+        },
+        {
+            "node1": {
+                "name": "TDCTri"
+            },
+            "node2": {
+                "name": "Kilcar"
+            }
+        }
+    ]
+}

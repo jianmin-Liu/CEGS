@@ -1,0 +1,277 @@
+{
+    "routers": [
+        "Eisens",
+        "StPolt",
+        "Graz2",
+        "Leoben",
+        "Vienna",
+        "GEANT",
+        "Krems",
+        "ViennaID7",
+        "Level3",
+        "VIX",
+        "NodeID10",
+        "SANET",
+        "CESNET",
+        "Klagen",
+        "Graz1",
+        "Linz1",
+        "Linz2",
+        "Salzbu",
+        "SalzbuID18",
+        "Innsbr",
+        "InnsbrID20",
+        "Dornbi",
+        "KlagenID22"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Eisens"
+            },
+            "node2": {
+                "name": "Vienna"
+            }
+        },
+        {
+            "node1": {
+                "name": "Eisens"
+            },
+            "node2": {
+                "name": "ViennaID7"
+            }
+        },
+        {
+            "node1": {
+                "name": "StPolt"
+            },
+            "node2": {
+                "name": "Krems"
+            }
+        },
+        {
+            "node1": {
+                "name": "StPolt"
+            },
+            "node2": {
+                "name": "ViennaID7"
+            }
+        },
+        {
+            "node1": {
+                "name": "Graz2"
+            },
+            "node2": {
+                "name": "Leoben"
+            }
+        },
+        {
+            "node1": {
+                "name": "Graz2"
+            },
+            "node2": {
+                "name": "Graz1"
+            }
+        },
+        {
+            "node1": {
+                "name": "Graz2"
+            },
+            "node2": {
+                "name": "ViennaID7"
+            }
+        },
+        {
+            "node1": {
+                "name": "Leoben"
+            },
+            "node2": {
+                "name": "Graz1"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "Krems"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "NodeID10"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "Klagen"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "Graz1"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "Linz1"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "SalzbuID18"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "Innsbr"
+            }
+        },
+        {
+            "node1": {
+                "name": "GEANT"
+            },
+            "node2": {
+                "name": "NodeID10"
+            }
+        },
+        {
+            "node1": {
+                "name": "ViennaID7"
+            },
+            "node2": {
+                "name": "NodeID10"
+            }
+        },
+        {
+            "node1": {
+                "name": "ViennaID7"
+            },
+            "node2": {
+                "name": "Linz2"
+            }
+        },
+        {
+            "node1": {
+                "name": "ViennaID7"
+            },
+            "node2": {
+                "name": "Salzbu"
+            }
+        },
+        {
+            "node1": {
+                "name": "ViennaID7"
+            },
+            "node2": {
+                "name": "InnsbrID20"
+            }
+        },
+        {
+            "node1": {
+                "name": "ViennaID7"
+            },
+            "node2": {
+                "name": "KlagenID22"
+            }
+        },
+        {
+            "node1": {
+                "name": "Level3"
+            },
+            "node2": {
+                "name": "NodeID10"
+            }
+        },
+        {
+            "node1": {
+                "name": "VIX"
+            },
+            "node2": {
+                "name": "NodeID10"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID10"
+            },
+            "node2": {
+                "name": "SANET"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID10"
+            },
+            "node2": {
+                "name": "CESNET"
+            }
+        },
+        {
+            "node1": {
+                "name": "Klagen"
+            },
+            "node2": {
+                "name": "KlagenID22"
+            }
+        },
+        {
+            "node1": {
+                "name": "Linz1"
+            },
+            "node2": {
+                "name": "Linz2"
+            }
+        },
+        {
+            "node1": {
+                "name": "Salzbu"
+            },
+            "node2": {
+                "name": "SalzbuID18"
+            }
+        },
+        {
+            "node1": {
+                "name": "Innsbr"
+            },
+            "node2": {
+                "name": "InnsbrID20"
+            }
+        },
+        {
+            "node1": {
+                "name": "Innsbr"
+            },
+            "node2": {
+                "name": "Dornbi"
+            }
+        },
+        {
+            "node1": {
+                "name": "InnsbrID20"
+            },
+            "node2": {
+                "name": "Dornbi"
+            }
+        }
+    ]
+}

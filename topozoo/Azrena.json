@@ -1,0 +1,228 @@
+{
+    "routers": [
+        "NodeID0",
+        "Dialup",
+        "Wirele",
+        "WireleID3",
+        "Geolog",
+        "Physic",
+        "ANASus",
+        "Distri",
+        "Inform",
+        "BakuUn",
+        "Shamsa",
+        "Cybene",
+        "Khazar",
+        "NOC",
+        "Econom",
+        "LocalI",
+        "SilkHi",
+        "VSATSt",
+        "Techni",
+        "RENASC",
+        "Archit",
+        "Foreig"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "NodeID0"
+            },
+            "node2": {
+                "name": "Dialup"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID0"
+            },
+            "node2": {
+                "name": "Wirele"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID0"
+            },
+            "node2": {
+                "name": "WireleID3"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID0"
+            },
+            "node2": {
+                "name": "NOC"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID0"
+            },
+            "node2": {
+                "name": "Distri"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dialup"
+            },
+            "node2": {
+                "name": "ANASus"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dialup"
+            },
+            "node2": {
+                "name": "ANASus"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dialup"
+            },
+            "node2": {
+                "name": "ANASus"
+            }
+        },
+        {
+            "node1": {
+                "name": "Wirele"
+            },
+            "node2": {
+                "name": "Techni"
+            }
+        },
+        {
+            "node1": {
+                "name": "Wirele"
+            },
+            "node2": {
+                "name": "RENASC"
+            }
+        },
+        {
+            "node1": {
+                "name": "Wirele"
+            },
+            "node2": {
+                "name": "Archit"
+            }
+        },
+        {
+            "node1": {
+                "name": "WireleID3"
+            },
+            "node2": {
+                "name": "Khazar"
+            }
+        },
+        {
+            "node1": {
+                "name": "WireleID3"
+            },
+            "node2": {
+                "name": "Foreig"
+            }
+        },
+        {
+            "node1": {
+                "name": "Geolog"
+            },
+            "node2": {
+                "name": "Distri"
+            }
+        },
+        {
+            "node1": {
+                "name": "Physic"
+            },
+            "node2": {
+                "name": "Distri"
+            }
+        },
+        {
+            "node1": {
+                "name": "Distri"
+            },
+            "node2": {
+                "name": "Inform"
+            }
+        },
+        {
+            "node1": {
+                "name": "Inform"
+            },
+            "node2": {
+                "name": "BakuUn"
+            }
+        },
+        {
+            "node1": {
+                "name": "Inform"
+            },
+            "node2": {
+                "name": "Shamsa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Inform"
+            },
+            "node2": {
+                "name": "Cybene"
+            }
+        },
+        {
+            "node1": {
+                "name": "NOC"
+            },
+            "node2": {
+                "name": "VSATSt"
+            }
+        },
+        {
+            "node1": {
+                "name": "NOC"
+            },
+            "node2": {
+                "name": "Econom"
+            }
+        },
+        {
+            "node1": {
+                "name": "NOC"
+            },
+            "node2": {
+                "name": "LocalI"
+            }
+        },
+        {
+            "node1": {
+                "name": "NOC"
+            },
+            "node2": {
+                "name": "LocalI"
+            }
+        },
+        {
+            "node1": {
+                "name": "NOC"
+            },
+            "node2": {
+                "name": "LocalI"
+            }
+        },
+        {
+            "node1": {
+                "name": "SilkHi"
+            },
+            "node2": {
+                "name": "VSATSt"
+            }
+        }
+    ]
+}

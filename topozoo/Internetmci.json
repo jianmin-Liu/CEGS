@@ -1,0 +1,385 @@
+{
+    "routers": [
+        "Housto",
+        "Pompan",
+        "Austel",
+        "Dallas",
+        "Charlt",
+        "NewYor",
+        "LosAng",
+        "Rialto",
+        "WestOr",
+        "Washin",
+        "Greens",
+        "Seattl",
+        "SanFra",
+        "Sacram",
+        "Denver",
+        "Indepe",
+        "Willow",
+        "Downer",
+        "NorthR"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Housto"
+            },
+            "node2": {
+                "name": "Pompan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Housto"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Housto"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pompan"
+            },
+            "node2": {
+                "name": "Austel"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pompan"
+            },
+            "node2": {
+                "name": "Austel"
+            }
+        },
+        {
+            "node1": {
+                "name": "Austel"
+            },
+            "node2": {
+                "name": "Greens"
+            }
+        },
+        {
+            "node1": {
+                "name": "Austel"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Austel"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Austel"
+            },
+            "node2": {
+                "name": "Rialto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Willow"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Indepe"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Rialto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Charlt"
+            },
+            "node2": {
+                "name": "WestOr"
+            }
+        },
+        {
+            "node1": {
+                "name": "Charlt"
+            },
+            "node2": {
+                "name": "WestOr"
+            }
+        },
+        {
+            "node1": {
+                "name": "Charlt"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Charlt"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Charlt"
+            },
+            "node2": {
+                "name": "Willow"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "WestOr"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "WestOr"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "SanFra"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Rialto"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Rialto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rialto"
+            },
+            "node2": {
+                "name": "SanFra"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rialto"
+            },
+            "node2": {
+                "name": "SanFra"
+            }
+        },
+        {
+            "node1": {
+                "name": "WestOr"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "WestOr"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "WestOr"
+            },
+            "node2": {
+                "name": "Denver"
+            }
+        },
+        {
+            "node1": {
+                "name": "WestOr"
+            },
+            "node2": {
+                "name": "Willow"
+            }
+        },
+        {
+            "node1": {
+                "name": "WestOr"
+            },
+            "node2": {
+                "name": "NorthR"
+            }
+        },
+        {
+            "node1": {
+                "name": "WestOr"
+            },
+            "node2": {
+                "name": "NorthR"
+            }
+        },
+        {
+            "node1": {
+                "name": "Washin"
+            },
+            "node2": {
+                "name": "Willow"
+            }
+        },
+        {
+            "node1": {
+                "name": "Washin"
+            },
+            "node2": {
+                "name": "Greens"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "SanFra"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "SanFra"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Denver"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanFra"
+            },
+            "node2": {
+                "name": "Sacram"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanFra"
+            },
+            "node2": {
+                "name": "Sacram"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanFra"
+            },
+            "node2": {
+                "name": "Denver"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanFra"
+            },
+            "node2": {
+                "name": "Denver"
+            }
+        },
+        {
+            "node1": {
+                "name": "Denver"
+            },
+            "node2": {
+                "name": "Willow"
+            }
+        },
+        {
+            "node1": {
+                "name": "Denver"
+            },
+            "node2": {
+                "name": "Indepe"
+            }
+        },
+        {
+            "node1": {
+                "name": "Indepe"
+            },
+            "node2": {
+                "name": "Willow"
+            }
+        },
+        {
+            "node1": {
+                "name": "Willow"
+            },
+            "node2": {
+                "name": "Downer"
+            }
+        },
+        {
+            "node1": {
+                "name": "Willow"
+            },
+            "node2": {
+                "name": "Downer"
+            }
+        },
+        {
+            "node1": {
+                "name": "Downer"
+            },
+            "node2": {
+                "name": "NorthR"
+            }
+        }
+    ]
+}

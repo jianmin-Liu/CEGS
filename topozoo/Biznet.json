@@ -1,0 +1,299 @@
+{
+    "routers": [
+        "Cilaca",
+        "Purwok",
+        "Sukabu",
+        "Tasikm",
+        "Pekalo",
+        "Semara",
+        "Magela",
+        "Yogyak",
+        "Kudus",
+        "Suraka",
+        "NusaDu",
+        "Suraba",
+        "Kediri",
+        "Madium",
+        "Tuban",
+        "Banyun",
+        "Jember",
+        "Probol",
+        "Malang",
+        "Bakauh",
+        "Cibali",
+        "Tegal",
+        "Cirebo",
+        "Bandun",
+        "Karawa",
+        "Jakart",
+        "Bogor",
+        "Serang",
+        "Anyer"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Cilaca"
+            },
+            "node2": {
+                "name": "Purwok"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cilaca"
+            },
+            "node2": {
+                "name": "Tasikm"
+            }
+        },
+        {
+            "node1": {
+                "name": "Purwok"
+            },
+            "node2": {
+                "name": "Magela"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sukabu"
+            },
+            "node2": {
+                "name": "Bogor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sukabu"
+            },
+            "node2": {
+                "name": "Bandun"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tasikm"
+            },
+            "node2": {
+                "name": "Bandun"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pekalo"
+            },
+            "node2": {
+                "name": "Tegal"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pekalo"
+            },
+            "node2": {
+                "name": "Semara"
+            }
+        },
+        {
+            "node1": {
+                "name": "Semara"
+            },
+            "node2": {
+                "name": "Kudus"
+            }
+        },
+        {
+            "node1": {
+                "name": "Semara"
+            },
+            "node2": {
+                "name": "Suraka"
+            }
+        },
+        {
+            "node1": {
+                "name": "Magela"
+            },
+            "node2": {
+                "name": "Yogyak"
+            }
+        },
+        {
+            "node1": {
+                "name": "Yogyak"
+            },
+            "node2": {
+                "name": "Suraka"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kudus"
+            },
+            "node2": {
+                "name": "Tuban"
+            }
+        },
+        {
+            "node1": {
+                "name": "Suraka"
+            },
+            "node2": {
+                "name": "Madium"
+            }
+        },
+        {
+            "node1": {
+                "name": "NusaDu"
+            },
+            "node2": {
+                "name": "Banyun"
+            }
+        },
+        {
+            "node1": {
+                "name": "Suraba"
+            },
+            "node2": {
+                "name": "Probol"
+            }
+        },
+        {
+            "node1": {
+                "name": "Suraba"
+            },
+            "node2": {
+                "name": "Kediri"
+            }
+        },
+        {
+            "node1": {
+                "name": "Suraba"
+            },
+            "node2": {
+                "name": "Tuban"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kediri"
+            },
+            "node2": {
+                "name": "Malang"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kediri"
+            },
+            "node2": {
+                "name": "Madium"
+            }
+        },
+        {
+            "node1": {
+                "name": "Banyun"
+            },
+            "node2": {
+                "name": "Jember"
+            }
+        },
+        {
+            "node1": {
+                "name": "Jember"
+            },
+            "node2": {
+                "name": "Probol"
+            }
+        },
+        {
+            "node1": {
+                "name": "Jember"
+            },
+            "node2": {
+                "name": "Malang"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bakauh"
+            },
+            "node2": {
+                "name": "Anyer"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cibali"
+            },
+            "node2": {
+                "name": "Bogor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cibali"
+            },
+            "node2": {
+                "name": "Anyer"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tegal"
+            },
+            "node2": {
+                "name": "Cirebo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cirebo"
+            },
+            "node2": {
+                "name": "Bandun"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bandun"
+            },
+            "node2": {
+                "name": "Karawa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Karawa"
+            },
+            "node2": {
+                "name": "Jakart"
+            }
+        },
+        {
+            "node1": {
+                "name": "Jakart"
+            },
+            "node2": {
+                "name": "Bogor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Jakart"
+            },
+            "node2": {
+                "name": "Serang"
+            }
+        },
+        {
+            "node1": {
+                "name": "Serang"
+            },
+            "node2": {
+                "name": "Anyer"
+            }
+        }
+    ]
+}

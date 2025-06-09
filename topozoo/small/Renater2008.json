@@ -1,0 +1,383 @@
+{
+    "routers": [
+        "Bordeaux",
+        "Pau",
+        "Orleans",
+        "Limoges",
+        "ClermontFe",
+        "Dijon",
+        "Toulouse",
+        "Montpellie",
+        "Besancon",
+        "CERN",
+        "Martinique",
+        "SFINX",
+        "Geant2",
+        "NodeID13",
+        "LaReunionN",
+        "Cadarache",
+        "Marseille",
+        "Nice",
+        "Grenoble",
+        "Internetmo",
+        "Lyon",
+        "Paris",
+        "Corte",
+        "Nantes",
+        "Poiters",
+        "Strasbourg",
+        "Nancy",
+        "Reims",
+        "Compiegne",
+        "Lille",
+        "Rouen",
+        "Caen",
+        "Rennes"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Bordeaux"
+            },
+            "node2": {
+                "name": "Poiters"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bordeaux"
+            },
+            "node2": {
+                "name": "Pau"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bordeaux"
+            },
+            "node2": {
+                "name": "Toulouse"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pau"
+            },
+            "node2": {
+                "name": "Toulouse"
+            }
+        },
+        {
+            "node1": {
+                "name": "Orleans"
+            },
+            "node2": {
+                "name": "Poiters"
+            }
+        },
+        {
+            "node1": {
+                "name": "Orleans"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "Limoges"
+            },
+            "node2": {
+                "name": "Poiters"
+            }
+        },
+        {
+            "node1": {
+                "name": "Limoges"
+            },
+            "node2": {
+                "name": "ClermontFe"
+            }
+        },
+        {
+            "node1": {
+                "name": "ClermontFe"
+            },
+            "node2": {
+                "name": "Lyon"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dijon"
+            },
+            "node2": {
+                "name": "Besancon"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dijon"
+            },
+            "node2": {
+                "name": "Lyon"
+            }
+        },
+        {
+            "node1": {
+                "name": "Toulouse"
+            },
+            "node2": {
+                "name": "Montpellie"
+            }
+        },
+        {
+            "node1": {
+                "name": "Montpellie"
+            },
+            "node2": {
+                "name": "Marseille"
+            }
+        },
+        {
+            "node1": {
+                "name": "Montpellie"
+            },
+            "node2": {
+                "name": "Lyon"
+            }
+        },
+        {
+            "node1": {
+                "name": "Besancon"
+            },
+            "node2": {
+                "name": "Strasbourg"
+            }
+        },
+        {
+            "node1": {
+                "name": "Besancon"
+            },
+            "node2": {
+                "name": "Lyon"
+            }
+        },
+        {
+            "node1": {
+                "name": "CERN"
+            },
+            "node2": {
+                "name": "Lyon"
+            }
+        },
+        {
+            "node1": {
+                "name": "Martinique"
+            },
+            "node2": {
+                "name": "Lyon"
+            }
+        },
+        {
+            "node1": {
+                "name": "Martinique"
+            },
+            "node2": {
+                "name": "NodeID13"
+            }
+        },
+        {
+            "node1": {
+                "name": "SFINX"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "Geant2"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID13"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID13"
+            },
+            "node2": {
+                "name": "LaReunionN"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cadarache"
+            },
+            "node2": {
+                "name": "Marseille"
+            }
+        },
+        {
+            "node1": {
+                "name": "Marseille"
+            },
+            "node2": {
+                "name": "Nice"
+            }
+        },
+        {
+            "node1": {
+                "name": "Marseille"
+            },
+            "node2": {
+                "name": "Corte"
+            }
+        },
+        {
+            "node1": {
+                "name": "Nice"
+            },
+            "node2": {
+                "name": "Grenoble"
+            }
+        },
+        {
+            "node1": {
+                "name": "Grenoble"
+            },
+            "node2": {
+                "name": "Lyon"
+            }
+        },
+        {
+            "node1": {
+                "name": "Internetmo"
+            },
+            "node2": {
+                "name": "Lyon"
+            }
+        },
+        {
+            "node1": {
+                "name": "Internetmo"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lyon"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paris"
+            },
+            "node2": {
+                "name": "Poiters"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paris"
+            },
+            "node2": {
+                "name": "Reims"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paris"
+            },
+            "node2": {
+                "name": "Compiegne"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paris"
+            },
+            "node2": {
+                "name": "Lille"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paris"
+            },
+            "node2": {
+                "name": "Rouen"
+            }
+        },
+        {
+            "node1": {
+                "name": "Nantes"
+            },
+            "node2": {
+                "name": "Poiters"
+            }
+        },
+        {
+            "node1": {
+                "name": "Nantes"
+            },
+            "node2": {
+                "name": "Rennes"
+            }
+        },
+        {
+            "node1": {
+                "name": "Strasbourg"
+            },
+            "node2": {
+                "name": "Nancy"
+            }
+        },
+        {
+            "node1": {
+                "name": "Nancy"
+            },
+            "node2": {
+                "name": "Reims"
+            }
+        },
+        {
+            "node1": {
+                "name": "Compiegne"
+            },
+            "node2": {
+                "name": "Lille"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rouen"
+            },
+            "node2": {
+                "name": "Caen"
+            }
+        },
+        {
+            "node1": {
+                "name": "Caen"
+            },
+            "node2": {
+                "name": "Rennes"
+            }
+        }
+    ]
+}

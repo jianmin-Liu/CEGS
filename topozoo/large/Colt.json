@@ -1,0 +1,1687 @@
+{
+    "routers": [
+        "Linz",
+        "StPollen",
+        "Rostock",
+        "Potsdam",
+        "Leipzig",
+        "Dresden",
+        "Krakov",
+        "Warsaw",
+        "Nuremberg",
+        "Erding",
+        "Vienna",
+        "Prague",
+        "Mannheim",
+        "Munich",
+        "Cologne",
+        "TheHague",
+        "Hannover",
+        "Dusseldorf",
+        "Antwerp",
+        "Rotterdam",
+        "Sintra",
+        "Catania",
+        "Porto",
+        "Lisbon",
+        "Sassari",
+        "Bari",
+        "Palermo",
+        "Cagliari",
+        "Boston",
+        "Chicago",
+        "Karlsruhe",
+        "Boblingen",
+        "Pfaffikon",
+        "StGallen",
+        "Esslingen",
+        "Winterthur",
+        "Lausanne",
+        "BielBienne",
+        "Schaffhaus",
+        "Nyon",
+        "Charleroi",
+        "Liege",
+        "Anderlecht",
+        "Mons",
+        "Leuven",
+        "Eindhoven",
+        "Luxembourg",
+        "Evere",
+        "Breda",
+        "DenBosch",
+        "Copenhagen",
+        "Hamburg",
+        "Malmo",
+        "Aarhus",
+        "Newark",
+        "NewYork",
+        "Stockholm",
+        "Helsinki",
+        "Gothenburg",
+        "Oslo",
+        "NodeID60",
+        "Brindisi",
+        "NodeID62",
+        "Lucerne",
+        "Chiasso",
+        "Piacenza",
+        "Genova",
+        "Livorno",
+        "Firenze",
+        "Rimini",
+        "Parma",
+        "Varese",
+        "Como",
+        "NodeID73",
+        "Zurich",
+        "Dublin",
+        "Manchester",
+        "Birmingham",
+        "Ghent",
+        "NodeID79",
+        "Valencia",
+        "Rome",
+        "Marseille",
+        "Nice",
+        "Montpellie",
+        "Grenoble",
+        "Bordeaux",
+        "Borgomaner",
+        "Novara",
+        "Biella",
+        "Cuneo",
+        "Reading",
+        "Kolding",
+        "Napoli",
+        "Ostend",
+        "Venezia",
+        "Treviso",
+        "Graz",
+        "Bratislava",
+        "Salzburg",
+        "Klagenfurt",
+        "Budapest",
+        "Innsbruck",
+        "Trento",
+        "Bucharest",
+        "Modena",
+        "ReggioEmil",
+        "Padova",
+        "Bologna",
+        "Bergamo",
+        "Monza",
+        "Verona",
+        "Brescia",
+        "Trieste",
+        "Vicenza",
+        "Lille",
+        "Kortnijk",
+        "Basel",
+        "Strasbourg",
+        "Stuttgart",
+        "Bern",
+        "Nantes",
+        "Toulouse",
+        "Lyon",
+        "Geneve",
+        "Zug",
+        "Lugano",
+        "Bremen",
+        "Magdemburg",
+        "Utrecht",
+        "Almere",
+        "Hilversum",
+        "Hoofddorp",
+        "Neuss",
+        "Wuppertal",
+        "Dortmund",
+        "Essen",
+        "Barcelona",
+        "Turin",
+        "Paris",
+        "London",
+        "Frankfurt",
+        "Brussels",
+        "Amsterdam",
+        "Berlin",
+        "Dijon",
+        "Tours",
+        "Poitiers",
+        "Rennes",
+        "Rouen",
+        "Bristol",
+        "Madrid",
+        "Milan"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Linz"
+            },
+            "node2": {
+                "name": "StPollen"
+            }
+        },
+        {
+            "node1": {
+                "name": "Linz"
+            },
+            "node2": {
+                "name": "Vienna"
+            }
+        },
+        {
+            "node1": {
+                "name": "Linz"
+            },
+            "node2": {
+                "name": "Salzburg"
+            }
+        },
+        {
+            "node1": {
+                "name": "Linz"
+            },
+            "node2": {
+                "name": "Salzburg"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rostock"
+            },
+            "node2": {
+                "name": "Berlin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rostock"
+            },
+            "node2": {
+                "name": "Hamburg"
+            }
+        },
+        {
+            "node1": {
+                "name": "Potsdam"
+            },
+            "node2": {
+                "name": "Berlin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Potsdam"
+            },
+            "node2": {
+                "name": "Berlin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Leipzig"
+            },
+            "node2": {
+                "name": "Nuremberg"
+            }
+        },
+        {
+            "node1": {
+                "name": "Leipzig"
+            },
+            "node2": {
+                "name": "Dresden"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dresden"
+            },
+            "node2": {
+                "name": "Berlin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dresden"
+            },
+            "node2": {
+                "name": "Prague"
+            }
+        },
+        {
+            "node1": {
+                "name": "Krakov"
+            },
+            "node2": {
+                "name": "Prague"
+            }
+        },
+        {
+            "node1": {
+                "name": "Krakov"
+            },
+            "node2": {
+                "name": "Warsaw"
+            }
+        },
+        {
+            "node1": {
+                "name": "Warsaw"
+            },
+            "node2": {
+                "name": "Berlin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Nuremberg"
+            },
+            "node2": {
+                "name": "Munich"
+            }
+        },
+        {
+            "node1": {
+                "name": "Erding"
+            },
+            "node2": {
+                "name": "Munich"
+            }
+        },
+        {
+            "node1": {
+                "name": "Erding"
+            },
+            "node2": {
+                "name": "Munich"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "Graz"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "Graz"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "Bratislava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "Bratislava"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "Budapest"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "Prague"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "Munich"
+            }
+        },
+        {
+            "node1": {
+                "name": "Mannheim"
+            },
+            "node2": {
+                "name": "Frankfurt"
+            }
+        },
+        {
+            "node1": {
+                "name": "Mannheim"
+            },
+            "node2": {
+                "name": "Karlsruhe"
+            }
+        },
+        {
+            "node1": {
+                "name": "Munich"
+            },
+            "node2": {
+                "name": "Stuttgart"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cologne"
+            },
+            "node2": {
+                "name": "Dusseldorf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cologne"
+            },
+            "node2": {
+                "name": "Frankfurt"
+            }
+        },
+        {
+            "node1": {
+                "name": "TheHague"
+            },
+            "node2": {
+                "name": "Antwerp"
+            }
+        },
+        {
+            "node1": {
+                "name": "TheHague"
+            },
+            "node2": {
+                "name": "Rotterdam"
+            }
+        },
+        {
+            "node1": {
+                "name": "TheHague"
+            },
+            "node2": {
+                "name": "Hoofddorp"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hannover"
+            },
+            "node2": {
+                "name": "Hamburg"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hannover"
+            },
+            "node2": {
+                "name": "NodeID60"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dusseldorf"
+            },
+            "node2": {
+                "name": "Essen"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dusseldorf"
+            },
+            "node2": {
+                "name": "Amsterdam"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dusseldorf"
+            },
+            "node2": {
+                "name": "Neuss"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dusseldorf"
+            },
+            "node2": {
+                "name": "Neuss"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dusseldorf"
+            },
+            "node2": {
+                "name": "Wuppertal"
+            }
+        },
+        {
+            "node1": {
+                "name": "Antwerp"
+            },
+            "node2": {
+                "name": "Brussels"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rotterdam"
+            },
+            "node2": {
+                "name": "DenBosch"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sintra"
+            },
+            "node2": {
+                "name": "Lisbon"
+            }
+        },
+        {
+            "node1": {
+                "name": "Catania"
+            },
+            "node2": {
+                "name": "Rome"
+            }
+        },
+        {
+            "node1": {
+                "name": "Porto"
+            },
+            "node2": {
+                "name": "Lisbon"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lisbon"
+            },
+            "node2": {
+                "name": "Madrid"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lisbon"
+            },
+            "node2": {
+                "name": "Madrid"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sassari"
+            },
+            "node2": {
+                "name": "Rome"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bari"
+            },
+            "node2": {
+                "name": "Rome"
+            }
+        },
+        {
+            "node1": {
+                "name": "Palermo"
+            },
+            "node2": {
+                "name": "Rome"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cagliari"
+            },
+            "node2": {
+                "name": "Rome"
+            }
+        },
+        {
+            "node1": {
+                "name": "Boston"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Boston"
+            },
+            "node2": {
+                "name": "Chicago"
+            }
+        },
+        {
+            "node1": {
+                "name": "Karlsruhe"
+            },
+            "node2": {
+                "name": "Strasbourg"
+            }
+        },
+        {
+            "node1": {
+                "name": "Karlsruhe"
+            },
+            "node2": {
+                "name": "Stuttgart"
+            }
+        },
+        {
+            "node1": {
+                "name": "Boblingen"
+            },
+            "node2": {
+                "name": "Stuttgart"
+            }
+        },
+        {
+            "node1": {
+                "name": "Boblingen"
+            },
+            "node2": {
+                "name": "Stuttgart"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pfaffikon"
+            },
+            "node2": {
+                "name": "StGallen"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pfaffikon"
+            },
+            "node2": {
+                "name": "Winterthur"
+            }
+        },
+        {
+            "node1": {
+                "name": "StGallen"
+            },
+            "node2": {
+                "name": "Zurich"
+            }
+        },
+        {
+            "node1": {
+                "name": "StGallen"
+            },
+            "node2": {
+                "name": "Schaffhaus"
+            }
+        },
+        {
+            "node1": {
+                "name": "Esslingen"
+            },
+            "node2": {
+                "name": "Stuttgart"
+            }
+        },
+        {
+            "node1": {
+                "name": "Esslingen"
+            },
+            "node2": {
+                "name": "Stuttgart"
+            }
+        },
+        {
+            "node1": {
+                "name": "Winterthur"
+            },
+            "node2": {
+                "name": "Zurich"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lausanne"
+            },
+            "node2": {
+                "name": "NodeID73"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lausanne"
+            },
+            "node2": {
+                "name": "Nyon"
+            }
+        },
+        {
+            "node1": {
+                "name": "BielBienne"
+            },
+            "node2": {
+                "name": "NodeID73"
+            }
+        },
+        {
+            "node1": {
+                "name": "Schaffhaus"
+            },
+            "node2": {
+                "name": "Zurich"
+            }
+        },
+        {
+            "node1": {
+                "name": "Nyon"
+            },
+            "node2": {
+                "name": "Geneve"
+            }
+        },
+        {
+            "node1": {
+                "name": "Charleroi"
+            },
+            "node2": {
+                "name": "Brussels"
+            }
+        },
+        {
+            "node1": {
+                "name": "Liege"
+            },
+            "node2": {
+                "name": "Brussels"
+            }
+        },
+        {
+            "node1": {
+                "name": "Anderlecht"
+            },
+            "node2": {
+                "name": "Brussels"
+            }
+        },
+        {
+            "node1": {
+                "name": "Mons"
+            },
+            "node2": {
+                "name": "Brussels"
+            }
+        },
+        {
+            "node1": {
+                "name": "Leuven"
+            },
+            "node2": {
+                "name": "Brussels"
+            }
+        },
+        {
+            "node1": {
+                "name": "Eindhoven"
+            },
+            "node2": {
+                "name": "DenBosch"
+            }
+        },
+        {
+            "node1": {
+                "name": "Luxembourg"
+            },
+            "node2": {
+                "name": "Brussels"
+            }
+        },
+        {
+            "node1": {
+                "name": "Evere"
+            },
+            "node2": {
+                "name": "Brussels"
+            }
+        },
+        {
+            "node1": {
+                "name": "Breda"
+            },
+            "node2": {
+                "name": "DenBosch"
+            }
+        },
+        {
+            "node1": {
+                "name": "DenBosch"
+            },
+            "node2": {
+                "name": "Utrecht"
+            }
+        },
+        {
+            "node1": {
+                "name": "Copenhagen"
+            },
+            "node2": {
+                "name": "Stockholm"
+            }
+        },
+        {
+            "node1": {
+                "name": "Copenhagen"
+            },
+            "node2": {
+                "name": "Gothenburg"
+            }
+        },
+        {
+            "node1": {
+                "name": "Copenhagen"
+            },
+            "node2": {
+                "name": "Hamburg"
+            }
+        },
+        {
+            "node1": {
+                "name": "Copenhagen"
+            },
+            "node2": {
+                "name": "Malmo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Copenhagen"
+            },
+            "node2": {
+                "name": "Aarhus"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hamburg"
+            },
+            "node2": {
+                "name": "Essen"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hamburg"
+            },
+            "node2": {
+                "name": "Aarhus"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hamburg"
+            },
+            "node2": {
+                "name": "Kolding"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hamburg"
+            },
+            "node2": {
+                "name": "Bremen"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hamburg"
+            },
+            "node2": {
+                "name": "Bremen"
+            }
+        },
+        {
+            "node1": {
+                "name": "Aarhus"
+            },
+            "node2": {
+                "name": "Kolding"
+            }
+        },
+        {
+            "node1": {
+                "name": "Newark"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "Newark"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Newark"
+            },
+            "node2": {
+                "name": "NewYork"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYork"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Stockholm"
+            },
+            "node2": {
+                "name": "Helsinki"
+            }
+        },
+        {
+            "node1": {
+                "name": "Stockholm"
+            },
+            "node2": {
+                "name": "Helsinki"
+            }
+        },
+        {
+            "node1": {
+                "name": "Stockholm"
+            },
+            "node2": {
+                "name": "Oslo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gothenburg"
+            },
+            "node2": {
+                "name": "Oslo"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID60"
+            },
+            "node2": {
+                "name": "Magdemburg"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID60"
+            },
+            "node2": {
+                "name": "Berlin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brindisi"
+            },
+            "node2": {
+                "name": "Rome"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID62"
+            },
+            "node2": {
+                "name": "Lille"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID62"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID62"
+            },
+            "node2": {
+                "name": "Ostend"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lucerne"
+            },
+            "node2": {
+                "name": "Zug"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lucerne"
+            },
+            "node2": {
+                "name": "Lugano"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chiasso"
+            },
+            "node2": {
+                "name": "Como"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chiasso"
+            },
+            "node2": {
+                "name": "Lugano"
+            }
+        },
+        {
+            "node1": {
+                "name": "Piacenza"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Genova"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Genova"
+            },
+            "node2": {
+                "name": "Firenze"
+            }
+        },
+        {
+            "node1": {
+                "name": "Livorno"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Firenze"
+            },
+            "node2": {
+                "name": "Rome"
+            }
+        },
+        {
+            "node1": {
+                "name": "Firenze"
+            },
+            "node2": {
+                "name": "Bologna"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rimini"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Parma"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Varese"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Como"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID73"
+            },
+            "node2": {
+                "name": "Bern"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID73"
+            },
+            "node2": {
+                "name": "Basel"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zurich"
+            },
+            "node2": {
+                "name": "Basel"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zurich"
+            },
+            "node2": {
+                "name": "Zug"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dublin"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dublin"
+            },
+            "node2": {
+                "name": "Bristol"
+            }
+        },
+        {
+            "node1": {
+                "name": "Manchester"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Manchester"
+            },
+            "node2": {
+                "name": "Birmingham"
+            }
+        },
+        {
+            "node1": {
+                "name": "Birmingham"
+            },
+            "node2": {
+                "name": "Bristol"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ghent"
+            },
+            "node2": {
+                "name": "Lille"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ghent"
+            },
+            "node2": {
+                "name": "Brussels"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ghent"
+            },
+            "node2": {
+                "name": "Ostend"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID79"
+            },
+            "node2": {
+                "name": "Barcelona"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID79"
+            },
+            "node2": {
+                "name": "Toulouse"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID79"
+            },
+            "node2": {
+                "name": "Montpellie"
+            }
+        },
+        {
+            "node1": {
+                "name": "Valencia"
+            },
+            "node2": {
+                "name": "Barcelona"
+            }
+        },
+        {
+            "node1": {
+                "name": "Valencia"
+            },
+            "node2": {
+                "name": "Madrid"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rome"
+            },
+            "node2": {
+                "name": "Padova"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rome"
+            },
+            "node2": {
+                "name": "Napoli"
+            }
+        },
+        {
+            "node1": {
+                "name": "Marseille"
+            },
+            "node2": {
+                "name": "Nice"
+            }
+        },
+        {
+            "node1": {
+                "name": "Marseille"
+            },
+            "node2": {
+                "name": "Turin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Marseille"
+            },
+            "node2": {
+                "name": "Lyon"
+            }
+        },
+        {
+            "node1": {
+                "name": "Marseille"
+            },
+            "node2": {
+                "name": "Montpellie"
+            }
+        },
+        {
+            "node1": {
+                "name": "Grenoble"
+            },
+            "node2": {
+                "name": "Lyon"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bordeaux"
+            },
+            "node2": {
+                "name": "Nantes"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bordeaux"
+            },
+            "node2": {
+                "name": "Toulouse"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bordeaux"
+            },
+            "node2": {
+                "name": "Madrid"
+            }
+        },
+        {
+            "node1": {
+                "name": "Borgomaner"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Novara"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Biella"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cuneo"
+            },
+            "node2": {
+                "name": "Turin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Reading"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Reading"
+            },
+            "node2": {
+                "name": "Bristol"
+            }
+        },
+        {
+            "node1": {
+                "name": "Venezia"
+            },
+            "node2": {
+                "name": "Padova"
+            }
+        },
+        {
+            "node1": {
+                "name": "Treviso"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Graz"
+            },
+            "node2": {
+                "name": "Klagenfurt"
+            }
+        },
+        {
+            "node1": {
+                "name": "Graz"
+            },
+            "node2": {
+                "name": "Klagenfurt"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bratislava"
+            },
+            "node2": {
+                "name": "Budapest"
+            }
+        },
+        {
+            "node1": {
+                "name": "Salzburg"
+            },
+            "node2": {
+                "name": "Innsbruck"
+            }
+        },
+        {
+            "node1": {
+                "name": "Salzburg"
+            },
+            "node2": {
+                "name": "Innsbruck"
+            }
+        },
+        {
+            "node1": {
+                "name": "Budapest"
+            },
+            "node2": {
+                "name": "Bucharest"
+            }
+        },
+        {
+            "node1": {
+                "name": "Budapest"
+            },
+            "node2": {
+                "name": "Bucharest"
+            }
+        },
+        {
+            "node1": {
+                "name": "Trento"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Modena"
+            },
+            "node2": {
+                "name": "ReggioEmil"
+            }
+        },
+        {
+            "node1": {
+                "name": "Modena"
+            },
+            "node2": {
+                "name": "Bologna"
+            }
+        },
+        {
+            "node1": {
+                "name": "ReggioEmil"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Padova"
+            },
+            "node2": {
+                "name": "Verona"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bergamo"
+            },
+            "node2": {
+                "name": "Brescia"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bergamo"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Monza"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Verona"
+            },
+            "node2": {
+                "name": "Brescia"
+            }
+        },
+        {
+            "node1": {
+                "name": "Trieste"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vicenza"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lille"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kortnijk"
+            },
+            "node2": {
+                "name": "Brussels"
+            }
+        },
+        {
+            "node1": {
+                "name": "Basel"
+            },
+            "node2": {
+                "name": "Strasbourg"
+            }
+        },
+        {
+            "node1": {
+                "name": "Strasbourg"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "Nantes"
+            },
+            "node2": {
+                "name": "Rennes"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lyon"
+            },
+            "node2": {
+                "name": "Dijon"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lyon"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lyon"
+            },
+            "node2": {
+                "name": "Geneve"
+            }
+        },
+        {
+            "node1": {
+                "name": "Utrecht"
+            },
+            "node2": {
+                "name": "Hilversum"
+            }
+        },
+        {
+            "node1": {
+                "name": "Almere"
+            },
+            "node2": {
+                "name": "Amsterdam"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hilversum"
+            },
+            "node2": {
+                "name": "Amsterdam"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hoofddorp"
+            },
+            "node2": {
+                "name": "Amsterdam"
+            }
+        },
+        {
+            "node1": {
+                "name": "Wuppertal"
+            },
+            "node2": {
+                "name": "Dortmund"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dortmund"
+            },
+            "node2": {
+                "name": "Essen"
+            }
+        },
+        {
+            "node1": {
+                "name": "Turin"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paris"
+            },
+            "node2": {
+                "name": "Tours"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paris"
+            },
+            "node2": {
+                "name": "Rouen"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "Brussels"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tours"
+            },
+            "node2": {
+                "name": "Poitiers"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rennes"
+            },
+            "node2": {
+                "name": "Rouen"
+            }
+        }
+    ]
+}

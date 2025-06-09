@@ -1,0 +1,394 @@
+{
+    "routers": [
+        "StaraG",
+        "Kutina",
+        "Slavon",
+        "Pozega",
+        "Gorica",
+        "Karlov",
+        "Sisak",
+        "Petrin",
+        "Jastre",
+        "GEANT",
+        "Hvar",
+        "Dubrov",
+        "Rovinj",
+        "Visnja",
+        "Opatij",
+        "Porec",
+        "Buje",
+        "Zadar",
+        "Zenumi",
+        "Knin",
+        "Trogic",
+        "Pucisc",
+        "Solin",
+        "Sibeni",
+        "Pula",
+        "MLosin",
+        "Rijeka",
+        "Split",
+        "Cakove",
+        "GEANTID29",
+        "Gospic",
+        "Otocac",
+        "Vinkov",
+        "BIHarn",
+        "Vukova",
+        "Dakovo",
+        "Zagreb",
+        "Zabres",
+        "Samobo",
+        "Varazd",
+        "Krizev",
+        "Bjelov",
+        "Virovi",
+        "Osijek"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "StaraG"
+            },
+            "node2": {
+                "name": "Zagreb"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kutina"
+            },
+            "node2": {
+                "name": "Zagreb"
+            }
+        },
+        {
+            "node1": {
+                "name": "Slavon"
+            },
+            "node2": {
+                "name": "Osijek"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pozega"
+            },
+            "node2": {
+                "name": "Osijek"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gorica"
+            },
+            "node2": {
+                "name": "Zagreb"
+            }
+        },
+        {
+            "node1": {
+                "name": "Karlov"
+            },
+            "node2": {
+                "name": "Zagreb"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sisak"
+            },
+            "node2": {
+                "name": "Zagreb"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sisak"
+            },
+            "node2": {
+                "name": "Petrin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Jastre"
+            },
+            "node2": {
+                "name": "Zagreb"
+            }
+        },
+        {
+            "node1": {
+                "name": "GEANT"
+            },
+            "node2": {
+                "name": "Zagreb"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hvar"
+            },
+            "node2": {
+                "name": "Split"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dubrov"
+            },
+            "node2": {
+                "name": "Split"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rovinj"
+            },
+            "node2": {
+                "name": "Pula"
+            }
+        },
+        {
+            "node1": {
+                "name": "Visnja"
+            },
+            "node2": {
+                "name": "Rijeka"
+            }
+        },
+        {
+            "node1": {
+                "name": "Opatij"
+            },
+            "node2": {
+                "name": "Rijeka"
+            }
+        },
+        {
+            "node1": {
+                "name": "Porec"
+            },
+            "node2": {
+                "name": "Rijeka"
+            }
+        },
+        {
+            "node1": {
+                "name": "Buje"
+            },
+            "node2": {
+                "name": "Rijeka"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zadar"
+            },
+            "node2": {
+                "name": "Zenumi"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zadar"
+            },
+            "node2": {
+                "name": "Split"
+            }
+        },
+        {
+            "node1": {
+                "name": "Knin"
+            },
+            "node2": {
+                "name": "Split"
+            }
+        },
+        {
+            "node1": {
+                "name": "Trogic"
+            },
+            "node2": {
+                "name": "Split"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pucisc"
+            },
+            "node2": {
+                "name": "Split"
+            }
+        },
+        {
+            "node1": {
+                "name": "Solin"
+            },
+            "node2": {
+                "name": "Split"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sibeni"
+            },
+            "node2": {
+                "name": "Split"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pula"
+            },
+            "node2": {
+                "name": "Rijeka"
+            }
+        },
+        {
+            "node1": {
+                "name": "MLosin"
+            },
+            "node2": {
+                "name": "Rijeka"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rijeka"
+            },
+            "node2": {
+                "name": "Zagreb"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rijeka"
+            },
+            "node2": {
+                "name": "Gospic"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rijeka"
+            },
+            "node2": {
+                "name": "Otocac"
+            }
+        },
+        {
+            "node1": {
+                "name": "Split"
+            },
+            "node2": {
+                "name": "Zagreb"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cakove"
+            },
+            "node2": {
+                "name": "Varazd"
+            }
+        },
+        {
+            "node1": {
+                "name": "GEANTID29"
+            },
+            "node2": {
+                "name": "Zagreb"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vinkov"
+            },
+            "node2": {
+                "name": "Vukova"
+            }
+        },
+        {
+            "node1": {
+                "name": "BIHarn"
+            },
+            "node2": {
+                "name": "Zagreb"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vukova"
+            },
+            "node2": {
+                "name": "Osijek"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dakovo"
+            },
+            "node2": {
+                "name": "Osijek"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zagreb"
+            },
+            "node2": {
+                "name": "Virovi"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zagreb"
+            },
+            "node2": {
+                "name": "Osijek"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zagreb"
+            },
+            "node2": {
+                "name": "Samobo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zagreb"
+            },
+            "node2": {
+                "name": "Krizev"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zagreb"
+            },
+            "node2": {
+                "name": "Bjelov"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zagreb"
+            },
+            "node2": {
+                "name": "Varazd"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zagreb"
+            },
+            "node2": {
+                "name": "Zabres"
+            }
+        }
+    ]
+}

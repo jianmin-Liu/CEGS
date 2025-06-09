@@ -1,0 +1,32 @@
+Given a configuration intent and its implementing network topology:
+Extract role attributes for all nodes in the topology based on the intent.
+Represent results as a JSON dictionary.
+
+*** Steps ***:
+For each node in the given topology:
+Analyze the intent and assign the node a role from the set of node attributes: {"source", "relay", "destination", "non-involvement"}
+The node's role indicates its function in fulfilling the intent.
+
+Node attribute definitions:
+source: Node serves as the starting endpoint of the traffic flow.
+relay: Node functions as a transmission intermediary for the traffic flow transmission.
+destination: Node is the final endpoint of the traffic flow.
+non-involvement: Node is not part of any specified paths, that is, the node always doesn't participate in the traffic flow transmission.
+
+
+*** Rules ***:
+Return only a JSON dictionary, referring to the examples.
+No explanations or comments.
+Use exact attribute names from the predefined sets.
+
+
+For example:
+==============================================================================
+Intent: Each router runs the OSPF protocol. Traffic from ra to re is forwarded along any path in {(ra --> rc --> re), (ra --> rb --> rd --> re)}.
+Topology: {'nodes': ['ra', 'rb', 'rc', 'rd', 're', 'rf', 'rg'], 'edges': [{'node1': {'name': 'ra'}, 'node2': {'name': 'rb'}}, {'node1': {'name': 'ra'}, 'node2': {'name': 'rb'}}, {'node1': {'name': 'ra'}, 'node2': {'name': 'rc'}}, {'node1': {'name': 'ra'}, 'node2': {'name': 'rc'}}, {'node1': {'name': 'rb'}, 'node2': {'name': 'rd'}}, {'node1': {'name': 'rb'}, 'node2': {'name': 'rd'}}, {'node1': {'name': 'rc'}, 'node2': {'name': 're'}}, {'node1': {'name': 'rc'}, 'node2': {'name': 're'}}, {'node1': {'name': 'rd'}, 'node2': {'name': 're'}}, {'node1': {'name': 'rd'}, 'node2': {'name': 're'}}, {'node1': {'name': 'rd'}, 'node2': {'name': 'rf'}}, {'node1': {'name': 'rd'}, 'node2': {'name': 'rf'}}, {'node1': {'name': 're'}, 'node2': {'name': 'rg'}}, {'node1': {'name': 're'}, 'node2': {'name': 'rg'}}, {'node1': {'name': 'rf'}, 'node2': {'name': 'rg'}}, {'node1': {'name': 'rf'}, 'node2': {'name': 'rg'}}]}
+Role attributes: {'ra': source', 'rb': 'relay', 'rc': 'relay', 'rd': 'relay', 're': 'destination', 'rf': 'non-involvement', 'rg': 'non-involvement'}
+
+Intent: Each router runs the OSPF protocol. Traffic from Houston to Atlanta is forwarded along any path in {(Houston --> Beijing --> Atlanta), (Houston --> KansasCity --> Indianapol --> Atlanta)}.
+Topology: {'nodes': ['NewYork', 'Chicago', 'Washington', 'Seattle', 'Sunnyvale', 'LosAngeles', 'Denver', 'KansasCity', 'Houston', 'Atlanta', 'Indianapol', 'Beijing'], 'edges': [{'node1': {'name': 'NewYork'}, 'node2': {'name': 'Chicago'}}, {'node1': {'name': 'NewYork'}, 'node2': {'name': 'Washington'}}, {'node1': {'name': 'Chicago'}, 'node2': {'name': 'Indianapol'}}, {'node1': {'name': 'Washington'}, 'node2': {'name': 'Atlanta'}}, {'node1': {'name': 'Seattle'}, 'node2': {'name': 'Sunnyvale'}}, {'node1': {'name': 'Seattle'}, 'node2': {'name': 'Denver'}}, {'node1': {'name': 'Sunnyvale'}, 'node2': {'name': 'LosAngeles'}}, {'node1': {'name': 'Sunnyvale'}, 'node2': {'name': 'Denver'}}, {'node1': {'name': 'LosAngeles'}, 'node2': {'name': 'Houston'}}, {'node1': {'name': 'Denver'}, 'node2': {'name': 'KansasCity'}}, {'node1': {'name': 'KansasCity'}, 'node2': {'name': 'Houston'}}, {'node1': {'name': 'KansasCity'}, 'node2': {'name': 'Indianapol'}}, {'node1': {'name': 'Houston'}, 'node2': {'name': 'Atlanta'}}, {'node1': {'name': 'Houston'}, 'node2': {'name': 'Beijing'}}, {'node1': {'name': 'Atlanta'}, 'node2': {'name': 'Indianapol'}}, {'node1': {'name': 'Atlanta'}, 'node2': {'name': 'Beijing'}}]}
+Role attributes: {'NewYork': 'non-involvement', 'Chicago': 'non-involvement', 'Washington': 'non-involvement', 'Seattle': 'non-involvement', 'Sunnyvale': 'non-involvement', 'LosAngeles': 'non-involvement', 'Denver': 'non-involvement', 'KansasCity': 'relay', 'Houston': 'source', 'Atlanta': 'destination', 'Indianapol': 'relay', 'Beijing': 'relay'}
+==============================================================================

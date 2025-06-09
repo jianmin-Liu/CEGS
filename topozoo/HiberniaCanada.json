@@ -1,0 +1,131 @@
+{
+    "routers": [
+        "NewYor",
+        "NodeID1",
+        "NodeID2",
+        "Moncto",
+        "NodeID4",
+        "Edmund",
+        "Quebec",
+        "Montre",
+        "Toront",
+        "Buffal",
+        "Albany",
+        "Boston",
+        "Halifa"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Albany"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Boston"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID1"
+            },
+            "node2": {
+                "name": "NodeID4"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID2"
+            },
+            "node2": {
+                "name": "Halifa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Moncto"
+            },
+            "node2": {
+                "name": "Halifa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Moncto"
+            },
+            "node2": {
+                "name": "Edmund"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID4"
+            },
+            "node2": {
+                "name": "Boston"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID4"
+            },
+            "node2": {
+                "name": "Halifa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Edmund"
+            },
+            "node2": {
+                "name": "Quebec"
+            }
+        },
+        {
+            "node1": {
+                "name": "Quebec"
+            },
+            "node2": {
+                "name": "Montre"
+            }
+        },
+        {
+            "node1": {
+                "name": "Montre"
+            },
+            "node2": {
+                "name": "Toront"
+            }
+        },
+        {
+            "node1": {
+                "name": "Montre"
+            },
+            "node2": {
+                "name": "Albany"
+            }
+        },
+        {
+            "node1": {
+                "name": "Toront"
+            },
+            "node2": {
+                "name": "Buffal"
+            }
+        },
+        {
+            "node1": {
+                "name": "Buffal"
+            },
+            "node2": {
+                "name": "Albany"
+            }
+        }
+    ]
+}

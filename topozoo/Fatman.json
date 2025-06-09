@@ -1,0 +1,191 @@
+{
+    "routers": [
+        "Carneg",
+        "AdamSm",
+        "Kirkca",
+        "UoDFif",
+        "Janeta",
+        "NodeID5",
+        "JanetaID6",
+        "Dundee",
+        "AngusC",
+        "Glasgo",
+        "Leeds",
+        "RNEP1",
+        "RNEP2",
+        "Univer",
+        "UniverID14",
+        "UniverID15",
+        "Elmwoo"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Carneg"
+            },
+            "node2": {
+                "name": "Kirkca"
+            }
+        },
+        {
+            "node1": {
+                "name": "AdamSm"
+            },
+            "node2": {
+                "name": "Kirkca"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kirkca"
+            },
+            "node2": {
+                "name": "UoDFif"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kirkca"
+            },
+            "node2": {
+                "name": "NodeID5"
+            }
+        },
+        {
+            "node1": {
+                "name": "Janeta"
+            },
+            "node2": {
+                "name": "Glasgo"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID5"
+            },
+            "node2": {
+                "name": "RNEP1"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID5"
+            },
+            "node2": {
+                "name": "RNEP2"
+            }
+        },
+        {
+            "node1": {
+                "name": "JanetaID6"
+            },
+            "node2": {
+                "name": "Leeds"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dundee"
+            },
+            "node2": {
+                "name": "RNEP1"
+            }
+        },
+        {
+            "node1": {
+                "name": "AngusC"
+            },
+            "node2": {
+                "name": "RNEP1"
+            }
+        },
+        {
+            "node1": {
+                "name": "Glasgo"
+            },
+            "node2": {
+                "name": "RNEP2"
+            }
+        },
+        {
+            "node1": {
+                "name": "Glasgo"
+            },
+            "node2": {
+                "name": "Leeds"
+            }
+        },
+        {
+            "node1": {
+                "name": "Leeds"
+            },
+            "node2": {
+                "name": "RNEP1"
+            }
+        },
+        {
+            "node1": {
+                "name": "RNEP1"
+            },
+            "node2": {
+                "name": "RNEP2"
+            }
+        },
+        {
+            "node1": {
+                "name": "RNEP1"
+            },
+            "node2": {
+                "name": "Univer"
+            }
+        },
+        {
+            "node1": {
+                "name": "RNEP1"
+            },
+            "node2": {
+                "name": "UniverID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "RNEP1"
+            },
+            "node2": {
+                "name": "UniverID15"
+            }
+        },
+        {
+            "node1": {
+                "name": "RNEP1"
+            },
+            "node2": {
+                "name": "Elmwoo"
+            }
+        },
+        {
+            "node1": {
+                "name": "RNEP2"
+            },
+            "node2": {
+                "name": "Univer"
+            }
+        },
+        {
+            "node1": {
+                "name": "RNEP2"
+            },
+            "node2": {
+                "name": "UniverID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "RNEP2"
+            },
+            "node2": {
+                "name": "UniverID15"
+            }
+        }
+    ]
+}

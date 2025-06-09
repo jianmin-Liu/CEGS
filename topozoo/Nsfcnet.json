@@ -1,0 +1,96 @@
+{
+    "routers": [
+        "PekingUniv",
+        "CERNET",
+        "APANSTAR",
+        "CERNETID3",
+        "TsinghuaUn",
+        "NaturalSci",
+        "BeijingUni",
+        "BeijingUniID7",
+        "ChinaAcade",
+        "CSTNET"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "PekingUniv"
+            },
+            "node2": {
+                "name": "ChinaAcade"
+            }
+        },
+        {
+            "node1": {
+                "name": "PekingUniv"
+            },
+            "node2": {
+                "name": "TsinghuaUn"
+            }
+        },
+        {
+            "node1": {
+                "name": "APANSTAR"
+            },
+            "node2": {
+                "name": "TsinghuaUn"
+            }
+        },
+        {
+            "node1": {
+                "name": "CERNETID3"
+            },
+            "node2": {
+                "name": "TsinghuaUn"
+            }
+        },
+        {
+            "node1": {
+                "name": "TsinghuaUn"
+            },
+            "node2": {
+                "name": "NaturalSci"
+            }
+        },
+        {
+            "node1": {
+                "name": "TsinghuaUn"
+            },
+            "node2": {
+                "name": "BeijingUniID7"
+            }
+        },
+        {
+            "node1": {
+                "name": "TsinghuaUn"
+            },
+            "node2": {
+                "name": "ChinaAcade"
+            }
+        },
+        {
+            "node1": {
+                "name": "NaturalSci"
+            },
+            "node2": {
+                "name": "BeijingUni"
+            }
+        },
+        {
+            "node1": {
+                "name": "BeijingUni"
+            },
+            "node2": {
+                "name": "BeijingUniID7"
+            }
+        },
+        {
+            "node1": {
+                "name": "ChinaAcade"
+            },
+            "node2": {
+                "name": "CSTNET"
+            }
+        }
+    ]
+}

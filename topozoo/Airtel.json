@@ -1,0 +1,318 @@
+{
+    "routers": [
+        "LosAng",
+        "Chenna",
+        "NYIX",
+        "LAIX",
+        "NiXI",
+        "LINX",
+        "EQUINO",
+        "NewYor",
+        "London",
+        "Mumbai",
+        "Palerm",
+        "Marsei",
+        "HKIX",
+        "HongKo",
+        "Singap",
+        "STIX"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Chenna"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Chenna"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "LAIX"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "HongKo"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Singap"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Singap"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chenna"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chenna"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chenna"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chenna"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chenna"
+            },
+            "node2": {
+                "name": "Mumbai"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chenna"
+            },
+            "node2": {
+                "name": "Palerm"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chenna"
+            },
+            "node2": {
+                "name": "Marsei"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chenna"
+            },
+            "node2": {
+                "name": "HongKo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chenna"
+            },
+            "node2": {
+                "name": "Singap"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chenna"
+            },
+            "node2": {
+                "name": "Singap"
+            }
+        },
+        {
+            "node1": {
+                "name": "NYIX"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "NiXI"
+            },
+            "node2": {
+                "name": "Mumbai"
+            }
+        },
+        {
+            "node1": {
+                "name": "LINX"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "EQUINO"
+            },
+            "node2": {
+                "name": "Singap"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Mumbai"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Mumbai"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Marsei"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Singap"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "Mumbai"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "Mumbai"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "Marsei"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "Singap"
+            }
+        },
+        {
+            "node1": {
+                "name": "HKIX"
+            },
+            "node2": {
+                "name": "HongKo"
+            }
+        },
+        {
+            "node1": {
+                "name": "HongKo"
+            },
+            "node2": {
+                "name": "Singap"
+            }
+        },
+        {
+            "node1": {
+                "name": "Singap"
+            },
+            "node2": {
+                "name": "STIX"
+            }
+        }
+    ]
+}

@@ -1,0 +1,223 @@
+{
+    "routers": [
+        "Bor",
+        "Kosovs",
+        "NoviPa",
+        "Kruste",
+        "Vranje",
+        "Nis",
+        "Pirot",
+        "Leskov",
+        "Kraguj",
+        "NoviSa",
+        "Bosnia",
+        "HUNGAR",
+        "Beogra",
+        "Pancev",
+        "Teleko",
+        "Kralje",
+        "Raska",
+        "Suboti",
+        "Sombor",
+        "Zrenja",
+        "Sabac",
+        "Valjev",
+        "Uzice",
+        "Cacak",
+        "Velika"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Bor"
+            },
+            "node2": {
+                "name": "Nis"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kosovs"
+            },
+            "node2": {
+                "name": "Beogra"
+            }
+        },
+        {
+            "node1": {
+                "name": "NoviPa"
+            },
+            "node2": {
+                "name": "Raska"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kruste"
+            },
+            "node2": {
+                "name": "Nis"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kruste"
+            },
+            "node2": {
+                "name": "Kralje"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vranje"
+            },
+            "node2": {
+                "name": "Leskov"
+            }
+        },
+        {
+            "node1": {
+                "name": "Nis"
+            },
+            "node2": {
+                "name": "Pirot"
+            }
+        },
+        {
+            "node1": {
+                "name": "Nis"
+            },
+            "node2": {
+                "name": "Leskov"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kraguj"
+            },
+            "node2": {
+                "name": "Velika"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kraguj"
+            },
+            "node2": {
+                "name": "Kralje"
+            }
+        },
+        {
+            "node1": {
+                "name": "NoviSa"
+            },
+            "node2": {
+                "name": "Suboti"
+            }
+        },
+        {
+            "node1": {
+                "name": "NoviSa"
+            },
+            "node2": {
+                "name": "Sombor"
+            }
+        },
+        {
+            "node1": {
+                "name": "NoviSa"
+            },
+            "node2": {
+                "name": "Zrenja"
+            }
+        },
+        {
+            "node1": {
+                "name": "NoviSa"
+            },
+            "node2": {
+                "name": "Beogra"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bosnia"
+            },
+            "node2": {
+                "name": "Sabac"
+            }
+        },
+        {
+            "node1": {
+                "name": "HUNGAR"
+            },
+            "node2": {
+                "name": "Suboti"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beogra"
+            },
+            "node2": {
+                "name": "Pancev"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beogra"
+            },
+            "node2": {
+                "name": "Teleko"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beogra"
+            },
+            "node2": {
+                "name": "Sabac"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beogra"
+            },
+            "node2": {
+                "name": "Valjev"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beogra"
+            },
+            "node2": {
+                "name": "Velika"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kralje"
+            },
+            "node2": {
+                "name": "Raska"
+            }
+        },
+        {
+            "node1": {
+                "name": "Valjev"
+            },
+            "node2": {
+                "name": "Uzice"
+            }
+        },
+        {
+            "node1": {
+                "name": "Uzice"
+            },
+            "node2": {
+                "name": "Cacak"
+            }
+        }
+    ]
+}

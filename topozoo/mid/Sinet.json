@@ -1,0 +1,688 @@
+{
+    "routers": [
+        "FukuokaDC",
+        "OitaU",
+        "KyushuU",
+        "KyushuIT",
+        "HiroshimaU",
+        "HiroshimaD",
+        "EhimeU",
+        "YamaguchiU",
+        "IMSUTokyo",
+        "ISSPUTokyo",
+        "MatsuyamaD",
+        "KagawaU",
+        "KamiokaObs",
+        "ChibaU",
+        "ShinshuU",
+        "NIFS",
+        "KanazawaU",
+        "JAIST",
+        "DoshishaU",
+        "ICRKyotoU",
+        "NagoyaDC",
+        "NINSOkazak",
+        "ShizuokaU",
+        "NagoyaU",
+        "KanazawaDC",
+        "ToyamaU",
+        "YamanashiU",
+        "UTokushima",
+        "TokyoDC3",
+        "NII",
+        "NIICHiba",
+        "GSISTUToky",
+        "UElectroCo",
+        "RIKEN",
+        "TokyoDC1",
+        "TokyoDC2",
+        "JAXAISAS",
+        "YokohamaNa",
+        "KeioU",
+        "TokyoIT",
+        "NiigataU",
+        "FukuiU",
+        "KEK",
+        "JAEA",
+        "TsukubaDC",
+        "UTsukuba",
+        "GunmaU",
+        "ISM",
+        "UTokyo",
+        "KyotoDC",
+        "KyotoU",
+        "WasedaU",
+        "KansaiU",
+        "OsakaU",
+        "KobeU",
+        "JAMSTEC",
+        "JASRI",
+        "TottoriU",
+        "OkayamaU",
+        "OsakaDC",
+        "NAOJ",
+        "SaitamaU",
+        "JAXAIAT",
+        "TokyoUAgan",
+        "NagasakiU",
+        "KurnamotoU",
+        "SapporoDC",
+        "HokkaidoU",
+        "KitamiIT",
+        "HirosakiU",
+        "SendaiDC",
+        "TohokuU",
+        "UoftheRyuk",
+        "KagoshimaU"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "FukuokaDC"
+            },
+            "node2": {
+                "name": "NagasakiU"
+            }
+        },
+        {
+            "node1": {
+                "name": "FukuokaDC"
+            },
+            "node2": {
+                "name": "OitaU"
+            }
+        },
+        {
+            "node1": {
+                "name": "FukuokaDC"
+            },
+            "node2": {
+                "name": "KyushuU"
+            }
+        },
+        {
+            "node1": {
+                "name": "FukuokaDC"
+            },
+            "node2": {
+                "name": "KyushuIT"
+            }
+        },
+        {
+            "node1": {
+                "name": "FukuokaDC"
+            },
+            "node2": {
+                "name": "HiroshimaD"
+            }
+        },
+        {
+            "node1": {
+                "name": "FukuokaDC"
+            },
+            "node2": {
+                "name": "KurnamotoU"
+            }
+        },
+        {
+            "node1": {
+                "name": "FukuokaDC"
+            },
+            "node2": {
+                "name": "UoftheRyuk"
+            }
+        },
+        {
+            "node1": {
+                "name": "FukuokaDC"
+            },
+            "node2": {
+                "name": "KagoshimaU"
+            }
+        },
+        {
+            "node1": {
+                "name": "FukuokaDC"
+            },
+            "node2": {
+                "name": "MatsuyamaD"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiroshimaU"
+            },
+            "node2": {
+                "name": "HiroshimaD"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiroshimaD"
+            },
+            "node2": {
+                "name": "YamaguchiU"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiroshimaD"
+            },
+            "node2": {
+                "name": "KyotoDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiroshimaD"
+            },
+            "node2": {
+                "name": "TottoriU"
+            }
+        },
+        {
+            "node1": {
+                "name": "HiroshimaD"
+            },
+            "node2": {
+                "name": "OkayamaU"
+            }
+        },
+        {
+            "node1": {
+                "name": "EhimeU"
+            },
+            "node2": {
+                "name": "MatsuyamaD"
+            }
+        },
+        {
+            "node1": {
+                "name": "IMSUTokyo"
+            },
+            "node2": {
+                "name": "TokyoDC1"
+            }
+        },
+        {
+            "node1": {
+                "name": "ISSPUTokyo"
+            },
+            "node2": {
+                "name": "TokyoDC1"
+            }
+        },
+        {
+            "node1": {
+                "name": "MatsuyamaD"
+            },
+            "node2": {
+                "name": "KagawaU"
+            }
+        },
+        {
+            "node1": {
+                "name": "MatsuyamaD"
+            },
+            "node2": {
+                "name": "UTokushima"
+            }
+        },
+        {
+            "node1": {
+                "name": "MatsuyamaD"
+            },
+            "node2": {
+                "name": "OsakaDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "KamiokaObs"
+            },
+            "node2": {
+                "name": "NagoyaDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "ChibaU"
+            },
+            "node2": {
+                "name": "TokyoDC2"
+            }
+        },
+        {
+            "node1": {
+                "name": "ShinshuU"
+            },
+            "node2": {
+                "name": "TokyoDC2"
+            }
+        },
+        {
+            "node1": {
+                "name": "NIFS"
+            },
+            "node2": {
+                "name": "NagoyaDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "KanazawaU"
+            },
+            "node2": {
+                "name": "KanazawaDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "JAIST"
+            },
+            "node2": {
+                "name": "KanazawaDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "DoshishaU"
+            },
+            "node2": {
+                "name": "KyotoDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "ICRKyotoU"
+            },
+            "node2": {
+                "name": "KyotoDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "NagoyaDC"
+            },
+            "node2": {
+                "name": "TokyoDC1"
+            }
+        },
+        {
+            "node1": {
+                "name": "NagoyaDC"
+            },
+            "node2": {
+                "name": "NINSOkazak"
+            }
+        },
+        {
+            "node1": {
+                "name": "NagoyaDC"
+            },
+            "node2": {
+                "name": "ShizuokaU"
+            }
+        },
+        {
+            "node1": {
+                "name": "NagoyaDC"
+            },
+            "node2": {
+                "name": "NagoyaU"
+            }
+        },
+        {
+            "node1": {
+                "name": "NagoyaDC"
+            },
+            "node2": {
+                "name": "OsakaDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "KanazawaDC"
+            },
+            "node2": {
+                "name": "SapporoDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "KanazawaDC"
+            },
+            "node2": {
+                "name": "TokyoDC2"
+            }
+        },
+        {
+            "node1": {
+                "name": "KanazawaDC"
+            },
+            "node2": {
+                "name": "KyotoDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "KanazawaDC"
+            },
+            "node2": {
+                "name": "NiigataU"
+            }
+        },
+        {
+            "node1": {
+                "name": "KanazawaDC"
+            },
+            "node2": {
+                "name": "FukuiU"
+            }
+        },
+        {
+            "node1": {
+                "name": "KanazawaDC"
+            },
+            "node2": {
+                "name": "ToyamaU"
+            }
+        },
+        {
+            "node1": {
+                "name": "YamanashiU"
+            },
+            "node2": {
+                "name": "TokyoDC2"
+            }
+        },
+        {
+            "node1": {
+                "name": "TokyoDC3"
+            },
+            "node2": {
+                "name": "TokyoDC2"
+            }
+        },
+        {
+            "node1": {
+                "name": "NII"
+            },
+            "node2": {
+                "name": "TokyoDC1"
+            }
+        },
+        {
+            "node1": {
+                "name": "NIICHiba"
+            },
+            "node2": {
+                "name": "TokyoDC1"
+            }
+        },
+        {
+            "node1": {
+                "name": "GSISTUToky"
+            },
+            "node2": {
+                "name": "TokyoDC1"
+            }
+        },
+        {
+            "node1": {
+                "name": "UElectroCo"
+            },
+            "node2": {
+                "name": "TokyoDC2"
+            }
+        },
+        {
+            "node1": {
+                "name": "RIKEN"
+            },
+            "node2": {
+                "name": "TokyoDC1"
+            }
+        },
+        {
+            "node1": {
+                "name": "TokyoDC1"
+            },
+            "node2": {
+                "name": "TokyoDC2"
+            }
+        },
+        {
+            "node1": {
+                "name": "TokyoDC1"
+            },
+            "node2": {
+                "name": "JAXAISAS"
+            }
+        },
+        {
+            "node1": {
+                "name": "TokyoDC1"
+            },
+            "node2": {
+                "name": "YokohamaNa"
+            }
+        },
+        {
+            "node1": {
+                "name": "TokyoDC1"
+            },
+            "node2": {
+                "name": "KeioU"
+            }
+        },
+        {
+            "node1": {
+                "name": "TokyoDC1"
+            },
+            "node2": {
+                "name": "TokyoIT"
+            }
+        },
+        {
+            "node1": {
+                "name": "TokyoDC1"
+            },
+            "node2": {
+                "name": "TsukubaDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "TokyoDC1"
+            },
+            "node2": {
+                "name": "UTokyo"
+            }
+        },
+        {
+            "node1": {
+                "name": "TokyoDC1"
+            },
+            "node2": {
+                "name": "WasedaU"
+            }
+        },
+        {
+            "node1": {
+                "name": "TokyoDC1"
+            },
+            "node2": {
+                "name": "JAXAIAT"
+            }
+        },
+        {
+            "node1": {
+                "name": "TokyoDC1"
+            },
+            "node2": {
+                "name": "NAOJ"
+            }
+        },
+        {
+            "node1": {
+                "name": "TokyoDC2"
+            },
+            "node2": {
+                "name": "ISM"
+            }
+        },
+        {
+            "node1": {
+                "name": "TokyoDC2"
+            },
+            "node2": {
+                "name": "GunmaU"
+            }
+        },
+        {
+            "node1": {
+                "name": "TokyoDC2"
+            },
+            "node2": {
+                "name": "JAMSTEC"
+            }
+        },
+        {
+            "node1": {
+                "name": "TokyoDC2"
+            },
+            "node2": {
+                "name": "SaitamaU"
+            }
+        },
+        {
+            "node1": {
+                "name": "TokyoDC2"
+            },
+            "node2": {
+                "name": "TokyoUAgan"
+            }
+        },
+        {
+            "node1": {
+                "name": "KEK"
+            },
+            "node2": {
+                "name": "TsukubaDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "JAEA"
+            },
+            "node2": {
+                "name": "TsukubaDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "TsukubaDC"
+            },
+            "node2": {
+                "name": "SendaiDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "TsukubaDC"
+            },
+            "node2": {
+                "name": "UTsukuba"
+            }
+        },
+        {
+            "node1": {
+                "name": "KyotoDC"
+            },
+            "node2": {
+                "name": "KyotoU"
+            }
+        },
+        {
+            "node1": {
+                "name": "KyotoDC"
+            },
+            "node2": {
+                "name": "OsakaDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "KansaiU"
+            },
+            "node2": {
+                "name": "OsakaDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "OsakaU"
+            },
+            "node2": {
+                "name": "OsakaDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "KobeU"
+            },
+            "node2": {
+                "name": "OsakaDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "JASRI"
+            },
+            "node2": {
+                "name": "OsakaDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "SapporoDC"
+            },
+            "node2": {
+                "name": "HokkaidoU"
+            }
+        },
+        {
+            "node1": {
+                "name": "SapporoDC"
+            },
+            "node2": {
+                "name": "SendaiDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "HokkaidoU"
+            },
+            "node2": {
+                "name": "KitamiIT"
+            }
+        },
+        {
+            "node1": {
+                "name": "HirosakiU"
+            },
+            "node2": {
+                "name": "SendaiDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "SendaiDC"
+            },
+            "node2": {
+                "name": "TohokuU"
+            }
+        }
+    ]
+}

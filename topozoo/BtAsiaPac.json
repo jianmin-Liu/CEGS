@@ -1,0 +1,274 @@
+{
+    "routers": [
+        "Jakart",
+        "Perth",
+        "Singap",
+        "KualaL",
+        "SanJos",
+        "LosAng",
+        "Sydney",
+        "Auckla",
+        "London",
+        "PaloAl",
+        "NewDel",
+        "Mumbai",
+        "Seoul",
+        "Tokyo",
+        "Taipei",
+        "HongKo",
+        "Manila",
+        "Bangko",
+        "Chenai",
+        "MumbaiID19"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Jakart"
+            },
+            "node2": {
+                "name": "HongKo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Perth"
+            },
+            "node2": {
+                "name": "Singap"
+            }
+        },
+        {
+            "node1": {
+                "name": "Perth"
+            },
+            "node2": {
+                "name": "Sydney"
+            }
+        },
+        {
+            "node1": {
+                "name": "Perth"
+            },
+            "node2": {
+                "name": "HongKo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Singap"
+            },
+            "node2": {
+                "name": "KualaL"
+            }
+        },
+        {
+            "node1": {
+                "name": "Singap"
+            },
+            "node2": {
+                "name": "Sydney"
+            }
+        },
+        {
+            "node1": {
+                "name": "Singap"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Singap"
+            },
+            "node2": {
+                "name": "Bangko"
+            }
+        },
+        {
+            "node1": {
+                "name": "Singap"
+            },
+            "node2": {
+                "name": "Chenai"
+            }
+        },
+        {
+            "node1": {
+                "name": "Singap"
+            },
+            "node2": {
+                "name": "MumbaiID19"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "Tokyo"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "Sydney"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "HongKo"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Auckla"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Tokyo"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Sydney"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "HongKo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sydney"
+            },
+            "node2": {
+                "name": "Auckla"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "Mumbai"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "HongKo"
+            }
+        },
+        {
+            "node1": {
+                "name": "PaloAl"
+            },
+            "node2": {
+                "name": "HongKo"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewDel"
+            },
+            "node2": {
+                "name": "Mumbai"
+            }
+        },
+        {
+            "node1": {
+                "name": "Mumbai"
+            },
+            "node2": {
+                "name": "HongKo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seoul"
+            },
+            "node2": {
+                "name": "Tokyo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seoul"
+            },
+            "node2": {
+                "name": "HongKo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tokyo"
+            },
+            "node2": {
+                "name": "Taipei"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tokyo"
+            },
+            "node2": {
+                "name": "HongKo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tokyo"
+            },
+            "node2": {
+                "name": "Manila"
+            }
+        },
+        {
+            "node1": {
+                "name": "Taipei"
+            },
+            "node2": {
+                "name": "HongKo"
+            }
+        },
+        {
+            "node1": {
+                "name": "HongKo"
+            },
+            "node2": {
+                "name": "Manila"
+            }
+        },
+        {
+            "node1": {
+                "name": "HongKo"
+            },
+            "node2": {
+                "name": "Bangko"
+            }
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "routers": [
+        "HARVARD",
+        "SRI",
+        "UCSB",
+        "UCLA",
+        "RAND",
+        "SDC",
+        "UTAH",
+        "MIT",
+        "BBN"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "HARVARD"
+            },
+            "node2": {
+                "name": "BBN"
+            }
+        },
+        {
+            "node1": {
+                "name": "SRI"
+            },
+            "node2": {
+                "name": "UCSB"
+            }
+        },
+        {
+            "node1": {
+                "name": "SRI"
+            },
+            "node2": {
+                "name": "UCLA"
+            }
+        },
+        {
+            "node1": {
+                "name": "UCSB"
+            },
+            "node2": {
+                "name": "UCLA"
+            }
+        },
+        {
+            "node1": {
+                "name": "UCLA"
+            },
+            "node2": {
+                "name": "RAND"
+            }
+        },
+        {
+            "node1": {
+                "name": "RAND"
+            },
+            "node2": {
+                "name": "BBN"
+            }
+        },
+        {
+            "node1": {
+                "name": "RAND"
+            },
+            "node2": {
+                "name": "SDC"
+            }
+        },
+        {
+            "node1": {
+                "name": "SDC"
+            },
+            "node2": {
+                "name": "UTAH"
+            }
+        },
+        {
+            "node1": {
+                "name": "UTAH"
+            },
+            "node2": {
+                "name": "MIT"
+            }
+        },
+        {
+            "node1": {
+                "name": "MIT"
+            },
+            "node2": {
+                "name": "BBN"
+            }
+        }
+    ]
+}

@@ -1,0 +1,936 @@
+{
+    "nodes": [
+        {
+            "name": "Trbovl",
+            "AS": 10,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "36.56.11.0/24",
+                    "54.86.41.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Krsko",
+            "AS": 20,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "64.61.35.0/24",
+                    "96.37.39.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Celje",
+            "AS": 30,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "66.90.75.0/24",
+                    "96.45.46.0/24",
+                    "91.29.38.0/24",
+                    "37.50.31.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Lasko",
+            "AS": 40,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "36.56.11.0/24",
+                    "96.45.46.0/24",
+                    "64.83.39.0/24",
+                    "51.43.30.0/24"
+                ]
+            }
+        },
+        {
+            "name": "PeerKranj",
+            "AS": 1010,
+            "lo0": "129.1.1.1/24"
+        },
+        {
+            "name": "Kranj",
+            "AS": 50,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "46.91.16.0/24",
+                    "24.74.32.0/24",
+                    "81.7.98.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Bled",
+            "AS": 60,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "81.7.98.0/24",
+                    "14.5.38.0/24"
+                ]
+            }
+        },
+        {
+            "name": "NovoMe",
+            "AS": 70,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "96.37.39.0/24",
+                    "52.94.90.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Ljublj",
+            "AS": 80,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "54.86.41.0/24",
+                    "51.43.30.0/24",
+                    "66.32.58.0/24",
+                    "82.11.36.0/24",
+                    "15.40.48.0/24",
+                    "38.22.51.0/24",
+                    "80.45.85.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Tolmin",
+            "AS": 90,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "14.5.38.0/24",
+                    "41.46.34.0/24"
+                ]
+            }
+        },
+        {
+            "name": "NovaGo",
+            "AS": 100,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "66.32.58.0/24",
+                    "41.46.34.0/24",
+                    "35.14.13.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Portor",
+            "AS": 110,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "22.37.35.0/24",
+                    "91.77.32.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Gornja",
+            "AS": 120,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "74.54.68.0/24",
+                    "97.11.65.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Radenc",
+            "AS": 130,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "74.54.68.0/24",
+                    "68.48.18.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Rogasj",
+            "AS": 140,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "64.61.35.0/24",
+                    "57.16.34.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Senoze",
+            "AS": 150,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "28.30.58.0/24",
+                    "17.27.27.0/24",
+                    "76.23.97.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Jeseni",
+            "AS": 160,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "46.91.16.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Sezana",
+            "AS": 170,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "28.30.58.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Divaca",
+            "AS": 180,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "128.1.1.0/24",
+                    "22.37.35.0/24",
+                    "17.27.27.0/24",
+                    "64.86.71.0/24"
+                ]
+            },
+            "lo0": "128.1.1.1/24"
+        },
+        {
+            "name": "Postoj",
+            "AS": 190,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "76.23.97.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Ajdovs",
+            "AS": 200,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "35.14.13.0/24",
+                    "64.86.71.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Kovevj",
+            "AS": 210,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "52.94.90.0/24",
+                    "82.11.36.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Kamnik",
+            "AS": 220,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "91.29.38.0/24",
+                    "15.40.48.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Izola",
+            "AS": 230,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "91.77.32.0/24",
+                    "46.22.14.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Koper",
+            "AS": 240,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "24.74.32.0/24",
+                    "38.22.51.0/24",
+                    "46.22.14.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Sloven",
+            "AS": 250,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "29.10.93.0/24",
+                    "80.22.83.0/24"
+                ]
+            }
+        },
+        {
+            "name": "PeerVelenj",
+            "AS": 1020,
+            "lo0": "129.1.2.1/24"
+        },
+        {
+            "name": "Velenj",
+            "AS": 260,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "66.90.75.0/24",
+                    "80.22.83.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Murska",
+            "AS": 270,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "68.48.18.0/24",
+                    "68.87.39.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Ljutom",
+            "AS": 280,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "68.87.39.0/24",
+                    "43.65.78.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Ormoz",
+            "AS": 290,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "43.65.78.0/24",
+                    "19.68.42.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Ptuj",
+            "AS": 300,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "57.16.34.0/24",
+                    "19.68.42.0/24",
+                    "93.96.23.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Maribo",
+            "AS": 310,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "64.83.39.0/24",
+                    "80.45.85.0/24",
+                    "97.11.65.0/24",
+                    "93.96.23.0/24",
+                    "54.25.87.0/24",
+                    "73.80.50.0/24"
+                ]
+            }
+        },
+        {
+            "name": "SlovenID31",
+            "AS": 320,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "37.50.31.0/24",
+                    "73.80.50.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Dravog",
+            "AS": 330,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "29.10.93.0/24",
+                    "54.25.87.0/24",
+                    "52.89.28.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Ravnen",
+            "AS": 340,
+            "ospf process id": 7,
+            "ospf networks": {
+                "area 0": [
+                    "52.89.28.0/24"
+                ]
+            }
+        }
+    ],
+    "edges": [
+        {
+            "node1": {
+                "name": "Trbovl",
+                "interface": "Ethernet1/0/0",
+                "ip address": "36.56.11.1/24"
+            },
+            "node2": {
+                "name": "Lasko",
+                "interface": "Ethernet1/0/0",
+                "ip address": "36.56.11.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Trbovl",
+                "interface": "Ethernet1/0/1",
+                "ip address": "54.86.41.1/24"
+            },
+            "node2": {
+                "name": "Ljublj",
+                "interface": "Ethernet1/0/0",
+                "ip address": "54.86.41.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Krsko",
+                "interface": "Ethernet1/0/0",
+                "ip address": "64.61.35.1/24"
+            },
+            "node2": {
+                "name": "Rogasj",
+                "interface": "Ethernet1/0/0",
+                "ip address": "64.61.35.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Krsko",
+                "interface": "Ethernet1/0/1",
+                "ip address": "96.37.39.1/24"
+            },
+            "node2": {
+                "name": "NovoMe",
+                "interface": "Ethernet1/0/0",
+                "ip address": "96.37.39.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Celje",
+                "interface": "Ethernet1/0/0",
+                "ip address": "66.90.75.1/24"
+            },
+            "node2": {
+                "name": "Velenj",
+                "interface": "Ethernet1/0/0",
+                "ip address": "66.90.75.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Celje",
+                "interface": "Ethernet1/0/1",
+                "ip address": "96.45.46.1/24"
+            },
+            "node2": {
+                "name": "Lasko",
+                "interface": "Ethernet1/0/1",
+                "ip address": "96.45.46.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Celje",
+                "interface": "Ethernet1/0/2",
+                "ip address": "91.29.38.1/24"
+            },
+            "node2": {
+                "name": "Kamnik",
+                "interface": "Ethernet1/0/0",
+                "ip address": "91.29.38.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Celje",
+                "interface": "Ethernet1/0/3",
+                "ip address": "37.50.31.1/24"
+            },
+            "node2": {
+                "name": "SlovenID31",
+                "interface": "Ethernet1/0/0",
+                "ip address": "37.50.31.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lasko",
+                "interface": "Ethernet1/0/2",
+                "ip address": "64.83.39.1/24"
+            },
+            "node2": {
+                "name": "Maribo",
+                "interface": "Ethernet1/0/0",
+                "ip address": "64.83.39.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lasko",
+                "interface": "Ethernet1/0/3",
+                "ip address": "51.43.30.1/24"
+            },
+            "node2": {
+                "name": "Ljublj",
+                "interface": "Ethernet1/0/1",
+                "ip address": "51.43.30.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kranj",
+                "interface": "Ethernet1/0/0",
+                "ip address": "46.91.16.1/24"
+            },
+            "node2": {
+                "name": "Jeseni",
+                "interface": "Ethernet1/0/0",
+                "ip address": "46.91.16.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kranj",
+                "interface": "Ethernet1/0/1",
+                "ip address": "24.74.32.1/24"
+            },
+            "node2": {
+                "name": "Koper",
+                "interface": "Ethernet1/0/0",
+                "ip address": "24.74.32.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kranj",
+                "interface": "Ethernet1/0/2",
+                "ip address": "81.7.98.1/24"
+            },
+            "node2": {
+                "name": "Bled",
+                "interface": "Ethernet1/0/0",
+                "ip address": "81.7.98.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bled",
+                "interface": "Ethernet1/0/1",
+                "ip address": "14.5.38.1/24"
+            },
+            "node2": {
+                "name": "Tolmin",
+                "interface": "Ethernet1/0/0",
+                "ip address": "14.5.38.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "NovoMe",
+                "interface": "Ethernet1/0/1",
+                "ip address": "52.94.90.1/24"
+            },
+            "node2": {
+                "name": "Kovevj",
+                "interface": "Ethernet1/0/0",
+                "ip address": "52.94.90.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljublj",
+                "interface": "Ethernet1/0/2",
+                "ip address": "66.32.58.1/24"
+            },
+            "node2": {
+                "name": "NovaGo",
+                "interface": "Ethernet1/0/0",
+                "ip address": "66.32.58.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljublj",
+                "interface": "Ethernet1/0/3",
+                "ip address": "82.11.36.1/24"
+            },
+            "node2": {
+                "name": "Kovevj",
+                "interface": "Ethernet1/0/1",
+                "ip address": "82.11.36.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljublj",
+                "interface": "Ethernet1/0/4",
+                "ip address": "15.40.48.1/24"
+            },
+            "node2": {
+                "name": "Kamnik",
+                "interface": "Ethernet1/0/1",
+                "ip address": "15.40.48.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljublj",
+                "interface": "Ethernet1/0/5",
+                "ip address": "38.22.51.1/24"
+            },
+            "node2": {
+                "name": "Koper",
+                "interface": "Ethernet1/0/1",
+                "ip address": "38.22.51.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljublj",
+                "interface": "Ethernet1/0/6",
+                "ip address": "80.45.85.1/24"
+            },
+            "node2": {
+                "name": "Maribo",
+                "interface": "Ethernet1/0/1",
+                "ip address": "80.45.85.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tolmin",
+                "interface": "Ethernet1/0/1",
+                "ip address": "41.46.34.1/24"
+            },
+            "node2": {
+                "name": "NovaGo",
+                "interface": "Ethernet1/0/1",
+                "ip address": "41.46.34.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "NovaGo",
+                "interface": "Ethernet1/0/2",
+                "ip address": "35.14.13.1/24"
+            },
+            "node2": {
+                "name": "Ajdovs",
+                "interface": "Ethernet1/0/0",
+                "ip address": "35.14.13.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Portor",
+                "interface": "Ethernet1/0/0",
+                "ip address": "22.37.35.1/24"
+            },
+            "node2": {
+                "name": "Divaca",
+                "interface": "Ethernet1/0/0",
+                "ip address": "22.37.35.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Portor",
+                "interface": "Ethernet1/0/1",
+                "ip address": "91.77.32.1/24"
+            },
+            "node2": {
+                "name": "Izola",
+                "interface": "Ethernet1/0/0",
+                "ip address": "91.77.32.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gornja",
+                "interface": "Ethernet1/0/0",
+                "ip address": "74.54.68.1/24"
+            },
+            "node2": {
+                "name": "Radenc",
+                "interface": "Ethernet1/0/0",
+                "ip address": "74.54.68.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gornja",
+                "interface": "Ethernet1/0/1",
+                "ip address": "97.11.65.1/24"
+            },
+            "node2": {
+                "name": "Maribo",
+                "interface": "Ethernet1/0/2",
+                "ip address": "97.11.65.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Radenc",
+                "interface": "Ethernet1/0/1",
+                "ip address": "68.48.18.1/24"
+            },
+            "node2": {
+                "name": "Murska",
+                "interface": "Ethernet1/0/0",
+                "ip address": "68.48.18.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rogasj",
+                "interface": "Ethernet1/0/1",
+                "ip address": "57.16.34.1/24"
+            },
+            "node2": {
+                "name": "Ptuj",
+                "interface": "Ethernet1/0/0",
+                "ip address": "57.16.34.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Senoze",
+                "interface": "Ethernet1/0/0",
+                "ip address": "28.30.58.1/24"
+            },
+            "node2": {
+                "name": "Sezana",
+                "interface": "Ethernet1/0/0",
+                "ip address": "28.30.58.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Senoze",
+                "interface": "Ethernet1/0/1",
+                "ip address": "17.27.27.1/24"
+            },
+            "node2": {
+                "name": "Divaca",
+                "interface": "Ethernet1/0/1",
+                "ip address": "17.27.27.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Senoze",
+                "interface": "Ethernet1/0/2",
+                "ip address": "76.23.97.1/24"
+            },
+            "node2": {
+                "name": "Postoj",
+                "interface": "Ethernet1/0/0",
+                "ip address": "76.23.97.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Divaca",
+                "interface": "Ethernet1/0/2",
+                "ip address": "64.86.71.1/24"
+            },
+            "node2": {
+                "name": "Ajdovs",
+                "interface": "Ethernet1/0/1",
+                "ip address": "64.86.71.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Izola",
+                "interface": "Ethernet1/0/1",
+                "ip address": "46.22.14.1/24"
+            },
+            "node2": {
+                "name": "Koper",
+                "interface": "Ethernet1/0/2",
+                "ip address": "46.22.14.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sloven",
+                "interface": "Ethernet1/0/0",
+                "ip address": "29.10.93.1/24"
+            },
+            "node2": {
+                "name": "Dravog",
+                "interface": "Ethernet1/0/0",
+                "ip address": "29.10.93.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sloven",
+                "interface": "Ethernet1/0/1",
+                "ip address": "80.22.83.1/24"
+            },
+            "node2": {
+                "name": "Velenj",
+                "interface": "Ethernet1/0/1",
+                "ip address": "80.22.83.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Murska",
+                "interface": "Ethernet1/0/1",
+                "ip address": "68.87.39.1/24"
+            },
+            "node2": {
+                "name": "Ljutom",
+                "interface": "Ethernet1/0/0",
+                "ip address": "68.87.39.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljutom",
+                "interface": "Ethernet1/0/1",
+                "ip address": "43.65.78.1/24"
+            },
+            "node2": {
+                "name": "Ormoz",
+                "interface": "Ethernet1/0/0",
+                "ip address": "43.65.78.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ormoz",
+                "interface": "Ethernet1/0/1",
+                "ip address": "19.68.42.1/24"
+            },
+            "node2": {
+                "name": "Ptuj",
+                "interface": "Ethernet1/0/1",
+                "ip address": "19.68.42.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ptuj",
+                "interface": "Ethernet1/0/2",
+                "ip address": "93.96.23.1/24"
+            },
+            "node2": {
+                "name": "Maribo",
+                "interface": "Ethernet1/0/3",
+                "ip address": "93.96.23.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Maribo",
+                "interface": "Ethernet1/0/4",
+                "ip address": "54.25.87.1/24"
+            },
+            "node2": {
+                "name": "Dravog",
+                "interface": "Ethernet1/0/1",
+                "ip address": "54.25.87.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Maribo",
+                "interface": "Ethernet1/0/5",
+                "ip address": "73.80.50.1/24"
+            },
+            "node2": {
+                "name": "SlovenID31",
+                "interface": "Ethernet1/0/1",
+                "ip address": "73.80.50.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dravog",
+                "interface": "Ethernet1/0/2",
+                "ip address": "52.89.28.1/24"
+            },
+            "node2": {
+                "name": "Ravnen",
+                "interface": "Ethernet1/0/0",
+                "ip address": "52.89.28.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Velenj",
+                "interface": "Ethernet2/0/1",
+                "ip address": "192.1.1.1/24"
+            },
+            "node2": {
+                "name": "PeerVelenj",
+                "interface": "Ethernet1/0/1",
+                "ip address": "192.1.1.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kranj",
+                "interface": "Ethernet2/0/1",
+                "ip address": "192.1.2.1/24"
+            },
+            "node2": {
+                "name": "PeerKranj",
+                "interface": "Ethernet1/0/1",
+                "ip address": "192.1.2.2/24"
+            }
+        }
+    ]
+}

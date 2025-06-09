@@ -1,0 +1,10 @@
+Configuration example:
+-------------------------------------------------------------------------------------------------------
+Example topology T2:
+{example_topology}
+Example intent:
+{example_intent}
+
+Configurations:
+{example_configurations}
+-------------------------------------------------------------------------------------------------------

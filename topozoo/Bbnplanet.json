@@ -1,0 +1,257 @@
+{
+    "routers": [
+        "Jackso",
+        "Atlant",
+        "Austin",
+        "Housto",
+        "Detroi",
+        "Columb",
+        "Cincin",
+        "Clevel",
+        "Chicag",
+        "Minnea",
+        "Philad",
+        "NewYor",
+        "Cambri",
+        "Boston",
+        "Richmo",
+        "Washin",
+        "Baltim",
+        "Denver",
+        "Dallas",
+        "Sacram",
+        "Oaklan",
+        "SanFra",
+        "PaloAl",
+        "SanJos",
+        "LosAng",
+        "SanDie",
+        "Orange"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Jackso"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Austin"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Housto"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Detroi"
+            },
+            "node2": {
+                "name": "Clevel"
+            }
+        },
+        {
+            "node1": {
+                "name": "Columb"
+            },
+            "node2": {
+                "name": "Clevel"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cincin"
+            },
+            "node2": {
+                "name": "Clevel"
+            }
+        },
+        {
+            "node1": {
+                "name": "Clevel"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Clevel"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Denver"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Minnea"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Boston"
+            }
+        },
+        {
+            "node1": {
+                "name": "Philad"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Cambri"
+            }
+        },
+        {
+            "node1": {
+                "name": "Richmo"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Washin"
+            },
+            "node2": {
+                "name": "Baltim"
+            }
+        },
+        {
+            "node1": {
+                "name": "Washin"
+            },
+            "node2": {
+                "name": "SanJos"
+            }
+        },
+        {
+            "node1": {
+                "name": "Denver"
+            },
+            "node2": {
+                "name": "Oaklan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "LosAng"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sacram"
+            },
+            "node2": {
+                "name": "Oaklan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Oaklan"
+            },
+            "node2": {
+                "name": "SanFra"
+            }
+        },
+        {
+            "node1": {
+                "name": "Oaklan"
+            },
+            "node2": {
+                "name": "SanJos"
+            }
+        },
+        {
+            "node1": {
+                "name": "PaloAl"
+            },
+            "node2": {
+                "name": "SanJos"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJos"
+            },
+            "node2": {
+                "name": "LosAng"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "SanDie"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Orange"
+            }
+        }
+    ]
+}

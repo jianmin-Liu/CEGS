@@ -1,0 +1,203 @@
+{
+    "routers": [
+        "SaltLa",
+        "Minnea",
+        "Kansas",
+        "Denver",
+        "Pittsb",
+        "Philad",
+        "Chicag",
+        "Detroi",
+        "NewYor",
+        "Washin",
+        "LosAng",
+        "Housto",
+        "StLoui",
+        "Seattl",
+        "Oaklan",
+        "SantaC",
+        "Atlant",
+        "SanDie",
+        "Phoeni",
+        "Tucson",
+        "Dallas"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "SaltLa"
+            },
+            "node2": {
+                "name": "Denver"
+            }
+        },
+        {
+            "node1": {
+                "name": "SaltLa"
+            },
+            "node2": {
+                "name": "Oaklan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Minnea"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kansas"
+            },
+            "node2": {
+                "name": "Denver"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kansas"
+            },
+            "node2": {
+                "name": "StLoui"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pittsb"
+            },
+            "node2": {
+                "name": "Philad"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pittsb"
+            },
+            "node2": {
+                "name": "Detroi"
+            }
+        },
+        {
+            "node1": {
+                "name": "Philad"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "StLoui"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Detroi"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Washin"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "SanDie"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "SantaC"
+            }
+        },
+        {
+            "node1": {
+                "name": "Housto"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "Housto"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Housto"
+            },
+            "node2": {
+                "name": "StLoui"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Oaklan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Oaklan"
+            },
+            "node2": {
+                "name": "SantaC"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanDie"
+            },
+            "node2": {
+                "name": "Phoeni"
+            }
+        },
+        {
+            "node1": {
+                "name": "Phoeni"
+            },
+            "node2": {
+                "name": "Tucson"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tucson"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        }
+    ]
+}

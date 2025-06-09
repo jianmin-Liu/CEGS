@@ -1,0 +1,366 @@
+{
+    "routers": [
+        "Thunde",
+        "Chicag",
+        "Regina",
+        "Winnip",
+        "Ottawa",
+        "Montre",
+        "Windso",
+        "Toront",
+        "Freder",
+        "Charlo",
+        "AsiePa",
+        "Boston",
+        "AsiaPa",
+        "Ameriq",
+        "Europe",
+        "NewYor",
+        "StJohn",
+        "Halifa",
+        "Northa",
+        "EuropeID19",
+        "EuropeID20",
+        "EuropeID21",
+        "Calgar",
+        "Saskat",
+        "Whiteh",
+        "Yellow",
+        "Edmont",
+        "Kamloo",
+        "Kelown",
+        "Vancou",
+        "Victor",
+        "Seattl"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Thunde"
+            },
+            "node2": {
+                "name": "Winnip"
+            }
+        },
+        {
+            "node1": {
+                "name": "Thunde"
+            },
+            "node2": {
+                "name": "Toront"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Winnip"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Windso"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Ameriq"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Northa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "EuropeID19"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Calgar"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Seattl"
+            }
+        },
+        {
+            "node1": {
+                "name": "Regina"
+            },
+            "node2": {
+                "name": "Winnip"
+            }
+        },
+        {
+            "node1": {
+                "name": "Regina"
+            },
+            "node2": {
+                "name": "Calgar"
+            }
+        },
+        {
+            "node1": {
+                "name": "Winnip"
+            },
+            "node2": {
+                "name": "Toront"
+            }
+        },
+        {
+            "node1": {
+                "name": "Winnip"
+            },
+            "node2": {
+                "name": "Calgar"
+            }
+        },
+        {
+            "node1": {
+                "name": "Winnip"
+            },
+            "node2": {
+                "name": "Saskat"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ottawa"
+            },
+            "node2": {
+                "name": "Montre"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ottawa"
+            },
+            "node2": {
+                "name": "Toront"
+            }
+        },
+        {
+            "node1": {
+                "name": "Montre"
+            },
+            "node2": {
+                "name": "Freder"
+            }
+        },
+        {
+            "node1": {
+                "name": "Montre"
+            },
+            "node2": {
+                "name": "Halifa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Montre"
+            },
+            "node2": {
+                "name": "Boston"
+            }
+        },
+        {
+            "node1": {
+                "name": "Windso"
+            },
+            "node2": {
+                "name": "Toront"
+            }
+        },
+        {
+            "node1": {
+                "name": "Toront"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Freder"
+            },
+            "node2": {
+                "name": "Charlo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Charlo"
+            },
+            "node2": {
+                "name": "Halifa"
+            }
+        },
+        {
+            "node1": {
+                "name": "AsiePa"
+            },
+            "node2": {
+                "name": "Seattl"
+            }
+        },
+        {
+            "node1": {
+                "name": "Boston"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "AsiaPa"
+            },
+            "node2": {
+                "name": "Seattl"
+            }
+        },
+        {
+            "node1": {
+                "name": "Europe"
+            },
+            "node2": {
+                "name": "StJohn"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Halifa"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "EuropeID20"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "EuropeID21"
+            }
+        },
+        {
+            "node1": {
+                "name": "StJohn"
+            },
+            "node2": {
+                "name": "Halifa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Calgar"
+            },
+            "node2": {
+                "name": "Kamloo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Calgar"
+            },
+            "node2": {
+                "name": "Edmont"
+            }
+        },
+        {
+            "node1": {
+                "name": "Saskat"
+            },
+            "node2": {
+                "name": "Edmont"
+            }
+        },
+        {
+            "node1": {
+                "name": "Whiteh"
+            },
+            "node2": {
+                "name": "Edmont"
+            }
+        },
+        {
+            "node1": {
+                "name": "Yellow"
+            },
+            "node2": {
+                "name": "Edmont"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kamloo"
+            },
+            "node2": {
+                "name": "Kelown"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kamloo"
+            },
+            "node2": {
+                "name": "Vancou"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vancou"
+            },
+            "node2": {
+                "name": "Victor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vancou"
+            },
+            "node2": {
+                "name": "Seattl"
+            }
+        },
+        {
+            "node1": {
+                "name": "Victor"
+            },
+            "node2": {
+                "name": "Seattl"
+            }
+        }
+    ]
+}

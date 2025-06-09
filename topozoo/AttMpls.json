@@ -1,0 +1,487 @@
+{
+    "routers": [
+        "NY54",
+        "CMBR",
+        "CHCG",
+        "CLEV",
+        "RLGH",
+        "ATLN",
+        "PHLA",
+        "WASH",
+        "NSVL",
+        "STLS",
+        "NWOR",
+        "HSTN",
+        "SNAN",
+        "DLLS",
+        "ORLD",
+        "DNVR",
+        "KSCY",
+        "SNFN",
+        "SCRM",
+        "PTLD",
+        "STTL",
+        "SLKC",
+        "LA03",
+        "SNDG",
+        "PHNX"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "NY54"
+            },
+            "node2": {
+                "name": "CMBR"
+            }
+        },
+        {
+            "node1": {
+                "name": "NY54"
+            },
+            "node2": {
+                "name": "CHCG"
+            }
+        },
+        {
+            "node1": {
+                "name": "NY54"
+            },
+            "node2": {
+                "name": "PHLA"
+            }
+        },
+        {
+            "node1": {
+                "name": "NY54"
+            },
+            "node2": {
+                "name": "WASH"
+            }
+        },
+        {
+            "node1": {
+                "name": "CMBR"
+            },
+            "node2": {
+                "name": "PHLA"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHCG"
+            },
+            "node2": {
+                "name": "CLEV"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHCG"
+            },
+            "node2": {
+                "name": "PHLA"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHCG"
+            },
+            "node2": {
+                "name": "STLS"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHCG"
+            },
+            "node2": {
+                "name": "DNVR"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHCG"
+            },
+            "node2": {
+                "name": "KSCY"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHCG"
+            },
+            "node2": {
+                "name": "SNFN"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHCG"
+            },
+            "node2": {
+                "name": "STTL"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHCG"
+            },
+            "node2": {
+                "name": "SLKC"
+            }
+        },
+        {
+            "node1": {
+                "name": "CLEV"
+            },
+            "node2": {
+                "name": "NSVL"
+            }
+        },
+        {
+            "node1": {
+                "name": "CLEV"
+            },
+            "node2": {
+                "name": "STLS"
+            }
+        },
+        {
+            "node1": {
+                "name": "CLEV"
+            },
+            "node2": {
+                "name": "PHLA"
+            }
+        },
+        {
+            "node1": {
+                "name": "RLGH"
+            },
+            "node2": {
+                "name": "ATLN"
+            }
+        },
+        {
+            "node1": {
+                "name": "RLGH"
+            },
+            "node2": {
+                "name": "WASH"
+            }
+        },
+        {
+            "node1": {
+                "name": "ATLN"
+            },
+            "node2": {
+                "name": "WASH"
+            }
+        },
+        {
+            "node1": {
+                "name": "ATLN"
+            },
+            "node2": {
+                "name": "NSVL"
+            }
+        },
+        {
+            "node1": {
+                "name": "ATLN"
+            },
+            "node2": {
+                "name": "STLS"
+            }
+        },
+        {
+            "node1": {
+                "name": "ATLN"
+            },
+            "node2": {
+                "name": "DLLS"
+            }
+        },
+        {
+            "node1": {
+                "name": "ATLN"
+            },
+            "node2": {
+                "name": "ORLD"
+            }
+        },
+        {
+            "node1": {
+                "name": "PHLA"
+            },
+            "node2": {
+                "name": "WASH"
+            }
+        },
+        {
+            "node1": {
+                "name": "NSVL"
+            },
+            "node2": {
+                "name": "STLS"
+            }
+        },
+        {
+            "node1": {
+                "name": "NSVL"
+            },
+            "node2": {
+                "name": "DLLS"
+            }
+        },
+        {
+            "node1": {
+                "name": "STLS"
+            },
+            "node2": {
+                "name": "DLLS"
+            }
+        },
+        {
+            "node1": {
+                "name": "STLS"
+            },
+            "node2": {
+                "name": "KSCY"
+            }
+        },
+        {
+            "node1": {
+                "name": "STLS"
+            },
+            "node2": {
+                "name": "LA03"
+            }
+        },
+        {
+            "node1": {
+                "name": "NWOR"
+            },
+            "node2": {
+                "name": "HSTN"
+            }
+        },
+        {
+            "node1": {
+                "name": "NWOR"
+            },
+            "node2": {
+                "name": "DLLS"
+            }
+        },
+        {
+            "node1": {
+                "name": "NWOR"
+            },
+            "node2": {
+                "name": "ORLD"
+            }
+        },
+        {
+            "node1": {
+                "name": "HSTN"
+            },
+            "node2": {
+                "name": "SNAN"
+            }
+        },
+        {
+            "node1": {
+                "name": "HSTN"
+            },
+            "node2": {
+                "name": "DLLS"
+            }
+        },
+        {
+            "node1": {
+                "name": "HSTN"
+            },
+            "node2": {
+                "name": "ORLD"
+            }
+        },
+        {
+            "node1": {
+                "name": "SNAN"
+            },
+            "node2": {
+                "name": "PHNX"
+            }
+        },
+        {
+            "node1": {
+                "name": "SNAN"
+            },
+            "node2": {
+                "name": "DLLS"
+            }
+        },
+        {
+            "node1": {
+                "name": "DLLS"
+            },
+            "node2": {
+                "name": "DNVR"
+            }
+        },
+        {
+            "node1": {
+                "name": "DLLS"
+            },
+            "node2": {
+                "name": "KSCY"
+            }
+        },
+        {
+            "node1": {
+                "name": "DLLS"
+            },
+            "node2": {
+                "name": "SNFN"
+            }
+        },
+        {
+            "node1": {
+                "name": "DLLS"
+            },
+            "node2": {
+                "name": "LA03"
+            }
+        },
+        {
+            "node1": {
+                "name": "DNVR"
+            },
+            "node2": {
+                "name": "KSCY"
+            }
+        },
+        {
+            "node1": {
+                "name": "DNVR"
+            },
+            "node2": {
+                "name": "SNFN"
+            }
+        },
+        {
+            "node1": {
+                "name": "DNVR"
+            },
+            "node2": {
+                "name": "SLKC"
+            }
+        },
+        {
+            "node1": {
+                "name": "KSCY"
+            },
+            "node2": {
+                "name": "SNFN"
+            }
+        },
+        {
+            "node1": {
+                "name": "SNFN"
+            },
+            "node2": {
+                "name": "SCRM"
+            }
+        },
+        {
+            "node1": {
+                "name": "SNFN"
+            },
+            "node2": {
+                "name": "PTLD"
+            }
+        },
+        {
+            "node1": {
+                "name": "SNFN"
+            },
+            "node2": {
+                "name": "STTL"
+            }
+        },
+        {
+            "node1": {
+                "name": "SNFN"
+            },
+            "node2": {
+                "name": "SLKC"
+            }
+        },
+        {
+            "node1": {
+                "name": "SNFN"
+            },
+            "node2": {
+                "name": "LA03"
+            }
+        },
+        {
+            "node1": {
+                "name": "SCRM"
+            },
+            "node2": {
+                "name": "SLKC"
+            }
+        },
+        {
+            "node1": {
+                "name": "PTLD"
+            },
+            "node2": {
+                "name": "STTL"
+            }
+        },
+        {
+            "node1": {
+                "name": "SLKC"
+            },
+            "node2": {
+                "name": "LA03"
+            }
+        },
+        {
+            "node1": {
+                "name": "LA03"
+            },
+            "node2": {
+                "name": "SNDG"
+            }
+        },
+        {
+            "node1": {
+                "name": "LA03"
+            },
+            "node2": {
+                "name": "PHNX"
+            }
+        },
+        {
+            "node1": {
+                "name": "LA03"
+            },
+            "node2": {
+                "name": "PHNX"
+            }
+        },
+        {
+            "node1": {
+                "name": "SNDG"
+            },
+            "node2": {
+                "name": "PHNX"
+            }
+        }
+    ]
+}

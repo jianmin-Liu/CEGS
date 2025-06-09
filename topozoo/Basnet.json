@@ -1,0 +1,61 @@
+{
+    "routers": [
+        "Grodno",
+        "Minsk",
+        "Vitebs",
+        "Mogile",
+        "Gomel",
+        "Brest",
+        "Pionie"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Grodno"
+            },
+            "node2": {
+                "name": "Minsk"
+            }
+        },
+        {
+            "node1": {
+                "name": "Minsk"
+            },
+            "node2": {
+                "name": "Vitebs"
+            }
+        },
+        {
+            "node1": {
+                "name": "Minsk"
+            },
+            "node2": {
+                "name": "Mogile"
+            }
+        },
+        {
+            "node1": {
+                "name": "Minsk"
+            },
+            "node2": {
+                "name": "Gomel"
+            }
+        },
+        {
+            "node1": {
+                "name": "Minsk"
+            },
+            "node2": {
+                "name": "Brest"
+            }
+        },
+        {
+            "node1": {
+                "name": "Minsk"
+            },
+            "node2": {
+                "name": "Pionie"
+            }
+        }
+    ]
+}

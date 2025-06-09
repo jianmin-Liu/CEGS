@@ -1,0 +1,650 @@
+{
+    "routers": [
+        "Cheyen",
+        "SaltLa",
+        "Denver",
+        "NodeID3",
+        "Portla",
+        "Eugene",
+        "Spokan",
+        "Seattl",
+        "Burban",
+        "LosAng",
+        "Newark",
+        "NewYor",
+        "Boston",
+        "Ecking",
+        "Europe",
+        "Tukwit",
+        "Washin",
+        "Chicag",
+        "Dallas",
+        "Albuqu",
+        "Tucson",
+        "Phoeni",
+        "Cermak",
+        "Atlant",
+        "Tampa",
+        "Housto",
+        "NodeID26",
+        "Kansas",
+        "Sunnyv",
+        "Boise",
+        "Helena",
+        "Billin",
+        "Fargo",
+        "Minnea",
+        "SiouxC",
+        "Omaha"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Cheyen"
+            },
+            "node2": {
+                "name": "SaltLa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cheyen"
+            },
+            "node2": {
+                "name": "Denver"
+            }
+        },
+        {
+            "node1": {
+                "name": "SaltLa"
+            },
+            "node2": {
+                "name": "Denver"
+            }
+        },
+        {
+            "node1": {
+                "name": "SaltLa"
+            },
+            "node2": {
+                "name": "Spokan"
+            }
+        },
+        {
+            "node1": {
+                "name": "SaltLa"
+            },
+            "node2": {
+                "name": "Burban"
+            }
+        },
+        {
+            "node1": {
+                "name": "SaltLa"
+            },
+            "node2": {
+                "name": "Cermak"
+            }
+        },
+        {
+            "node1": {
+                "name": "SaltLa"
+            },
+            "node2": {
+                "name": "Sunnyv"
+            }
+        },
+        {
+            "node1": {
+                "name": "SaltLa"
+            },
+            "node2": {
+                "name": "Boise"
+            }
+        },
+        {
+            "node1": {
+                "name": "SaltLa"
+            },
+            "node2": {
+                "name": "Billin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Denver"
+            },
+            "node2": {
+                "name": "NodeID3"
+            }
+        },
+        {
+            "node1": {
+                "name": "Denver"
+            },
+            "node2": {
+                "name": "Albuqu"
+            }
+        },
+        {
+            "node1": {
+                "name": "Denver"
+            },
+            "node2": {
+                "name": "Phoeni"
+            }
+        },
+        {
+            "node1": {
+                "name": "Denver"
+            },
+            "node2": {
+                "name": "Kansas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Denver"
+            },
+            "node2": {
+                "name": "Sunnyv"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID3"
+            },
+            "node2": {
+                "name": "Kansas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Portla"
+            },
+            "node2": {
+                "name": "Burban"
+            }
+        },
+        {
+            "node1": {
+                "name": "Portla"
+            },
+            "node2": {
+                "name": "Eugene"
+            }
+        },
+        {
+            "node1": {
+                "name": "Portla"
+            },
+            "node2": {
+                "name": "Tukwit"
+            }
+        },
+        {
+            "node1": {
+                "name": "Eugene"
+            },
+            "node2": {
+                "name": "Tukwit"
+            }
+        },
+        {
+            "node1": {
+                "name": "Spokan"
+            },
+            "node2": {
+                "name": "Seattl"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Tukwit"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Helena"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Phoeni"
+            }
+        },
+        {
+            "node1": {
+                "name": "Burban"
+            },
+            "node2": {
+                "name": "LosAng"
+            }
+        },
+        {
+            "node1": {
+                "name": "Burban"
+            },
+            "node2": {
+                "name": "Phoeni"
+            }
+        },
+        {
+            "node1": {
+                "name": "Burban"
+            },
+            "node2": {
+                "name": "Housto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Burban"
+            },
+            "node2": {
+                "name": "Sunnyv"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Housto"
+            }
+        },
+        {
+            "node1": {
+                "name": "LosAng"
+            },
+            "node2": {
+                "name": "Sunnyv"
+            }
+        },
+        {
+            "node1": {
+                "name": "Newark"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Newark"
+            },
+            "node2": {
+                "name": "Boston"
+            }
+        },
+        {
+            "node1": {
+                "name": "Newark"
+            },
+            "node2": {
+                "name": "Ecking"
+            }
+        },
+        {
+            "node1": {
+                "name": "Newark"
+            },
+            "node2": {
+                "name": "Europe"
+            }
+        },
+        {
+            "node1": {
+                "name": "Newark"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Newark"
+            },
+            "node2": {
+                "name": "Housto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Newark"
+            },
+            "node2": {
+                "name": "Kansas"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Boston"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Ecking"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ecking"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ecking"
+            },
+            "node2": {
+                "name": "Cermak"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ecking"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ecking"
+            },
+            "node2": {
+                "name": "Tampa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ecking"
+            },
+            "node2": {
+                "name": "Housto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ecking"
+            },
+            "node2": {
+                "name": "Kansas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ecking"
+            },
+            "node2": {
+                "name": "Sunnyv"
+            }
+        },
+        {
+            "node1": {
+                "name": "Europe"
+            },
+            "node2": {
+                "name": "Washin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tukwit"
+            },
+            "node2": {
+                "name": "Sunnyv"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tukwit"
+            },
+            "node2": {
+                "name": "Boise"
+            }
+        },
+        {
+            "node1": {
+                "name": "Washin"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Washin"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Cermak"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Kansas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Sunnyv"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Housto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Kansas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Tucson"
+            }
+        },
+        {
+            "node1": {
+                "name": "Albuqu"
+            },
+            "node2": {
+                "name": "Tucson"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tucson"
+            },
+            "node2": {
+                "name": "Phoeni"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cermak"
+            },
+            "node2": {
+                "name": "Minnea"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cermak"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cermak"
+            },
+            "node2": {
+                "name": "Kansas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant"
+            },
+            "node2": {
+                "name": "Tampa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant"
+            },
+            "node2": {
+                "name": "Housto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tampa"
+            },
+            "node2": {
+                "name": "Housto"
+            }
+        },
+        {
+            "node1": {
+                "name": "Housto"
+            },
+            "node2": {
+                "name": "Sunnyv"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID26"
+            },
+            "node2": {
+                "name": "Omaha"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID26"
+            },
+            "node2": {
+                "name": "Kansas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kansas"
+            },
+            "node2": {
+                "name": "Minnea"
+            }
+        },
+        {
+            "node1": {
+                "name": "Kansas"
+            },
+            "node2": {
+                "name": "Omaha"
+            }
+        },
+        {
+            "node1": {
+                "name": "Helena"
+            },
+            "node2": {
+                "name": "Billin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Fargo"
+            },
+            "node2": {
+                "name": "Minnea"
+            }
+        },
+        {
+            "node1": {
+                "name": "Fargo"
+            },
+            "node2": {
+                "name": "SiouxC"
+            }
+        },
+        {
+            "node1": {
+                "name": "SiouxC"
+            },
+            "node2": {
+                "name": "Omaha"
+            }
+        }
+    ]
+}

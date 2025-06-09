@@ -1,0 +1,34 @@
+Given a configuration intent and its implementing network topology:
+Extract role attributes for all nodes in the topology based on the intent.
+Represent results as a JSON dictionary.
+
+*** Steps ***:
+For each node in the given topology:
+Analyze the intent and assign the node a role from the set of node attributes: {"source", "relay", "route blocking", ""destination", "destination peer", "non-involvement"}
+The node's role indicates its function in fulfilling the intent.
+
+Node attribute definitions:
+source: The node acts as the starting point of the traffic flow.
+relay: The node functions as an intermediate hop in the specified paths, enabling traffic flow transmission.
+route blocking: The node is not part of any specified paths but is adjacent to a node (Node A) that is. It blocks traffic flow from Node A.
+destination: The node serves as the final endpoint of the traffic flow.
+destination Peer: The node operates as the BGP peer for the traffic flow’s destination.
+non-Involvement: The node does not fall under any of the above categories.
+
+
+*** Rules ***:
+Return only a JSON dictionary, referring to the examples.
+No explanations or comments.
+Use exact attribute names from the predefined sets.
+
+
+For example:
+==============================================================================
+Intent: Each router runs the BGP protocol. Traffic from ra to re must follow the path (ra --> rc --> re).
+Topology: {'nodes': ['ra', 'rb', 'rc', 'rd', 're', 'rf', 'rg', 'Peerre'], 'edges': [{'node1': {'name': 'ra'}, 'node2': {'name': 'rb'}}, {'node1': {'name': 'ra'}, 'node2': {'name': 'rb'}}, {'node1': {'name': 'ra'}, 'node2': {'name': 'rc'}}, {'node1': {'name': 'ra'}, 'node2': {'name': 'rc'}}, {'node1': {'name': 'rb'}, 'node2': {'name': 'rd'}}, {'node1': {'name': 'rb'}, 'node2': {'name': 'rd'}}, {'node1': {'name': 'rc'}, 'node2': {'name': 're'}}, {'node1': {'name': 'rc'}, 'node2': {'name': 're'}}, {'node1': {'name': 'rd'}, 'node2': {'name': 're'}}, {'node1': {'name': 'rd'}, 'node2': {'name': 're'}}, {'node1': {'name': 'rd'}, 'node2': {'name': 'rf'}}, {'node1': {'name': 'rd'}, 'node2': {'name': 'rf'}}, {'node1': {'name': 're'}, 'node2': {'name': 'rg'}}, {'node1': {'name': 're'}, 'node2': {'name': 'rg'}}, {'node1': {'name': 'rf'}, 'node2': {'name': 'rg'}}, {'node1': {'name': 'rf'}, 'node2': {'name': 'rg'}}, {'node1': {'name': 're'}, 'node2': {'name': 'Peerre'}}]}
+Role attributes: {'ra': source', 'rb': 'non-involvement', 'rc': 'relay', 'rd': 'non-involvement', 're': 'destination', 'rf': 'non-involvement', 'rg': 'non-involvement', 'Peerre': 'destination peer'}
+
+Intent: Each router runs the BGP protocol. Traffic from Houston to Atlanta must follow the path (Houston --> Beijing --> Atlanta).
+Topology: {'nodes': ['NewYork', 'Chicago', 'Washington', 'Seattle', 'Sunnyvale', 'LosAngeles', 'Denver', 'KansasCity', 'Houston', 'Atlanta', 'Indianapol', 'Beijing', 'PeerAtlanta'], 'edges': [{'node1': {'name': 'NewYork'}, 'node2': {'name': 'Chicago'}}, {'node1': {'name': 'NewYork'}, 'node2': {'name': 'Washington'}}, {'node1': {'name': 'Chicago'}, 'node2': {'name': 'Indianapol'}}, {'node1': {'name': 'Washington'}, 'node2': {'name': 'Atlanta'}}, {'node1': {'name': 'Seattle'}, 'node2': {'name': 'Sunnyvale'}}, {'node1': {'name': 'Seattle'}, 'node2': {'name': 'Denver'}}, {'node1': {'name': 'Sunnyvale'}, 'node2': {'name': 'LosAngeles'}}, {'node1': {'name': 'Sunnyvale'}, 'node2': {'name': 'Denver'}}, {'node1': {'name': 'LosAngeles'}, 'node2': {'name': 'Houston'}}, {'node1': {'name': 'Denver'}, 'node2': {'name': 'KansasCity'}}, {'node1': {'name': 'KansasCity'}, 'node2': {'name': 'Houston'}}, {'node1': {'name': 'KansasCity'}, 'node2': {'name': 'Indianapol'}}, {'node1': {'name': 'Houston'}, 'node2': {'name': 'Atlanta'}}, {'node1': {'name': 'Houston'}, 'node2': {'name': 'Beijing'}}, {'node1': {'name': 'Atlanta'}, 'node2': {'name': 'Indianapol'}}, {'node1': {'name': 'Atlanta'}, 'node2': {'name': 'Beijing'}}, {'node1': {'name': 'Atlanta'}, 'node2': {'name': 'PeerAtlanta'}}]}
+Role attributes: {'NewYork': 'non-involvement', 'Chicago': 'non-involvement', 'Washington': 'route blocking', 'Seattle': 'non-involvement', 'Sunnyvale': 'non-involvement', 'LosAngeles': 'route blocking', 'Denver': 'non-involvement', 'KansasCity': 'route blocking', 'Houston': 'source', 'Atlanta': 'destination', 'Indianapol': 'route blocking', 'Beijing': 'relay', 'PeerAtlanta': 'destination peer'}
+==============================================================================

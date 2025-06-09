@@ -1,0 +1,142 @@
+{
+    "routers": [
+        "Cisco3",
+        "Cisco2",
+        "Cisco2ID2",
+        "Cisco3ID3",
+        "Cisco3ID4",
+        "Cisco3ID5",
+        "Cisco3ID6",
+        "Corece",
+        "Tbilis",
+        "CoreceID9",
+        "Rustav",
+        "Cisco3ID11",
+        "CoreceID12",
+        "RustavID13",
+        "Cisco3ID14",
+        "Cisco3ID15"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Cisco3"
+            },
+            "node2": {
+                "name": "Cisco3ID4"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cisco3"
+            },
+            "node2": {
+                "name": "Cisco3ID15"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cisco2"
+            },
+            "node2": {
+                "name": "Cisco3ID4"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cisco2ID2"
+            },
+            "node2": {
+                "name": "Cisco3ID3"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cisco3ID3"
+            },
+            "node2": {
+                "name": "Cisco3ID15"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cisco3ID3"
+            },
+            "node2": {
+                "name": "Corece"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cisco3ID4"
+            },
+            "node2": {
+                "name": "Cisco3ID5"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cisco3ID6"
+            },
+            "node2": {
+                "name": "Cisco3ID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cisco3ID6"
+            },
+            "node2": {
+                "name": "Cisco3ID15"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tbilis"
+            },
+            "node2": {
+                "name": "Cisco3ID11"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tbilis"
+            },
+            "node2": {
+                "name": "RustavID13"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tbilis"
+            },
+            "node2": {
+                "name": "Cisco3ID14"
+            }
+        },
+        {
+            "node1": {
+                "name": "CoreceID9"
+            },
+            "node2": {
+                "name": "Rustav"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rustav"
+            },
+            "node2": {
+                "name": "RustavID13"
+            }
+        },
+        {
+            "node1": {
+                "name": "CoreceID12"
+            },
+            "node2": {
+                "name": "RustavID13"
+            }
+        }
+    ]
+}

@@ -1,0 +1,200 @@
+{
+    "routers": [
+        "Droghe",
+        "Southp",
+        "Portad",
+        "Castle",
+        "Monagh",
+        "Dundal",
+        "Dublin",
+        "Armagh",
+        "Ballym",
+        "Belfas",
+        "Europe",
+        "NorthA",
+        "NodeID12",
+        "Omagh",
+        "Straba",
+        "Letter",
+        "London",
+        "Colera"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Droghe"
+            },
+            "node2": {
+                "name": "Dundal"
+            }
+        },
+        {
+            "node1": {
+                "name": "Droghe"
+            },
+            "node2": {
+                "name": "Dublin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Southp"
+            },
+            "node2": {
+                "name": "Europe"
+            }
+        },
+        {
+            "node1": {
+                "name": "Southp"
+            },
+            "node2": {
+                "name": "Europe"
+            }
+        },
+        {
+            "node1": {
+                "name": "Southp"
+            },
+            "node2": {
+                "name": "NodeID12"
+            }
+        },
+        {
+            "node1": {
+                "name": "Southp"
+            },
+            "node2": {
+                "name": "Dublin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Portad"
+            },
+            "node2": {
+                "name": "Belfas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Portad"
+            },
+            "node2": {
+                "name": "Armagh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Castle"
+            },
+            "node2": {
+                "name": "Monagh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Castle"
+            },
+            "node2": {
+                "name": "Dundal"
+            }
+        },
+        {
+            "node1": {
+                "name": "Monagh"
+            },
+            "node2": {
+                "name": "Armagh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dublin"
+            },
+            "node2": {
+                "name": "NorthA"
+            }
+        },
+        {
+            "node1": {
+                "name": "Armagh"
+            },
+            "node2": {
+                "name": "Omagh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ballym"
+            },
+            "node2": {
+                "name": "Belfas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ballym"
+            },
+            "node2": {
+                "name": "Colera"
+            }
+        },
+        {
+            "node1": {
+                "name": "NorthA"
+            },
+            "node2": {
+                "name": "NodeID12"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID12"
+            },
+            "node2": {
+                "name": "Colera"
+            }
+        },
+        {
+            "node1": {
+                "name": "Omagh"
+            },
+            "node2": {
+                "name": "Straba"
+            }
+        },
+        {
+            "node1": {
+                "name": "Straba"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Straba"
+            },
+            "node2": {
+                "name": "Letter"
+            }
+        },
+        {
+            "node1": {
+                "name": "Letter"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "Colera"
+            }
+        }
+    ]
+}

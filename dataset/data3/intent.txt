@@ -1,0 +1,2 @@
+1. Each device runs BGP protocol. Establish BGP connections between each device and configure appropriate routing policies to ensure that traffic from Ljublj to Postoj prefers the path (Ljublj, Koper, Divaca, Senoze, Postoj) over path (Ljublj, NovaGo, Ajdovs, Divaca, Senoze, Postoj).
+2. Set up BGP process on each router. Configure appropriate routing policies on nodes to ensure that traffic from Celje to Kamnik prioritizes route (Celje, Lasko, Ljublj, Kamnik) over (Celje, SlovenID31, Maribo, Ljublj, Kamnik).

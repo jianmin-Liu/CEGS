@@ -1,0 +1,423 @@
+{
+    "routers": [
+        "Bratis",
+        "Vienna",
+        "Praha",
+        "Rotter",
+        "Roma",
+        "Budape",
+        "Ljubja",
+        "Zagreb",
+        "Buchar",
+        "Istanb",
+        "Vaduz",
+        "Strasb",
+        "Luxemb",
+        "Zurich",
+        "Brusse",
+        "Geneva",
+        "Milan",
+        "Athens",
+        "Sofia",
+        "Frankf",
+        "Amster",
+        "London",
+        "Paris",
+        "Stockh",
+        "Warsaw",
+        "Kiev",
+        "Dublin",
+        "Lisbon",
+        "Madrid",
+        "Barcel",
+        "Marsei",
+        "Lyon",
+        "Basel"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Bratis"
+            },
+            "node2": {
+                "name": "Vienna"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bratis"
+            },
+            "node2": {
+                "name": "Praha"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bratis"
+            },
+            "node2": {
+                "name": "Budape"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vienna"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Praha"
+            },
+            "node2": {
+                "name": "Warsaw"
+            }
+        },
+        {
+            "node1": {
+                "name": "Praha"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rotter"
+            },
+            "node2": {
+                "name": "Amster"
+            }
+        },
+        {
+            "node1": {
+                "name": "Rotter"
+            },
+            "node2": {
+                "name": "Brusse"
+            }
+        },
+        {
+            "node1": {
+                "name": "Roma"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Roma"
+            },
+            "node2": {
+                "name": "Zurich"
+            }
+        },
+        {
+            "node1": {
+                "name": "Budape"
+            },
+            "node2": {
+                "name": "Buchar"
+            }
+        },
+        {
+            "node1": {
+                "name": "Budape"
+            },
+            "node2": {
+                "name": "Sofia"
+            }
+        },
+        {
+            "node1": {
+                "name": "Budape"
+            },
+            "node2": {
+                "name": "Zagreb"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ljubja"
+            },
+            "node2": {
+                "name": "Zagreb"
+            }
+        },
+        {
+            "node1": {
+                "name": "Buchar"
+            },
+            "node2": {
+                "name": "Kiev"
+            }
+        },
+        {
+            "node1": {
+                "name": "Buchar"
+            },
+            "node2": {
+                "name": "Istanb"
+            }
+        },
+        {
+            "node1": {
+                "name": "Istanb"
+            },
+            "node2": {
+                "name": "Athens"
+            }
+        },
+        {
+            "node1": {
+                "name": "Vaduz"
+            },
+            "node2": {
+                "name": "Zurich"
+            }
+        },
+        {
+            "node1": {
+                "name": "Strasb"
+            },
+            "node2": {
+                "name": "Basel"
+            }
+        },
+        {
+            "node1": {
+                "name": "Strasb"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Strasb"
+            },
+            "node2": {
+                "name": "Luxemb"
+            }
+        },
+        {
+            "node1": {
+                "name": "Luxemb"
+            },
+            "node2": {
+                "name": "Brusse"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zurich"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zurich"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Zurich"
+            },
+            "node2": {
+                "name": "Geneva"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "Amster"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "Geneva"
+            },
+            "node2": {
+                "name": "Basel"
+            }
+        },
+        {
+            "node1": {
+                "name": "Geneva"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "Geneva"
+            },
+            "node2": {
+                "name": "Lyon"
+            }
+        },
+        {
+            "node1": {
+                "name": "Milan"
+            },
+            "node2": {
+                "name": "Marsei"
+            }
+        },
+        {
+            "node1": {
+                "name": "Athens"
+            },
+            "node2": {
+                "name": "Sofia"
+            }
+        },
+        {
+            "node1": {
+                "name": "Frankf"
+            },
+            "node2": {
+                "name": "Amster"
+            }
+        },
+        {
+            "node1": {
+                "name": "Frankf"
+            },
+            "node2": {
+                "name": "Stockh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Frankf"
+            },
+            "node2": {
+                "name": "Warsaw"
+            }
+        },
+        {
+            "node1": {
+                "name": "Amster"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "Dublin"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "Lisbon"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paris"
+            },
+            "node2": {
+                "name": "Lyon"
+            }
+        },
+        {
+            "node1": {
+                "name": "Paris"
+            },
+            "node2": {
+                "name": "Madrid"
+            }
+        },
+        {
+            "node1": {
+                "name": "Warsaw"
+            },
+            "node2": {
+                "name": "Kiev"
+            }
+        },
+        {
+            "node1": {
+                "name": "Madrid"
+            },
+            "node2": {
+                "name": "Barcel"
+            }
+        },
+        {
+            "node1": {
+                "name": "Barcel"
+            },
+            "node2": {
+                "name": "Marsei"
+            }
+        },
+        {
+            "node1": {
+                "name": "Marsei"
+            },
+            "node2": {
+                "name": "Lyon"
+            }
+        }
+    ]
+}

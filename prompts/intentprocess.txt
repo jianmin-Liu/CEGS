@@ -1,0 +1,33 @@
+Given an intent, please normalize it into a unified expression format without specific proper nouns.
+
+*** Instructions ***:
+1. You can use a predefined expression format to normalize this intent if they match. Predefined expression formats:
+Format1: <protocol> routing. Traffic from source to destination prefers path1 over path2.
+Format2: <protocol> routing. Traffic from source to destination must follow the path.
+Format3: <protocol> routing. Traffic from source to destination is load-balance between path1 and path2.
+Format4: <protocol> routing. Traffic from source to destination is forwarded along any path in a path set.
+where <protocol> is the specific routing protocol, you need to replace according to the intent.
+
+2. If no predefined format matches this intent, you need to normalize this intent following these rules:
+1. Replace specific device names with node.
+2. Replace specific IP addresses with IP.
+3. Replace specific interface names with interface.
+4. Replace specific AS number with AS.
+
+3. Please directly output the normalized intent without any comment or explanations
+
+
+For example:
+==============================================================================
+Intent: Each router runs the BGP protocol. Traffic from R1 to R4 prioritizing taking (R1, R3, R4) over (R1, R2, R4).
+Normalization: BGP routing. Traffic from source to destination prefers path1 over path2.
+
+Intent: Every device operates using the OSPF protocol. Set up OSPF connections between all devices and define proper routing policies to load-balance traffic from Frankfurt to Warsaw across path (Frankfurt --> Praha --> Warsaw) and (Frankfurt --> Vienna --> Bratislava --> Budapest --> Bucharest --> Kiev --> Warsaw).
+Normalization: OSPF routing. Traffic from source to destination is load-balance between path1 and path2.
+
+Intent: All devices utilize the OSPF protocol. Create OSPF links between each device and apply the necessary routing configurations, ensuring traffic from Brussels to Amsterdam is routed through any valid path in {(Brussels --> London --> Amsterdam), (Brussels --> Rotterdam --> Amsterdam)}.
+Normalization: OSPF routing. Traffic from source to destination is forwarded along any path in a path set.
+
+Intent: All devices run the BGP protocol. Create BGP links between each device and apply the necessary routing policy, ensuring traffic from Munich to Vienna strictly adheres to the specified path: (Munich --> Stuttg --> Zurich --> Milan --> PaduaV --> NodeID174 --> Vienna).
+Normalization: BGP routing. Traffic from source to destination must follow the path.
+==============================================================================

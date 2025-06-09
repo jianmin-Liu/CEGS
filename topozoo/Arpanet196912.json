@@ -1,0 +1,42 @@
+{
+    "routers": [
+        "SRI",
+        "USCB",
+        "UCLA",
+        "UTAH"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "SRI"
+            },
+            "node2": {
+                "name": "USCB"
+            }
+        },
+        {
+            "node1": {
+                "name": "SRI"
+            },
+            "node2": {
+                "name": "UCLA"
+            }
+        },
+        {
+            "node1": {
+                "name": "SRI"
+            },
+            "node2": {
+                "name": "UTAH"
+            }
+        },
+        {
+            "node1": {
+                "name": "USCB"
+            },
+            "node2": {
+                "name": "UCLA"
+            }
+        }
+    ]
+}

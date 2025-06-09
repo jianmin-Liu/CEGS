@@ -1,0 +1,140 @@
+{
+    "routers": [
+        "TelAvi",
+        "Intlba",
+        "IIX",
+        "Petach",
+        "Extern",
+        "GEANT2",
+        "OpenUn",
+        "HaifaU",
+        "Techni",
+        "BarIla",
+        "Hebrew",
+        "BenGur",
+        "Weizma",
+        "TelAviID13"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "TelAvi"
+            },
+            "node2": {
+                "name": "Intlba"
+            }
+        },
+        {
+            "node1": {
+                "name": "TelAvi"
+            },
+            "node2": {
+                "name": "HaifaU"
+            }
+        },
+        {
+            "node1": {
+                "name": "TelAvi"
+            },
+            "node2": {
+                "name": "Techni"
+            }
+        },
+        {
+            "node1": {
+                "name": "TelAvi"
+            },
+            "node2": {
+                "name": "BarIla"
+            }
+        },
+        {
+            "node1": {
+                "name": "TelAvi"
+            },
+            "node2": {
+                "name": "Hebrew"
+            }
+        },
+        {
+            "node1": {
+                "name": "TelAvi"
+            },
+            "node2": {
+                "name": "BenGur"
+            }
+        },
+        {
+            "node1": {
+                "name": "TelAvi"
+            },
+            "node2": {
+                "name": "Weizma"
+            }
+        },
+        {
+            "node1": {
+                "name": "TelAvi"
+            },
+            "node2": {
+                "name": "TelAviID13"
+            }
+        },
+        {
+            "node1": {
+                "name": "IIX"
+            },
+            "node2": {
+                "name": "Petach"
+            }
+        },
+        {
+            "node1": {
+                "name": "Petach"
+            },
+            "node2": {
+                "name": "Extern"
+            }
+        },
+        {
+            "node1": {
+                "name": "Petach"
+            },
+            "node2": {
+                "name": "GEANT2"
+            }
+        },
+        {
+            "node1": {
+                "name": "Petach"
+            },
+            "node2": {
+                "name": "OpenUn"
+            }
+        },
+        {
+            "node1": {
+                "name": "Petach"
+            },
+            "node2": {
+                "name": "HaifaU"
+            }
+        },
+        {
+            "node1": {
+                "name": "Petach"
+            },
+            "node2": {
+                "name": "BarIla"
+            }
+        },
+        {
+            "node1": {
+                "name": "Petach"
+            },
+            "node2": {
+                "name": "TelAviID13"
+            }
+        }
+    ]
+}

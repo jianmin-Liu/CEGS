@@ -1,0 +1,45 @@
+Given that intents in natural language, your task is to transform the intents into the responding formal specifications.
+There are four types of formal specifications: PathReq(), ECMPPathsReq(), and PathOrderReq().
+1. PathReq() is used to represent a specific transmitting path requirement, which is defined as: PathReq(<protocol>, <destination>, <path>, False).
+   It indicates that traffic destined for <destination> transmits following the path <path>. <destination> is the destination of the traffic flow. <protocol> indicates the routing protocol that runs on all nodes.
+2. ECMPPathsReq() is used to represent a load-balance requirement, which is defined as: ECMPPathsReq(<protocol>, <destination>, [PathReq(<protocol>, <destination>, <path1>, False), PathReq(<protocol>, <destination>, <path2>, False)], False).
+   It indicates that traffic destined for <destination> is load-balanced along the path <path1> and the path <path2>.
+3. PathOrderReq() is used to represent a path-preference requirement, which is defined as: PathOrderReq(<protocol>, <destination>, [PathReq(<protocol>, <destination>, <path1>, False), PathReq(<protocol>, <destination>, <path2>, False)], False).
+   It indicates that traffic destined for <destination> prefers the path <path1> over the path <path2>.
+4. KConnectedPathsReq() is used to represent an Any-path requirement, which is defined as: KConnectedPathsReq(<protocol>, <destination>, [PathReq(<protocol>, <destination>, <path1>, False), PathReq(<protocol>, <destination>, <path2>, False)], False).
+   It indicates that the traffic destined for <destination> can be routed through any valid path in [<path1>, <path2>].
+In these formal specifications, <protocol> represents the routing protocol used by the router, with a value range of [Protocols.BGP, Protocols.OSPF, Protocols.Static].
+
+
+Examples:
+================================================================================
+Natural language intents:
+Intent1: BGP routing. The traffic from RouterA to RouterD prefers the path of <RouterA, RouterB, RouterD> over the path of <RouterA, RouterC, RouterD>.
+Intent2: Each router runs BGP protocol, traffic from RouterF to RouterH prefers the path of <RouterF, RouterM, RouterH> over the path of <RouterF, RouterN, RouterE, RouterH>.
+Formal specifications: [PathOrderReq(Protocols.BGP, 'RouterD', [PathReq(Protocols.BGP, 'RouterD', [RouterA, RouterB, RouterD], False), PathReq(Protocols.BGP, 'RouterD', [RouterA, RouterC, RouterD], False)], False),
+ PathOrderReq(Protocols.BGP, 'RouterH', [PathReq(Protocols.BGP, 'RouterH', ['RouterF', 'RouterM', 'RouterH'], False), PathReq(Protocols.BGP, 'RouterH', ['RouterF', 'RouterM', 'RouterH'], False)], False)]
+
+
+Natural language intents:
+Intent1: BGP routing. The traffic from RouterA to RouterD should take the path <RouterA, RouterB, RouterD>.
+Intent2: All routers run BGP protocol, traffic from RouterF to RouterH should traverse the path <RouterF, RouterM, RouterH>.
+Formal specifications: [PathReq(Protocols.BGP, 'RouterD', ['RouterA', 'RouterB', 'RouterD'], False),
+PathReq(Protocols.BGP, 'RouterH', ['RouterF', 'RouterM', 'RouterH'], False)].
+
+
+Natural language intents:
+OSPF routing. The traffic from RouterA to RouterD is distributed across two paths: <RouterA, RouterB, RouterD> and <RouterA, RouterC, RouterD> for load balancing.
+Formal specifications: [ECMPPathsReq(Protocols.OSPF, 'RouterD', [PathReq(Protocols.OSPF, 'RouterD', ['RouterA', 'RouterB', 'RouterD'], False), PathReq(Protocols.OSPF, 'RouterD', ['RouterA', 'RouterC', 'RouterD'], False)], False)]
+
+
+Natural language intents:
+OSPF routing. The traffic from RouterA to RouterD is forwarded along any available path in [<RouterA, RouterB, RouterD>, <RouterA, RouterC, RouterD>].
+Formal specifications: [KConnectedPathsReq(Protocols.OSPF, 'RouterD', [PathReq(Protocols.OSPF, 'RouterD', ['RouterA', 'RouterB', 'RouterD'], False), PathReq(Protocols.OSPF, 'RouterD', ['RouterA', 'RouterC', 'RouterD'], False)], False)]
+================================================================================
+
+
+Natural language intents:
+{Input_intents}
+
+
+Please directly output the corresponding formal specifications, starting with "Formal specifications:", without any comments or explanations.

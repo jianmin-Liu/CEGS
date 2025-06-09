@@ -1,0 +1,810 @@
+{
+    "routers": [
+        "ELPA",
+        "CHISL",
+        "Denv",
+        "ALBU",
+        "ANL",
+        "AMES",
+        "CHIC",
+        "FNAL",
+        "DOEA",
+        "AlliedSign",
+        "NASH",
+        "ATLA",
+        "Abilene",
+        "PacificWav",
+        "AU",
+        "NASA",
+        "NodeID16",
+        "NodeID17",
+        "NETL",
+        "DOE",
+        "NodeID20",
+        "NodeID21",
+        "PPPL",
+        "BNL",
+        "PSFC",
+        "NodeID25",
+        "PANTEX",
+        "NREL",
+        "GEANT",
+        "SNLA",
+        "AMPATH",
+        "GA",
+        "MAXGPOP",
+        "CERN",
+        "Starlight",
+        "Equinix",
+        "ARM",
+        "NOAA",
+        "NodeID38",
+        "NodeID39",
+        "NodeID40",
+        "NodeID41",
+        "NodeID42",
+        "NodeID43",
+        "BECHTELNV",
+        "YUCCAMT",
+        "DOEGTN",
+        "NNSA",
+        "OSTI",
+        "ORAU",
+        "ORNL",
+        "WASH",
+        "NEWY",
+        "EquinixID5",
+        "JLAB",
+        "SRS",
+        "PNNL",
+        "SInet",
+        "SaltLake",
+        "INL",
+        "SEA",
+        "SUNN",
+        "SNV1",
+        "Pacwave",
+        "LANL",
+        "LIGO",
+        "AUID66",
+        "SDSC"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "ELPA"
+            },
+            "node2": {
+                "name": "ATLA"
+            }
+        },
+        {
+            "node1": {
+                "name": "ELPA"
+            },
+            "node2": {
+                "name": "ALBU"
+            }
+        },
+        {
+            "node1": {
+                "name": "ELPA"
+            },
+            "node2": {
+                "name": "SNV1"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHISL"
+            },
+            "node2": {
+                "name": "CERN"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHISL"
+            },
+            "node2": {
+                "name": "Starlight"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHISL"
+            },
+            "node2": {
+                "name": "CHIC"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHISL"
+            },
+            "node2": {
+                "name": "CHIC"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHISL"
+            },
+            "node2": {
+                "name": "FNAL"
+            }
+        },
+        {
+            "node1": {
+                "name": "Denv"
+            },
+            "node2": {
+                "name": "SaltLake"
+            }
+        },
+        {
+            "node1": {
+                "name": "Denv"
+            },
+            "node2": {
+                "name": "SaltLake"
+            }
+        },
+        {
+            "node1": {
+                "name": "Denv"
+            },
+            "node2": {
+                "name": "ALBU"
+            }
+        },
+        {
+            "node1": {
+                "name": "Denv"
+            },
+            "node2": {
+                "name": "CHIC"
+            }
+        },
+        {
+            "node1": {
+                "name": "Denv"
+            },
+            "node2": {
+                "name": "CHIC"
+            }
+        },
+        {
+            "node1": {
+                "name": "ALBU"
+            },
+            "node2": {
+                "name": "LANL"
+            }
+        },
+        {
+            "node1": {
+                "name": "ALBU"
+            },
+            "node2": {
+                "name": "LANL"
+            }
+        },
+        {
+            "node1": {
+                "name": "ALBU"
+            },
+            "node2": {
+                "name": "DOEA"
+            }
+        },
+        {
+            "node1": {
+                "name": "ALBU"
+            },
+            "node2": {
+                "name": "NREL"
+            }
+        },
+        {
+            "node1": {
+                "name": "ALBU"
+            },
+            "node2": {
+                "name": "SNLA"
+            }
+        },
+        {
+            "node1": {
+                "name": "ANL"
+            },
+            "node2": {
+                "name": "AMES"
+            }
+        },
+        {
+            "node1": {
+                "name": "ANL"
+            },
+            "node2": {
+                "name": "FNAL"
+            }
+        },
+        {
+            "node1": {
+                "name": "AMES"
+            },
+            "node2": {
+                "name": "CHIC"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHIC"
+            },
+            "node2": {
+                "name": "Equinix"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHIC"
+            },
+            "node2": {
+                "name": "NASH"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHIC"
+            },
+            "node2": {
+                "name": "NETL"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHIC"
+            },
+            "node2": {
+                "name": "NETL"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHIC"
+            },
+            "node2": {
+                "name": "NETL"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHIC"
+            },
+            "node2": {
+                "name": "ORNL"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHIC"
+            },
+            "node2": {
+                "name": "WASH"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHIC"
+            },
+            "node2": {
+                "name": "WASH"
+            }
+        },
+        {
+            "node1": {
+                "name": "CHIC"
+            },
+            "node2": {
+                "name": "SaltLake"
+            }
+        },
+        {
+            "node1": {
+                "name": "DOEA"
+            },
+            "node2": {
+                "name": "PANTEX"
+            }
+        },
+        {
+            "node1": {
+                "name": "DOEA"
+            },
+            "node2": {
+                "name": "SNLA"
+            }
+        },
+        {
+            "node1": {
+                "name": "AlliedSign"
+            },
+            "node2": {
+                "name": "SNLA"
+            }
+        },
+        {
+            "node1": {
+                "name": "NASH"
+            },
+            "node2": {
+                "name": "ATLA"
+            }
+        },
+        {
+            "node1": {
+                "name": "ATLA"
+            },
+            "node2": {
+                "name": "WASH"
+            }
+        },
+        {
+            "node1": {
+                "name": "ATLA"
+            },
+            "node2": {
+                "name": "WASH"
+            }
+        },
+        {
+            "node1": {
+                "name": "ATLA"
+            },
+            "node2": {
+                "name": "ORNL"
+            }
+        },
+        {
+            "node1": {
+                "name": "ATLA"
+            },
+            "node2": {
+                "name": "SRS"
+            }
+        },
+        {
+            "node1": {
+                "name": "Abilene"
+            },
+            "node2": {
+                "name": "SUNN"
+            }
+        },
+        {
+            "node1": {
+                "name": "PacificWav"
+            },
+            "node2": {
+                "name": "SUNN"
+            }
+        },
+        {
+            "node1": {
+                "name": "AU"
+            },
+            "node2": {
+                "name": "SNV1"
+            }
+        },
+        {
+            "node1": {
+                "name": "NASA"
+            },
+            "node2": {
+                "name": "SNV1"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID16"
+            },
+            "node2": {
+                "name": "NodeID17"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID16"
+            },
+            "node2": {
+                "name": "NodeID25"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID17"
+            },
+            "node2": {
+                "name": "NodeID39"
+            }
+        },
+        {
+            "node1": {
+                "name": "NETL"
+            },
+            "node2": {
+                "name": "WASH"
+            }
+        },
+        {
+            "node1": {
+                "name": "NETL"
+            },
+            "node2": {
+                "name": "NEWY"
+            }
+        },
+        {
+            "node1": {
+                "name": "NETL"
+            },
+            "node2": {
+                "name": "NEWY"
+            }
+        },
+        {
+            "node1": {
+                "name": "DOE"
+            },
+            "node2": {
+                "name": "WASH"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID20"
+            },
+            "node2": {
+                "name": "WASH"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID21"
+            },
+            "node2": {
+                "name": "WASH"
+            }
+        },
+        {
+            "node1": {
+                "name": "PPPL"
+            },
+            "node2": {
+                "name": "NEWY"
+            }
+        },
+        {
+            "node1": {
+                "name": "BNL"
+            },
+            "node2": {
+                "name": "NEWY"
+            }
+        },
+        {
+            "node1": {
+                "name": "BNL"
+            },
+            "node2": {
+                "name": "NEWY"
+            }
+        },
+        {
+            "node1": {
+                "name": "PSFC"
+            },
+            "node2": {
+                "name": "NEWY"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID25"
+            },
+            "node2": {
+                "name": "SNV1"
+            }
+        },
+        {
+            "node1": {
+                "name": "GEANT"
+            },
+            "node2": {
+                "name": "NEWY"
+            }
+        },
+        {
+            "node1": {
+                "name": "AMPATH"
+            },
+            "node2": {
+                "name": "SDSC"
+            }
+        },
+        {
+            "node1": {
+                "name": "GA"
+            },
+            "node2": {
+                "name": "SDSC"
+            }
+        },
+        {
+            "node1": {
+                "name": "MAXGPOP"
+            },
+            "node2": {
+                "name": "WASH"
+            }
+        },
+        {
+            "node1": {
+                "name": "CERN"
+            },
+            "node2": {
+                "name": "NEWY"
+            }
+        },
+        {
+            "node1": {
+                "name": "ARM"
+            },
+            "node2": {
+                "name": "ORNL"
+            }
+        },
+        {
+            "node1": {
+                "name": "NOAA"
+            },
+            "node2": {
+                "name": "ORNL"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID38"
+            },
+            "node2": {
+                "name": "NodeID41"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID38"
+            },
+            "node2": {
+                "name": "NodeID39"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID40"
+            },
+            "node2": {
+                "name": "NodeID41"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID40"
+            },
+            "node2": {
+                "name": "SUNN"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID42"
+            },
+            "node2": {
+                "name": "SUNN"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID43"
+            },
+            "node2": {
+                "name": "SUNN"
+            }
+        },
+        {
+            "node1": {
+                "name": "BECHTELNV"
+            },
+            "node2": {
+                "name": "SUNN"
+            }
+        },
+        {
+            "node1": {
+                "name": "YUCCAMT"
+            },
+            "node2": {
+                "name": "SUNN"
+            }
+        },
+        {
+            "node1": {
+                "name": "DOEGTN"
+            },
+            "node2": {
+                "name": "WASH"
+            }
+        },
+        {
+            "node1": {
+                "name": "NNSA"
+            },
+            "node2": {
+                "name": "WASH"
+            }
+        },
+        {
+            "node1": {
+                "name": "OSTI"
+            },
+            "node2": {
+                "name": "ORNL"
+            }
+        },
+        {
+            "node1": {
+                "name": "ORAU"
+            },
+            "node2": {
+                "name": "ORNL"
+            }
+        },
+        {
+            "node1": {
+                "name": "WASH"
+            },
+            "node2": {
+                "name": "JLAB"
+            }
+        },
+        {
+            "node1": {
+                "name": "WASH"
+            },
+            "node2": {
+                "name": "NEWY"
+            }
+        },
+        {
+            "node1": {
+                "name": "WASH"
+            },
+            "node2": {
+                "name": "NEWY"
+            }
+        },
+        {
+            "node1": {
+                "name": "WASH"
+            },
+            "node2": {
+                "name": "EquinixID5"
+            }
+        },
+        {
+            "node1": {
+                "name": "NEWY"
+            },
+            "node2": {
+                "name": "SInet"
+            }
+        },
+        {
+            "node1": {
+                "name": "PNNL"
+            },
+            "node2": {
+                "name": "LIGO"
+            }
+        },
+        {
+            "node1": {
+                "name": "PNNL"
+            },
+            "node2": {
+                "name": "SEA"
+            }
+        },
+        {
+            "node1": {
+                "name": "SaltLake"
+            },
+            "node2": {
+                "name": "SEA"
+            }
+        },
+        {
+            "node1": {
+                "name": "SaltLake"
+            },
+            "node2": {
+                "name": "SEA"
+            }
+        },
+        {
+            "node1": {
+                "name": "INL"
+            },
+            "node2": {
+                "name": "SEA"
+            }
+        },
+        {
+            "node1": {
+                "name": "SEA"
+            },
+            "node2": {
+                "name": "AUID66"
+            }
+        },
+        {
+            "node1": {
+                "name": "SEA"
+            },
+            "node2": {
+                "name": "SUNN"
+            }
+        },
+        {
+            "node1": {
+                "name": "SEA"
+            },
+            "node2": {
+                "name": "SNV1"
+            }
+        },
+        {
+            "node1": {
+                "name": "SEA"
+            },
+            "node2": {
+                "name": "SNV1"
+            }
+        },
+        {
+            "node1": {
+                "name": "SEA"
+            },
+            "node2": {
+                "name": "Pacwave"
+            }
+        },
+        {
+            "node1": {
+                "name": "SUNN"
+            },
+            "node2": {
+                "name": "SNV1"
+            }
+        },
+        {
+            "node1": {
+                "name": "SNV1"
+            },
+            "node2": {
+                "name": "SDSC"
+            }
+        }
+    ]
+}

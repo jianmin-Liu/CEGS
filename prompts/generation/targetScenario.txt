@@ -1,0 +1,12 @@
+Target scenario:
+-------------------------------------------------------------------------------------------------------
+Target topology T1:
+{target_topology}
+User Intent:
+{user_intent}
+-------------------------------------------------------------------------------------------------------
+
+
+-------Matching Relations:-------
+The matching relationship between nodes in the target topology T1 and nodes in example topology T2:
+{associations}

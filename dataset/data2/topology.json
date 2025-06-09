@@ -1,0 +1,3301 @@
+{
+    "nodes": [
+        {
+            "name": "Tampa",
+            "AS": 10,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "27.34.22.0/24",
+                    "58.26.86.0/24",
+                    "82.36.80.0/24",
+                    "61.42.94.0/24",
+                    "46.63.92.0/24",
+                    "74.58.35.0/24",
+                    "28.77.38.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Saraso",
+            "AS": 20,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "82.36.80.0/24",
+                    "28.89.47.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Dothan",
+            "AS": 30,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "25.39.28.0/24",
+                    "60.90.49.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Tallah",
+            "AS": 40,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "58.90.28.0/24",
+                    "96.90.77.0/24",
+                    "52.97.13.0/24",
+                    "17.34.66.0/24",
+                    "47.13.58.0/24",
+                    "66.43.78.0/24"
+                ]
+            }
+        },
+        {
+            "name": "LakeCi",
+            "AS": 50,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "96.90.77.0/24",
+                    "52.97.13.0/24",
+                    "52.97.83.0/24",
+                    "40.56.89.0/24",
+                    "53.28.63.0/24",
+                    "70.60.75.0/24",
+                    "57.62.83.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Valdos",
+            "AS": 60,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "53.28.63.0/24",
+                    "18.31.16.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Jackso",
+            "AS": 70,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "52.97.83.0/24",
+                    "40.56.89.0/24",
+                    "82.11.16.0/24",
+                    "31.95.60.0/24",
+                    "92.6.63.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Gaines",
+            "AS": 80,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "57.62.83.0/24",
+                    "27.43.40.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Ocala",
+            "AS": 90,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "74.58.35.0/24",
+                    "27.43.40.0/24",
+                    "19.11.68.0/24",
+                    "53.78.63.0/24",
+                    "28.61.32.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Winter",
+            "AS": 100,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "28.77.38.0/24",
+                    "32.55.98.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Winsto",
+            "AS": 110,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "18.80.40.0/24",
+                    "31.8.80.0/24",
+                    "41.20.68.0/24",
+                    "20.21.86.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Lexing",
+            "AS": 120,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "41.20.68.0/24",
+                    "45.31.57.0/24",
+                    "99.28.13.0/24",
+                    "84.45.59.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Durham",
+            "AS": 130,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "64.85.39.0/24",
+                    "40.56.47.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Greens",
+            "AS": 140,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "20.21.86.0/24",
+                    "84.45.59.0/24",
+                    "40.56.47.0/24"
+                ]
+            }
+        },
+        {
+            "name": "PeerNewnah",
+            "AS": 1010,
+            "lo0": "129.1.1.1/24"
+        },
+        {
+            "name": "Newnah",
+            "AS": 150,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "51.47.73.0/24"
+                ]
+            }
+        },
+        {
+            "name": "GainesID15",
+            "AS": 160,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "80.70.12.0/24",
+                    "42.11.31.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Hickor",
+            "AS": 170,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "18.80.40.0/24",
+                    "45.31.57.0/24",
+                    "39.35.73.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Lagran",
+            "AS": 180,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "51.47.73.0/24",
+                    "36.90.90.0/24"
+                ]
+            }
+        },
+        {
+            "name": "RockyM",
+            "AS": 190,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "18.79.85.0/24",
+                    "65.23.36.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Raleig",
+            "AS": 200,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "64.85.39.0/24",
+                    "65.23.36.0/24",
+                    "42.87.18.0/24",
+                    "19.57.60.0/24",
+                    "69.91.88.0/24",
+                    "74.85.54.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Shreve",
+            "AS": 210,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "75.61.55.0/24",
+                    "52.81.51.0/24",
+                    "55.88.71.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Monroe",
+            "AS": 220,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "75.61.55.0/24",
+                    "47.14.84.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Alexan",
+            "AS": 230,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "52.81.51.0/24",
+                    "100.78.36.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Longvi",
+            "AS": 240,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "55.88.71.0/24",
+                    "85.36.13.0/24"
+                ]
+            }
+        },
+        {
+            "name": "NewOrl",
+            "AS": 250,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "42.55.73.0/24",
+                    "59.25.13.0/24",
+                    "51.29.72.0/24"
+                ]
+            }
+        },
+        {
+            "name": "JacksoID25",
+            "AS": 260,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "42.55.73.0/24",
+                    "15.67.94.0/24",
+                    "49.71.66.0/24",
+                    "36.12.27.0/24",
+                    "100.17.36.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Vicksb",
+            "AS": 270,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "47.14.84.0/24",
+                    "49.71.66.0/24"
+                ]
+            }
+        },
+        {
+            "name": "BatonR",
+            "AS": 280,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "59.25.13.0/24",
+                    "32.31.44.0/24"
+                ]
+            }
+        },
+        {
+            "name": "PineBl",
+            "AS": 290,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "36.12.27.0/24",
+                    "63.47.100.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Little",
+            "AS": 300,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "63.47.100.0/24",
+                    "33.83.97.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Myrtle",
+            "AS": 310,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "71.63.43.0/24",
+                    "44.41.71.0/24",
+                    "68.94.100.0/24",
+                    "16.6.20.0/24",
+                    "47.10.12.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Floren",
+            "AS": 320,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "128.1.1.0/24",
+                    "71.63.43.0/24",
+                    "67.32.97.0/24",
+                    "53.85.80.0/24"
+                ]
+            },
+            "lo0": "128.1.1.1/24"
+        },
+        {
+            "name": "Washin",
+            "AS": 330,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "15.4.14.0/24",
+                    "61.43.21.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Philad",
+            "AS": 340,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "15.4.14.0/24",
+                    "88.72.84.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Richmo",
+            "AS": 350,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "61.43.21.0/24",
+                    "89.2.36.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Norfol",
+            "AS": 360,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "18.79.85.0/24",
+                    "89.2.36.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Wilmin",
+            "AS": 370,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "19.57.60.0/24",
+                    "44.41.71.0/24",
+                    "68.94.100.0/24",
+                    "67.32.97.0/24",
+                    "95.38.64.0/24",
+                    "48.10.47.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Fayatt",
+            "AS": 380,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "69.91.88.0/24",
+                    "74.85.54.0/24",
+                    "53.85.80.0/24",
+                    "95.38.64.0/24",
+                    "48.10.47.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Newark",
+            "AS": 390,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "88.72.84.0/24",
+                    "97.8.61.0/24"
+                ]
+            }
+        },
+        {
+            "name": "NewYor",
+            "AS": 400,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "97.8.61.0/24"
+                ]
+            }
+        },
+        {
+            "name": "AlexanID40",
+            "AS": 410,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "33.42.35.0/24",
+                    "16.92.71.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Auburn",
+            "AS": 420,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "33.42.35.0/24",
+                    "98.66.99.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Opelik",
+            "AS": 430,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "98.66.99.0/24",
+                    "26.41.82.0/24"
+                ]
+            }
+        },
+        {
+            "name": "LagranID43",
+            "AS": 440,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "36.90.90.0/24",
+                    "26.41.82.0/24",
+                    "69.33.26.0/24"
+                ]
+            }
+        },
+        {
+            "name": "WestPo",
+            "AS": 450,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "90.70.56.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Albany",
+            "AS": 460,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "17.34.66.0/24",
+                    "69.33.26.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Macon",
+            "AS": 470,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "18.31.16.0/24",
+                    "53.28.71.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Atlant",
+            "AS": 480,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "66.43.78.0/24",
+                    "42.11.31.0/24",
+                    "90.70.56.0/24",
+                    "53.28.71.0/24",
+                    "63.76.73.0/24",
+                    "37.70.85.0/24",
+                    "92.18.56.0/24",
+                    "78.38.59.0/24",
+                    "78.52.39.0/24",
+                    "76.48.94.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Gadsde",
+            "AS": 490,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "25.51.96.0/24",
+                    "62.73.55.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Annist",
+            "AS": 500,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "16.92.71.0/24",
+                    "62.73.55.0/24",
+                    "16.54.15.0/24",
+                    "42.94.53.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Nashvi",
+            "AS": 510,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "58.13.43.0/24",
+                    "53.85.40.0/24",
+                    "78.90.10.0/24",
+                    "25.35.76.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Chatta",
+            "AS": 520,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "37.70.85.0/24",
+                    "25.35.76.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Knoxvi",
+            "AS": 530,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "78.90.10.0/24",
+                    "93.94.49.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Sylva",
+            "AS": 540,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "93.94.49.0/24",
+                    "11.35.78.0/24",
+                    "23.46.13.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Birmin",
+            "AS": 550,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "42.94.53.0/24",
+                    "22.14.92.0/24",
+                    "23.70.58.0/24",
+                    "56.79.23.0/24",
+                    "13.78.53.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Montgo",
+            "AS": 560,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "60.90.49.0/24",
+                    "56.79.23.0/24",
+                    "60.12.33.0/24",
+                    "17.65.58.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Arab",
+            "AS": 570,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "22.14.92.0/24",
+                    "14.44.90.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Huntsv",
+            "AS": 580,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "25.51.96.0/24",
+                    "58.13.43.0/24",
+                    "14.44.90.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Housto",
+            "AS": 590,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "45.62.90.0/24",
+                    "13.94.17.0/24",
+                    "57.74.85.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Ashvil",
+            "AS": 600,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "23.46.13.0/24",
+                    "71.97.46.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Greenv",
+            "AS": 610,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "78.52.39.0/24",
+                    "76.48.94.0/24",
+                    "11.35.78.0/24",
+                    "71.97.46.0/24",
+                    "17.89.31.0/24",
+                    "19.81.80.0/24",
+                    "63.55.27.0/24",
+                    "10.79.27.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Beaumo",
+            "AS": 620,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "13.94.17.0/24",
+                    "19.3.49.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Dayton",
+            "AS": 630,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "92.6.63.0/24",
+                    "46.34.27.0/24",
+                    "32.38.36.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Orland",
+            "AS": 640,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "61.42.94.0/24",
+                    "46.63.92.0/24",
+                    "19.11.68.0/24",
+                    "53.78.63.0/24",
+                    "32.55.98.0/24",
+                    "41.94.42.0/24",
+                    "64.32.24.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Miami",
+            "AS": 650,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "128.1.2.0/24",
+                    "27.34.22.0/24",
+                    "58.26.86.0/24",
+                    "39.62.55.0/24",
+                    "63.42.51.0/24"
+                ]
+            },
+            "lo0": "128.1.2.1/24"
+        },
+        {
+            "name": "FtMyer",
+            "AS": 660,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "28.89.47.0/24",
+                    "39.62.55.0/24"
+                ]
+            }
+        },
+        {
+            "name": "FortLa",
+            "AS": 670,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "19.22.30.0/24",
+                    "74.33.26.0/24",
+                    "97.28.57.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Hollyw",
+            "AS": 680,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "63.42.51.0/24",
+                    "19.22.30.0/24"
+                ]
+            }
+        },
+        {
+            "name": "VeroBe",
+            "AS": 690,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "68.94.23.0/24",
+                    "43.76.97.0/24"
+                ]
+            }
+        },
+        {
+            "name": "WestPa",
+            "AS": 700,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "74.33.26.0/24",
+                    "68.94.23.0/24"
+                ]
+            }
+        },
+        {
+            "name": "CocoaB",
+            "AS": 710,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "32.38.36.0/24",
+                    "64.32.24.0/24",
+                    "23.52.83.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Melbou",
+            "AS": 720,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "43.76.97.0/24",
+                    "23.52.83.0/24"
+                ]
+            }
+        },
+        {
+            "name": "August",
+            "AS": 730,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "90.79.51.0/24",
+                    "39.59.19.0/24",
+                    "71.31.11.0/24",
+                    "52.53.70.0/24",
+                    "100.92.65.0/24",
+                    "41.47.55.0/24",
+                    "38.65.38.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Athens",
+            "AS": 740,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "63.76.73.0/24",
+                    "90.79.51.0/24",
+                    "22.45.41.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Sumter",
+            "AS": 750,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "99.38.65.0/24",
+                    "36.88.40.0/24",
+                    "28.53.81.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Columb",
+            "AS": 760,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "39.59.19.0/24",
+                    "71.31.11.0/24",
+                    "52.53.70.0/24",
+                    "36.88.40.0/24",
+                    "35.90.10.0/24",
+                    "58.79.37.0/24",
+                    "35.74.78.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Orange",
+            "AS": 770,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "35.74.78.0/24",
+                    "65.29.97.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Charle",
+            "AS": 780,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "16.6.20.0/24",
+                    "72.83.45.0/24",
+                    "79.39.96.0/24",
+                    "25.18.84.0/24",
+                    "51.21.88.0/24",
+                    "93.4.89.0/24",
+                    "44.20.10.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Hilton",
+            "AS": 790,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "29.46.89.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Beaufo",
+            "AS": 800,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "46.21.19.0/24",
+                    "86.68.40.0/24"
+                ]
+            }
+        },
+        {
+            "name": "SauntA",
+            "AS": 810,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "82.11.16.0/24",
+                    "46.34.27.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Savann",
+            "AS": 820,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "31.95.60.0/24",
+                    "100.92.65.0/24",
+                    "41.47.55.0/24",
+                    "38.65.38.0/24",
+                    "72.83.45.0/24",
+                    "79.39.96.0/24",
+                    "25.18.84.0/24",
+                    "51.21.88.0/24",
+                    "47.70.28.0/24"
+                ]
+            }
+        },
+        {
+            "name": "LakeCh",
+            "AS": 830,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "19.3.49.0/24",
+                    "97.96.15.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Lafaye",
+            "AS": 840,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "100.78.36.0/24",
+                    "32.31.44.0/24",
+                    "97.96.15.0/24"
+                ]
+            }
+        },
+        {
+            "name": "NodeID84",
+            "AS": 850,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "92.18.56.0/24",
+                    "16.54.15.0/24"
+                ]
+            }
+        },
+        {
+            "name": "PeerNodeID85",
+            "AS": 1020,
+            "lo0": "129.1.2.1/24"
+        },
+        {
+            "name": "NodeID85",
+            "AS": 860,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "41.94.42.0/24",
+                    "97.28.57.0/24"
+                ]
+            }
+        },
+        {
+            "name": "NodeID86",
+            "AS": 870,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "47.13.58.0/24",
+                    "70.60.75.0/24",
+                    "28.61.32.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Panama",
+            "AS": 880,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "25.39.28.0/24",
+                    "39.67.13.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Crestv",
+            "AS": 890,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "58.90.28.0/24",
+                    "39.67.13.0/24",
+                    "69.79.31.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Meridi",
+            "AS": 900,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "15.67.94.0/24",
+                    "61.42.38.0/24",
+                    "90.44.89.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Tuscal",
+            "AS": 910,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "23.70.58.0/24",
+                    "90.44.89.0/24"
+                ]
+            }
+        },
+        {
+            "name": "JacksoID91",
+            "AS": 920,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "53.85.40.0/24",
+                    "45.26.66.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Memphi",
+            "AS": 930,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "100.17.36.0/24",
+                    "33.83.97.0/24",
+                    "45.26.66.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Pensac",
+            "AS": 940,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "69.79.31.0/24",
+                    "68.82.15.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Mobile",
+            "AS": 950,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "60.12.33.0/24",
+                    "68.82.15.0/24",
+                    "80.85.71.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Gulfpo",
+            "AS": 960,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "51.29.72.0/24",
+                    "80.85.71.0/24",
+                    "40.84.89.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Hattie",
+            "AS": 970,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "61.42.38.0/24",
+                    "40.84.89.0/24"
+                ]
+            }
+        },
+        {
+            "name": "NodeID97",
+            "AS": 980,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "80.70.12.0/24",
+                    "10.79.27.0/24",
+                    "46.64.55.0/24"
+                ]
+            }
+        },
+        {
+            "name": "NodeID98",
+            "AS": 990,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "22.45.41.0/24",
+                    "46.64.55.0/24",
+                    "65.63.27.0/24"
+                ]
+            }
+        },
+        {
+            "name": "NodeID99",
+            "AS": 1000,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "65.63.27.0/24",
+                    "16.51.33.0/24",
+                    "10.6.12.0/24"
+                ]
+            }
+        },
+        {
+            "name": "NodeID100",
+            "AS": 1010,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "65.29.97.0/24",
+                    "93.4.89.0/24",
+                    "15.55.67.0/24"
+                ]
+            }
+        },
+        {
+            "name": "NodeID101",
+            "AS": 1020,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "29.46.89.0/24",
+                    "47.70.28.0/24",
+                    "71.61.78.0/24"
+                ]
+            }
+        },
+        {
+            "name": "NodeID102",
+            "AS": 1030,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "46.21.19.0/24",
+                    "86.68.40.0/24",
+                    "15.55.67.0/24",
+                    "71.61.78.0/24"
+                ]
+            }
+        },
+        {
+            "name": "NodeID103",
+            "AS": 1040,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "47.10.12.0/24",
+                    "28.53.81.0/24",
+                    "44.20.10.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Charlo",
+            "AS": 1050,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "31.8.80.0/24",
+                    "99.28.13.0/24",
+                    "39.35.73.0/24",
+                    "42.87.18.0/24",
+                    "17.89.31.0/24",
+                    "19.81.80.0/24",
+                    "63.55.27.0/24",
+                    "35.90.10.0/24",
+                    "58.79.37.0/24",
+                    "16.51.33.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Dallas",
+            "AS": 1060,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "85.36.13.0/24",
+                    "45.62.90.0/24",
+                    "94.72.61.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Waco",
+            "AS": 1070,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "94.72.61.0/24",
+                    "82.31.93.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Bryan",
+            "AS": 1080,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "82.31.93.0/24",
+                    "36.53.47.0/24"
+                ]
+            }
+        },
+        {
+            "name": "Austin",
+            "AS": 1090,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "36.53.47.0/24",
+                    "95.53.84.0/24",
+                    "47.97.36.0/24"
+                ]
+            }
+        },
+        {
+            "name": "SanMar",
+            "AS": 1100,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "95.53.84.0/24",
+                    "47.97.36.0/24",
+                    "93.77.50.0/24"
+                ]
+            }
+        },
+        {
+            "name": "SanAnt",
+            "AS": 1110,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "57.74.85.0/24",
+                    "93.77.50.0/24"
+                ]
+            }
+        },
+        {
+            "name": "NodeID111",
+            "AS": 1120,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "78.38.59.0/24",
+                    "13.78.53.0/24",
+                    "17.65.58.0/24"
+                ]
+            }
+        },
+        {
+            "name": "NodeID112",
+            "AS": 1130,
+            "ospf process id": 6,
+            "ospf networks": {
+                "area 0": [
+                    "99.38.65.0/24",
+                    "10.6.12.0/24"
+                ]
+            }
+        }
+    ],
+    "edges": [
+        {
+            "node1": {
+                "name": "Tampa",
+                "interface": "Ethernet1/0/0",
+                "ip address": "27.34.22.1/24"
+            },
+            "node2": {
+                "name": "Miami",
+                "interface": "Ethernet1/0/0",
+                "ip address": "27.34.22.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tampa",
+                "interface": "Ethernet1/0/2",
+                "ip address": "82.36.80.1/24"
+            },
+            "node2": {
+                "name": "Saraso",
+                "interface": "Ethernet1/0/0",
+                "ip address": "82.36.80.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tampa",
+                "interface": "Ethernet1/0/3",
+                "ip address": "61.42.94.1/24"
+            },
+            "node2": {
+                "name": "Orland",
+                "interface": "Ethernet1/0/0",
+                "ip address": "61.42.94.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tampa",
+                "interface": "Ethernet1/0/5",
+                "ip address": "74.58.35.1/24"
+            },
+            "node2": {
+                "name": "Ocala",
+                "interface": "Ethernet1/0/0",
+                "ip address": "74.58.35.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tampa",
+                "interface": "Ethernet1/0/6",
+                "ip address": "28.77.38.1/24"
+            },
+            "node2": {
+                "name": "Winter",
+                "interface": "Ethernet1/0/0",
+                "ip address": "28.77.38.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Saraso",
+                "interface": "Ethernet1/0/1",
+                "ip address": "28.89.47.1/24"
+            },
+            "node2": {
+                "name": "FtMyer",
+                "interface": "Ethernet1/0/0",
+                "ip address": "28.89.47.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dothan",
+                "interface": "Ethernet1/0/0",
+                "ip address": "25.39.28.1/24"
+            },
+            "node2": {
+                "name": "Panama",
+                "interface": "Ethernet1/0/0",
+                "ip address": "25.39.28.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dothan",
+                "interface": "Ethernet1/0/1",
+                "ip address": "60.90.49.1/24"
+            },
+            "node2": {
+                "name": "Montgo",
+                "interface": "Ethernet1/0/0",
+                "ip address": "60.90.49.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tallah",
+                "interface": "Ethernet1/0/0",
+                "ip address": "58.90.28.1/24"
+            },
+            "node2": {
+                "name": "Crestv",
+                "interface": "Ethernet1/0/0",
+                "ip address": "58.90.28.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tallah",
+                "interface": "Ethernet1/0/1",
+                "ip address": "96.90.77.1/24"
+            },
+            "node2": {
+                "name": "LakeCi",
+                "interface": "Ethernet1/0/0",
+                "ip address": "96.90.77.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tallah",
+                "interface": "Ethernet1/0/3",
+                "ip address": "17.34.66.1/24"
+            },
+            "node2": {
+                "name": "Albany",
+                "interface": "Ethernet1/0/0",
+                "ip address": "17.34.66.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tallah",
+                "interface": "Ethernet1/0/4",
+                "ip address": "47.13.58.1/24"
+            },
+            "node2": {
+                "name": "NodeID86",
+                "interface": "Ethernet1/0/0",
+                "ip address": "47.13.58.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tallah",
+                "interface": "Ethernet1/0/5",
+                "ip address": "66.43.78.1/24"
+            },
+            "node2": {
+                "name": "Atlant",
+                "interface": "Ethernet1/0/0",
+                "ip address": "66.43.78.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "LakeCi",
+                "interface": "Ethernet1/0/2",
+                "ip address": "52.97.83.1/24"
+            },
+            "node2": {
+                "name": "Jackso",
+                "interface": "Ethernet1/0/0",
+                "ip address": "52.97.83.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "LakeCi",
+                "interface": "Ethernet1/0/4",
+                "ip address": "53.28.63.1/24"
+            },
+            "node2": {
+                "name": "Valdos",
+                "interface": "Ethernet1/0/0",
+                "ip address": "53.28.63.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "LakeCi",
+                "interface": "Ethernet1/0/5",
+                "ip address": "70.60.75.1/24"
+            },
+            "node2": {
+                "name": "NodeID86",
+                "interface": "Ethernet1/0/1",
+                "ip address": "70.60.75.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "LakeCi",
+                "interface": "Ethernet1/0/6",
+                "ip address": "57.62.83.1/24"
+            },
+            "node2": {
+                "name": "Gaines",
+                "interface": "Ethernet1/0/0",
+                "ip address": "57.62.83.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Valdos",
+                "interface": "Ethernet1/0/1",
+                "ip address": "18.31.16.1/24"
+            },
+            "node2": {
+                "name": "Macon",
+                "interface": "Ethernet1/0/0",
+                "ip address": "18.31.16.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Jackso",
+                "interface": "Ethernet1/0/2",
+                "ip address": "82.11.16.1/24"
+            },
+            "node2": {
+                "name": "SauntA",
+                "interface": "Ethernet1/0/0",
+                "ip address": "82.11.16.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Jackso",
+                "interface": "Ethernet1/0/3",
+                "ip address": "31.95.60.1/24"
+            },
+            "node2": {
+                "name": "Savann",
+                "interface": "Ethernet1/0/0",
+                "ip address": "31.95.60.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Jackso",
+                "interface": "Ethernet1/0/4",
+                "ip address": "92.6.63.1/24"
+            },
+            "node2": {
+                "name": "Dayton",
+                "interface": "Ethernet1/0/0",
+                "ip address": "92.6.63.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gaines",
+                "interface": "Ethernet1/0/1",
+                "ip address": "27.43.40.1/24"
+            },
+            "node2": {
+                "name": "Ocala",
+                "interface": "Ethernet1/0/1",
+                "ip address": "27.43.40.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ocala",
+                "interface": "Ethernet1/0/2",
+                "ip address": "19.11.68.1/24"
+            },
+            "node2": {
+                "name": "Orland",
+                "interface": "Ethernet1/0/2",
+                "ip address": "19.11.68.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ocala",
+                "interface": "Ethernet1/0/4",
+                "ip address": "28.61.32.1/24"
+            },
+            "node2": {
+                "name": "NodeID86",
+                "interface": "Ethernet1/0/2",
+                "ip address": "28.61.32.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Winter",
+                "interface": "Ethernet1/0/1",
+                "ip address": "32.55.98.1/24"
+            },
+            "node2": {
+                "name": "Orland",
+                "interface": "Ethernet1/0/4",
+                "ip address": "32.55.98.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Winsto",
+                "interface": "Ethernet1/0/0",
+                "ip address": "18.80.40.1/24"
+            },
+            "node2": {
+                "name": "Hickor",
+                "interface": "Ethernet1/0/0",
+                "ip address": "18.80.40.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Winsto",
+                "interface": "Ethernet1/0/1",
+                "ip address": "31.8.80.1/24"
+            },
+            "node2": {
+                "name": "Charlo",
+                "interface": "Ethernet1/0/0",
+                "ip address": "31.8.80.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Winsto",
+                "interface": "Ethernet1/0/2",
+                "ip address": "41.20.68.1/24"
+            },
+            "node2": {
+                "name": "Lexing",
+                "interface": "Ethernet1/0/0",
+                "ip address": "41.20.68.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Winsto",
+                "interface": "Ethernet1/0/3",
+                "ip address": "20.21.86.1/24"
+            },
+            "node2": {
+                "name": "Greens",
+                "interface": "Ethernet1/0/0",
+                "ip address": "20.21.86.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lexing",
+                "interface": "Ethernet1/0/1",
+                "ip address": "45.31.57.1/24"
+            },
+            "node2": {
+                "name": "Hickor",
+                "interface": "Ethernet1/0/1",
+                "ip address": "45.31.57.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lexing",
+                "interface": "Ethernet1/0/2",
+                "ip address": "99.28.13.1/24"
+            },
+            "node2": {
+                "name": "Charlo",
+                "interface": "Ethernet1/0/1",
+                "ip address": "99.28.13.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lexing",
+                "interface": "Ethernet1/0/3",
+                "ip address": "84.45.59.1/24"
+            },
+            "node2": {
+                "name": "Greens",
+                "interface": "Ethernet1/0/1",
+                "ip address": "84.45.59.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Durham",
+                "interface": "Ethernet1/0/0",
+                "ip address": "64.85.39.1/24"
+            },
+            "node2": {
+                "name": "Raleig",
+                "interface": "Ethernet1/0/0",
+                "ip address": "64.85.39.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Durham",
+                "interface": "Ethernet1/0/1",
+                "ip address": "40.56.47.1/24"
+            },
+            "node2": {
+                "name": "Greens",
+                "interface": "Ethernet1/0/2",
+                "ip address": "40.56.47.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Newnah",
+                "interface": "Ethernet1/0/0",
+                "ip address": "51.47.73.1/24"
+            },
+            "node2": {
+                "name": "Lagran",
+                "interface": "Ethernet1/0/0",
+                "ip address": "51.47.73.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "GainesID15",
+                "interface": "Ethernet1/0/0",
+                "ip address": "80.70.12.1/24"
+            },
+            "node2": {
+                "name": "NodeID97",
+                "interface": "Ethernet1/0/0",
+                "ip address": "80.70.12.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "GainesID15",
+                "interface": "Ethernet1/0/1",
+                "ip address": "42.11.31.1/24"
+            },
+            "node2": {
+                "name": "Atlant",
+                "interface": "Ethernet1/0/1",
+                "ip address": "42.11.31.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hickor",
+                "interface": "Ethernet1/0/2",
+                "ip address": "39.35.73.1/24"
+            },
+            "node2": {
+                "name": "Charlo",
+                "interface": "Ethernet1/0/2",
+                "ip address": "39.35.73.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Lagran",
+                "interface": "Ethernet1/0/1",
+                "ip address": "36.90.90.1/24"
+            },
+            "node2": {
+                "name": "LagranID43",
+                "interface": "Ethernet1/0/0",
+                "ip address": "36.90.90.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "RockyM",
+                "interface": "Ethernet1/0/0",
+                "ip address": "18.79.85.1/24"
+            },
+            "node2": {
+                "name": "Norfol",
+                "interface": "Ethernet1/0/0",
+                "ip address": "18.79.85.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "RockyM",
+                "interface": "Ethernet1/0/1",
+                "ip address": "65.23.36.1/24"
+            },
+            "node2": {
+                "name": "Raleig",
+                "interface": "Ethernet1/0/1",
+                "ip address": "65.23.36.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Raleig",
+                "interface": "Ethernet1/0/2",
+                "ip address": "42.87.18.1/24"
+            },
+            "node2": {
+                "name": "Charlo",
+                "interface": "Ethernet1/0/3",
+                "ip address": "42.87.18.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Raleig",
+                "interface": "Ethernet1/0/3",
+                "ip address": "19.57.60.1/24"
+            },
+            "node2": {
+                "name": "Wilmin",
+                "interface": "Ethernet1/0/0",
+                "ip address": "19.57.60.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Raleig",
+                "interface": "Ethernet1/0/4",
+                "ip address": "69.91.88.1/24"
+            },
+            "node2": {
+                "name": "Fayatt",
+                "interface": "Ethernet1/0/0",
+                "ip address": "69.91.88.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Shreve",
+                "interface": "Ethernet1/0/0",
+                "ip address": "75.61.55.1/24"
+            },
+            "node2": {
+                "name": "Monroe",
+                "interface": "Ethernet1/0/0",
+                "ip address": "75.61.55.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Shreve",
+                "interface": "Ethernet1/0/1",
+                "ip address": "52.81.51.1/24"
+            },
+            "node2": {
+                "name": "Alexan",
+                "interface": "Ethernet1/0/0",
+                "ip address": "52.81.51.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Shreve",
+                "interface": "Ethernet1/0/2",
+                "ip address": "55.88.71.1/24"
+            },
+            "node2": {
+                "name": "Longvi",
+                "interface": "Ethernet1/0/0",
+                "ip address": "55.88.71.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Monroe",
+                "interface": "Ethernet1/0/1",
+                "ip address": "47.14.84.1/24"
+            },
+            "node2": {
+                "name": "Vicksb",
+                "interface": "Ethernet1/0/0",
+                "ip address": "47.14.84.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Alexan",
+                "interface": "Ethernet1/0/1",
+                "ip address": "100.78.36.1/24"
+            },
+            "node2": {
+                "name": "Lafaye",
+                "interface": "Ethernet1/0/0",
+                "ip address": "100.78.36.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Longvi",
+                "interface": "Ethernet1/0/1",
+                "ip address": "85.36.13.1/24"
+            },
+            "node2": {
+                "name": "Dallas",
+                "interface": "Ethernet1/0/0",
+                "ip address": "85.36.13.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewOrl",
+                "interface": "Ethernet1/0/0",
+                "ip address": "42.55.73.1/24"
+            },
+            "node2": {
+                "name": "JacksoID25",
+                "interface": "Ethernet1/0/0",
+                "ip address": "42.55.73.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewOrl",
+                "interface": "Ethernet1/0/1",
+                "ip address": "59.25.13.1/24"
+            },
+            "node2": {
+                "name": "BatonR",
+                "interface": "Ethernet1/0/0",
+                "ip address": "59.25.13.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewOrl",
+                "interface": "Ethernet1/0/2",
+                "ip address": "51.29.72.1/24"
+            },
+            "node2": {
+                "name": "Gulfpo",
+                "interface": "Ethernet1/0/0",
+                "ip address": "51.29.72.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "JacksoID25",
+                "interface": "Ethernet1/0/1",
+                "ip address": "15.67.94.1/24"
+            },
+            "node2": {
+                "name": "Meridi",
+                "interface": "Ethernet1/0/0",
+                "ip address": "15.67.94.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "JacksoID25",
+                "interface": "Ethernet1/0/2",
+                "ip address": "49.71.66.1/24"
+            },
+            "node2": {
+                "name": "Vicksb",
+                "interface": "Ethernet1/0/1",
+                "ip address": "49.71.66.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "JacksoID25",
+                "interface": "Ethernet1/0/3",
+                "ip address": "36.12.27.1/24"
+            },
+            "node2": {
+                "name": "PineBl",
+                "interface": "Ethernet1/0/0",
+                "ip address": "36.12.27.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "JacksoID25",
+                "interface": "Ethernet1/0/4",
+                "ip address": "100.17.36.1/24"
+            },
+            "node2": {
+                "name": "Memphi",
+                "interface": "Ethernet1/0/0",
+                "ip address": "100.17.36.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "BatonR",
+                "interface": "Ethernet1/0/1",
+                "ip address": "32.31.44.1/24"
+            },
+            "node2": {
+                "name": "Lafaye",
+                "interface": "Ethernet1/0/1",
+                "ip address": "32.31.44.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "PineBl",
+                "interface": "Ethernet1/0/1",
+                "ip address": "63.47.100.1/24"
+            },
+            "node2": {
+                "name": "Little",
+                "interface": "Ethernet1/0/0",
+                "ip address": "63.47.100.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Little",
+                "interface": "Ethernet1/0/1",
+                "ip address": "33.83.97.1/24"
+            },
+            "node2": {
+                "name": "Memphi",
+                "interface": "Ethernet1/0/1",
+                "ip address": "33.83.97.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Myrtle",
+                "interface": "Ethernet1/0/0",
+                "ip address": "71.63.43.1/24"
+            },
+            "node2": {
+                "name": "Floren",
+                "interface": "Ethernet1/0/0",
+                "ip address": "71.63.43.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Myrtle",
+                "interface": "Ethernet1/0/1",
+                "ip address": "44.41.71.1/24"
+            },
+            "node2": {
+                "name": "Wilmin",
+                "interface": "Ethernet1/0/1",
+                "ip address": "44.41.71.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Myrtle",
+                "interface": "Ethernet1/0/3",
+                "ip address": "16.6.20.1/24"
+            },
+            "node2": {
+                "name": "Charle",
+                "interface": "Ethernet1/0/0",
+                "ip address": "16.6.20.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Myrtle",
+                "interface": "Ethernet1/0/4",
+                "ip address": "47.10.12.1/24"
+            },
+            "node2": {
+                "name": "NodeID103",
+                "interface": "Ethernet1/0/0",
+                "ip address": "47.10.12.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Floren",
+                "interface": "Ethernet1/0/1",
+                "ip address": "67.32.97.1/24"
+            },
+            "node2": {
+                "name": "Wilmin",
+                "interface": "Ethernet1/0/3",
+                "ip address": "67.32.97.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Floren",
+                "interface": "Ethernet1/0/2",
+                "ip address": "53.85.80.1/24"
+            },
+            "node2": {
+                "name": "Fayatt",
+                "interface": "Ethernet1/0/2",
+                "ip address": "53.85.80.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Washin",
+                "interface": "Ethernet1/0/0",
+                "ip address": "15.4.14.1/24"
+            },
+            "node2": {
+                "name": "Philad",
+                "interface": "Ethernet1/0/0",
+                "ip address": "15.4.14.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Washin",
+                "interface": "Ethernet1/0/1",
+                "ip address": "61.43.21.1/24"
+            },
+            "node2": {
+                "name": "Richmo",
+                "interface": "Ethernet1/0/0",
+                "ip address": "61.43.21.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Philad",
+                "interface": "Ethernet1/0/1",
+                "ip address": "88.72.84.1/24"
+            },
+            "node2": {
+                "name": "Newark",
+                "interface": "Ethernet1/0/0",
+                "ip address": "88.72.84.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Richmo",
+                "interface": "Ethernet1/0/1",
+                "ip address": "89.2.36.1/24"
+            },
+            "node2": {
+                "name": "Norfol",
+                "interface": "Ethernet1/0/1",
+                "ip address": "89.2.36.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Wilmin",
+                "interface": "Ethernet1/0/4",
+                "ip address": "95.38.64.1/24"
+            },
+            "node2": {
+                "name": "Fayatt",
+                "interface": "Ethernet1/0/3",
+                "ip address": "95.38.64.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Newark",
+                "interface": "Ethernet1/0/1",
+                "ip address": "97.8.61.1/24"
+            },
+            "node2": {
+                "name": "NewYor",
+                "interface": "Ethernet1/0/0",
+                "ip address": "97.8.61.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "AlexanID40",
+                "interface": "Ethernet1/0/0",
+                "ip address": "33.42.35.1/24"
+            },
+            "node2": {
+                "name": "Auburn",
+                "interface": "Ethernet1/0/0",
+                "ip address": "33.42.35.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "AlexanID40",
+                "interface": "Ethernet1/0/1",
+                "ip address": "16.92.71.1/24"
+            },
+            "node2": {
+                "name": "Annist",
+                "interface": "Ethernet1/0/0",
+                "ip address": "16.92.71.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Auburn",
+                "interface": "Ethernet1/0/1",
+                "ip address": "98.66.99.1/24"
+            },
+            "node2": {
+                "name": "Opelik",
+                "interface": "Ethernet1/0/0",
+                "ip address": "98.66.99.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Opelik",
+                "interface": "Ethernet1/0/1",
+                "ip address": "26.41.82.1/24"
+            },
+            "node2": {
+                "name": "LagranID43",
+                "interface": "Ethernet1/0/1",
+                "ip address": "26.41.82.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "LagranID43",
+                "interface": "Ethernet1/0/2",
+                "ip address": "69.33.26.1/24"
+            },
+            "node2": {
+                "name": "Albany",
+                "interface": "Ethernet1/0/1",
+                "ip address": "69.33.26.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "WestPo",
+                "interface": "Ethernet1/0/0",
+                "ip address": "90.70.56.1/24"
+            },
+            "node2": {
+                "name": "Atlant",
+                "interface": "Ethernet1/0/2",
+                "ip address": "90.70.56.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Macon",
+                "interface": "Ethernet1/0/1",
+                "ip address": "53.28.71.1/24"
+            },
+            "node2": {
+                "name": "Atlant",
+                "interface": "Ethernet1/0/3",
+                "ip address": "53.28.71.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant",
+                "interface": "Ethernet1/0/4",
+                "ip address": "63.76.73.1/24"
+            },
+            "node2": {
+                "name": "Athens",
+                "interface": "Ethernet1/0/0",
+                "ip address": "63.76.73.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant",
+                "interface": "Ethernet1/0/5",
+                "ip address": "37.70.85.1/24"
+            },
+            "node2": {
+                "name": "Chatta",
+                "interface": "Ethernet1/0/0",
+                "ip address": "37.70.85.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant",
+                "interface": "Ethernet1/0/6",
+                "ip address": "92.18.56.1/24"
+            },
+            "node2": {
+                "name": "NodeID84",
+                "interface": "Ethernet1/0/0",
+                "ip address": "92.18.56.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant",
+                "interface": "Ethernet1/0/7",
+                "ip address": "78.38.59.1/24"
+            },
+            "node2": {
+                "name": "NodeID111",
+                "interface": "Ethernet1/0/0",
+                "ip address": "78.38.59.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlant",
+                "interface": "Ethernet1/0/8",
+                "ip address": "78.52.39.1/24"
+            },
+            "node2": {
+                "name": "Greenv",
+                "interface": "Ethernet1/0/0",
+                "ip address": "78.52.39.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gadsde",
+                "interface": "Ethernet1/0/0",
+                "ip address": "25.51.96.1/24"
+            },
+            "node2": {
+                "name": "Huntsv",
+                "interface": "Ethernet1/0/0",
+                "ip address": "25.51.96.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gadsde",
+                "interface": "Ethernet1/0/1",
+                "ip address": "62.73.55.1/24"
+            },
+            "node2": {
+                "name": "Annist",
+                "interface": "Ethernet1/0/1",
+                "ip address": "62.73.55.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Annist",
+                "interface": "Ethernet1/0/2",
+                "ip address": "16.54.15.1/24"
+            },
+            "node2": {
+                "name": "NodeID84",
+                "interface": "Ethernet1/0/1",
+                "ip address": "16.54.15.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Annist",
+                "interface": "Ethernet1/0/3",
+                "ip address": "42.94.53.1/24"
+            },
+            "node2": {
+                "name": "Birmin",
+                "interface": "Ethernet1/0/0",
+                "ip address": "42.94.53.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Nashvi",
+                "interface": "Ethernet1/0/0",
+                "ip address": "58.13.43.1/24"
+            },
+            "node2": {
+                "name": "Huntsv",
+                "interface": "Ethernet1/0/1",
+                "ip address": "58.13.43.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Nashvi",
+                "interface": "Ethernet1/0/1",
+                "ip address": "53.85.40.1/24"
+            },
+            "node2": {
+                "name": "JacksoID91",
+                "interface": "Ethernet1/0/0",
+                "ip address": "53.85.40.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Nashvi",
+                "interface": "Ethernet1/0/2",
+                "ip address": "78.90.10.1/24"
+            },
+            "node2": {
+                "name": "Knoxvi",
+                "interface": "Ethernet1/0/0",
+                "ip address": "78.90.10.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Nashvi",
+                "interface": "Ethernet1/0/3",
+                "ip address": "25.35.76.1/24"
+            },
+            "node2": {
+                "name": "Chatta",
+                "interface": "Ethernet1/0/1",
+                "ip address": "25.35.76.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Knoxvi",
+                "interface": "Ethernet1/0/1",
+                "ip address": "93.94.49.1/24"
+            },
+            "node2": {
+                "name": "Sylva",
+                "interface": "Ethernet1/0/0",
+                "ip address": "93.94.49.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sylva",
+                "interface": "Ethernet1/0/1",
+                "ip address": "11.35.78.1/24"
+            },
+            "node2": {
+                "name": "Greenv",
+                "interface": "Ethernet1/0/2",
+                "ip address": "11.35.78.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sylva",
+                "interface": "Ethernet1/0/2",
+                "ip address": "23.46.13.1/24"
+            },
+            "node2": {
+                "name": "Ashvil",
+                "interface": "Ethernet1/0/0",
+                "ip address": "23.46.13.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Birmin",
+                "interface": "Ethernet1/0/1",
+                "ip address": "22.14.92.1/24"
+            },
+            "node2": {
+                "name": "Arab",
+                "interface": "Ethernet1/0/0",
+                "ip address": "22.14.92.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Birmin",
+                "interface": "Ethernet1/0/2",
+                "ip address": "23.70.58.1/24"
+            },
+            "node2": {
+                "name": "Tuscal",
+                "interface": "Ethernet1/0/0",
+                "ip address": "23.70.58.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Birmin",
+                "interface": "Ethernet1/0/3",
+                "ip address": "56.79.23.1/24"
+            },
+            "node2": {
+                "name": "Montgo",
+                "interface": "Ethernet1/0/1",
+                "ip address": "56.79.23.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Birmin",
+                "interface": "Ethernet1/0/4",
+                "ip address": "13.78.53.1/24"
+            },
+            "node2": {
+                "name": "NodeID111",
+                "interface": "Ethernet1/0/1",
+                "ip address": "13.78.53.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Montgo",
+                "interface": "Ethernet1/0/2",
+                "ip address": "60.12.33.1/24"
+            },
+            "node2": {
+                "name": "Mobile",
+                "interface": "Ethernet1/0/0",
+                "ip address": "60.12.33.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Montgo",
+                "interface": "Ethernet1/0/3",
+                "ip address": "17.65.58.1/24"
+            },
+            "node2": {
+                "name": "NodeID111",
+                "interface": "Ethernet1/0/2",
+                "ip address": "17.65.58.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Arab",
+                "interface": "Ethernet1/0/1",
+                "ip address": "14.44.90.1/24"
+            },
+            "node2": {
+                "name": "Huntsv",
+                "interface": "Ethernet1/0/2",
+                "ip address": "14.44.90.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Housto",
+                "interface": "Ethernet1/0/0",
+                "ip address": "45.62.90.1/24"
+            },
+            "node2": {
+                "name": "Dallas",
+                "interface": "Ethernet1/0/1",
+                "ip address": "45.62.90.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Housto",
+                "interface": "Ethernet1/0/1",
+                "ip address": "13.94.17.1/24"
+            },
+            "node2": {
+                "name": "Beaumo",
+                "interface": "Ethernet1/0/0",
+                "ip address": "13.94.17.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Housto",
+                "interface": "Ethernet1/0/2",
+                "ip address": "57.74.85.1/24"
+            },
+            "node2": {
+                "name": "SanAnt",
+                "interface": "Ethernet1/0/0",
+                "ip address": "57.74.85.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Ashvil",
+                "interface": "Ethernet1/0/1",
+                "ip address": "71.97.46.1/24"
+            },
+            "node2": {
+                "name": "Greenv",
+                "interface": "Ethernet1/0/3",
+                "ip address": "71.97.46.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Greenv",
+                "interface": "Ethernet1/0/4",
+                "ip address": "17.89.31.1/24"
+            },
+            "node2": {
+                "name": "Charlo",
+                "interface": "Ethernet1/0/4",
+                "ip address": "17.89.31.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Greenv",
+                "interface": "Ethernet1/0/7",
+                "ip address": "10.79.27.1/24"
+            },
+            "node2": {
+                "name": "NodeID97",
+                "interface": "Ethernet1/0/1",
+                "ip address": "10.79.27.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beaumo",
+                "interface": "Ethernet1/0/1",
+                "ip address": "19.3.49.1/24"
+            },
+            "node2": {
+                "name": "LakeCh",
+                "interface": "Ethernet1/0/0",
+                "ip address": "19.3.49.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dayton",
+                "interface": "Ethernet1/0/1",
+                "ip address": "46.34.27.1/24"
+            },
+            "node2": {
+                "name": "SauntA",
+                "interface": "Ethernet1/0/1",
+                "ip address": "46.34.27.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dayton",
+                "interface": "Ethernet1/0/2",
+                "ip address": "32.38.36.1/24"
+            },
+            "node2": {
+                "name": "CocoaB",
+                "interface": "Ethernet1/0/0",
+                "ip address": "32.38.36.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Orland",
+                "interface": "Ethernet1/0/5",
+                "ip address": "41.94.42.1/24"
+            },
+            "node2": {
+                "name": "NodeID85",
+                "interface": "Ethernet1/0/0",
+                "ip address": "41.94.42.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Orland",
+                "interface": "Ethernet1/0/6",
+                "ip address": "64.32.24.1/24"
+            },
+            "node2": {
+                "name": "CocoaB",
+                "interface": "Ethernet1/0/1",
+                "ip address": "64.32.24.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Miami",
+                "interface": "Ethernet1/0/2",
+                "ip address": "39.62.55.1/24"
+            },
+            "node2": {
+                "name": "FtMyer",
+                "interface": "Ethernet1/0/1",
+                "ip address": "39.62.55.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Miami",
+                "interface": "Ethernet1/0/3",
+                "ip address": "63.42.51.1/24"
+            },
+            "node2": {
+                "name": "Hollyw",
+                "interface": "Ethernet1/0/0",
+                "ip address": "63.42.51.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "FortLa",
+                "interface": "Ethernet1/0/0",
+                "ip address": "19.22.30.1/24"
+            },
+            "node2": {
+                "name": "Hollyw",
+                "interface": "Ethernet1/0/1",
+                "ip address": "19.22.30.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "FortLa",
+                "interface": "Ethernet1/0/1",
+                "ip address": "74.33.26.1/24"
+            },
+            "node2": {
+                "name": "WestPa",
+                "interface": "Ethernet1/0/0",
+                "ip address": "74.33.26.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "FortLa",
+                "interface": "Ethernet1/0/2",
+                "ip address": "97.28.57.1/24"
+            },
+            "node2": {
+                "name": "NodeID85",
+                "interface": "Ethernet1/0/1",
+                "ip address": "97.28.57.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "VeroBe",
+                "interface": "Ethernet1/0/0",
+                "ip address": "68.94.23.1/24"
+            },
+            "node2": {
+                "name": "WestPa",
+                "interface": "Ethernet1/0/1",
+                "ip address": "68.94.23.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "VeroBe",
+                "interface": "Ethernet1/0/1",
+                "ip address": "43.76.97.1/24"
+            },
+            "node2": {
+                "name": "Melbou",
+                "interface": "Ethernet1/0/0",
+                "ip address": "43.76.97.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "CocoaB",
+                "interface": "Ethernet1/0/2",
+                "ip address": "23.52.83.1/24"
+            },
+            "node2": {
+                "name": "Melbou",
+                "interface": "Ethernet1/0/1",
+                "ip address": "23.52.83.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "August",
+                "interface": "Ethernet1/0/0",
+                "ip address": "90.79.51.1/24"
+            },
+            "node2": {
+                "name": "Athens",
+                "interface": "Ethernet1/0/1",
+                "ip address": "90.79.51.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "August",
+                "interface": "Ethernet1/0/1",
+                "ip address": "39.59.19.1/24"
+            },
+            "node2": {
+                "name": "Columb",
+                "interface": "Ethernet1/0/0",
+                "ip address": "39.59.19.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "August",
+                "interface": "Ethernet1/0/4",
+                "ip address": "100.92.65.1/24"
+            },
+            "node2": {
+                "name": "Savann",
+                "interface": "Ethernet1/0/1",
+                "ip address": "100.92.65.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Athens",
+                "interface": "Ethernet1/0/2",
+                "ip address": "22.45.41.1/24"
+            },
+            "node2": {
+                "name": "NodeID98",
+                "interface": "Ethernet1/0/0",
+                "ip address": "22.45.41.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sumter",
+                "interface": "Ethernet1/0/0",
+                "ip address": "99.38.65.1/24"
+            },
+            "node2": {
+                "name": "NodeID112",
+                "interface": "Ethernet1/0/0",
+                "ip address": "99.38.65.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sumter",
+                "interface": "Ethernet1/0/1",
+                "ip address": "36.88.40.1/24"
+            },
+            "node2": {
+                "name": "Columb",
+                "interface": "Ethernet1/0/3",
+                "ip address": "36.88.40.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sumter",
+                "interface": "Ethernet1/0/2",
+                "ip address": "28.53.81.1/24"
+            },
+            "node2": {
+                "name": "NodeID103",
+                "interface": "Ethernet1/0/1",
+                "ip address": "28.53.81.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Columb",
+                "interface": "Ethernet1/0/4",
+                "ip address": "35.90.10.1/24"
+            },
+            "node2": {
+                "name": "Charlo",
+                "interface": "Ethernet1/0/7",
+                "ip address": "35.90.10.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Columb",
+                "interface": "Ethernet1/0/6",
+                "ip address": "35.74.78.1/24"
+            },
+            "node2": {
+                "name": "Orange",
+                "interface": "Ethernet1/0/0",
+                "ip address": "35.74.78.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Orange",
+                "interface": "Ethernet1/0/1",
+                "ip address": "65.29.97.1/24"
+            },
+            "node2": {
+                "name": "NodeID100",
+                "interface": "Ethernet1/0/0",
+                "ip address": "65.29.97.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Charle",
+                "interface": "Ethernet1/0/1",
+                "ip address": "72.83.45.1/24"
+            },
+            "node2": {
+                "name": "Savann",
+                "interface": "Ethernet1/0/4",
+                "ip address": "72.83.45.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Charle",
+                "interface": "Ethernet1/0/5",
+                "ip address": "93.4.89.1/24"
+            },
+            "node2": {
+                "name": "NodeID100",
+                "interface": "Ethernet1/0/1",
+                "ip address": "93.4.89.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Charle",
+                "interface": "Ethernet1/0/6",
+                "ip address": "44.20.10.1/24"
+            },
+            "node2": {
+                "name": "NodeID103",
+                "interface": "Ethernet1/0/2",
+                "ip address": "44.20.10.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hilton",
+                "interface": "Ethernet1/0/0",
+                "ip address": "29.46.89.1/24"
+            },
+            "node2": {
+                "name": "NodeID101",
+                "interface": "Ethernet1/0/0",
+                "ip address": "29.46.89.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Beaufo",
+                "interface": "Ethernet1/0/0",
+                "ip address": "46.21.19.1/24"
+            },
+            "node2": {
+                "name": "NodeID102",
+                "interface": "Ethernet1/0/0",
+                "ip address": "46.21.19.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Savann",
+                "interface": "Ethernet1/0/8",
+                "ip address": "47.70.28.1/24"
+            },
+            "node2": {
+                "name": "NodeID101",
+                "interface": "Ethernet1/0/1",
+                "ip address": "47.70.28.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "LakeCh",
+                "interface": "Ethernet1/0/1",
+                "ip address": "97.96.15.1/24"
+            },
+            "node2": {
+                "name": "Lafaye",
+                "interface": "Ethernet1/0/2",
+                "ip address": "97.96.15.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Panama",
+                "interface": "Ethernet1/0/1",
+                "ip address": "39.67.13.1/24"
+            },
+            "node2": {
+                "name": "Crestv",
+                "interface": "Ethernet1/0/1",
+                "ip address": "39.67.13.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Crestv",
+                "interface": "Ethernet1/0/2",
+                "ip address": "69.79.31.1/24"
+            },
+            "node2": {
+                "name": "Pensac",
+                "interface": "Ethernet1/0/0",
+                "ip address": "69.79.31.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Meridi",
+                "interface": "Ethernet1/0/1",
+                "ip address": "61.42.38.1/24"
+            },
+            "node2": {
+                "name": "Hattie",
+                "interface": "Ethernet1/0/0",
+                "ip address": "61.42.38.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Meridi",
+                "interface": "Ethernet1/0/2",
+                "ip address": "90.44.89.1/24"
+            },
+            "node2": {
+                "name": "Tuscal",
+                "interface": "Ethernet1/0/1",
+                "ip address": "90.44.89.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "JacksoID91",
+                "interface": "Ethernet1/0/1",
+                "ip address": "45.26.66.1/24"
+            },
+            "node2": {
+                "name": "Memphi",
+                "interface": "Ethernet1/0/2",
+                "ip address": "45.26.66.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pensac",
+                "interface": "Ethernet1/0/1",
+                "ip address": "68.82.15.1/24"
+            },
+            "node2": {
+                "name": "Mobile",
+                "interface": "Ethernet1/0/1",
+                "ip address": "68.82.15.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Mobile",
+                "interface": "Ethernet1/0/2",
+                "ip address": "80.85.71.1/24"
+            },
+            "node2": {
+                "name": "Gulfpo",
+                "interface": "Ethernet1/0/1",
+                "ip address": "80.85.71.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Gulfpo",
+                "interface": "Ethernet1/0/2",
+                "ip address": "40.84.89.1/24"
+            },
+            "node2": {
+                "name": "Hattie",
+                "interface": "Ethernet1/0/1",
+                "ip address": "40.84.89.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID97",
+                "interface": "Ethernet1/0/2",
+                "ip address": "46.64.55.1/24"
+            },
+            "node2": {
+                "name": "NodeID98",
+                "interface": "Ethernet1/0/1",
+                "ip address": "46.64.55.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID98",
+                "interface": "Ethernet1/0/2",
+                "ip address": "65.63.27.1/24"
+            },
+            "node2": {
+                "name": "NodeID99",
+                "interface": "Ethernet1/0/0",
+                "ip address": "65.63.27.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID99",
+                "interface": "Ethernet1/0/1",
+                "ip address": "16.51.33.1/24"
+            },
+            "node2": {
+                "name": "Charlo",
+                "interface": "Ethernet1/0/9",
+                "ip address": "16.51.33.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID99",
+                "interface": "Ethernet1/0/2",
+                "ip address": "10.6.12.1/24"
+            },
+            "node2": {
+                "name": "NodeID112",
+                "interface": "Ethernet1/0/1",
+                "ip address": "10.6.12.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID100",
+                "interface": "Ethernet1/0/2",
+                "ip address": "15.55.67.1/24"
+            },
+            "node2": {
+                "name": "NodeID102",
+                "interface": "Ethernet1/0/2",
+                "ip address": "15.55.67.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID101",
+                "interface": "Ethernet1/0/2",
+                "ip address": "71.61.78.1/24"
+            },
+            "node2": {
+                "name": "NodeID102",
+                "interface": "Ethernet1/0/3",
+                "ip address": "71.61.78.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas",
+                "interface": "Ethernet1/0/2",
+                "ip address": "94.72.61.1/24"
+            },
+            "node2": {
+                "name": "Waco",
+                "interface": "Ethernet1/0/0",
+                "ip address": "94.72.61.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Waco",
+                "interface": "Ethernet1/0/1",
+                "ip address": "82.31.93.1/24"
+            },
+            "node2": {
+                "name": "Bryan",
+                "interface": "Ethernet1/0/0",
+                "ip address": "82.31.93.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Bryan",
+                "interface": "Ethernet1/0/1",
+                "ip address": "36.53.47.1/24"
+            },
+            "node2": {
+                "name": "Austin",
+                "interface": "Ethernet1/0/0",
+                "ip address": "36.53.47.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Austin",
+                "interface": "Ethernet1/0/1",
+                "ip address": "95.53.84.1/24"
+            },
+            "node2": {
+                "name": "SanMar",
+                "interface": "Ethernet1/0/0",
+                "ip address": "95.53.84.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanMar",
+                "interface": "Ethernet1/0/2",
+                "ip address": "93.77.50.1/24"
+            },
+            "node2": {
+                "name": "SanAnt",
+                "interface": "Ethernet1/0/1",
+                "ip address": "93.77.50.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "NodeID85",
+                "interface": "Ethernet2/0/1",
+                "ip address": "192.1.1.1/24"
+            },
+            "node2": {
+                "name": "PeerNodeID85",
+                "interface": "Ethernet1/0/1",
+                "ip address": "192.1.1.2/24"
+            }
+        },
+        {
+            "node1": {
+                "name": "Newnah",
+                "interface": "Ethernet2/0/1",
+                "ip address": "192.1.2.1/24"
+            },
+            "node2": {
+                "name": "PeerNewnah",
+                "interface": "Ethernet1/0/1",
+                "ip address": "192.1.2.2/24"
+            }
+        }
+    ]
+}

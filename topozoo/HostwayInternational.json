@@ -1,0 +1,190 @@
+{
+    "routers": [
+        "Seattl",
+        "Tampa",
+        "Chicag",
+        "Vancou",
+        "Miami",
+        "Austin",
+        "NewYor",
+        "Atlant",
+        "Buchar",
+        "Seoul",
+        "Sydney",
+        "Hannov",
+        "Amster",
+        "Antwer",
+        "Frankf",
+        "London"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Chicag"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Vancou"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattl"
+            },
+            "node2": {
+                "name": "Austin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tampa"
+            },
+            "node2": {
+                "name": "Miami"
+            }
+        },
+        {
+            "node1": {
+                "name": "Tampa"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Austin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicag"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "Miami"
+            },
+            "node2": {
+                "name": "Sydney"
+            }
+        },
+        {
+            "node1": {
+                "name": "Miami"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "Miami"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Sydney"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYor"
+            },
+            "node2": {
+                "name": "Atlant"
+            }
+        },
+        {
+            "node1": {
+                "name": "Buchar"
+            },
+            "node2": {
+                "name": "Seoul"
+            }
+        },
+        {
+            "node1": {
+                "name": "Buchar"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seoul"
+            },
+            "node2": {
+                "name": "Sydney"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hannov"
+            },
+            "node2": {
+                "name": "Amster"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hannov"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Amster"
+            },
+            "node2": {
+                "name": "Antwer"
+            }
+        },
+        {
+            "node1": {
+                "name": "Amster"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Antwer"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        }
+    ]
+}

@@ -1,0 +1,216 @@
+{
+    "routers": [
+        "Prague",
+        "Frankf",
+        "Hambur",
+        "Copenh",
+        "Dubai",
+        "Madrid",
+        "Geneva",
+        "Milan",
+        "Brusse",
+        "Amster",
+        "Helsin",
+        "Stockh",
+        "HongKo",
+        "Oslo",
+        "London",
+        "NewYor",
+        "NewYorID16",
+        "Paris"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Prague"
+            },
+            "node2": {
+                "name": "Frankf"
+            }
+        },
+        {
+            "node1": {
+                "name": "Frankf"
+            },
+            "node2": {
+                "name": "Amster"
+            }
+        },
+        {
+            "node1": {
+                "name": "Frankf"
+            },
+            "node2": {
+                "name": "Geneva"
+            }
+        },
+        {
+            "node1": {
+                "name": "Frankf"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hambur"
+            },
+            "node2": {
+                "name": "Amster"
+            }
+        },
+        {
+            "node1": {
+                "name": "Hambur"
+            },
+            "node2": {
+                "name": "Copenh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Copenh"
+            },
+            "node2": {
+                "name": "Stockh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dubai"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Madrid"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "Geneva"
+            },
+            "node2": {
+                "name": "Milan"
+            }
+        },
+        {
+            "node1": {
+                "name": "Geneva"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "Milan"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "Amster"
+            }
+        },
+        {
+            "node1": {
+                "name": "Brusse"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "Amster"
+            },
+            "node2": {
+                "name": "Stockh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Amster"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "Helsin"
+            },
+            "node2": {
+                "name": "Stockh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Helsin"
+            },
+            "node2": {
+                "name": "Stockh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Helsin"
+            },
+            "node2": {
+                "name": "HongKo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Stockh"
+            },
+            "node2": {
+                "name": "Oslo"
+            }
+        },
+        {
+            "node1": {
+                "name": "Oslo"
+            },
+            "node2": {
+                "name": "London"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "NewYor"
+            }
+        },
+        {
+            "node1": {
+                "name": "London"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYorID16"
+            },
+            "node2": {
+                "name": "Paris"
+            }
+        }
+    ]
+}

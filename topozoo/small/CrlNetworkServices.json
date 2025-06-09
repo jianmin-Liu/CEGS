@@ -1,0 +1,343 @@
+{
+    "routers": [
+        "Phoenix",
+        "Albuquerqu",
+        "Anaheim",
+        "SanDiego",
+        "SanAntonio",
+        "Houston",
+        "Dallas",
+        "Austin",
+        "Atlanta",
+        "Raleigh",
+        "KansasCity",
+        "Denver",
+        "Tampa",
+        "StLouis",
+        "Pittsburgh",
+        "NewYork",
+        "Philadelph",
+        "Baltimore",
+        "Washington",
+        "Chicago",
+        "Detroit",
+        "Cleveland",
+        "Boston",
+        "SanJose",
+        "LosAngeles",
+        "Seattle",
+        "Portland",
+        "SantaRosa",
+        "Sacramento",
+        "Stockton",
+        "Concord",
+        "SanRafael",
+        "SanFrancis"
+    ],
+    "links": [
+        {
+            "node1": {
+                "name": "Phoenix"
+            },
+            "node2": {
+                "name": "Albuquerqu"
+            }
+        },
+        {
+            "node1": {
+                "name": "Phoenix"
+            },
+            "node2": {
+                "name": "SanDiego"
+            }
+        },
+        {
+            "node1": {
+                "name": "Albuquerqu"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Anaheim"
+            },
+            "node2": {
+                "name": "LosAngeles"
+            }
+        },
+        {
+            "node1": {
+                "name": "Anaheim"
+            },
+            "node2": {
+                "name": "SanDiego"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanAntonio"
+            },
+            "node2": {
+                "name": "Houston"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanAntonio"
+            },
+            "node2": {
+                "name": "Austin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Houston"
+            },
+            "node2": {
+                "name": "Dallas"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Atlanta"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "Austin"
+            }
+        },
+        {
+            "node1": {
+                "name": "Dallas"
+            },
+            "node2": {
+                "name": "StLouis"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlanta"
+            },
+            "node2": {
+                "name": "Raleigh"
+            }
+        },
+        {
+            "node1": {
+                "name": "Atlanta"
+            },
+            "node2": {
+                "name": "Tampa"
+            }
+        },
+        {
+            "node1": {
+                "name": "Raleigh"
+            },
+            "node2": {
+                "name": "Washington"
+            }
+        },
+        {
+            "node1": {
+                "name": "KansasCity"
+            },
+            "node2": {
+                "name": "Denver"
+            }
+        },
+        {
+            "node1": {
+                "name": "KansasCity"
+            },
+            "node2": {
+                "name": "StLouis"
+            }
+        },
+        {
+            "node1": {
+                "name": "Denver"
+            },
+            "node2": {
+                "name": "SanFrancis"
+            }
+        },
+        {
+            "node1": {
+                "name": "StLouis"
+            },
+            "node2": {
+                "name": "Chicago"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pittsburgh"
+            },
+            "node2": {
+                "name": "Washington"
+            }
+        },
+        {
+            "node1": {
+                "name": "Pittsburgh"
+            },
+            "node2": {
+                "name": "Cleveland"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYork"
+            },
+            "node2": {
+                "name": "Philadelph"
+            }
+        },
+        {
+            "node1": {
+                "name": "NewYork"
+            },
+            "node2": {
+                "name": "Boston"
+            }
+        },
+        {
+            "node1": {
+                "name": "Philadelph"
+            },
+            "node2": {
+                "name": "Baltimore"
+            }
+        },
+        {
+            "node1": {
+                "name": "Baltimore"
+            },
+            "node2": {
+                "name": "Washington"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicago"
+            },
+            "node2": {
+                "name": "Seattle"
+            }
+        },
+        {
+            "node1": {
+                "name": "Chicago"
+            },
+            "node2": {
+                "name": "Detroit"
+            }
+        },
+        {
+            "node1": {
+                "name": "Detroit"
+            },
+            "node2": {
+                "name": "Cleveland"
+            }
+        },
+        {
+            "node1": {
+                "name": "Cleveland"
+            },
+            "node2": {
+                "name": "Boston"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJose"
+            },
+            "node2": {
+                "name": "LosAngeles"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanJose"
+            },
+            "node2": {
+                "name": "SanFrancis"
+            }
+        },
+        {
+            "node1": {
+                "name": "Seattle"
+            },
+            "node2": {
+                "name": "Portland"
+            }
+        },
+        {
+            "node1": {
+                "name": "Portland"
+            },
+            "node2": {
+                "name": "SantaRosa"
+            }
+        },
+        {
+            "node1": {
+                "name": "SantaRosa"
+            },
+            "node2": {
+                "name": "Sacramento"
+            }
+        },
+        {
+            "node1": {
+                "name": "SantaRosa"
+            },
+            "node2": {
+                "name": "SanRafael"
+            }
+        },
+        {
+            "node1": {
+                "name": "Sacramento"
+            },
+            "node2": {
+                "name": "Stockton"
+            }
+        },
+        {
+            "node1": {
+                "name": "Stockton"
+            },
+            "node2": {
+                "name": "Concord"
+            }
+        },
+        {
+            "node1": {
+                "name": "Concord"
+            },
+            "node2": {
+                "name": "SanFrancis"
+            }
+        },
+        {
+            "node1": {
+                "name": "SanRafael"
+            },
+            "node2": {
+                "name": "SanFrancis"
+            }
+        }
+    ]
+}
