@@ -8,12 +8,6 @@ This repository contains the official implementation of **CEGS: Configuration Ex
 
 CEGS is an advanced network configuration synthesis system that leverages Graph Neural Networks (GNNs) and Large Language Models (LLMs) to automate network configuration synthesis. It can understand high-level user intents, identify and generalize from configuration examples, and generate correct, verifiable network configurations for arbitrary topologies.
 
-## Abstract
-
-> Network configuration synthesis promises to increase the efficiency of network management by reducing human involvement. However, despite significant advances in this field, existing synthesizers still require much human effort in drafting configuration templates or coding in a domain-specific language. We argue that the main reason for this is that a core capability is missing for current synthesizers: identifying and following configuration examples in configuration manuals and generalizing them to arbitrary topologies.
->
-> In this work, we fill this capability gap with two recent advancements in artificial intelligence: graph neural networks (GNNs) and large language models (LLMs). We build CEGS, which can automatically identify appropriate configuration examples, follow and generalize them to fit target network scenarios. CEGS features a GNN-based Querier to identify relevant examples from device documentations, a GNN-based Classifier to generalize the example to arbitrary topology, and an efficient LLM-driven synthesis method to quickly and correctly synthesize configurations that comply with the intents. Evaluations of real-world networks and complex intents show that CEGS can automatically synthesize correct configurations for a network of 1094 devices without human involvement. In contrast, the state-of-the-art LLM-based synthesizer are more than 30 times slower than CEGS on average, even when human experts are in the loop.
-
 ## System Workflow
 
 CEGS operates in three main phases to translate high-level user intents into device-specific configurations:
