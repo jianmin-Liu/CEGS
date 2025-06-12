@@ -4,7 +4,7 @@ Represent results as a JSON dictionary.
 
 *** Steps ***:
 For each node in the given topology:
-Analyze the intent and assign the node a role from the set of node attributes: {"source", "relay", "route blocking", ""destination", "destination peer", "non-involvement"}
+Analyze the intent and assign the node a role from the set of node attributes: {"source", "relay", "route blocking", "destination", "destination peer", "non-involvement"}
 The node's role indicates its function in fulfilling the intent.
 
 Node attribute definitions:
