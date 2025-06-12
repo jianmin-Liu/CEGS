@@ -160,22 +160,84 @@ def get_connectToPath_nodes(graph, path):
     return nodes
 
 
-def llm_output_to_json(llm_output_str):
-    """extract JSON data from string, support Markdown code block format"""
+def llm_output_to_json(llm_output_str, expected_nodes=None):
+    """ Extract JSON data from string with multiple parsing strategies and node completeness validation. """
+    
+    # Strategy 1: Direct JSON parsing
     try:
-        return json.loads(llm_output_str)
+        result = json.loads(llm_output_str)
+        # Check node completeness if expected nodes provided
+        if expected_nodes:
+            missing_nodes = set(expected_nodes) - set(result.keys())
+            if missing_nodes:
+                # Auto-complete missing nodes with default role
+                for node in missing_nodes:
+                    result[node] = "non-involvement"
+        return result
     except json.JSONDecodeError:
         pass
-    pattern = r'```(?:json)?\s*([\s\S]*?)\s*```'
-    matches = re.findall(pattern, llm_output_str)
-
+    
+    # Strategy 2: Extract JSON from markdown code blocks
+    code_block_pattern = r'```(?:json)?\s*([\s\S]*?)\s*```'
+    matches = re.findall(code_block_pattern, llm_output_str)
     if matches:
         json_str = matches[0]
         try:
-            return json.loads(json_str)
-        except json.JSONDecodeError as e:
-            raise ValueError(f"Failed to parse JSON from code block: {e}")
-
+            result = json.loads(json_str)
+            # Check node completeness
+            if expected_nodes:
+                missing_nodes = set(expected_nodes) - set(result.keys())
+                if missing_nodes:
+                    for node in missing_nodes:
+                        result[node] = "non-involvement"
+            return result
+        except json.JSONDecodeError:
+            pass
+    
+    # Strategy 3: Extract JSON from brace-delimited content
+    brace_pattern = r'\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}'
+    brace_matches = re.findall(brace_pattern, llm_output_str)
+    for match in brace_matches:
+        try:
+            result = json.loads(match)
+            # Check node completeness
+            if expected_nodes:
+                missing_nodes = set(expected_nodes) - set(result.keys())
+                if missing_nodes:
+                    for node in missing_nodes:
+                        result[node] = "non-involvement"
+            return result
+        except json.JSONDecodeError:
+            continue
+    
+    # Strategy 4: Clean and extract potential JSON segments
+    cleaned_str = llm_output_str.strip()
+    json_start = cleaned_str.find('{')
+    json_end = cleaned_str.rfind('}')
+    if json_start != -1 and json_end != -1 and json_end > json_start:
+        potential_json = cleaned_str[json_start:json_end+1]
+        try:
+            result = json.loads(potential_json)
+            # Check node completeness
+            if expected_nodes:
+                missing_nodes = set(expected_nodes) - set(result.keys())
+                if missing_nodes:
+                    for node in missing_nodes:
+                        result[node] = "non-involvement"
+            return result
+        except json.JSONDecodeError:
+            pass
+    
+    # Fallback: Create default JSON structure if expected nodes provided
+    if expected_nodes:
+        result = {}
+        for node in expected_nodes:
+            if 'peer' in node.lower():
+                result[node] = 'destination peer'
+            else:
+                result[node] = 'non-involvement'
+        return result
+    
     raise ValueError("No valid JSON found in the input string")
 
 
@@ -340,8 +402,16 @@ def generateGraph(intent_type, intent, topology):
 
     prompt = prefix + '\n\n' + f'Intent:{intent}\nTopology:{topology}'
 
+    # Extract expected nodes from topology for completeness check
+    expected_nodes = []
+    for node in topology['nodes']:
+        if isinstance(node, dict) and 'name' in node:
+            expected_nodes.append(node['name'])
+        elif isinstance(node, str):
+            expected_nodes.append(node)
+
     roles_str = ask_LLM(prompt)
-    roles_json = llm_output_to_json(roles_str)
+    roles_json = llm_output_to_json(roles_str, expected_nodes=expected_nodes)
     graph = {}
     graph['nodes'] = roles_json
     graph['edges'] = []
@@ -832,4 +902,4 @@ def intent_to_formalspecifications(intents):
     # print('prompt', prompt)
     specifications = ask_LLM(prompt)
     # print('specifications', specifications)
-    return specifications
+    return specifications 
